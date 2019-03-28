@@ -1,6 +1,6 @@
 # Formation XSLT 23-24 avril, Lyon
 
-Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Levenson et Jean-Paul Rehr pour la [formation XSLT](https://cosme.hypotheses.org/1117) de l'Ecole normale supérieure de Lyon (23-24 avril 2019).
+Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Levenson et Jean-Paul Rehr pour la [formation XSLT](https://cosme.hypotheses.org/1117) du consortium COSME^(2) (23-24 avril 2019).
 
 ## Programme
 
