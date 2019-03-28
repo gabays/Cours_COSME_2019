@@ -38,7 +38,7 @@
             <note>Première édition diplomatique du texte de Racine</note>
          </notesStmt>
          <sourceDesc>
-            <bibl status="draft">
+            <bibl>
                <author xml:id="racine">
                   <forename>Jean</forename>
                   <surname>Racine</surname>
@@ -83,7 +83,7 @@
          </editorialDecl>
          <classDecl>
             <taxonomy xml:id="rameau">
-               <bibl status="draft">
+               <bibl>
                   Répertoire d’autorité-matière encyclopédique et alphabétique unifié (Rameau) de la <orgName>Bibliothèque nationale de France</orgName>
                   <ptr target="http:rameau.bnf.fr"/>
                </bibl>
@@ -96,7 +96,7 @@
                <person xml:id="achille">
                   <persName>Achille</persName>
                   <note type="bio">Héros légendaire de la guerre de Troie, fils de Pélée, roi de Phthie en Thessalie, et de Thétis, une Néréide (nymphe marine).</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Achille"/>
                   </bibl>
                   <sex value="m"/>
@@ -104,7 +104,7 @@
                <person xml:id="agamemnon">
                   <persName>Agamemnon</persName>
                   <note type="bio">Héros grec et roi de Mycènes. Marié à Clytemnestre, ils ont trois filles, Iphigénie, Chrysothémis et Électre/Laodicé, ainsi qu'un fils, Oreste. Il assume le commandement de l'armée achéenne durant la guerre de Troie.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Agamemnon"/>
                   </bibl>
                   <sex value="m"/>
@@ -112,7 +112,7 @@
                <person xml:id="aristote">
                   <persName>Aristote</persName>
                   <note type="bio">Philosophe grec de l'Antiquité. Avec Platon, dont il fut le disciple à l'Académie, il est l'un des penseurs les plus influents que le monde ait connus.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Aristote"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000123748095"/>
                   </bibl>
@@ -121,7 +121,7 @@
                <person xml:id="astyanax">
                   <persName>Astyanax</persName>
                   <note type="bio">Fils d'Hector et d'Andromaque, et par conséquent le petit-fils de Priam, roi de Troie.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Astyanax"/>
                   </bibl>
                   <sex value="m"/>
@@ -129,7 +129,7 @@
                <person xml:id="cassandre">
                   <persName>Cassandre</persName>
                   <note type="bio">Dans la mythologie grecque, Cassandre est la fille de Priam (roi de Troie) et d'Hécube.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Cassandre"/>
                   </bibl>
                   <sex value="m"/>
@@ -137,7 +137,7 @@
                <person xml:id="euripide">
                   <persName>Euripide</persName>
                   <note type="bio">Un des trois grands tragiques de l'Athènes classique, avec Eschyle et Sophocle.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Euripide"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121382034"/>
                   </bibl>
@@ -146,7 +146,7 @@
                <person xml:id="hector">
                   <persName>Hector</persName>
                   <note type="bio">Héros troyen de la guerre de Troie. Fils du roi Priam et de la reine Hécube, il est tué par Achille qui veut venger la mort de Patrocle.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/M%C3%A9n%C3%A9las"/>
                   </bibl>
                   <sex value="m"/>
@@ -154,7 +154,7 @@
                <person xml:id="hecube">
                   <persName>Hécube</persName>
                   <note type="bio">Dans la mythologie grecque, Hécube est l'épouse de Priam et la reine de Troie.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/H%C3%A9cube"/>
                   </bibl>
                   <sex value="m"/>
@@ -162,7 +162,7 @@
                <person xml:id="horace">
                   <persName>Horace</persName>
                   <note type="bio">Poète latin né à Vénose dans le sud de l'Italie, le 8 décembre 65 av. J.-C. et mort à Rome le 27 novembre 8 av. J.-C.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Horace"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121452178"/>
                   </bibl>
@@ -171,7 +171,7 @@
                <person xml:id="helene">
                   <persName>Hélène</persName>
                   <note type="bio">Dans la mythologie grecque, Hélène est la fille de Zeus et de Léda. Elle est mariée à Ménélas, roi de Sparte, avant d'être enlevée par Pâris, prince troyen — cet événement déclenchant la guerre de Troie.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_(mythologie)"/>
                   </bibl>
                   <sex value="m"/>
@@ -179,7 +179,7 @@
                <person xml:id="menelas">
                   <persName>Ménélas</persName>
                   <note type="bio">Personnage de la mythologie grecque, roi de Sparte, fils d'Atrée et d'Érope. Mari d'Hélène et frère d'Agamemnon, il est l'un des héros achéens de la guerre de Troie.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/M%C3%A9n%C3%A9las"/>
                   </bibl>
                   <sex value="m"/>
@@ -187,7 +187,7 @@
                <person xml:id="polyxene">
                   <persName>Polyxène</persName>
                   <note type="bio">Fille de Priam et d'Hécube, est une princesse troyenne.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Polyx%C3%A8ne"/>
                   </bibl>
                   <sex value="m"/>
@@ -195,7 +195,7 @@
                <person xml:id="priam">
                   <persName>Priam</persName>
                   <note type="bio">Dans la mythologie grecque, Priam est le roi mythique de Troie au moment de la guerre de Troie. Il est fils de Laomédon et de la nymphe Strymo ou de Zeuxippe et a pour épouse Hécube.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Priam"/>
                   </bibl>
                   <sex value="m"/>
@@ -203,7 +203,7 @@
                <person xml:id="seneque">
                   <persName>Sénèque</persName>
                   <note type="bio">Philosophe de l'école stoïcienne, un dramaturge et un homme d'État romain du ier siècle.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121030100"/>
                   </bibl>
@@ -212,7 +212,7 @@
                <person xml:id="ulysse">
                   <persName>Ulysse</persName>
                   <note type="bio">Roi d'Ithaque, fils de Laërte et d'Anticlée, il est marié à Pénélope dont il a un fils, Télémaque.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Ulysse"/>
                   </bibl>
                   <sex value="m"/>
@@ -220,7 +220,7 @@
                <person xml:id="virgile">
                   <persName>Virgile</persName>
                   <note type="bio">Poète latin contemporain de la fin de la République romaine et du début du règne de l'empereur Auguste.</note>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121198069"/>
                   </bibl>
@@ -231,37 +231,37 @@
          <settingDesc>
             <listPlace>
                <place xml:id="argos">
-                  <placeName type="standard">Argos</placeName>
+                  <placeName>Argos</placeName>
                   <country/>
-                  <bibl status="draft">
+                  <bibl>
                      <ref/>
                   </bibl>
                </place>
                <place xml:id="buthrot">
-                  <placeName type="standard">Butrint</placeName>
+                  <placeName>Butrint</placeName>
                   <country>Albanie</country>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="pleiades" target="https://pleiades.stoa.org/places/530824"/>
                   </bibl>
                </place>
                <place xml:id="epire">
-                  <placeName type="standard">Épire</placeName>
+                  <placeName>Épire</placeName>
                   <country>Grèce et Albanie</country>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="pleiades" target="https://pleiades.stoa.org/places/530871"/>
                   </bibl>
                </place>
                <place xml:id="sparte">
-                  <placeName type="standard">Sparte</placeName>
+                  <placeName>Sparte</placeName>
                   <country>Grèce</country>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="pleiades" target="https://pleiades.stoa.org/places/570685"/>
                   </bibl>
                </place>
                <place xml:id="troie">
-                  <placeName type="standard">Troie</placeName>
+                  <placeName>Troie</placeName>
                   <country>Turquie</country>
-                  <bibl status="draft">
+                  <bibl>
                      <ref type="pleiades" target="https://pleiades.stoa.org/places/550595"/>
                   </bibl>
                </place>
