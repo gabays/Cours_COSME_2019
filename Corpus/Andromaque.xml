@@ -78,6 +78,51 @@
                      <date when="1675">1675</date>
                   </bibl>
                </witness>
+               <witness xml:id="ed1687">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">ŒUVRES | DE | RACINE. | TOME PREMIER</title>
+                     </title>
+                     <publisher>
+                        <persName xml:id="trabouillet">
+                           <forename>Pierre</forename>
+                           <surname>Traboüillet</surname>
+                           <ref type="isni" target="http://www.isni.org/isni/0000000083655467"/>
+                        </persName>
+                     </publisher>
+                     <pubPlace>au Palais , | dans la Gallerie des Priſonniers, à l’image | S. Hubert ; &amp; à la Fortune, proche | le Greffe des Eaux &amp; Foreſts.</pubPlace>
+                     <date when="1697">M. DC. LXXXVII.</date>
+                     <msIdentifier>
+                        <country>France</country>
+                        <institution>BNF</institution>
+                        <collection>Arsenal</collection>
+                        <idno type="ark" xml:base="catalogue.bnf.fr/ark:/">12148/cb311686831</idno>
+                     </msIdentifier>
+                  </bibl>
+               </witness>
+               <witness xml:id="ed1697">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">ŒUVRES | DE | RACINE. | TOME PREMIER.</title>
+                     </title>
+                     <publisher>
+                        <persName ref="#trabouillet">
+                           <forename>Pierre</forename>
+                           <surname>Traboüillet</surname>
+                        </persName>
+                     </publisher>
+                     <pubPlace>dans la Galerie des Priſonniers, | à l’Image ſaint Hubert.</pubPlace>
+                     <date when="1697">M. DC. XCII.</date>
+                  </bibl>
+               </witness>
             </listWit>
             
          </sourceDesc>
@@ -730,7 +775,7 @@ _______________SCENE 1
                         <l n="9" xml:id="v9">I'en rends graces au Ciel, qui m'<w type="ſ">arreſtant</w> <w type="ſ">ſans</w> <w type="ſ">ceſſe</w>,</l>
                         <l n="10" xml:id="v10">Sembloit m'auoir fermé le chemin de la Gréce,</l>
                         <l n="11" xml:id="v11">Depuis le jour fatal que la fureur des Eaux,</l>
-                        <l n="12" xml:id="v12"><w type="ſ">Preſque</w> aux yeux de Mycéne, écarta nos <w type="ſ">Vaiſſeaux</w>.</l>
+                        <l n="12" xml:id="v12"><w type="ſ">Preſque</w> aux yeux de <anchor xml:id="v12_1_s"/>Mycéne<anchor xml:id="v12_1_e"/>, écarta nos <w type="ſ">Vaiſſeaux</w>.</l>
                         <l n="13" xml:id="v13">Combien dans cét exil ay-je <w type="ſ">ſouffert</w> d'allarmes?</l>
                         <l n="14" xml:id="v14">Combien à vos malheurs ay-je donné de larmes?</l>
                         <l n="15" xml:id="v15">Craignant toûjours pour vous quelque nouueau <lb/>danger</l>
@@ -768,8 +813,8 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">3</fw>
                         
                         
-                        <l n="31" xml:id="v31">Par quels charmes, apres tant de tourmens <w type="ſ">ſoufferts</w></l>
-                        <l n="32" xml:id="v32">Peut-il vous inuiter à rentrer dans <w type="ſ">ſes</w> fers?</l>
+                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31_1_s"/>apres tant<anchor xml:id="v31_1_3"/> de tourmens <w type="ſ">ſoufferts</w></l>
+                        <l n="32" xml:id="v32"><anchor xml:id="v32_1_s"/>Peut-il vous inuiter<anchor xml:id="v32_1_e"/> à rentrer dans <w type="ſ">ſes</w> fers?</l>
                         <l n="33" xml:id="v33"><w type="ſ">Penſez</w>-vous qu'<persName ref="#hermione">Hermionne</persName>, à <placeName ref="#sparte">Sparte</placeName> inéxorable,</l>
                         <l n="34" xml:id="v34">Vous prépare en <placeName ref="#epire">Epire</placeName> vn Sort plus fauorable?</l>
                         <l n="35" xml:id="v35">Honteux d'auoir <w type="ſ">pouſsé</w> tant de vœux <w type="ſ">ſuperflus</w>,</l>
@@ -5251,19 +5296,34 @@ _______________SCENE 5
             
          </div>
          
-         
       </body>
      <back>
         
         <div type="apparatus">
            <p>
               <app from="#castList_s" to="#castList_e">
-                 <rdg wit="#ed1668a">Fils d’Agamemnon, Amant d’Hermionne</rdg>
+                 <lem wit="#ed1668a">Fils d’Agamemnon, Amant d’Hermionne</lem>
                  <rdg wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p146.jpg">Fils d’Agamemnon</rdg>
               </app>
               <app from="v5_1_s" to="v5_1_e">
-                 <rdg wit="#ed1668a">Qui m'<w type="ſ">euſt</w> dit,</rdg>
-                 <rdg wit="#ed1697" facs="images/ed1697/ed1697_t1_p551.jpg">Qui l’<w type="ſ">euſt</w> dit?</rdg>
+                 <lem wit="#ed1668a">Qui m'<w type="ſ">euſt</w> dit,</lem>
+                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p551.jpg">Qui l’<w type="ſ">euſt</w> dit?</rdg>
+              </app>
+              <app from="v12_1_s" to="v12_1_e">
+                 <lem wit="#ed1668a">Mycéne</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg">l’Epire</rdg>
+                    <rdg wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg">l’Epire</rdg>
+                    <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">l’Epire</rdg>
+                 </rdgGrp>
+              </app>
+              <app from="v31_1_s" to="v31_1_e">
+                 <lem wit="#ed1668a">apres tant</lem>
+                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">oubliant</rdg>
+              </app>
+              <app from="v32_1_s" to="v32_1_e">
+                 <lem wit="#ed1668a">Peut-il vous inuiter</lem>
+                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">Pouvez-vous conſentir</rdg>
               </app>
            </p>
         </div>
