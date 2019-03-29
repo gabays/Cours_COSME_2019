@@ -813,7 +813,7 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">3</fw>
                         
                         
-                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31s"/>apres tant<anchor xml:id="v313"/> de tourmens <w type="ſ">ſoufferts</w></l>
+                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31s"/>apres tant<anchor xml:id="v31e"/> de tourmens <w type="ſ">ſoufferts</w></l>
                         <l n="32" xml:id="v32"><anchor xml:id="v32s"/>Peut-il vous inuiter<anchor xml:id="v32e"/> à rentrer dans <w type="ſ">ſes</w> fers?</l>
                         <l n="33" xml:id="v33"><w type="ſ">Penſez</w>-vous qu'<persName ref="#hermione">Hermionne</persName>, à <placeName ref="#sparte">Sparte</placeName> inéxorable,</l>
                         <l n="34" xml:id="v34">Vous prépare en <placeName ref="#epire">Epire</placeName> vn Sort plus fauorable?</l>
@@ -931,7 +931,7 @@ _______________SCENE 1
                         <l n="119" xml:id="v119"><w type="ſ">Ainſi</w> n’attendez pas, que l’on <w type="ſ">puiſſe</w> aujourd’huy</l>
                         <l n="120" xml:id="v120">Vous répondre d’vn Cœur, <w type="ſ">ſi</w> peu <w type="ſ">maiſtre</w> de luy.</l>
                         <l n="121" xml:id="v121">Il peut, Seigneur, il peut dans ce <w type="ſ">deſordre</w> extré-<lb break="no"/>me,</l>
-                        <l n="122" xml:id="v122"><w type="ſ">Epouſer</w> ce qu’il hait, &amp; perdre ce qu’il aime.</l>
+                        <l n="122" xml:id="v122"><w type="ſ">Epouſer</w> ce qu’il hait, &amp; <anchor xml:id="v122s"/>perdre<anchor xml:id="v122e"/> ce qu’il aime.</l>
                      </lg>
                   </sp>
                   
@@ -955,7 +955,7 @@ _______________SCENE 1
                      <lg>
                         <l n="125" xml:id="v125"><persName ref="#hermione">Hermionne</persName>, Seigneur, au moins en apparance,</l>
                         <l n="126" xml:id="v126">Semble de <w type="ſ">ſon</w> Amant dédaigner l’<w type="ſ">inconſtance</w>,</l>
-                        <l n="127" xml:id="v127">Et croit que trop heureux d’<w type="ſ">appaiſer</w> <w type="ſ">ſa</w> rigueur,</l>
+                        <l n="127" xml:id="v127">Et croit que trop heureux <anchor xml:id="v127s"/>d’<w type="ſ">appaiſer</w><anchor xml:id="v127e"/> <w type="ſ">ſa</w> rigueur,</l>
                         <l n="128" xml:id="v128">Il la viendra <w type="ſ">preſſer</w> de reprendre <w type="ſ">ſon</w> Cœur.</l>
                         <l n="129" xml:id="v129">Mais ie l’ay veuë enfin me confier <w type="ſ">ſes</w> larmes.</l>
                         <l n="130" xml:id="v130">Elle pleure en <w type="ſ">ſecret</w> le mépris de <w type="ſ">ſes</w> charmes.</l>
@@ -1024,7 +1024,7 @@ _______________SCENE 2
                      <speaker>ORESTE.</speaker>
                      <lg>
                         <l n="143" xml:id="v143"><hi rend="dropcap">A</hi>Vant que tous les Grecs vous parlent par ma <lb/>voix,</l>
-                        <l n="144" xml:id="v144">Souffrez que ie me flate en <w type="ſ">ſecret</w> de leur choix,</l>
+                        <l n="144" xml:id="v144">Souffrez que <anchor xml:id="v144s"/>ie me flate en <w type="ſ">ſecret</w><anchor xml:id="v144e"/> de leur choix,</l>
                         <l n="145" xml:id="v145">Et qu’à vos yeux, Seigneur, je montre quelque joye</l>
                         <l n="146" xml:id="v146">De voir le Fils d’<persName ref="#achille">Achille</persName>, &amp; le Vainqueur de <placeName>Troye</placeName>.</l>
                         <l n="147" xml:id="v147">Oüy: Comme <w type="ſ">ſes</w> exploits, nous admirons vos <lb/>coups;</l>
@@ -1078,7 +1078,7 @@ _______________SCENE 2
                         <l n="181" xml:id="v181">Mais à qui pretend-on que ie le <w type="ſ">ſacrifie</w>?</l>
                         <l n="182" xml:id="v182">La Gréce a-t'elle encor quelque droit <w type="ſ">ſur</w> <w type="ſ">ſa</w> vie?</l>
                         <l n="183" xml:id="v183">Et <w type="ſ">ſeul</w> de tous les Grecs ne m’<w type="ſ">eſt</w>-il pas permis</l>
-                        <l n="184" xml:id="v184">D’ordonner des Captifs que le Sort m’a <w type="ſ">ſoûmis</w>?</l>
+                        <l n="184" xml:id="v184">D’ordonner <anchor xml:id="v184s"/>des Captifs<anchor xml:id="v184e"/> que le Sort m’a <w type="ſ">ſoûmis</w>?</l>
                         <l n="185" xml:id="v185">Oüy, Seigneur, lors qu’au pied des murs fumans de <lb/><placeName ref="#troie">Troye</placeName>,</l>
                         <l n="186" xml:id="v186">Les Vainqueurs tout <w type="ſ">ſanglans</w> <choice><abbr>partagerẽt</abbr><expan>partagerent</expan></choice> leur Proye,</l>
                         <l n="187" xml:id="v187">Le Sort, dont les <w type="ſ">Arreſts</w> furent alors <w type="ſ">ſuiuis</w>,</l>
@@ -1196,7 +1196,7 @@ _______________SCENE 2
                         <fw type="head" place="center">TRAGEDIE.</fw>   
                         <fw type="pageNum" place="top-right">11</fw>
                         
-                        <l n="243" xml:id="v243">Et ie <w type="ſ">ſçauray</w> peut-<w type="ſ">eſtre</w> accorder en ce jour</l>
+                        <l n="243" xml:id="v243">Et ie <w type="ſ">ſçauray</w> peut-<w type="ſ">eſtre</w> accorder <anchor xml:id="v243s"/>en ce jour<anchor xml:id="v243e"/></l>
                         <l n="244" xml:id="v244">Les <w type="ſ">ſoins</w> de ma grandeur, &amp; ceux de mon amour.</l>
                         <l n="245" xml:id="v245">Vous pouuez cependant voir la Fille d’<persName ref="#helene">Helene</persName>.</l>
                         <l n="246" xml:id="v246">Du <w type="ſ">ſang</w> qui vous vnit ie <w type="ſ">ſçay</w> l’étroite chaîne.</l>
@@ -5371,13 +5371,69 @@ _______________SCENE 5
                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
                  </rdgGrp>
               </app>
+              <app loc="v113">
+                 <lem wit="#ed1668a">Il luy cache <w type="ſ">ſon</w> Fils, il <w type="ſ">menaſſe</w> <w type="ſ">ſa</w> <w type="ſ">teſte</w>,</lem>
+                 <rdg wit="#ed1697">De <w type="ſ">ſon</w> fils qu’il luy cache il menace la <w type="ſ">teſte</w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+              </app>
+              <app from="v122s" to="v122e">
+                 <lem wit="#ed1668a">perdre</lem>
+                 <rdg wit="#ed1697">punir</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+              </app>
+              <app loc="v124">
+                 <lem wit="#ed1668a">Ses attraits <w type="ſ">offenſez</w>, &amp; <w type="ſ">ſes</w> yeux <w type="ſ">ſans</w> pouuoir.</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">Son hymen differé, <w type="ſ">ſes</w> charmes <w type="ſ">ſans</w> pouvoir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v127s" to="v127e">
+                 <lem wit="#ed1668a">d’<w type="ſ">appaiſer</w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">de fléchir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p151.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v144s" to="v144e">
+                 <lem wit="#ed1668a">ie me flate en <w type="ſ">ſecret</w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">j’<w type="ſ">oſe</w> icy me flatter</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p152.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p156.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p156.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v184s" to="v184e">
+                 <lem wit="#ed1668a">des Captifs</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">d’un Captif</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p157.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p157.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v243s" to="v243e">
+                 <lem wit="#ed1668a">en ce jour</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">quelque jour</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p160.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p160.jpg"/>
+                 </rdgGrp>
+              </app>
            </p>
         </div>
         
-        <div type="explanation">
+        <div type="commentary">
            <p>
-              <note anchored="1" target="v52s" targetEnd="v52e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
-              <note anchored="1" target="v66s" targetEnd="v66e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item">p.126</ref>.</note>
+              <note anchored="true" target="v52e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
+              <note anchored="true" target="v66e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item">p.126</ref>.</note>
+              <note anchored="true" target="v124">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f158.item">p.131</ref>.</note>
+              <note anchored="true" target="v127e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
+              <note anchored="true" target="v144e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f15.item">préface</ref>.</note>
            </p>
         </div>
         
