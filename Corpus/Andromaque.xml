@@ -762,7 +762,7 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-left">2</fw>
                         <fw type="head" place="center">ANDROMAQVE</fw>
                         
-                        <l n="5" xml:id="v5"><anchor xml:id="v5_1_s"/>Qui m'<w type="ſ">euſt</w> dit,<anchor xml:id="v5_1_e"/> qu'vn riuage à mes vœux <w type="ſ">ſi</w> <w type="ſ">funeſte</w>,</l>
+                        <l n="5" xml:id="v5"><anchor xml:id="v5s"/>Qui m'<w type="ſ">euſt</w> dit,<anchor xml:id="v5e"/> qu'vn riuage à mes vœux <w type="ſ">ſi</w> <w type="ſ">funeſte</w>,</l>
                         <l n="6" xml:id="v6"><w type="ſ">Préſenteroit</w> d'abord <persName ref="#pylade">Pylade</persName> aux yeux d'<persName ref="#oreste"><w type="ſ">Oreſte</w></persName>,</l>
                         <l n="7" xml:id="v7">Qu'apres plus de <w type="ſ">ſix</w> mois que ie t'auois perdu,</l>
                         <l n="8" xml:id="v8">A la Cour de <persName ref="#pyrrhus">Pyrrhus</persName> tu me <w type="ſ">ſerois</w> rendu!</l>
@@ -775,7 +775,7 @@ _______________SCENE 1
                         <l n="9" xml:id="v9">I'en rends graces au Ciel, qui m'<w type="ſ">arreſtant</w> <w type="ſ">ſans</w> <w type="ſ">ceſſe</w>,</l>
                         <l n="10" xml:id="v10">Sembloit m'auoir fermé le chemin de la Gréce,</l>
                         <l n="11" xml:id="v11">Depuis le jour fatal que la fureur des Eaux,</l>
-                        <l n="12" xml:id="v12"><w type="ſ">Preſque</w> aux yeux de <anchor xml:id="v12_1_s"/>Mycéne<anchor xml:id="v12_1_e"/>, écarta nos <w type="ſ">Vaiſſeaux</w>.</l>
+                        <l n="12" xml:id="v12"><w type="ſ">Preſque</w> aux yeux de <anchor xml:id="v12s"/>Mycéne<anchor xml:id="v12e"/>, écarta nos <w type="ſ">Vaiſſeaux</w>.</l>
                         <l n="13" xml:id="v13">Combien dans cét exil ay-je <w type="ſ">ſouffert</w> d'allarmes?</l>
                         <l n="14" xml:id="v14">Combien à vos malheurs ay-je donné de larmes?</l>
                         <l n="15" xml:id="v15">Craignant toûjours pour vous quelque nouueau <lb/>danger</l>
@@ -813,8 +813,8 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">3</fw>
                         
                         
-                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31_1_s"/>apres tant<anchor xml:id="v31_1_3"/> de tourmens <w type="ſ">ſoufferts</w></l>
-                        <l n="32" xml:id="v32"><anchor xml:id="v32_1_s"/>Peut-il vous inuiter<anchor xml:id="v32_1_e"/> à rentrer dans <w type="ſ">ſes</w> fers?</l>
+                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31s"/>apres tant<anchor xml:id="v313"/> de tourmens <w type="ſ">ſoufferts</w></l>
+                        <l n="32" xml:id="v32"><anchor xml:id="v32s"/>Peut-il vous inuiter<anchor xml:id="v32e"/> à rentrer dans <w type="ſ">ſes</w> fers?</l>
                         <l n="33" xml:id="v33"><w type="ſ">Penſez</w>-vous qu'<persName ref="#hermione">Hermionne</persName>, à <placeName ref="#sparte">Sparte</placeName> inéxorable,</l>
                         <l n="34" xml:id="v34">Vous prépare en <placeName ref="#epire">Epire</placeName> vn Sort plus fauorable?</l>
                         <l n="35" xml:id="v35">Honteux d'auoir <w type="ſ">pouſsé</w> tant de vœux <w type="ſ">ſuperflus</w>,</l>
@@ -827,7 +827,7 @@ _______________SCENE 1
                      <speaker rend="center">ORESTE.</speaker>
                      <lg>
                         <l n="37" part="F">Ie me trompois moy-méme.</l>
-                        <l n="38" xml:id="v38">Amy, n'<w type="ſ">inſulte</w> point vn Malheureux qui t'aime.</l>
+                        <l n="38" xml:id="v38">Amy, n'<anchor xml:id="v38s"/><w type="ſ">inſulte</w><anchor xml:id="v38e"/> point vn Malheureux qui t'aime.</l>
                         <l n="39" xml:id="v39">T'ay-je iamais caché mon cœur &amp; mes <w type="ſ">deſirs</w>?</l>
                         <l n="40" xml:id="v40">Tu vis <w type="ſ">naiſtre</w> ma flâme &amp; mes premiers <w type="ſ">ſoûpirs</w>.</l>
                         <l n="41" xml:id="v41">Enfin, quand <persName ref="#menelas">Menelas</persName> <w type="ſ">diſpoſa</w> de <rs ref="#hermione"><w type="ſ">ſa</w> Fille</rs></l>
@@ -841,13 +841,13 @@ _______________SCENE 1
                         <l n="49" xml:id="v49">Mais quand ie me <w type="ſ">ſouuins</w>, que parmy tant d’al-<lb break="no"/>larmes</l>
                         <l n="50" xml:id="v50"><persName ref="#hermione">Hermionne</persName> à <persName ref="#pyrrhus">Pyrrhus</persName> prodiguoit tous <w type="ſ">ſes</w> charmes,</l>
                         <l n="51" xml:id="v51">Tu <w type="ſ">ſçais</w> de quel courroux mon cœur alors épris</l>
-                        <l n="52" xml:id="v52">Voulut, en l’oubliant, vanger tous <w type="ſ">ſes</w> mépris.</l>
+                        <l n="52" xml:id="v52">Voulut, en l’oubliant, <anchor xml:id="v52s"/>vanger<anchor xml:id="v52e"/> tous <w type="ſ">ſes</w> mépris.</l>
                         <l n="53" xml:id="v53">Ie fis croire, &amp; ie crûs ma victoire certaine.</l>
                         <l n="54" xml:id="v54">Ie pris tous mes <w type="ſ">tranſports</w> pour des <w type="ſ">tranſports</w> de <lb/>haine;</l>
                         <l n="55" xml:id="v55"><w type="ſ">Déteſtant</w> <w type="ſ">ſes</w> rigueurs, <w type="ſ">rabaiſſant</w> <w type="ſ">ſes</w> attraits,</l>
                         <l n="56" xml:id="v56">Ie défiois <w type="ſ">ſes</w> yeux de me troubler iamais.</l>
                         <l n="57" xml:id="v57">Voila comme ie crûs étouffer ma <w type="ſ">tendreſſe</w>.</l>
-                        <l n="58" xml:id="v58">Dans ce calme trompeur j’arriuay dans la Gréce;</l>
+                        <l n="58" xml:id="v58"><anchor xml:id="v58s"/>Dans<anchor xml:id="v58e"/> ce calme trompeur j’arriuay dans la Gréce;</l>
                         <l n="59" xml:id="v59">Et ie trouuay d’abord <w type="ſ">ſes</w> Princes <w type="ſ">raſſemblez</w>,</l>
                         <l n="60" xml:id="v60">Qu’vn péril <w type="ſ">aſſez</w> grand <w type="ſ">ſembloit</w> auoir troublez.</l>
                         
@@ -863,7 +863,7 @@ _______________SCENE 1
                         <l n="63" xml:id="v63">Que mes <w type="ſ">ſens</w> reprenant leur premiere vigueur,</l>
                         <l n="64" xml:id="v64">L’Amour acheueroit de <w type="ſ">ſortir</w> de mon Cœur.</l>
                         <l n="65" xml:id="v65">Mais admire auec moy le Sort, dont la <w type="ſ">pourſuite</w></l>
-                        <l n="66" xml:id="v66">Me fait courir moy-<w type="ſ">meſme</w> au piege que j’éuite.</l>
+                        <l n="66" xml:id="v66">Me fait courir <anchor xml:id="v66s"/>moy-<w type="ſ">meſme</w><anchor xml:id="v66e"/> au piege que j’éuite.</l>
                         <l n="67" xml:id="v67">I’entens de tous <w type="ſ">coſtez</w> qu’on menace Pyrrhus.</l>
                         <l n="68" xml:id="v68">Toute la Gréce éclate en murmures confus.</l>
                         <l n="69" xml:id="v69">On <w type="ſ">ſe</w> plaint, qu’oubliant <w type="ſ">ſon</w> Sang, &amp; <w type="ſ">ſa</w> <w type="ſ">promeſſe</w>,</l>
@@ -902,13 +902,13 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">5</fw>
                         
                         <l n="97" xml:id="v97">Puis qu’apres tant d’efforts ma <w type="ſ">reſiſtance</w> <w type="ſ">eſt</w> vaine,</l>
-                        <l n="98" xml:id="v98">Ie me liure en aueugle au <w type="ſ">tranſport</w> qui m’entraîne,</l>
+                        <l n="98" xml:id="v98">Ie me liure en aueugle au <anchor xml:id="v98s"/><w type="ſ">tranſport</w><anchor xml:id="v98e"/> qui m’entraîne,</l>
                         <l n="99" xml:id="v99">I’aime, ie viens chercher <persName ref="#hermione">Hermionne</persName> en ces lieux,</l>
                         <l n="100" xml:id="v100">La fléchir, l’enleuer, ou mourir à <w type="ſ">ſes</w> yeux.</l>
                         <l n="101" xml:id="v101">Toy qui connois <persName ref="#pyrrhus">Pyrrhus</persName>, que <w type="ſ">penſes</w>-tu qu’il <w type="ſ">faſſe</w>?</l>
                         <l n="102" xml:id="v102">Dans <w type="ſ">ſa</w> Cour, dans <w type="ſ">ſon</w> Cœur, dy-moy ce qui <w type="ſ">ſe</w> <lb/><w type="ſ">paſſe</w>.</l>
                         <l n="103" xml:id="v103">Mon <persName ref="#hermione">Hermionne</persName> encor le tient-elle <w type="ſ">aſſeruy</w>?</l>
-                        <l n="104" xml:id="v104">Me rendra-t'il, <persName ref="#pylade">Pylade</persName>, vn Cœur qu’il m’a rauy?</l>
+                        <l n="104" xml:id="v104">Me rendra-t'il, <persName ref="#pylade">Pylade</persName>, vn <anchor xml:id="v104s"/>Cœur<anchor xml:id="v104e"/>qu’il m’a rauy?</l>
                      </lg>
                   </sp>
                   <sp who="#pylade" xml:id="A1S1_6">
@@ -5299,32 +5299,85 @@ _______________SCENE 5
       </body>
      <back>
         
-        <div type="apparatus">
+        <div xml:id="apparatus">
            <p>
               <app from="#castList_s" to="#castList_e">
                  <lem wit="#ed1668a">Fils d’Agamemnon, Amant d’Hermionne</lem>
-                 <rdg wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p146.jpg">Fils d’Agamemnon</rdg>
+                 <rdg wit="#ed1675">Fils d’Agamemnon</rdg>
+                 <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p146.jpg"/>
               </app>
-              <app from="v5_1_s" to="v5_1_e">
+              <app from="v5s" to="v5e">
                  <lem wit="#ed1668a">Qui m'<w type="ſ">euſt</w> dit,</lem>
-                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p551.jpg">Qui l’<w type="ſ">euſt</w> dit?</rdg>
+                 <rdg wit="#ed1697">Qui l’<w type="ſ">euſt</w> dit?</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p151.jpg"/>
               </app>
-              <app from="v12_1_s" to="v12_1_e">
+              <app from="v12s" to="v12e">
                  <lem wit="#ed1668a">Mycéne</lem>
                  <rdgGrp>
-                    <rdg wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg">l’Epire</rdg>
-                    <rdg wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg">l’Epire</rdg>
-                    <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">l’Epire</rdg>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">l’Epire</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
                  </rdgGrp>
               </app>
-              <app from="v31_1_s" to="v31_1_e">
+              <app from="v31s" to="v31e">
                  <lem wit="#ed1668a">apres tant</lem>
-                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">oubliant</rdg>
+                 <rdg wit="#ed1697">oubliant</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
               </app>
-              <app from="v32_1_s" to="v32_1_e">
+              <app from="v32s" to="v32e">
                  <lem wit="#ed1668a">Peut-il vous inuiter</lem>
-                 <rdg wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg">Pouvez-vous conſentir</rdg>
+                 <rdg wit="#ed1697">Pouvez-vous <w type="ſ">conſentir</w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
               </app>
+              <app from="v38s" to="v38e">
+                 <lem wit="#ed1668a">n’<w type="ſ">inſulte</w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">n’accable</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v52s" to="v52e">
+                 <lem wit="#ed1668a">vanger</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">punir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p153.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v58s" to="v58e">
+                 <lem wit="#ed1668a">Dans</lem>
+                 <rdg wit="#ed1697">En</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+              </app>
+              <app from="v66s" to="v66e">
+                 <lem wit="#ed1668a">moy-<w type="ſ">meſme</w></lem>
+                 <rdg wit="#ed1697">alors</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+              </app>
+              <app from="v98s" to="v98e">
+                 <lem wit="#ed1668a"><w type="ſ">tranſport</w></lem>
+                 <rdg wit="#ed1697"><w type="ſ">Deſtin</w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
+              </app>
+              <app from="v104s" to="v104e">
+                 <lem wit="#ed1668a">Cœur</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">bien</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p154.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
+                 </rdgGrp>
+              </app>
+           </p>
+        </div>
+        
+        <div type="explanation">
+           <p>
+              <note anchored="1" target="v52s" targetEnd="v52e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
+              <note anchored="1" target="v66s" targetEnd="v66e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item">p.126</ref>.</note>
            </p>
         </div>
         
