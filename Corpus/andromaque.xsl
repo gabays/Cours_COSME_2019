@@ -231,6 +231,8 @@
     </xsl:template>
     
     <xsl:template match="orig"/>
+    
+    <xsl:template match="back"/>
 
     <!-- 
     <xsl:template match="//p">

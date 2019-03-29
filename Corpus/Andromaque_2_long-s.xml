@@ -4,22 +4,17 @@
          <titleStmt>
             <title>Edition numérique d'Andromaque (<date>1668</date>)</title>
             <author>
-               <persName ref="#racine">Jean Racine</persName>
+               <persName xml:id="racine">
+                  <forename>Jean</forename>
+                  <surname>Racine</surname>
+                  <ref type="isni" target="http://www.isni.org/isni/0000000123212338"/>
+               </persName>
             </author>
             <respStmt>
                <persName xml:id="SG">Simon Gabay</persName>
                <resp><date>2018</date>Editeur scientifique</resp>
             </respStmt>
          </titleStmt>
-         <editionStmt>
-            <edition n="1">
-               <date type="publication" n="1" when="2017-12-01">01/12/2017</date>
-            </edition>
-            <respStmt>
-               <persName ref="#SG">Simon Gabay</persName>
-               <resp><date>janvier 2017</date>Transcription et encodage</resp>
-            </respStmt>
-         </editionStmt>
          <extent>41KB</extent>
          <publicationStmt>
             <authority>Université de Neuchâtel</authority>
@@ -29,41 +24,111 @@
                <settlement>Neuchâtel</settlement>
             </address>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  Attribution 4.0 International (CC BY 4.0) 
+               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) 
                </licence>
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>Première édition diplomatique du texte de Racine</note>
+            <note anchored="true">Première édition diplomatique du texte de Racine.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author xml:id="racine">
-                  <forename>Jean</forename>
-                  <surname>Racine</surname>
-                  <ref type="isni" target="http://www.isni.org/isni/0000000123212338"/>
-               </author>
-               <title>
-                  <title type="main">Andromaque</title>,
-                  <title type="sub">tragédie</title>
-               </title>
-               <publisher>
-                  <persName xml:id="girard">
-                     <forename>Théodore</forename>
-                     <surname>Girard</surname>
-                     <ref type="isni" target="http://www.isni.org/isni/0000000001595254"/>
-                  </persName>
-               </publisher>
-               <pubPlace>Paris</pubPlace>
-               <date when="1668">1668</date>
-            </bibl>
+            <listWit>
+               <witness xml:id="ed1668a">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">Andromaque</title>,
+                        <title type="sub">tragédie</title>
+                     </title>
+                     <publisher>
+                        <persName xml:id="girard">
+                           <forename>Théodore</forename>
+                           <surname>Girard</surname>
+                           <ref type="isni" target="http://www.isni.org/isni/0000000001595254"/>
+                        </persName>
+                     </publisher>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1668">1668</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="ed1675">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">ANDROMAQVE,</title>,
+                        <title type="sub">TRAGEDIE.</title>
+                     </title>
+                     <publisher>
+                        <persName xml:id="loyson">
+                           <forename>Henry</forename>
+                           <surname>Loison</surname>
+                        </persName>
+                     </publisher>
+                     <pubPlace>dans la Cour du | Palais, au bas des degrez de la Sainte | Chapelle, à l’Eſperance.</pubPlace>
+                     <date when="1675">1675</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="ed1687">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">ŒUVRES | DE | RACINE. | TOME PREMIER</title>
+                     </title>
+                     <publisher>
+                        <persName xml:id="trabouillet">
+                           <forename>Pierre</forename>
+                           <surname>Traboüillet</surname>
+                           <ref type="isni" target="http://www.isni.org/isni/0000000083655467"/>
+                        </persName>
+                     </publisher>
+                     <pubPlace>au Palais , | dans la Gallerie des Priſonniers, à l’image | S. Hubert ; &amp; à la Fortune, proche | le Greffe des Eaux &amp; Foreſts.</pubPlace>
+                     <date when="1697">M. DC. LXXXVII.</date>
+                     <msIdentifier>
+                        <country>France</country>
+                        <institution>BNF</institution>
+                        <collection>Arsenal</collection>
+                        <idno type="ark" xml:base="catalogue.bnf.fr/ark:/">12148/cb311686831</idno>
+                     </msIdentifier>
+                  </bibl>
+               </witness>
+               <witness xml:id="ed1697">
+                  <bibl>
+                     <author ref="#racine">
+                        <forename>Jean</forename>
+                        <surname>Racine</surname>
+                     </author>
+                     <title>
+                        <title type="main">ŒUVRES | DE | RACINE. | TOME PREMIER.</title>
+                     </title>
+                     <publisher>
+                        <persName ref="#trabouillet">
+                           <forename>Pierre</forename>
+                           <surname>Traboüillet</surname>
+                        </persName>
+                     </publisher>
+                     <pubPlace>dans la Galerie des Priſonniers, | à l’Image ſaint Hubert.</pubPlace>
+                     <date when="1697">M. DC. XCII.</date>
+                  </bibl>
+               </witness>
+            </listWit>
+            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
             <p>Edition d'Andromaque</p>
          </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
          <editorialDecl>
             <correction>
                <p>Les corrections sont encodées</p>
@@ -95,7 +160,7 @@
             <listPerson>
                <person xml:id="achille">
                   <persName>Achille</persName>
-                  <note type="bio">Héros légendaire de la guerre de Troie, fils de Pélée, roi de Phthie en Thessalie, et de Thétis, une Néréide (nymphe marine).</note>
+                  <note type="bio" anchored="true">Héros légendaire de la guerre de Troie, fils de Pélée, roi de Phthie en Thessalie, et de Thétis, une Néréide (nymphe marine).</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Achille"/>
                   </bibl>
@@ -103,7 +168,7 @@
                </person>
                <person xml:id="agamemnon">
                   <persName>Agamemnon</persName>
-                  <note type="bio">Héros grec et roi de Mycènes. Marié à Clytemnestre, ils ont trois filles, Iphigénie, Chrysothémis et Électre/Laodicé, ainsi qu'un fils, Oreste. Il assume le commandement de l'armée achéenne durant la guerre de Troie.</note>
+                  <note type="bio" anchored="true">Héros grec et roi de Mycènes. Marié à Clytemnestre, ils ont trois filles, Iphigénie, Chrysothémis et Électre/Laodicé, ainsi qu'un fils, Oreste. Il assume le commandement de l'armée achéenne durant la guerre de Troie.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Agamemnon"/>
                   </bibl>
@@ -111,7 +176,7 @@
                </person>
                <person xml:id="aristote">
                   <persName>Aristote</persName>
-                  <note type="bio">Philosophe grec de l'Antiquité. Avec Platon, dont il fut le disciple à l'Académie, il est l'un des penseurs les plus influents que le monde ait connus.</note>
+                  <note type="bio" anchored="true">Philosophe grec de l'Antiquité. Avec Platon, dont il fut le disciple à l'Académie, il est l'un des penseurs les plus influents que le monde ait connus.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Aristote"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000123748095"/>
@@ -120,7 +185,7 @@
                </person>
                <person xml:id="astyanax">
                   <persName>Astyanax</persName>
-                  <note type="bio">Fils d'Hector et d'Andromaque, et par conséquent le petit-fils de Priam, roi de Troie.</note>
+                  <note type="bio" anchored="true">Fils d'Hector et d'Andromaque, et par conséquent le petit-fils de Priam, roi de Troie.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Astyanax"/>
                   </bibl>
@@ -128,7 +193,7 @@
                </person>
                <person xml:id="cassandre">
                   <persName>Cassandre</persName>
-                  <note type="bio">Dans la mythologie grecque, Cassandre est la fille de Priam (roi de Troie) et d'Hécube.</note>
+                  <note type="bio" anchored="true">Dans la mythologie grecque, Cassandre est la fille de Priam (roi de Troie) et d'Hécube.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Cassandre"/>
                   </bibl>
@@ -136,7 +201,7 @@
                </person>
                <person xml:id="euripide">
                   <persName>Euripide</persName>
-                  <note type="bio">Un des trois grands tragiques de l'Athènes classique, avec Eschyle et Sophocle.</note>
+                  <note type="bio" anchored="true">Un des trois grands tragiques de l'Athènes classique, avec Eschyle et Sophocle.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Euripide"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121382034"/>
@@ -145,7 +210,7 @@
                </person>
                <person xml:id="hector">
                   <persName>Hector</persName>
-                  <note type="bio">Héros troyen de la guerre de Troie. Fils du roi Priam et de la reine Hécube, il est tué par Achille qui veut venger la mort de Patrocle.</note>
+                  <note type="bio" anchored="true">Héros troyen de la guerre de Troie. Fils du roi Priam et de la reine Hécube, il est tué par Achille qui veut venger la mort de Patrocle.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/M%C3%A9n%C3%A9las"/>
                   </bibl>
@@ -153,7 +218,7 @@
                </person>
                <person xml:id="hecube">
                   <persName>Hécube</persName>
-                  <note type="bio">Dans la mythologie grecque, Hécube est l'épouse de Priam et la reine de Troie.</note>
+                  <note type="bio" anchored="true">Dans la mythologie grecque, Hécube est l'épouse de Priam et la reine de Troie.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/H%C3%A9cube"/>
                   </bibl>
@@ -161,7 +226,7 @@
                </person>
                <person xml:id="horace">
                   <persName>Horace</persName>
-                  <note type="bio">Poète latin né à Vénose dans le sud de l'Italie, le 8 décembre 65 av. J.-C. et mort à Rome le 27 novembre 8 av. J.-C.</note>
+                  <note type="bio" anchored="true">Poète latin né à Vénose dans le sud de l'Italie, le 8 décembre 65 av. J.-C. et mort à Rome le 27 novembre 8 av. J.-C.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Horace"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121452178"/>
@@ -170,7 +235,7 @@
                </person>
                <person xml:id="helene">
                   <persName>Hélène</persName>
-                  <note type="bio">Dans la mythologie grecque, Hélène est la fille de Zeus et de Léda. Elle est mariée à Ménélas, roi de Sparte, avant d'être enlevée par Pâris, prince troyen — cet événement déclenchant la guerre de Troie.</note>
+                  <note type="bio" anchored="true">Dans la mythologie grecque, Hélène est la fille de Zeus et de Léda. Elle est mariée à Ménélas, roi de Sparte, avant d'être enlevée par Pâris, prince troyen — cet événement déclenchant la guerre de Troie.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_(mythologie)"/>
                   </bibl>
@@ -178,7 +243,7 @@
                </person>
                <person xml:id="menelas">
                   <persName>Ménélas</persName>
-                  <note type="bio">Personnage de la mythologie grecque, roi de Sparte, fils d'Atrée et d'Érope. Mari d'Hélène et frère d'Agamemnon, il est l'un des héros achéens de la guerre de Troie.</note>
+                  <note type="bio" anchored="true">Personnage de la mythologie grecque, roi de Sparte, fils d'Atrée et d'Érope. Mari d'Hélène et frère d'Agamemnon, il est l'un des héros achéens de la guerre de Troie.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/M%C3%A9n%C3%A9las"/>
                   </bibl>
@@ -186,7 +251,7 @@
                </person>
                <person xml:id="polyxene">
                   <persName>Polyxène</persName>
-                  <note type="bio">Fille de Priam et d'Hécube, est une princesse troyenne.</note>
+                  <note type="bio" anchored="true">Fille de Priam et d'Hécube, est une princesse troyenne.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Polyx%C3%A8ne"/>
                   </bibl>
@@ -194,7 +259,7 @@
                </person>
                <person xml:id="priam">
                   <persName>Priam</persName>
-                  <note type="bio">Dans la mythologie grecque, Priam est le roi mythique de Troie au moment de la guerre de Troie. Il est fils de Laomédon et de la nymphe Strymo ou de Zeuxippe et a pour épouse Hécube.</note>
+                  <note type="bio" anchored="true">Dans la mythologie grecque, Priam est le roi mythique de Troie au moment de la guerre de Troie. Il est fils de Laomédon et de la nymphe Strymo ou de Zeuxippe et a pour épouse Hécube.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Priam"/>
                   </bibl>
@@ -202,7 +267,7 @@
                </person>
                <person xml:id="seneque">
                   <persName>Sénèque</persName>
-                  <note type="bio">Philosophe de l'école stoïcienne, un dramaturge et un homme d'État romain du ier siècle.</note>
+                  <note type="bio" anchored="true">Philosophe de l'école stoïcienne, un dramaturge et un homme d'État romain du ier siècle.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121030100"/>
@@ -211,7 +276,7 @@
                </person>
                <person xml:id="ulysse">
                   <persName>Ulysse</persName>
-                  <note type="bio">Roi d'Ithaque, fils de Laërte et d'Anticlée, il est marié à Pénélope dont il a un fils, Télémaque.</note>
+                  <note type="bio" anchored="true">Roi d'Ithaque, fils de Laërte et d'Anticlée, il est marié à Pénélope dont il a un fils, Télémaque.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/Ulysse"/>
                   </bibl>
@@ -219,7 +284,7 @@
                </person>
                <person xml:id="virgile">
                   <persName>Virgile</persName>
-                  <note type="bio">Poète latin contemporain de la fin de la République romaine et du début du règne de l'empereur Auguste.</note>
+                  <note type="bio" anchored="true">Poète latin contemporain de la fin de la République romaine et du début du règne de l'empereur Auguste.</note>
                   <bibl>
                      <ref type="wiki" target="https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que"/>
                      <ref type="isni" target="http://www.isni.org/isni/0000000121198069"/>
@@ -348,7 +413,7 @@
               <lb/>A
               <lb/>MADAME.
            </head>
-           <note>La destinataire de la lettre est Henriette d'Angleterre (1644-†1670), épouse de Monsieur le frère du roi.</note>
+           <note anchored="true">La destinataire de la lettre est Henriette d'Angleterre (1644-†1670), épouse de Monsieur le frère du roi.</note>
            
            <opener>
            <figure>
@@ -519,7 +584,7 @@
            <p rend="center">
               <lb/>C’<w><choice><orig>eſt</orig><reg>est</reg></choice></w> Enée qui parle.
            </p>
-           <lg>
+           <lg xml:id="vergilQuote">
               <l>
                  <figure>
                     <desc>Lettrine</desc>
@@ -548,6 +613,19 @@
               <l>Conjugis, &amp; <w><choice><orig>ſcelerum</orig><reg>scelerum</reg></choice></w> Furiis agitatus <w><choice><orig>Oreſtes</orig><reg>Orestes</reg></choice></w></l>
               <l>Excipit incautum, <choice><abbr><w><choice><orig>patriaſq;</orig><reg>patriasq;</reg></choice></w></abbr><expan><w><choice><orig>patriaſque</orig><reg>patriasque</reg></choice></w></expan></choice> obtruncat ad <lb/>Aras.</l>
            </lg>
+           <note type="translation" corresp="#vergilQuote" anchored="true">
+              « […] nous longeons les côtes de l’Épire, nous entrons dans le port des Chaones et nous dirigeons vers la haute ville de Buthrote.
+              […] Il y avait, ce jour, cérémonie solennelle, offrandes funèbres ;
+              […] Andromaque sur la cendre versait la libation, elle appelait les Mânes près d’un tombeau d’Hector.
+              Vide, hélas ! elle l’avait saintement paré de gazon vert, avec deux autels où retrouver ses larmes.
+              […] Elle baissa le visage et murmura d’une voix défaite :
+              ‘‘Ô seule heureuse avant toutes, la vierge Priamide qui reçut l’ordre de mourir sur le tombeau d’un ennemi devant les hauts murs de Troie,
+              qui n’a pas subi le tirage au sort ni touché en captive le lit d’un vainqueur son maître !
+              Nous, des cendres de notre patrie traînée sur des mers lointaines, nous avons enduré les dédains du rejeton d’Achille et son insolente jeunesse, nous avons enfanté dans la servitude.
+              Puis, […] il a suivi la petite-fille de Léda, Hermione, un hyménée lacédémonien […].
+              Mais follement enflammé par l’amour de l’épouse qui lui était ravie, poursuivi par les furies de ses crimes, Oreste le surprend à l’improviste et le tue devant les autels de ses pères.’’ »
+              Version condensée de Virgile, <title>Énéide</title>, chant III, vv. 292.332.
+           </note>
            
            <p>
               <lb rend="alinea"/>Voila en peu de Vers tout le <w><choice><orig>ſujet</orig><reg>sujet</reg></choice></w> de cette
@@ -629,13 +707,13 @@
            <castList>
               <lb/><castItem xml:id="andromaque" type="role"><role>ANDROMAQUE</role>, <roleDesc>Veuue d’Hector, Captiue de Pyrhus</roleDesc>.</castItem>
               <lb/><castItem xml:id="pyrrhus" type="role"><role>PYRRHUS</role>, <roleDesc>Fils d’Achille, Roy d’Epire</roleDesc>.</castItem>
-              <lb/><castItem xml:id="oreste" type="role"><role>ORESTE</role>, <roleDesc>Fils d’Agamemnon, Amant d’Hermionne</roleDesc>.</castItem>
+              <lb/><castItem xml:id="oreste" type="role"><role>ORESTE</role>, <roleDesc><anchor xml:id="castList_s"/>Fils d’Agamemnon, Amant d’Hermionne<anchor xml:id="castList_e"/></roleDesc>.</castItem>
               <lb/><castItem xml:id="hermione" type="role"><role>HERMIONNE</role>, <roleDesc>Fille d’Helene, accordée auec Pyrrhus</roleDesc>.</castItem>
               <lb/><castItem xml:id="pylade" type="role"><role>PYLADE</role>, <roleDesc>Amy d’<w><choice><orig>Oreſte</orig><reg>Oreste</reg></choice></w></roleDesc>.</castItem>
               <lb/><castItem xml:id="cleone" type="role"><role>CLEONE</role>, <roleDesc>Confidente d’Hermionne</roleDesc>.</castItem>
               <lb/><castItem xml:id="cephise" type="role"><role>CEPHISE</role>, <roleDesc>Confidente d’Andromaque</roleDesc>.</castItem>
               <lb/><castItem xml:id="phoenix" type="role"><role>PHOENIX</role>, <roleDesc>Gouuerneur d’Achille, &amp; <w><choice><orig>enſuite</orig><reg>ensuite</reg></choice></w> de Pyrrhus</roleDesc>.</castItem>
-              <lb/><castItem xml:id="suite_oreste" type="role"><role>Suite d’ORESTE</role>.</castItem>
+              <lb/><castItem xml:id="suite_oreste" type="role"><role>Suite d’ORESTE</role>.<note type="philo" anchored="true">Dans la pièce, « soldats d’Oreste ».</note></castItem>
            </castList>    
         </div>
         
@@ -696,7 +774,7 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-left">2</fw>
                         <fw type="head" place="center">ANDROMAQVE</fw>
                         
-                        <l n="5" xml:id="v5">Qui m'<w><choice><orig>euſt</orig><reg>eust</reg></choice></w> dit, qu'vn riuage à mes vœux <w><choice><orig>ſi</orig><reg>si</reg></choice></w> <w><choice><orig>funeſte</orig><reg>funeste</reg></choice></w>,</l>
+                        <l n="5" xml:id="v5"><anchor xml:id="v5s"/>Qui m'<w><choice><orig>euſt</orig><reg>eust</reg></choice></w> dit,<anchor xml:id="v5e"/> qu'vn riuage à mes vœux <w><choice><orig>ſi</orig><reg>si</reg></choice></w> <w><choice><orig>funeſte</orig><reg>funeste</reg></choice></w>,</l>
                         <l n="6" xml:id="v6"><w><choice><orig>Préſenteroit</orig><reg>Présenteroit</reg></choice></w> d'abord <persName ref="#pylade">Pylade</persName> aux yeux d'<persName ref="#oreste"><w><choice><orig>Oreſte</orig><reg>Oreste</reg></choice></w></persName>,</l>
                         <l n="7" xml:id="v7">Qu'apres plus de <w><choice><orig>ſix</orig><reg>six</reg></choice></w> mois que ie t'auois perdu,</l>
                         <l n="8" xml:id="v8">A la Cour de <persName ref="#pyrrhus">Pyrrhus</persName> tu me <w><choice><orig>ſerois</orig><reg>serois</reg></choice></w> rendu!</l>
@@ -709,7 +787,7 @@ _______________SCENE 1
                         <l n="9" xml:id="v9">I'en rends graces au Ciel, qui m'<w><choice><orig>arreſtant</orig><reg>arrestant</reg></choice></w> <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> <w><choice><orig>ceſſe</orig><reg>cesse</reg></choice></w>,</l>
                         <l n="10" xml:id="v10">Sembloit m'auoir fermé le chemin de la Gréce,</l>
                         <l n="11" xml:id="v11">Depuis le jour fatal que la fureur des Eaux,</l>
-                        <l n="12" xml:id="v12"><w><choice><orig>Preſque</orig><reg>Presque</reg></choice></w> aux yeux de Mycéne, écarta nos <w><choice><orig>Vaiſſeaux</orig><reg>Vaisseaux</reg></choice></w>.</l>
+                        <l n="12" xml:id="v12"><w><choice><orig>Preſque</orig><reg>Presque</reg></choice></w> aux yeux de <anchor xml:id="v12s"/>Mycéne<anchor xml:id="v12e"/>, écarta nos <w><choice><orig>Vaiſſeaux</orig><reg>Vaisseaux</reg></choice></w>.</l>
                         <l n="13" xml:id="v13">Combien dans cét exil ay-je <w><choice><orig>ſouffert</orig><reg>souffert</reg></choice></w> d'allarmes?</l>
                         <l n="14" xml:id="v14">Combien à vos malheurs ay-je donné de larmes?</l>
                         <l n="15" xml:id="v15">Craignant toûjours pour vous quelque nouueau <lb/>danger</l>
@@ -747,8 +825,8 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">3</fw>
                         
                         
-                        <l n="31" xml:id="v31">Par quels charmes, apres tant de tourmens <w><choice><orig>ſoufferts</orig><reg>soufferts</reg></choice></w></l>
-                        <l n="32" xml:id="v32">Peut-il vous inuiter à rentrer dans <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> fers?</l>
+                        <l n="31" xml:id="v31">Par quels charmes, <anchor xml:id="v31s"/>apres tant<anchor xml:id="v31e"/> de tourmens <w><choice><orig>ſoufferts</orig><reg>soufferts</reg></choice></w></l>
+                        <l n="32" xml:id="v32"><anchor xml:id="v32s"/>Peut-il vous inuiter<anchor xml:id="v32e"/> à rentrer dans <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> fers?</l>
                         <l n="33" xml:id="v33"><w><choice><orig>Penſez</orig><reg>Pensez</reg></choice></w>-vous qu'<persName ref="#hermione">Hermionne</persName>, à <placeName ref="#sparte">Sparte</placeName> inéxorable,</l>
                         <l n="34" xml:id="v34">Vous prépare en <placeName ref="#epire">Epire</placeName> vn Sort plus fauorable?</l>
                         <l n="35" xml:id="v35">Honteux d'auoir <w><choice><orig>pouſsé</orig><reg>poussé</reg></choice></w> tant de vœux <w><choice><orig>ſuperflus</orig><reg>superflus</reg></choice></w>,</l>
@@ -761,7 +839,7 @@ _______________SCENE 1
                      <speaker rend="center">ORESTE.</speaker>
                      <lg>
                         <l n="37" part="F">Ie me trompois moy-méme.</l>
-                        <l n="38" xml:id="v38">Amy, n'<w><choice><orig>inſulte</orig><reg>insulte</reg></choice></w> point vn Malheureux qui t'aime.</l>
+                        <l n="38" xml:id="v38">Amy, n'<anchor xml:id="v38s"/><w><choice><orig>inſulte</orig><reg>insulte</reg></choice></w><anchor xml:id="v38e"/> point vn Malheureux qui t'aime.</l>
                         <l n="39" xml:id="v39">T'ay-je iamais caché mon cœur &amp; mes <w><choice><orig>deſirs</orig><reg>desirs</reg></choice></w>?</l>
                         <l n="40" xml:id="v40">Tu vis <w><choice><orig>naiſtre</orig><reg>naistre</reg></choice></w> ma flâme &amp; mes premiers <w><choice><orig>ſoûpirs</orig><reg>soûpirs</reg></choice></w>.</l>
                         <l n="41" xml:id="v41">Enfin, quand <persName ref="#menelas">Menelas</persName> <w><choice><orig>diſpoſa</orig><reg>disposa</reg></choice></w> de <rs ref="#hermione"><w><choice><orig>ſa</orig><reg>sa</reg></choice></w> Fille</rs></l>
@@ -775,13 +853,13 @@ _______________SCENE 1
                         <l n="49" xml:id="v49">Mais quand ie me <w><choice><orig>ſouuins</orig><reg>souuins</reg></choice></w>, que parmy tant d’al-<lb break="no"/>larmes</l>
                         <l n="50" xml:id="v50"><persName ref="#hermione">Hermionne</persName> à <persName ref="#pyrrhus">Pyrrhus</persName> prodiguoit tous <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> charmes,</l>
                         <l n="51" xml:id="v51">Tu <w><choice><orig>ſçais</orig><reg>sçais</reg></choice></w> de quel courroux mon cœur alors épris</l>
-                        <l n="52" xml:id="v52">Voulut, en l’oubliant, vanger tous <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> mépris.</l>
+                        <l n="52" xml:id="v52">Voulut, en l’oubliant, <anchor xml:id="v52s"/>vanger<anchor xml:id="v52e"/> tous <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> mépris.</l>
                         <l n="53" xml:id="v53">Ie fis croire, &amp; ie crûs ma victoire certaine.</l>
                         <l n="54" xml:id="v54">Ie pris tous mes <w><choice><orig>tranſports</orig><reg>transports</reg></choice></w> pour des <w><choice><orig>tranſports</orig><reg>transports</reg></choice></w> de <lb/>haine;</l>
                         <l n="55" xml:id="v55"><w><choice><orig>Déteſtant</orig><reg>Détestant</reg></choice></w> <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> rigueurs, <w><choice><orig>rabaiſſant</orig><reg>rabaissant</reg></choice></w> <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> attraits,</l>
                         <l n="56" xml:id="v56">Ie défiois <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> yeux de me troubler iamais.</l>
                         <l n="57" xml:id="v57">Voila comme ie crûs étouffer ma <w><choice><orig>tendreſſe</orig><reg>tendresse</reg></choice></w>.</l>
-                        <l n="58" xml:id="v58">Dans ce calme trompeur j’arriuay dans la Gréce;</l>
+                        <l n="58" xml:id="v58"><anchor xml:id="v58s"/>Dans<anchor xml:id="v58e"/> ce calme trompeur j’arriuay dans la Gréce;</l>
                         <l n="59" xml:id="v59">Et ie trouuay d’abord <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> Princes <w><choice><orig>raſſemblez</orig><reg>rassemblez</reg></choice></w>,</l>
                         <l n="60" xml:id="v60">Qu’vn péril <w><choice><orig>aſſez</orig><reg>assez</reg></choice></w> grand <w><choice><orig>ſembloit</orig><reg>sembloit</reg></choice></w> auoir troublez.</l>
                         
@@ -797,7 +875,7 @@ _______________SCENE 1
                         <l n="63" xml:id="v63">Que mes <w><choice><orig>ſens</orig><reg>sens</reg></choice></w> reprenant leur premiere vigueur,</l>
                         <l n="64" xml:id="v64">L’Amour acheueroit de <w><choice><orig>ſortir</orig><reg>sortir</reg></choice></w> de mon Cœur.</l>
                         <l n="65" xml:id="v65">Mais admire auec moy le Sort, dont la <w><choice><orig>pourſuite</orig><reg>poursuite</reg></choice></w></l>
-                        <l n="66" xml:id="v66">Me fait courir moy-<w><choice><orig>meſme</orig><reg>mesme</reg></choice></w> au piege que j’éuite.</l>
+                        <l n="66" xml:id="v66">Me fait courir <anchor xml:id="v66s"/>moy-<w><choice><orig>meſme</orig><reg>mesme</reg></choice></w><anchor xml:id="v66e"/> au piege que j’éuite.</l>
                         <l n="67" xml:id="v67">I’entens de tous <w><choice><orig>coſtez</orig><reg>costez</reg></choice></w> qu’on menace Pyrrhus.</l>
                         <l n="68" xml:id="v68">Toute la Gréce éclate en murmures confus.</l>
                         <l n="69" xml:id="v69">On <w><choice><orig>ſe</orig><reg>se</reg></choice></w> plaint, qu’oubliant <w><choice><orig>ſon</orig><reg>son</reg></choice></w> Sang, &amp; <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> <w><choice><orig>promeſſe</orig><reg>promesse</reg></choice></w>,</l>
@@ -836,13 +914,13 @@ _______________SCENE 1
                         <fw type="pageNum" place="top-right">5</fw>
                         
                         <l n="97" xml:id="v97">Puis qu’apres tant d’efforts ma <w><choice><orig>reſiſtance</orig><reg>resistance</reg></choice></w> <w><choice><orig>eſt</orig><reg>est</reg></choice></w> vaine,</l>
-                        <l n="98" xml:id="v98">Ie me liure en aueugle au <w><choice><orig>tranſport</orig><reg>transport</reg></choice></w> qui m’entraîne,</l>
+                        <l n="98" xml:id="v98">Ie me liure en aueugle au <anchor xml:id="v98s"/><w><choice><orig>tranſport</orig><reg>transport</reg></choice></w><anchor xml:id="v98e"/> qui m’entraîne,</l>
                         <l n="99" xml:id="v99">I’aime, ie viens chercher <persName ref="#hermione">Hermionne</persName> en ces lieux,</l>
                         <l n="100" xml:id="v100">La fléchir, l’enleuer, ou mourir à <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> yeux.</l>
                         <l n="101" xml:id="v101">Toy qui connois <persName ref="#pyrrhus">Pyrrhus</persName>, que <w><choice><orig>penſes</orig><reg>penses</reg></choice></w>-tu qu’il <w><choice><orig>faſſe</orig><reg>fasse</reg></choice></w>?</l>
                         <l n="102" xml:id="v102">Dans <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> Cour, dans <w><choice><orig>ſon</orig><reg>son</reg></choice></w> Cœur, dy-moy ce qui <w><choice><orig>ſe</orig><reg>se</reg></choice></w> <lb/><w><choice><orig>paſſe</orig><reg>passe</reg></choice></w>.</l>
                         <l n="103" xml:id="v103">Mon <persName ref="#hermione">Hermionne</persName> encor le tient-elle <w><choice><orig>aſſeruy</orig><reg>asseruy</reg></choice></w>?</l>
-                        <l n="104" xml:id="v104">Me rendra-t'il, <persName ref="#pylade">Pylade</persName>, vn Cœur qu’il m’a rauy?</l>
+                        <l n="104" xml:id="v104">Me rendra-t'il, <persName ref="#pylade">Pylade</persName>, vn <anchor xml:id="v104s"/>Cœur<anchor xml:id="v104e"/>qu’il m’a rauy?</l>
                      </lg>
                   </sp>
                   <sp who="#pylade" xml:id="A1S1_6">
@@ -865,7 +943,7 @@ _______________SCENE 1
                         <l n="119" xml:id="v119"><w><choice><orig>Ainſi</orig><reg>Ainsi</reg></choice></w> n’attendez pas, que l’on <w><choice><orig>puiſſe</orig><reg>puisse</reg></choice></w> aujourd’huy</l>
                         <l n="120" xml:id="v120">Vous répondre d’vn Cœur, <w><choice><orig>ſi</orig><reg>si</reg></choice></w> peu <w><choice><orig>maiſtre</orig><reg>maistre</reg></choice></w> de luy.</l>
                         <l n="121" xml:id="v121">Il peut, Seigneur, il peut dans ce <w><choice><orig>deſordre</orig><reg>desordre</reg></choice></w> extré-<lb break="no"/>me,</l>
-                        <l n="122" xml:id="v122"><w><choice><orig>Epouſer</orig><reg>Epouser</reg></choice></w> ce qu’il hait, &amp; perdre ce qu’il aime.</l>
+                        <l n="122" xml:id="v122"><w><choice><orig>Epouſer</orig><reg>Epouser</reg></choice></w> ce qu’il hait, &amp; <anchor xml:id="v122s"/>perdre<anchor xml:id="v122e"/> ce qu’il aime.</l>
                      </lg>
                   </sp>
                   
@@ -889,7 +967,7 @@ _______________SCENE 1
                      <lg>
                         <l n="125" xml:id="v125"><persName ref="#hermione">Hermionne</persName>, Seigneur, au moins en apparance,</l>
                         <l n="126" xml:id="v126">Semble de <w><choice><orig>ſon</orig><reg>son</reg></choice></w> Amant dédaigner l’<w><choice><orig>inconſtance</orig><reg>inconstance</reg></choice></w>,</l>
-                        <l n="127" xml:id="v127">Et croit que trop heureux d’<w><choice><orig>appaiſer</orig><reg>appaiser</reg></choice></w> <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> rigueur,</l>
+                        <l n="127" xml:id="v127">Et croit que trop heureux <anchor xml:id="v127s"/>d’<w><choice><orig>appaiſer</orig><reg>appaiser</reg></choice></w><anchor xml:id="v127e"/> <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> rigueur,</l>
                         <l n="128" xml:id="v128">Il la viendra <w><choice><orig>preſſer</orig><reg>presser</reg></choice></w> de reprendre <w><choice><orig>ſon</orig><reg>son</reg></choice></w> Cœur.</l>
                         <l n="129" xml:id="v129">Mais ie l’ay veuë enfin me confier <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> larmes.</l>
                         <l n="130" xml:id="v130">Elle pleure en <w><choice><orig>ſecret</orig><reg>secret</reg></choice></w> le mépris de <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> charmes.</l>
@@ -958,7 +1036,7 @@ _______________SCENE 2
                      <speaker>ORESTE.</speaker>
                      <lg>
                         <l n="143" xml:id="v143"><hi rend="dropcap">A</hi>Vant que tous les Grecs vous parlent par ma <lb/>voix,</l>
-                        <l n="144" xml:id="v144">Souffrez que ie me flate en <w><choice><orig>ſecret</orig><reg>secret</reg></choice></w> de leur choix,</l>
+                        <l n="144" xml:id="v144">Souffrez que <anchor xml:id="v144s"/>ie me flate en <w><choice><orig>ſecret</orig><reg>secret</reg></choice></w><anchor xml:id="v144e"/> de leur choix,</l>
                         <l n="145" xml:id="v145">Et qu’à vos yeux, Seigneur, je montre quelque joye</l>
                         <l n="146" xml:id="v146">De voir le Fils d’<persName ref="#achille">Achille</persName>, &amp; le Vainqueur de <placeName>Troye</placeName>.</l>
                         <l n="147" xml:id="v147">Oüy: Comme <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> exploits, nous admirons vos <lb/>coups;</l>
@@ -1012,7 +1090,7 @@ _______________SCENE 2
                         <l n="181" xml:id="v181">Mais à qui pretend-on que ie le <w><choice><orig>ſacrifie</orig><reg>sacrifie</reg></choice></w>?</l>
                         <l n="182" xml:id="v182">La Gréce a-t'elle encor quelque droit <w><choice><orig>ſur</orig><reg>sur</reg></choice></w> <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> vie?</l>
                         <l n="183" xml:id="v183">Et <w><choice><orig>ſeul</orig><reg>seul</reg></choice></w> de tous les Grecs ne m’<w><choice><orig>eſt</orig><reg>est</reg></choice></w>-il pas permis</l>
-                        <l n="184" xml:id="v184">D’ordonner des Captifs que le Sort m’a <w><choice><orig>ſoûmis</orig><reg>soûmis</reg></choice></w>?</l>
+                        <l n="184" xml:id="v184">D’ordonner <anchor xml:id="v184s"/>des Captifs<anchor xml:id="v184e"/> que le Sort m’a <w><choice><orig>ſoûmis</orig><reg>soûmis</reg></choice></w>?</l>
                         <l n="185" xml:id="v185">Oüy, Seigneur, lors qu’au pied des murs fumans de <lb/><placeName ref="#troie">Troye</placeName>,</l>
                         <l n="186" xml:id="v186">Les Vainqueurs tout <w><choice><orig>ſanglans</orig><reg>sanglans</reg></choice></w> <choice><abbr>partagerẽt</abbr><expan>partagerent</expan></choice> leur Proye,</l>
                         <l n="187" xml:id="v187">Le Sort, dont les <w><choice><orig>Arreſts</orig><reg>Arrests</reg></choice></w> furent alors <w><choice><orig>ſuiuis</orig><reg>suiuis</reg></choice></w>,</l>
@@ -1130,7 +1208,7 @@ _______________SCENE 2
                         <fw type="head" place="center">TRAGEDIE.</fw>   
                         <fw type="pageNum" place="top-right">11</fw>
                         
-                        <l n="243" xml:id="v243">Et ie <w><choice><orig>ſçauray</orig><reg>sçauray</reg></choice></w> peut-<w><choice><orig>eſtre</orig><reg>estre</reg></choice></w> accorder en ce jour</l>
+                        <l n="243" xml:id="v243">Et ie <w><choice><orig>ſçauray</orig><reg>sçauray</reg></choice></w> peut-<w><choice><orig>eſtre</orig><reg>estre</reg></choice></w> accorder <anchor xml:id="v243s"/>en ce jour<anchor xml:id="v243e"/></l>
                         <l n="244" xml:id="v244">Les <w><choice><orig>ſoins</orig><reg>soins</reg></choice></w> de ma grandeur, &amp; ceux de mon amour.</l>
                         <l n="245" xml:id="v245">Vous pouuez cependant voir la Fille d’<persName ref="#helene">Helene</persName>.</l>
                         <l n="246" xml:id="v246">Du <w><choice><orig>ſang</orig><reg>sang</reg></choice></w> qui vous vnit ie <w><choice><orig>ſçay</orig><reg>sçay</reg></choice></w> l’étroite chaîne.</l>
@@ -1321,7 +1399,7 @@ _______________SCENE 4
                         <l n="283" xml:id="v283">Mais <w><choice><orig>dûſſent</orig><reg>dûssent</reg></choice></w>-ils encore, en <w><choice><orig>repaſſant</orig><reg>repassant</reg></choice></w> les Eaux,</l>
                         <l n="284" xml:id="v284">Demander <w><choice><orig>voſtre</orig><reg>vostre</reg></choice></w> Fils, auec mille <w><choice><orig>Vaiſſeaux</orig><reg>Vaisseaux</reg></choice></w>:</l>
                         <l n="285" xml:id="v285"><w><choice><orig>Couſtaſt</orig><reg>Coustast</reg></choice></w> il
-                           <note type="lang">Pas de trait d'union</note>
+                           <note type="lang" anchored="true">Pas de trait d'union</note>
                                                              tout le <w><choice><orig>ſang</orig><reg>sang</reg></choice></w> qu’<persName ref="#helene">Helene</persName> a fait répandre,</l>
                         <l n="286" xml:id="v286"><w><choice><orig>Dûſſay</orig><reg>Dûssay</reg></choice></w>-je apres dix ans voir mon Palais en cendre,</l>
                         <l n="287" xml:id="v287">Ie ne balance point, ie vole à <w><choice><orig>ſon</orig><reg>son</reg></choice></w> <w><choice><orig>ſecours</orig><reg>secours</reg></choice></w>,</l>
@@ -1382,7 +1460,7 @@ _______________SCENE 4
                         <l n="317" xml:id="v317">De combien de remords m’ont-ils rendu la Proye?</l>
                         <l n="318" xml:id="v318">Ie souffre tous les maux que i’ay faits <choice><abbr>deuãt</abbr><expan>deuant</expan></choice> <placeName>Troye</placeName>.</l>
                         <l n="319" xml:id="v319">Vaincu, chargé de fers, de regrets <w><choice><orig>conſumé</orig><reg>consumé</reg></choice></w>,</l>
-                        <l n="320" xml:id="v320">Brûlé de plus de feux que ie n’en allumé <note type="lang">passé simple.</note>,</l>
+                        <l n="320" xml:id="v320">Brûlé de plus de feux que ie n’en allumé <note type="lang" anchored="true">passé simple.</note>,</l>
                         <l n="321" xml:id="v321">Tant de <w><choice><orig>ſoins</orig><reg>soins</reg></choice></w>, tant de pleurs, tant d’ardeurs in-<lb break="nos"/>quiétes....</l>
                         <l n="322" xml:id="v322">Helas! fus-je iamais <w><choice><orig>ſi</orig><reg>si</reg></choice></w> cruel que vous l’<w><choice><orig>eſtes</orig><reg>estes</reg></choice></w>?</l>
                         <l n="323" xml:id="v323">Mais enfin, tour à tour, c’<w><choice><orig>eſt</orig><reg>est</reg></choice></w> <w><choice><orig>aſſez</orig><reg>assez</reg></choice></w> nous punir.</l>
@@ -2628,7 +2706,7 @@ _______________SCENE 1
                         <fw type="head" place="center">TRAGEDIE.</fw>   
                         <fw type="pageNum" place="top-right">41</fw>
                         
-                        <l n="767" xml:id="v767">Et que <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> Yeux cruels à pleurer condannez<note type="lang">nn</note>,</l>
+                        <l n="767" xml:id="v767">Et que <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> Yeux cruels à pleurer condannez<note type="lang" anchored="true">nn</note>,</l>
                         <l n="768" xml:id="v768">Me rendent tous les noms, que ie leur ay donnez.</l>
                      </lg>
                   </sp>
@@ -2654,7 +2732,7 @@ _______________SCENE 1
                         <l n="777" xml:id="v777">Ie ne <w><choice><orig>ſçay</orig><reg>sçay</reg></choice></w> de tout temps quelle <w><choice><orig>injuſte</orig><reg>injuste</reg></choice></w> <w><choice><orig>Puiſſance</orig><reg>Puissance</reg></choice></w></l>
                         <l n="778" xml:id="v778"><w><choice><orig>Laiſſe</orig><reg>Laisse</reg></choice></w> le Crime en paix, &amp; <w><choice><orig>pourſuit</orig><reg>poursuit</reg></choice></w> l’Innocence.</l>
                         <l n="779" xml:id="v779">De quelque part <w><choice><orig>ſur</orig><reg>sur</reg></choice></w> moy que ie tourne les yeux,</l>
-                        <l n="780" xml:id="v780">Ie ne voy que malheurs qui condannent<note target="lang">nn</note> les Dieux.</l>
+                        <l n="780" xml:id="v780">Ie ne voy que malheurs qui condannent<note target="lang" anchored="true">nn</note> les Dieux.</l>
                         <l n="781" xml:id="v781">Meritons leur courroux, <w><choice><orig>juſtifions</orig><reg>justifions</reg></choice></w> leur haine,</l>
                         <l n="782" xml:id="v782">Et que le fruit du Crime en précede la peine.</l>
                         <l n="783" xml:id="v783">Mais toy, par quelle erreur veux-tu toûjours <w><choice><orig>ſur</orig><reg>sur</reg></choice></w> toy</l>
@@ -4169,7 +4247,7 @@ _______________SCENE 4
                      
                   <fw type="catchword">CLEONNE.</fw>
                   
-                  <note>Il n'existe pas de pages 73 et 74.</note>
+                  <note anchored="true">Il n'existe pas de pages 73 et 74.</note>
                   <gb n="D1"/>
                   <pb n="75" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f91.image"/>
                   
@@ -5137,108 +5215,248 @@ _______________SCENE 5
             
             <!-- Fin de la pièce -->
          </div>
+         
+         <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f112.image"/>
+         
+         <div xml:id="privilege">
+            <head rend="italic">PRIVILEGE DV ROY.</head>
+            <p>
+               <figure>
+                  <desc>Initiale</desc>
+                  <desc type="letter" subtype="L">L</desc>
+               </figure>
+               OVIS PAR LA GRACE DE DIEV,
+               <lb/>ROY DE FRANCE ET DE NAVARRE;
+               <lb/>A nos amez &amp; feaux <w><choice><orig>Conſeillers</orig><reg>Conseillers</reg></choice></w> les
+               <lb/>Gens tenans nos Cours de Parlement,
+               <lb/><w><choice><orig>Maiſtres</orig><reg>Maistres</reg></choice></w> des <w><choice><orig>ſifflent</orig><reg>sifflent</reg></choice></w> ordinaires
+               <lb/>de <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Hoſtel</orig><reg>Hostel</reg></choice></w>, <w><choice><orig>ſifflent</orig><reg>sifflent</reg></choice></w> de Paris, Baillifs, <w><choice><orig>Se-
+                  <lb break="no"/>neſchaux</orig><reg>Se-
+                  neschaux</reg></choice></w>, leurs Lieutenans Ciuils, &amp; autres nos
+               <lb/><w><choice><orig>Iuſticiers</orig><reg>Iusticiers</reg></choice></w>, &amp; Officiers qu’il appartiendra, Salut.
+               <lb/>Noftre bien amé <persName rend="small-caps"><forename>Iean</forename> <surname>Racine</surname></persName>, Prieur de l’Epi-
+               <lb break="no"/>nay, nous a fait <w><choice><orig>remonſtrer</orig><reg>remonstrer</reg></choice></w> qu’il a <w><choice><orig>compoſé</orig><reg>composé</reg></choice></w> vne
+               <lb/>Piece de Theatre, qu’il <w><choice><orig>deſireroit</orig><reg>desireroit</reg></choice></w> faire imprimer, &amp;
+               <lb/>donner au public, <w><choice><orig>ſous</orig><reg>sous</reg></choice></w> le titre de L’<title rend="italic">Andromaque</title>,
+               <lb/>mais il craint qu’ayant fait la <w><choice><orig>dépenſe</orig><reg>dépense</reg></choice></w> de l’<w><choice><orig>impreſ-
+                  <lb break="no"/>ſion</orig><reg>impres-
+                  sion</reg></choice></w> de ce Liure, d’autres n’<w><choice><orig>entrepriſſent</orig><reg>entreprissent</reg></choice></w> de l’im-
+               <lb break="no"/>primer à <w><choice><orig>ſon</orig><reg>son</reg></choice></w> prejudice, s’il n’auoit pour ce nos
+               <lb/>Lettres de Priuilege, qu’il nous a tres-humble-
+               <lb break="no"/>ment fait <w><choice><orig>ſupplier</orig><reg>supplier</reg></choice></w> de luy accorder. A <hi rend="small-caps">ces cavses</hi>
+               <lb/>voulans fauorablement traiter l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>, Nous
+               <lb/>luy auons permis &amp; accordé, permettons &amp; accor-
+               <lb break="no"/>dons par ces <w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, de faire imprimer ledit Li-
+               <lb break="no"/>ure, qui a pour titre L’<title rend="italic">Andromaque</title>, par tel Librai-
+               <lb break="no"/>re ou Imprimeur qu’il voudra <w><choice><orig>choiſir</orig><reg>choisir</reg></choice></w> de ceux par
+               <lb/>Nous <w><choice><orig>reſeruez</orig><reg>reseruez</reg></choice></w>, en tel volume, marge, caractere,
+               <lb/>&amp; autant de fois que bon luy <w><choice><orig>ſemblera</orig><reg>semblera</reg></choice></w>, pendant le
+               <lb/>temps de cinq années, à commencer du jour qu’il
+               <lb/><w><choice><orig>ſera</orig><reg>sera</reg></choice></w> acheué d’imprimer, &amp; le vendre &amp; <w><choice><orig>diſtribuër</orig><reg>distribuër</reg></choice></w>
+               <lb/><w><choice><orig>par tout</orig><reg>par tout</reg></choice></w> <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Royaume. <w><choice><orig>Faiſons</orig><reg>Faisons</reg></choice></w> <w><choice><orig>deffenſes</orig><reg>deffenses</reg></choice></w> à tous
+               <lb/>Libraires, Imprimeurs, ou autres, d’imprimer,
+               <lb/>faire imprimer, vendre, &amp; <w><choice><orig>diſtribuër</orig><reg>distribuër</reg></choice></w> ledit Liure
+               <lb/><w><choice><orig>ſous</orig><reg>sous</reg></choice></w> quelque pretexte que ce <w><choice><orig>ſoit</orig><reg>soit</reg></choice></w>, <w><choice><orig>meſme</orig><reg>mesme</reg></choice></w> d’<w><choice><orig>im-
+                  <lb break="no"/>preſſion</orig><reg>im-
+                  pression</reg></choice></w> étrangere, &amp; autrement, <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> le <w><choice><orig>conſente-
+                     <lb break="no"/>ment</orig><reg>consente-
+                     ment</reg></choice></w> de l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>, ou de <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> ayans <w><choice><orig>cauſe</orig><reg>cause</reg></choice></w>, <w><choice><orig>ſur</orig><reg>sur</reg></choice></w>
+               
+               <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/>
+               
+               <lb/>peine de <w><choice><orig>confiſcation</orig><reg>confiscation</reg></choice></w> des exemplaires contrefaits,
+               <lb/>quinze cens liures d’amande, dépens, dom-
+               <lb break="no"/>mages, &amp; <w><choice><orig>intereſts</orig><reg>interests</reg></choice></w>, à la charge d’en mettre deux
+               <lb/>Exemplaires en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Bibliotheque publique, vn
+               <lb/>autre en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Cabinet des Liures en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Cha-
+                  <lb break="no"/>ſteau</orig><reg>Cha-
+                  steau</reg></choice></w> du Louure, &amp; vn autre en la Bibliotheque de
+               <lb/><w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> tres-cher, &amp; feal Cheualier, Chancellier de
+               <lb/>France le Sieur Seguyer, à peine de nullité des
+               <lb/><w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, du contenu <w><choice><orig>deſquelles</orig><reg>desquelles</reg></choice></w> Nous vous
+               <lb/>mandons, &amp; enjoignons de faire joüir l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>,
+               <lb/>&amp; <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> ayans <w><choice><orig>cauſe</orig><reg>cause</reg></choice></w>, pleinement &amp; <w><choice><orig>paiſiblement</orig><reg>paisiblement</reg></choice></w>, <w><choice><orig>ceſ-
+                  <lb break="no"/>ſant</orig><reg>ces-
+                  sant</reg></choice></w>, &amp; <w><choice><orig>faiſant</orig><reg>faisant</reg></choice></w> <w><choice><orig>ceſſer</orig><reg>cesser</reg></choice></w> tous troubles &amp; <w><choice><orig>empeſche-
+                     <lb break="no"/>mens</orig><reg>empesche-
+                     mens</reg></choice></w> au contraire. Voulons qu’en mettant au
+               <lb/>commencement, ou à la fin de chacun des Liures
+               <lb/>l’Extrait des <w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, elles <w><choice><orig>ſoient</orig><reg>soient</reg></choice></w> tenuës pour
+               <lb/>deuëment <w><choice><orig>ſignifiées</orig><reg>signifiées</reg></choice></w>, &amp; qu’aux coppies collation-
+               <lb break="no"/>nées par l’vn de nos amez, &amp; feaux <w><choice><orig>Conſeillers</orig><reg>Conseillers</reg></choice></w><choice><sic>.</sic><corr>,</corr></choice> &amp;
+               <lb/>Secretaires, foy <w><choice><orig>ſoit</orig><reg>soit</reg></choice></w> adjoûtée comme à l’original
+               <lb/><hi rend="small-caps">Mandons</hi> au premier <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Huiſſier</orig><reg>Huissier</reg></choice></w> ou Ser-
+               <lb break="no"/>gent faire pour l’execution des <w><choice><orig>Preſentes</orig><reg>Presentes</reg></choice></w>, toutes
+               <lb/><w><choice><orig>ſignifications</orig><reg>significations</reg></choice></w>, <w><choice><orig>deffenſes</orig><reg>deffenses</reg></choice></w>, <w><choice><orig>ſaiſies</orig><reg>saisies</reg></choice></w>, &amp; autres actes
+               <lb/>requis &amp; <w><choice><orig>neceſſaires</orig><reg>necessaires</reg></choice></w>, <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> demander autre <w><choice><orig>permiſ-
+                  <lb break="no"/>ſion</orig><reg>permis-
+                  sion</reg></choice></w>: Car tel <w><choice><orig>eſt</orig><reg>est</reg></choice></w> <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Plaiſir</orig><reg>Plaisir</reg></choice></w>. Donné à Paris le
+               <lb/>vingt-huitiéme jour de Decembre l’an de grace mil
+               <lb/><w><choice><orig>ſix</orig><reg>six</reg></choice></w> cens <w><choice><orig>ſoixante</orig><reg>soixante</reg></choice></w>-<w><choice><orig>ſept</orig><reg>sept</reg></choice></w>, &amp; de <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> regne le vingt-
+               <lb/><choice><corr><w><choice><orig>cinquieſmé</orig><reg>cinquiesmé</reg></choice></w></corr><corr><w><choice><orig>cinquieſme</orig><reg>cinquiesme</reg></choice></w></corr></choice>, Par le Roy en <w><choice><orig>ſon</orig><reg>son</reg></choice></w> <w><choice><orig>Conſeil</orig><reg>Conseil</reg></choice></w>. Signé,
+               <!-- signature? -->
+               <lb/><persName rend="small-caps">Demalon</persName>.
+            </p>
+            <p>
+               <lb/>Et ledit <w><choice><orig>ſieur</orig><reg>sieur</reg></choice></w> <persName>Racine</persName> a cedé <w><choice><orig>ſon</orig><reg>son</reg></choice></w> droit de Priui-
+               <lb break="no"/>lege à <persName><forename>Theodore</forename> <surname>Girard</surname></persName>, Marchand Libraire à Pa-
+               <lb break="no"/>ris, <w><choice><orig>ſuiuant</orig><reg>suiuant</reg></choice></w> l’accord fait entr’eux.
+            </p>
+            <p>
+               <lb/>Et ledit Girard a <w><choice><orig>aſſocié</orig><reg>associé</reg></choice></w> audit Priuilege <persName><forename>Thomas</forename>
+                  <lb/><surname>Iolly</surname></persName>, &amp; <persName><forename>Claude</forename> <surname>Barbin</surname></persName>, <w><choice><orig>auſſi</orig><reg>aussi</reg></choice></w> Marchands Libraires.
+            </p>
+            <p>
+               <lb/><hi rend="italic"><w><choice><orig>Regiſtré</orig><reg>Registré</reg></choice></w> <w><choice><orig>ſur</orig><reg>sur</reg></choice></w> le Liure de la Communauté</hi>.
+            </p>
+            
+            <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/>
+            
+            <gap reason="blankPages"/>
+            
+         </div>
+         
       </body>
      <back>
         
-        <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f112.image"/>
-        
-        <div xml:id="privilege">
-           <head rend="italic">PRIVILEGE DV ROY.</head>
+        <div xml:id="apparatus">
            <p>
-              <figure>
-                 <desc>Initiale</desc>
-                 <desc type="letter" subtype="L">L</desc>
-              </figure>
-              OVIS PAR LA GRACE DE DIEV,
-              <lb/>ROY DE FRANCE ET DE NAVARRE;
-              <lb/>A nos amez &amp; feaux <w><choice><orig>Conſeillers</orig><reg>Conseillers</reg></choice></w> les
-              <lb/>Gens tenans nos Cours de Parlement,
-              <lb/><w><choice><orig>Maiſtres</orig><reg>Maistres</reg></choice></w> des <w><choice><orig>ſifflent</orig><reg>sifflent</reg></choice></w> ordinaires
-              <lb/>de <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Hoſtel</orig><reg>Hostel</reg></choice></w>, <w><choice><orig>ſifflent</orig><reg>sifflent</reg></choice></w> de Paris, Baillifs, <w><choice><orig>Se-
-              <lb break="no"/>neſchaux</orig><reg>Se-
-              neschaux</reg></choice></w>, leurs Lieutenans Ciuils, &amp; autres nos
-              <lb/><w><choice><orig>Iuſticiers</orig><reg>Iusticiers</reg></choice></w>, &amp; Officiers qu’il appartiendra, Salut.
-              <lb/>Noftre bien amé <persName rend="small-caps"><forename>Iean</forename> <surname>Racine</surname></persName>, Prieur de l’Epi-
-              <lb break="no"/>nay, nous a fait <w><choice><orig>remonſtrer</orig><reg>remonstrer</reg></choice></w> qu’il a <w><choice><orig>compoſé</orig><reg>composé</reg></choice></w> vne
-              <lb/>Piece de Theatre, qu’il <w><choice><orig>deſireroit</orig><reg>desireroit</reg></choice></w> faire imprimer, &amp;
-              <lb/>donner au public, <w><choice><orig>ſous</orig><reg>sous</reg></choice></w> le titre de L’<title rend="italic">Andromaque</title>,
-              <lb/>mais il craint qu’ayant fait la <w><choice><orig>dépenſe</orig><reg>dépense</reg></choice></w> de l’<w><choice><orig>impreſ-
-              <lb break="no"/>ſion</orig><reg>impres-
-              sion</reg></choice></w> de ce Liure, d’autres n’<w><choice><orig>entrepriſſent</orig><reg>entreprissent</reg></choice></w> de l’im-
-              <lb break="no"/>primer à <w><choice><orig>ſon</orig><reg>son</reg></choice></w> prejudice, s’il n’auoit pour ce nos
-              <lb/>Lettres de Priuilege, qu’il nous a tres-humble-
-              <lb break="no"/>ment fait <w><choice><orig>ſupplier</orig><reg>supplier</reg></choice></w> de luy accorder. A <hi rend="small-caps">ces cavses</hi>
-              <lb/>voulans fauorablement traiter l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>, Nous
-              <lb/>luy auons permis &amp; accordé, permettons &amp; accor-
-              <lb break="no"/>dons par ces <w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, de faire imprimer ledit Li-
-              <lb break="no"/>ure, qui a pour titre L’<title rend="italic">Andromaque</title>, par tel Librai-
-              <lb break="no"/>re ou Imprimeur qu’il voudra <w><choice><orig>choiſir</orig><reg>choisir</reg></choice></w> de ceux par
-              <lb/>Nous <w><choice><orig>reſeruez</orig><reg>reseruez</reg></choice></w>, en tel volume, marge, caractere,
-              <lb/>&amp; autant de fois que bon luy <w><choice><orig>ſemblera</orig><reg>semblera</reg></choice></w>, pendant le
-              <lb/>temps de cinq années, à commencer du jour qu’il
-              <lb/><w><choice><orig>ſera</orig><reg>sera</reg></choice></w> acheué d’imprimer, &amp; le vendre &amp; <w><choice><orig>diſtribuër</orig><reg>distribuër</reg></choice></w>
-              <lb/><w><choice><orig>par tout</orig><reg>par tout</reg></choice></w> <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Royaume. <w><choice><orig>Faiſons</orig><reg>Faisons</reg></choice></w> <w><choice><orig>deffenſes</orig><reg>deffenses</reg></choice></w> à tous
-              <lb/>Libraires, Imprimeurs, ou autres, d’imprimer,
-              <lb/>faire imprimer, vendre, &amp; <w><choice><orig>diſtribuër</orig><reg>distribuër</reg></choice></w> ledit Liure
-              <lb/><w><choice><orig>ſous</orig><reg>sous</reg></choice></w> quelque pretexte que ce <w><choice><orig>ſoit</orig><reg>soit</reg></choice></w>, <w><choice><orig>meſme</orig><reg>mesme</reg></choice></w> d’<w><choice><orig>im-
-              <lb break="no"/>preſſion</orig><reg>im-
-              pression</reg></choice></w> étrangere, &amp; autrement, <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> le <w><choice><orig>conſente-
-              <lb break="no"/>ment</orig><reg>consente-
-              ment</reg></choice></w> de l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>, ou de <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> ayans <w><choice><orig>cauſe</orig><reg>cause</reg></choice></w>, <w><choice><orig>ſur</orig><reg>sur</reg></choice></w>
-              
-              <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/>
-              
-              <lb/>peine de <w><choice><orig>confiſcation</orig><reg>confiscation</reg></choice></w> des exemplaires contrefaits,
-              <lb/>quinze cens liures d’amande, dépens, dom-
-              <lb break="no"/>mages, &amp; <w><choice><orig>intereſts</orig><reg>interests</reg></choice></w>, à la charge d’en mettre deux
-              <lb/>Exemplaires en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Bibliotheque publique, vn
-              <lb/>autre en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> Cabinet des Liures en <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Cha-
-              <lb break="no"/>ſteau</orig><reg>Cha-
-              steau</reg></choice></w> du Louure, &amp; vn autre en la Bibliotheque de
-              <lb/><w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> tres-cher, &amp; feal Cheualier, Chancellier de
-              <lb/>France le Sieur Seguyer, à peine de nullité des
-              <lb/><w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, du contenu <w><choice><orig>deſquelles</orig><reg>desquelles</reg></choice></w> Nous vous
-              <lb/>mandons, &amp; enjoignons de faire joüir l’<w><choice><orig>Expoſant</orig><reg>Exposant</reg></choice></w>,
-              <lb/>&amp; <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> ayans <w><choice><orig>cauſe</orig><reg>cause</reg></choice></w>, pleinement &amp; <w><choice><orig>paiſiblement</orig><reg>paisiblement</reg></choice></w>, <w><choice><orig>ceſ-
-              <lb break="no"/>ſant</orig><reg>ces-
-              sant</reg></choice></w>, &amp; <w><choice><orig>faiſant</orig><reg>faisant</reg></choice></w> <w><choice><orig>ceſſer</orig><reg>cesser</reg></choice></w> tous troubles &amp; <w><choice><orig>empeſche-
-              <lb break="no"/>mens</orig><reg>empesche-
-              mens</reg></choice></w> au contraire. Voulons qu’en mettant au
-              <lb/>commencement, ou à la fin de chacun des Liures
-              <lb/>l’Extrait des <w><choice><orig>preſentes</orig><reg>presentes</reg></choice></w>, elles <w><choice><orig>ſoient</orig><reg>soient</reg></choice></w> tenuës pour
-              <lb/>deuëment <w><choice><orig>ſignifiées</orig><reg>signifiées</reg></choice></w>, &amp; qu’aux coppies collation-
-              <lb break="no"/>nées par l’vn de nos amez, &amp; feaux <w><choice><orig>Conſeillers</orig><reg>Conseillers</reg></choice></w><choice><sic>.</sic><corr>,</corr></choice> &amp;
-              <lb/>Secretaires, foy <w><choice><orig>ſoit</orig><reg>soit</reg></choice></w> adjoûtée comme à l’original
-              <lb/><hi rend="small-caps">Mandons</hi> au premier <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Huiſſier</orig><reg>Huissier</reg></choice></w> ou Ser-
-              <lb break="no"/>gent faire pour l’execution des <w><choice><orig>Preſentes</orig><reg>Presentes</reg></choice></w>, toutes
-              <lb/><w><choice><orig>ſignifications</orig><reg>significations</reg></choice></w>, <w><choice><orig>deffenſes</orig><reg>deffenses</reg></choice></w>, <w><choice><orig>ſaiſies</orig><reg>saisies</reg></choice></w>, &amp; autres actes
-              <lb/>requis &amp; <w><choice><orig>neceſſaires</orig><reg>necessaires</reg></choice></w>, <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> demander autre <w><choice><orig>permiſ-
-              <lb break="no"/>ſion</orig><reg>permis-
-              sion</reg></choice></w>: Car tel <w><choice><orig>eſt</orig><reg>est</reg></choice></w> <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> <w><choice><orig>Plaiſir</orig><reg>Plaisir</reg></choice></w>. Donné à Paris le
-              <lb/>vingt-huitiéme jour de Decembre l’an de grace mil
-              <lb/><w><choice><orig>ſix</orig><reg>six</reg></choice></w> cens <w><choice><orig>ſoixante</orig><reg>soixante</reg></choice></w>-<w><choice><orig>ſept</orig><reg>sept</reg></choice></w>, &amp; de <w><choice><orig>noſtre</orig><reg>nostre</reg></choice></w> regne le vingt-
-              <lb/><choice><corr><w><choice><orig>cinquieſmé</orig><reg>cinquiesmé</reg></choice></w></corr><corr><w><choice><orig>cinquieſme</orig><reg>cinquiesme</reg></choice></w></corr></choice>, Par le Roy en <w><choice><orig>ſon</orig><reg>son</reg></choice></w> <w><choice><orig>Conſeil</orig><reg>Conseil</reg></choice></w>. Signé,
-              <!-- signature? -->
-              <lb/><persName rend="small-caps">Demalon</persName>.
+              <app from="#castList_s" to="#castList_e">
+                 <lem wit="#ed1668a">Fils d’Agamemnon, Amant d’Hermionne</lem>
+                 <rdg wit="#ed1675">Fils d’Agamemnon</rdg>
+                 <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p146.jpg"/>
+              </app>
+              <app from="v5s" to="v5e">
+                 <lem wit="#ed1668a">Qui m'<w><choice><orig>euſt</orig><reg>eust</reg></choice></w> dit,</lem>
+                 <rdg wit="#ed1697">Qui l’<w><choice><orig>euſt</orig><reg>eust</reg></choice></w> dit?</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p151.jpg"/>
+              </app>
+              <app from="v12s" to="v12e">
+                 <lem wit="#ed1668a">Mycéne</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">l’Epire</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v31s" to="v31e">
+                 <lem wit="#ed1668a">apres tant</lem>
+                 <rdg wit="#ed1697">oubliant</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
+              </app>
+              <app from="v32s" to="v32e">
+                 <lem wit="#ed1668a">Peut-il vous inuiter</lem>
+                 <rdg wit="#ed1697">Pouvez-vous <w><choice><orig>conſentir</orig><reg>consentir</reg></choice></w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
+              </app>
+              <app from="v38s" to="v38e">
+                 <lem wit="#ed1668a">n’<w><choice><orig>inſulte</orig><reg>insulte</reg></choice></w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">n’accable</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v52s" to="v52e">
+                 <lem wit="#ed1668a">vanger</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">punir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p153.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v58s" to="v58e">
+                 <lem wit="#ed1668a">Dans</lem>
+                 <rdg wit="#ed1697">En</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+              </app>
+              <app from="v66s" to="v66e">
+                 <lem wit="#ed1668a">moy-<w><choice><orig>meſme</orig><reg>mesme</reg></choice></w></lem>
+                 <rdg wit="#ed1697">alors</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
+              </app>
+              <app from="v98s" to="v98e">
+                 <lem wit="#ed1668a"><w><choice><orig>tranſport</orig><reg>transport</reg></choice></w></lem>
+                 <rdg wit="#ed1697"><w><choice><orig>Deſtin</orig><reg>Destin</reg></choice></w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
+              </app>
+              <app from="v104s" to="v104e">
+                 <lem wit="#ed1668a">Cœur</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">bien</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p154.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app loc="v113">
+                 <lem wit="#ed1668a">Il luy cache <w><choice><orig>ſon</orig><reg>son</reg></choice></w> Fils, il <w><choice><orig>menaſſe</orig><reg>menasse</reg></choice></w> <w><choice><orig>ſa</orig><reg>sa</reg></choice></w> <w><choice><orig>teſte</orig><reg>teste</reg></choice></w>,</lem>
+                 <rdg wit="#ed1697">De <w><choice><orig>ſon</orig><reg>son</reg></choice></w> fils qu’il luy cache il menace la <w><choice><orig>teſte</orig><reg>teste</reg></choice></w></rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+              </app>
+              <app from="v122s" to="v122e">
+                 <lem wit="#ed1668a">perdre</lem>
+                 <rdg wit="#ed1697">punir</rdg>
+                 <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+              </app>
+              <app loc="v124">
+                 <lem wit="#ed1668a">Ses attraits <w><choice><orig>offenſez</orig><reg>offensez</reg></choice></w>, &amp; <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> yeux <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> pouuoir.</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">Son hymen differé, <w><choice><orig>ſes</orig><reg>ses</reg></choice></w> charmes <w><choice><orig>ſans</orig><reg>sans</reg></choice></w> pouvoir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v127s" to="v127e">
+                 <lem wit="#ed1668a">d’<w><choice><orig>appaiſer</orig><reg>appaiser</reg></choice></w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">de fléchir</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p151.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v144s" to="v144e">
+                 <lem wit="#ed1668a">ie me flate en <w><choice><orig>ſecret</orig><reg>secret</reg></choice></w></lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1675 #ed1687 #ed1697">j’<w><choice><orig>oſe</orig><reg>ose</reg></choice></w> icy me flatter</rdg>
+                    <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p152.jpg"/>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p156.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p156.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v184s" to="v184e">
+                 <lem wit="#ed1668a">des Captifs</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">d’un Captif</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p157.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p157.jpg"/>
+                 </rdgGrp>
+              </app>
+              <app from="v243s" to="v243e">
+                 <lem wit="#ed1668a">en ce jour</lem>
+                 <rdgGrp>
+                    <rdg wit="#ed1687 #ed1697">quelque jour</rdg>
+                    <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p160.jpg"/>
+                    <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p160.jpg"/>
+                 </rdgGrp>
+              </app>
            </p>
-           <p>
-              <lb/>Et ledit <w><choice><orig>ſieur</orig><reg>sieur</reg></choice></w> <persName>Racine</persName> a cedé <w><choice><orig>ſon</orig><reg>son</reg></choice></w> droit de Priui-
-              <lb break="no"/>lege à <persName><forename>Theodore</forename> <surname>Girard</surname></persName>, Marchand Libraire à Pa-
-              <lb break="no"/>ris, <w><choice><orig>ſuiuant</orig><reg>suiuant</reg></choice></w> l’accord fait entr’eux.
-           </p>
-           <p>
-              <lb/>Et ledit Girard a <w><choice><orig>aſſocié</orig><reg>associé</reg></choice></w> audit Priuilege <persName><forename>Thomas</forename>
-              <lb/><surname>Iolly</surname></persName>, &amp; <persName><forename>Claude</forename> <surname>Barbin</surname></persName>, <w><choice><orig>auſſi</orig><reg>aussi</reg></choice></w> Marchands Libraires.
-           </p>
-           <p>
-              <lb/><hi rend="italic"><w><choice><orig>Regiſtré</orig><reg>Registré</reg></choice></w> <w><choice><orig>ſur</orig><reg>sur</reg></choice></w> le Liure de la Communauté</hi>.
-           </p>
-           
-           <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/>
-           
-           <gap reason="blankPages"/>
-           
         </div>
+        
+        <div type="commentary">
+           <p>
+              <note anchored="true" target="v52e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
+              <note anchored="true" target="v66e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item">p.126</ref>.</note>
+              <note anchored="true" target="v124">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f158.item">p.131</ref>.</note>
+              <note anchored="true" target="v127e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item">préface</ref>.</note>
+              <note anchored="true" target="v144e">Cf. Subligny, <title>La folle querelle</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f15.item">préface</ref>.</note>
+           </p>
+        </div>
+        
      </back>
   </text>
 </TEI>
