@@ -7,7 +7,7 @@ Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Leve
 
 | Jour | Heure | Cours | Enseignant |
 |---|---|---|---|
-| 23/04 | matin | XPath et aux fondamentaux du langage XSLT | A. Pinche |
+| 23/04 | matin | XPath et fondamentaux du langage XSLT | A. Pinche |
 | 23/04 | après-midi I | XSLT: publication | M. Gille Levenson et S. Gabay |
 | 23/04 | après-midi II | Conférence: LaTeX et l'édition | Maïeul Rouquette |
 | 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
