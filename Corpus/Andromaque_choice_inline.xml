@@ -237,30 +237,22 @@
             <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f7.image"/>
 
             <docTitle>
-               <titlePart type="main">
-                  <lb/>ANDROMAQVE, </titlePart>
-               <titlePart type="sub">
-                  <lb/><hi rend="italic">TRAGEDIE.</hi> </titlePart>
+               <titlePart type="main"> <lb/>ANDROMAQVE, </titlePart>
+               <titlePart type="sub"> <lb/><hi rend="italic">TRAGEDIE.</hi> </titlePart>
             </docTitle>
 
             <figure>
                <graphic url="XXX"/>
             </figure>
 
-            <docImprint>
-               <lb/>A <pubPlace>PARIS,</pubPlace>
-               <lb/>Chez <publisher><hi rend="small-caps">Claude Barbin</hi></publisher>, au <placeName>Palais,
-               <lb/><w><choice>
+            <docImprint> <lb/>A <pubPlace>PARIS,</pubPlace> <lb/>Chez <publisher><hi rend="small-caps">Claude Barbin</hi></publisher>, au <placeName>Palais, <lb/><w><choice>
                <orig>ſur</orig>
                <reg>sur</reg>
                </choice></w> le <w><choice>
                <orig>ſecond</orig>
                <reg>second</reg>
-               </choice></w> Perron de la
-               <lb/>Sainte Chapelle</placeName>
-               <!-- ligne -->
-               <lb/><docDate when="1668">M. DC. LXVIII.</docDate>
-               <lb/><hi rend="italic">Auec Priuilege du Roy.</hi> </docImprint>
+               </choice></w> Perron de la <lb/>Sainte Chapelle</placeName>
+               <!-- ligne --> <lb/><docDate when="1668">M. DC. LXVIII.</docDate> <lb/><hi rend="italic">Auec Priuilege du Roy.</hi> </docImprint>
 
          </titlePage>
 
@@ -276,9 +268,7 @@
             <figure>
                <desc>Bandeau</desc>
             </figure>
-            <head>
-               <lb/>A
-               <lb/>MADAME. </head>
+            <head> <lb/>A <lb/>MADAME. </head>
             <note>La destinataire de la lettre est Henriette d'Angleterre (1644-†1670), épouse de Monsieur le frère du roi.</note>
 
             <opener> <figure>
@@ -286,8 +276,7 @@
                <desc type="initial" subtype="M">M</desc>
                </figure> <hi rend="italic">ADAME</hi>, </opener>
 
-            <p rend="italic">
-               <lb rend="alinea"/>Ce n’<w><choice>
+            <p rend="italic"> <lb rend="alinea"/>Ce n’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w> pas <w><choice>
@@ -296,29 +285,22 @@
                </choice></w> <w><choice>
                <orig>ſujet</orig>
                <reg>sujet</reg>
-               </choice></w> que&#x2028;
-               <lb/>je mets <w><choice>
+               </choice></w> que&#x2028; <lb/>je mets <w><choice>
                <orig>voſtre</orig>
                <reg>vostre</reg>
                </choice></w> <w><choice>
                <orig>illuſtre</orig>
                <reg>illustre</reg>
-               </choice></w> Nom à <fw type="sig">ã ij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f10.image"/> <fw type="head" place="center">EPISTRE.</fw>
-               <lb/>la <w><choice>
+               </choice></w> Nom à <fw type="sig">ã ij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f10.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb/>la <w><choice>
                <orig>teſte</orig>
                <reg>teste</reg>
                </choice></w> de cét <w><choice>
                <orig>Ouurage</orig>
                <reg>Ouurage</reg>
-               </choice></w>. Et de&#x2028;
-               <lb/>quel autre nom pourrois-je <w><choice>
-               <orig>eſ-
-                  <lb break="no"/>blouïr</orig>
-               <reg>eſ-
-                  <lb break="no"/>blouïr</reg>
-               </choice></w> les yeux de mes Lecteurs,&#x2028;
-               <lb/>que de celuy dont mes Specta-
-               <lb break="no"/>teurs ont <w><choice>
+               </choice></w>. Et de&#x2028; <lb/>quel autre nom pourrois-je <w><choice>
+               <orig>eſ-<lb break="no"/>blouïr</orig>
+               <reg>eſ-<lb break="no"/>blouïr</reg>
+               </choice></w> les yeux de mes Lecteurs,&#x2028; <lb/>que de celuy dont mes Specta-<lb break="no"/>teurs ont <w><choice>
                <orig>eſté</orig>
                <reg>esté</reg>
                </choice></w> <w><choice>
@@ -327,310 +309,223 @@
                </choice></w> <w><choice>
                <orig>heureuſement</orig>
                <reg>heureusement</reg>
-               </choice></w>&#x2028;
-               <lb/><w><choice>
+               </choice></w>&#x2028; <lb/><w><choice>
                <orig>eſblouïs</orig>
                <reg>esblouïs</reg>
                </choice></w>? On <w><choice>
                <orig>ſçauoit</orig>
                <reg>sçauoit</reg>
-               </choice></w> que
-               <lb/>VOSTRE ALTESSE
-               <lb/>ROYALE auoit daigné pren-
-               <lb break="no"/>dre <w><choice>
+               </choice></w> que <lb/>VOSTRE ALTESSE <lb/>ROYALE auoit daigné pren-<lb break="no"/>dre <w><choice>
                <orig>ſoin</orig>
                <reg>soin</reg>
-               </choice></w> de la conduite de ma&#x2028;
-               <lb/>Tragedie. On <w><choice>
+               </choice></w> de la conduite de ma&#x2028; <lb/>Tragedie. On <w><choice>
                <orig>ſçauoit</orig>
                <reg>sçauoit</reg>
-               </choice></w> que vous&#x2028;
-               <lb/>m’auiez <w><choice>
+               </choice></w> que vous&#x2028; <lb/>m’auiez <w><choice>
                <orig>preſté</orig>
                <reg>presté</reg>
-               </choice></w> quelques-vnes&#x2028;
-               <lb/>de vos lumieres, pour y adjoû-
-               <lb break="no"/>ter de nouueaux ornemens. On&#x2028;
-               <lb/><w><choice>
+               </choice></w> quelques-vnes&#x2028; <lb/>de vos lumieres, pour y adjoû-<lb break="no"/>ter de nouueaux ornemens. On&#x2028; <lb/><w><choice>
                <orig>ſçauoit</orig>
                <reg>sçauoit</reg>
-               </choice></w> enfin que vous l’auiez&#x2028;
-               <lb/>honnorée de quelques larmes,&#x2028;
-               <lb/>dés la premiere lecture que je&#x2028;
-               <lb/>vous en fis. Pardonnez-moy,
-               <lb/>MADAME, <w><choice>
+               </choice></w> enfin que vous l’auiez&#x2028; <lb/>honnorée de quelques larmes,&#x2028; <lb/>dés la premiere lecture que je&#x2028; <lb/>vous en fis. Pardonnez-moy, <lb/>MADAME, <w><choice>
                <orig>ſi</orig>
                <reg>si</reg>
                </choice></w> j’<w><choice>
                <orig>oſe</orig>
                <reg>ose</reg>
-               </choice></w> me
-               <lb/>vanter de cét heureux com- <gb n="ã3"/> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f11.image"/> <fw type="head" place="center">EPISTRE.</fw>
-               <lb break="no"/>mencement de <w><choice>
+               </choice></w> me <lb/>vanter de cét heureux com- <gb n="ã3"/> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f11.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb break="no"/>mencement de <w><choice>
                <orig>ſa</orig>
                <reg>sa</reg>
                </choice></w> <w><choice>
                <orig>deſtinée</orig>
                <reg>destinée</reg>
-               </choice></w>. Il
-               <lb/>me <w><choice>
+               </choice></w>. Il <lb/>me <w><choice>
                <orig>conſole</orig>
                <reg>console</reg>
                </choice></w> bien <w><choice>
                <orig>glorieuſement</orig>
                <reg>glorieusement</reg>
-               </choice></w>
-               <lb/>de la dureté de ceux qui ne&#x2028;
-               <lb/>voudroient pas s’en <w><choice>
+               </choice></w> <lb/>de la dureté de ceux qui ne&#x2028; <lb/>voudroient pas s’en <w><choice>
                <orig>laiſſer</orig>
                <reg>laisser</reg>
-               </choice></w> tou-
-               <lb break="no"/>cher. Ie leur&#x2028; permets de condam- <!-- Title sans @rend="italic" -->
-               <lb break="no"/>ner l’<title>Andromaque</title> tant qu’ils
-               <lb/>voudront,&#x2028; pourueû qu’il me <w><choice>
+               </choice></w> tou-<lb break="no"/>cher. Ie leur&#x2028; permets de condam- <!-- Title sans @rend="italic" --> <lb break="no"/>ner l’<title>Andromaque</title> tant qu’ils <lb/>voudront,&#x2028; pourueû qu’il me <w><choice>
                <orig>ſoit</orig>
                <reg>soit</reg>
-               </choice></w>&#x2028;
-               <lb/>permis d’apeller de toutes les
-               <lb/><w><choice>
+               </choice></w>&#x2028; <lb/>permis d’apeller de toutes les <lb/><w><choice>
                <orig>ſubtilitez</orig>
                <reg>subtilitez</reg>
                </choice></w> de leur <w><choice>
                <orig>eſprit</orig>
                <reg>esprit</reg>
-               </choice></w>, au Cœur&#x2028;
-               <lb/>de V. A. R. </p>
+               </choice></w>, au Cœur&#x2028; <lb/>de V. A. R. </p>
 
-            <p rend="italic">
-               <lb rend="alinea"/>Mais, MADAME, ce
-               <lb/>n’<w><choice>
+            <p rend="italic"> <lb rend="alinea"/>Mais, MADAME, ce <lb/>n’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w> pas <w><choice>
                <orig>ſeulement</orig>
                <reg>seulement</reg>
-               </choice></w> du cœur que
-               <lb/>vous jugez de la bonté
-               <lb/>d’vn Ouurage, c’<w><choice>
+               </choice></w> du cœur que <lb/>vous jugez de la bonté <lb/>d’vn Ouurage, c’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
-               </choice></w> auec vne
-               <lb break="no"/>intelligence, qu’aucune <w><choice>
+               </choice></w> auec vne <lb break="no"/>intelligence, qu’aucune <w><choice>
                <orig>fauſſe</orig>
                <reg>fausse</reg>
-               </choice></w>
-               <lb/>lueur ne <w><choice>
+               </choice></w> <lb/>lueur ne <w><choice>
                <orig>ſçauroit</orig>
                <reg>sçauroit</reg>
-               </choice></w> tromper. Pou-
-               <lb break="no"/>uons-nous mettre <w><choice>
+               </choice></w> tromper. Pou-<lb break="no"/>uons-nous mettre <w><choice>
                <orig>ſur</orig>
                <reg>sur</reg>
-               </choice></w> la Scene
-               <lb/>vne <w><choice>
+               </choice></w> la Scene <lb/>vne <w><choice>
                <orig>Hiſtoire</orig>
                <reg>Histoire</reg>
                </choice></w> que vous ne <w><choice>
-               <orig>poſ- <fw type="sig">à iij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f12.image"/> <fw type="head" place="center">EPISTRE.</fw>
-                  <lb break="no"/>ſediez</orig>
-               <reg>poſ- <fw type="sig">à iij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f12.image"/> <fw type="head" place="center">EPISTRE.</fw>
-                  <lb break="no"/>ſediez</reg>
+               <orig>poſ- <fw type="sig">à iij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f12.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb break="no"/>ſediez</orig>
+               <reg>poſ- <fw type="sig">à iij</fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f12.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb break="no"/>ſediez</reg>
                </choice></w> <w><choice>
                <orig>außi</orig>
                <reg>außi</reg>
-               </choice></w> bien que Nous?
-               <lb/>Pouuons-&#x2028;nous faire joüer vne
-               <lb/>intrigue,&#x2028; dont vous ne pene-
-               <lb break="no"/>triez tous les&#x2028; <w><choice>
+               </choice></w> bien que Nous? <lb/>Pouuons-&#x2028;nous faire joüer vne <lb/>intrigue,&#x2028; dont vous ne pene-<lb break="no"/>triez tous les&#x2028; <w><choice>
                <orig>reſſorts</orig>
                <reg>ressorts</reg>
-               </choice></w>? Et pou-
-               <lb break="no"/>uons-nous conceuoir des <w><choice>
-               <orig>ſenti-
-                  <lb break="no"/>mens</orig>
-               <reg>ſenti-
-                  <lb break="no"/>mens</reg>
+               </choice></w>? Et pou-<lb break="no"/>uons-nous conceuoir des <w><choice>
+               <orig>ſenti-<lb break="no"/>mens</orig>
+               <reg>ſenti-<lb break="no"/>mens</reg>
                </choice></w> <w><choice>
                <orig>ſi</orig>
                <reg>si</reg>
                </choice></w> nobles&#x2028; &amp; <w><choice>
                <orig>ſi</orig>
                <reg>si</reg>
-               </choice></w> delicats,
-               <lb/>qui ne <w><choice>
+               </choice></w> delicats, <lb/>qui ne <w><choice>
                <orig>ſoient</orig>
                <reg>soient</reg>
                </choice></w> infiniment au <w><choice>
-               <orig>deſ-
-                  <lb break="no"/>ſous</orig>
-               <reg>deſ-
-                  <lb break="no"/>ſous</reg>
+               <orig>deſ-<lb break="no"/>ſous</orig>
+               <reg>deſ-<lb break="no"/>ſous</reg>
                </choice></w> de la <w><choice>
                <orig>nobleſſe</orig>
                <reg>noblesse</reg>
                </choice></w> &amp; de la <w><choice>
-               <orig>deli-
-                  <lb break="no"/>cateſſe</orig>
-               <reg>deli-
-                  <lb break="no"/>cateſſe</reg>
+               <orig>deli-<lb break="no"/>cateſſe</orig>
+               <reg>deli-<lb break="no"/>cateſſe</reg>
                </choice></w> de vos&#x2028; <w><choice>
                <orig>penſées</orig>
                <reg>pensées</reg>
                </choice></w>? </p>
 
-            <p rend="italic">
-               <lb rend="alinea"/>On <w><choice>
+            <p rend="italic"> <lb rend="alinea"/>On <w><choice>
                <orig>ſçait</orig>
                <reg>sçait</reg>
-               </choice></w>, MADAME,
-               <lb/>&amp; V. A. R. a beau s’en ca-
-               <lb break="no"/>cher, que dans ce haut degré&#x2028;
-               <lb/>de gloire où la Nature &amp; la&#x2028;
-               <lb/>Fortune ont pris <w><choice>
+               </choice></w>, MADAME, <lb/>&amp; V. A. R. a beau s’en ca-<lb break="no"/>cher, que dans ce haut degré&#x2028; <lb/>de gloire où la Nature &amp; la&#x2028; <lb/>Fortune ont pris <w><choice>
                <orig>plaiſir</orig>
                <reg>plaisir</reg>
-               </choice></w> de vous
-               <lb/><w><choice>
+               </choice></w> de vous <lb/><w><choice>
                <orig>eſleuer</orig>
                <reg>esleuer</reg>
                </choice></w>, Vous ne <w><choice>
                <orig>deſdaignez</orig>
                <reg>desdaignez</reg>
-               </choice></w>&#x2028;
-               <lb/>pas cette gloire <w><choice>
+               </choice></w>&#x2028; <lb/>pas cette gloire <w><choice>
                <orig>obſcure</orig>
                <reg>obscure</reg>
-               </choice></w> que les&#x2028;
-               <lb/>gens de lettres s’<w><choice>
+               </choice></w> que les&#x2028; <lb/>gens de lettres s’<w><choice>
                <orig>eſtoient</orig>
                <reg>estoient</reg>
                </choice></w> <w><choice>
-               <orig>reſer-
-                  <lb break="no"/>uée</orig>
-               <reg>reſer-
-                  <lb break="no"/>uée</reg>
+               <orig>reſer-<lb break="no"/>uée</orig>
+               <reg>reſer-<lb break="no"/>uée</reg>
                </choice></w>. Et il <w><choice>
                <orig>ſemble</orig>
                <reg>semble</reg>
-               </choice></w> que vous <gb n="ã4"/> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f13.image"/> <fw type="head" place="center">EPISTRE.</fw>
-               <lb/>ayez voulu auoir autant d’a-
-               <lb break="no"/>uantage <w><choice>
+               </choice></w> que vous <gb n="ã4"/> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f13.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb/>ayez voulu auoir autant d’a-<lb break="no"/>uantage <w><choice>
                <orig>ſur</orig>
                <reg>sur</reg>
                </choice></w> <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
-               </choice></w> Sexe par les&#x2028;
-               <lb/><w><choice>
+               </choice></w> Sexe par les&#x2028; <lb/><w><choice>
                <orig>connoiſſances</orig>
                <reg>connoissances</reg>
                </choice></w> &amp; par la <w><choice>
                <orig>ſolidité</orig>
                <reg>solidité</reg>
-               </choice></w>&#x2028;
-               <lb/>de <w><choice>
+               </choice></w>&#x2028; <lb/>de <w><choice>
                <orig>voſtre</orig>
                <reg>vostre</reg>
                </choice></w> <w><choice>
                <orig>eſprit</orig>
                <reg>esprit</reg>
-               </choice></w>, que vous ex-
-               <lb break="no"/>cellez dans le <w><choice>
+               </choice></w>, que vous ex-<lb break="no"/>cellez dans le <w><choice>
                <orig>voſtre</orig>
                <reg>vostre</reg>
-               </choice></w> par toutes&#x2028;
-               <lb/>les graces qui vous enuironnent.&#x2028;
-               <lb/>La Cour vous regarde comme&#x2028;
-               <lb/>l’Arbitre de tout ce qui <w><choice>
+               </choice></w> par toutes&#x2028; <lb/>les graces qui vous enuironnent.&#x2028; <lb/>La Cour vous regarde comme&#x2028; <lb/>l’Arbitre de tout ce qui <w><choice>
                <orig>ſe</orig>
                <reg>se</reg>
-               </choice></w> fait&#x2028;
-               <lb/>d’agreable. Et nous qui tra-
-               <lb break="no"/>uaillons pour plaire au public,
-               <lb/>nous n’auons plus que faire de&#x2028;
-               <lb/>demander aux Sçauans <w><choice>
+               </choice></w> fait&#x2028; <lb/>d’agreable. Et nous qui tra-<lb break="no"/>uaillons pour plaire au public, <lb/>nous n’auons plus que faire de&#x2028; <lb/>demander aux Sçauans <w><choice>
                <orig>ſi</orig>
                <reg>si</reg>
-               </choice></w> nous&#x2028;
-               <lb/>trauaillons <w><choice>
+               </choice></w> nous&#x2028; <lb/>trauaillons <w><choice>
                <orig>ſelon</orig>
                <reg>selon</reg>
-               </choice></w> les Regles.&#x2028;
-               <lb/>La Regle <w><choice>
+               </choice></w> les Regles.&#x2028; <lb/>La Regle <w><choice>
                <orig>ſouueraine</orig>
                <reg>souueraine</reg>
                </choice></w>, <w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
-               </choice></w> de plai-
-               <lb break="no"/>re à V. A. R. </p>
+               </choice></w> de plai-<lb break="no"/>re à V. A. R. </p>
 
-            <p rend="italic">
-               <lb rend="alinea"/>Voila <w><choice>
+            <p rend="italic"> <lb rend="alinea"/>Voila <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
-               </choice></w> doute la moin-
-               <lb break="no"/>dre de vos excellentes qual-
-               <lb break="no"/>itez. Mais, MADAME, <fw type="sig"><choice>
+               </choice></w> doute la moin-<lb break="no"/>dre de vos excellentes qual-<lb break="no"/>itez. Mais, MADAME, <fw type="sig"><choice>
                <sic>ã iij</sic>
                <corr>ã iv</corr>
-               </choice></fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f14.image"/> <fw type="head" place="center">EPISTRE.</fw>
-               <lb/>c’<w><choice>
+               </choice></fw> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f14.image"/> <fw type="head" place="center">EPISTRE.</fw> <lb/>c’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w> la <w><choice>
                <orig>ſeule</orig>
                <reg>seule</reg>
-               </choice></w> dont j’ay pû parler&#x2028;
-               <lb/>auec quelque <w><choice>
+               </choice></w> dont j’ay pû parler&#x2028; <lb/>auec quelque <w><choice>
                <orig>connoiſſance</orig>
                <reg>connoissance</reg>
-               </choice></w>; les&#x2028;
-               <lb/>autres <w><choice>
+               </choice></w>; les&#x2028; <lb/>autres <w><choice>
                <orig>ſont</orig>
                <reg>sont</reg>
                </choice></w> trop éleuées au <w><choice>
                <orig>deſſus</orig>
                <reg>dessus</reg>
-               </choice></w>&#x2028;
-               <lb/>de moy. Ie n’en puis parler <w><choice>
+               </choice></w>&#x2028; <lb/>de moy. Ie n’en puis parler <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
-               </choice></w>&#x2028;
-               <lb/>les <w><choice>
+               </choice></w>&#x2028; <lb/>les <w><choice>
                <orig>rabaiſſer</orig>
                <reg>rabaisser</reg>
                </choice></w> par la <w><choice>
                <orig>foibleſſe</orig>
                <reg>foiblesse</reg>
-               </choice></w> de&#x2028;
-               <lb/>mes pensées, &amp; <w><choice>
+               </choice></w> de&#x2028; <lb/>mes pensées, &amp; <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
                </choice></w> <w><choice>
                <orig>ſortir</orig>
                <reg>sortir</reg>
-               </choice></w> de la&#x2028;
-               <lb/>profonde veneration auec la-
-               <lb break="no"/>quelle je <w><choice>
+               </choice></w> de la&#x2028; <lb/>profonde veneration auec la-<lb break="no"/>quelle je <w><choice>
                <orig>ſuis</orig>
                <reg>suis</reg>
                </choice></w>, </p>
 
             <!-- Mise en page? -->
 
-            <closer> <salute><hi rend="italic">MADAME</hi>,
-               <lb/>DE VOSTRE ALTESSE ROYALE,
-               <lb/>Le tres-humble, tres-<w><choice>
-               <orig>obeïſ-
-                  <lb break="no"/>ſant</orig>
-               <reg>obeïſ-
-                  <lb break="no"/>ſant</reg>
+            <closer> <salute><hi rend="italic">MADAME</hi>, <lb/>DE VOSTRE ALTESSE ROYALE, <lb/>Le tres-humble, tres-<w><choice>
+               <orig>obeïſ-<lb break="no"/>ſant</orig>
+               <reg>obeïſ-<lb break="no"/>ſant</reg>
                </choice></w>, &amp; tres-fidelle <w><choice>
-               <orig>ſerui-
-                  <lb break="no"/>teur</orig>
-               <reg>ſerui-
-                  <lb break="no"/>teur</reg>
+               <orig>ſerui-<lb break="no"/>teur</orig>
+               <reg>ſerui-<lb break="no"/>teur</reg>
                </choice></w>, </salute><signed><persName>RACINE</persName></signed>. </closer>
          </div>
 
@@ -642,12 +537,9 @@
                <desc>Bandeau</desc>
             </figure>
 
-            <head rend="center">VIRGILE
-               <lb/>AU TROISIESME LIVRE
-               <lb/>DE L'ENEIDE. </head>
+            <head rend="center">VIRGILE <lb/>AU TROISIESME LIVRE <lb/>DE L'ENEIDE. </head>
 
-            <p rend="center">
-               <lb/>C’<w><choice>
+            <p rend="center"> <lb/>C’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w> Enée qui parle. </p>
@@ -655,8 +547,7 @@
                <l> <figure>
                   <desc>Lettrine</desc>
                   <desc type="initial" subtype="L">L</desc>
-                  </figure> ittoraque Epeiri legimus, portuque
-                  <lb/><w><choice>
+                  </figure> ittoraque Epeiri legimus, portuque <lb/><w><choice>
                   <orig>ſubimus</orig>
                   <reg>subimus</reg>
                   </choice></w></l>
@@ -664,10 +555,8 @@
                   <orig>celſam</orig>
                   <reg>celsam</reg>
                   </choice></w> Buthroti <w><choice>
-                  <orig>aſcen-
-                     <lb break="no"/>dimus</orig>
-                  <reg>aſcen-
-                     <lb break="no"/>dimus</reg>
+                  <orig>aſcen-<lb break="no"/>dimus</orig>
+                  <reg>aſcen-<lb break="no"/>dimus</reg>
                   </choice></w> Vrbem.</l>
                <l>Sollemnes tum forte dapes, &amp; <w><choice>
                   <orig>triſtia</orig>
@@ -738,8 +627,7 @@
                <l>Ledæam Hermionem, <w><choice>
                   <orig>Lacedæmonioſque</orig>
                   <reg>Lacedæmoniosque</reg>
-                  </choice></w> hyme-
-                  <lb break="no"/>næos....</l>
+                  </choice></w> hyme-<lb break="no"/>næos....</l>
 
                <fw type="sig">ã v</fw>
                <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f16.image"/>
@@ -764,8 +652,7 @@
                      <orig>patriaſque</orig>
                      <reg>patriasque</reg>
                      </choice></w></expan>
-                  </choice> obtruncat ad
-                  <lb/>Aras.</l>
+                  </choice> obtruncat ad <lb/>Aras.</l>
             </lg>
             <note type="translation" corresp="#vergilQuote"> « […] nous longeons les côtes de l’Épire, nous entrons dans le port des Chaones et nous dirigeons vers la haute ville de Buthrote. […] Il y avait, ce jour, cérémonie solennelle, offrandes funèbres ; […] Andromaque sur la cendre versait la
                libation, elle appelait les Mânes près d’un tombeau d’Hector. Vide, hélas ! elle l’avait saintement paré de gazon vert, avec deux autels où retrouver ses larmes. […] Elle baissa le visage et murmura d’une voix défaite : ‘‘Ô seule heureuse avant toutes, la vierge Priamide qui reçut
@@ -773,51 +660,39 @@
                et son insolente jeunesse, nous avons enfanté dans la servitude. Puis, […] il a suivi la petite-fille de Léda, Hermione, un hyménée lacédémonien […]. Mais follement enflammé par l’amour de l’épouse qui lui était ravie, poursuivi par les furies de ses crimes, Oreste le surprend à
                l’improviste et le tue devant les autels de ses pères.’’ » Version condensée de Virgile, <title>Énéide</title>, chant III, vv. 292.332. </note>
 
-            <p>
-               <lb rend="alinea"/>Voila en peu de Vers tout le <w><choice>
+            <p> <lb rend="alinea"/>Voila en peu de Vers tout le <w><choice>
                <orig>ſujet</orig>
                <reg>sujet</reg>
-               </choice></w> de cette
-               <lb/>Tragedie. Voila le lieu de la Scene, l’Action
-               <lb/>qui s’y <w><choice>
+               </choice></w> de cette <lb/>Tragedie. Voila le lieu de la Scene, l’Action <lb/>qui s’y <w><choice>
                <orig>paſſe</orig>
                <reg>passe</reg>
-               </choice></w>, les quatre principaux Acteurs, &amp;
-               <lb/><w><choice>
+               </choice></w>, les quatre principaux Acteurs, &amp; <lb/><w><choice>
                <orig>meſme</orig>
                <reg>mesme</reg>
-               </choice></w> leurs Caracteres. Excepté celuy <persName ref="#hermione">d’Her-
-               <lb break="no"/>mionne</persName>, dont la <w><choice>
+               </choice></w> leurs Caracteres. Excepté celuy <persName ref="#hermione">d’Her-<lb break="no"/>mionne</persName>, dont la <w><choice>
                <orig>jalouſie</orig>
                <reg>jalousie</reg>
-               </choice></w> &amp; les emportemens
-               <lb/><w><choice>
+               </choice></w> &amp; les emportemens <lb/><w><choice>
                <orig>ſont</orig>
                <reg>sont</reg>
                </choice></w> <w><choice>
                <orig>aſſez</orig>
                <reg>assez</reg>
-               </choice></w> marquez dans l’<title>Andromaque</title> d’<persName ref="#euripide">Eu-
-               <lb break="no"/>ripide</persName>. </p>
+               </choice></w> marquez dans l’<title>Andromaque</title> d’<persName ref="#euripide">Eu-<lb break="no"/>ripide</persName>. </p>
 
-            <p>
-               <lb rend="alinea"/>Mais veritablement mes <w><choice>
+            <p> <lb rend="alinea"/>Mais veritablement mes <w><choice>
                <orig>Perſonnages</orig>
                <reg>Personnages</reg>
                </choice></w> <w><choice>
                <orig>ſont</orig>
                <reg>sont</reg>
-               </choice></w>
-               <lb/><w><choice>
+               </choice></w> <lb/><w><choice>
                <orig>ſi</orig>
                <reg>si</reg>
-               </choice></w> fameux dans l’Antiquité, que pour peu qu’on
-               <lb/>la <w><choice>
+               </choice></w> fameux dans l’Antiquité, que pour peu qu’on <lb/>la <w><choice>
                <orig>connoiſſe</orig>
                <reg>connoisse</reg>
-               </choice></w>, on verra fort bien que je les ay
-               <lb/>rendus tels, que les anciens Poëtes nous les ont
-               <lb/>donnez. <w><choice>
+               </choice></w>, on verra fort bien que je les ay <lb/>rendus tels, que les anciens Poëtes nous les ont <lb/>donnez. <w><choice>
                <orig>Auſſi</orig>
                <reg>Aussi</reg>
                </choice></w> n’ay-je pas <w><choice>
@@ -826,31 +701,24 @@
                </choice></w> qu’il me <w><choice>
                <orig>fuſt</orig>
                <reg>fust</reg>
-               </choice></w>
-               <lb/>permis de rien changer à leurs mœurs. Toute
-               <lb/>la liberté que j’ay <w><choice>
+               </choice></w> <lb/>permis de rien changer à leurs mœurs. Toute <lb/>la liberté que j’ay <w><choice>
                <orig>priſe</orig>
                <reg>prise</reg>
                </choice></w>, ç’a <w><choice>
                <orig>eſté</orig>
                <reg>esté</reg>
-               </choice></w> d’adoucir vn
-               <lb/>peu la ferocité de <persName ref="#pyrrhus">Pyrrhus</persName>, que <persName ref="#seneque">Seneque</persName> dans
-               <lb/><w><choice>
+               </choice></w> d’adoucir vn <lb/>peu la ferocité de <persName ref="#pyrrhus">Pyrrhus</persName>, que <persName ref="#seneque">Seneque</persName> dans <lb/><w><choice>
                <orig>ſa</orig>
                <reg>sa</reg>
                </choice></w> <title>Troade</title>, &amp; <persName ref="#virgile">Virgile</persName> dans le <w><choice>
                <orig>ſecond</orig>
                <reg>second</reg>
-               </choice></w> de l’<title>E-
-               <lb break="no"/>neïde</title>, ont <w><choice>
+               </choice></w> de l’<title>E-<lb break="no"/>neïde</title>, ont <w><choice>
                <orig>pouſſée</orig>
                <reg>poussée</reg>
-               </choice></w> beaucoup plus loin, que je
-               <lb/>n’ay crû le deuoir faire. </p>
+               </choice></w> beaucoup plus loin, que je <lb/>n’ay crû le deuoir faire. </p>
 
-            <p>
-               <lb rend="alinea"/>Encore s’<w><choice>
+            <p> <lb rend="alinea"/>Encore s’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w>-il trouué des Gens qui <w><choice>
@@ -859,29 +727,24 @@
                </choice></w> <w><choice>
                <orig>ſont</orig>
                <reg>sont</reg>
-               </choice></w>
-               <lb/>plaints qu’il s’<w><choice>
+               </choice></w> <lb/>plaints qu’il s’<w><choice>
                <orig>emportaſt</orig>
                <reg>emportast</reg>
-               </choice></w> contre <persName ref="#andromaque">Andromaque</persName>,
-               <lb/>&amp; qu’il <w><choice>
+               </choice></w> contre <persName ref="#andromaque">Andromaque</persName>, <lb/>&amp; qu’il <w><choice>
                <orig>vouluſt</orig>
                <reg>voulust</reg>
                </choice></w> <w><choice>
                <orig>épouſer</orig>
                <reg>épouser</reg>
-               </choice></w> cette Captiue à quel-
-               <lb break="no"/>que prix que ce <w><choice>
+               </choice></w> cette Captiue à quel-<lb break="no"/>que prix que ce <w><choice>
                <orig>fuſt</orig>
                <reg>fust</reg>
                </choice></w>. I’auouë qu’il n’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
                </choice></w> pas <w><choice>
-               <orig>aſ-
-                  <lb break="no"/>ſez</orig>
-               <reg>aſ-
-                  <lb break="no"/>ſez</reg>
+               <orig>aſ-<lb break="no"/>ſez</orig>
+               <reg>aſ-<lb break="no"/>ſez</reg>
                </choice></w> <w><choice>
                <orig>reſigné</orig>
                <reg>resigné</reg>
@@ -891,132 +754,99 @@
                </choice></w> <w><choice>
                <orig>Maiſtreſſe</orig>
                <reg>Maistresse</reg>
-               </choice></w>, &amp; que
-               <lb/>Celadon a mieux connu que luy le parfait
-               <lb/>Amour. Mais que faire? <persName ref="#pyrrhus">Pyrrhus</persName> n’auoit pas
-               <lb/>lû nos Romans. Il <w><choice>
+               </choice></w>, &amp; que <lb/>Celadon a mieux connu que luy le parfait <lb/>Amour. Mais que faire? <persName ref="#pyrrhus">Pyrrhus</persName> n’auoit pas <lb/>lû nos Romans. Il <w><choice>
                <orig>eſtoit</orig>
                <reg>estoit</reg>
                </choice></w> violent de <w><choice>
                <orig>ſon</orig>
                <reg>son</reg>
-               </choice></w> natu-
-               <lb break="no"/>rel. Et tous les Heros ne <w><choice>
+               </choice></w> natu-<lb break="no"/>rel. Et tous les Heros ne <w><choice>
                <orig>ſont</orig>
                <reg>sont</reg>
-               </choice></w> pas faits pour
-               <lb/><w><choice>
+               </choice></w> pas faits pour <lb/><w><choice>
                <orig>eſtre</orig>
                <reg>estre</reg>
                </choice></w> des <persName>Celadons</persName>. <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f17.image"/> </p>
 
-            <p>
-               <lb rend="alinea"/>Quoy qu’il en <w><choice>
+            <p> <lb rend="alinea"/>Quoy qu’il en <w><choice>
                <orig>ſoit</orig>
                <reg>soit</reg>
                </choice></w>, le Public m’a <w><choice>
                <orig>eſté</orig>
                <reg>esté</reg>
-               </choice></w> trop
-               <lb/>fauorable, pour m’<w><choice>
+               </choice></w> trop <lb/>fauorable, pour m’<w><choice>
                <orig>embaraſſer</orig>
                <reg>embarasser</reg>
-               </choice></w> du chagrin par-
-               <lb break="no"/>ticulier de deux ou trois <w><choice>
+               </choice></w> du chagrin par-<lb break="no"/>ticulier de deux ou trois <w><choice>
                <orig>perſonnes</orig>
                <reg>personnes</reg>
-               </choice></w>, qui vou-
-               <lb break="no"/>droient qu’on <w><choice>
+               </choice></w>, qui vou-<lb break="no"/>droient qu’on <w><choice>
                <orig>reformaſt</orig>
                <reg>reformast</reg>
-               </choice></w> tous les Heros de
-               <lb/>l’Antiquité, pour en faire des Heros parfaits.
-               <lb/>Ie trouue leur intention fort bonne, de vou-
-               <lb break="no"/>loir qu’on ne mette <w><choice>
+               </choice></w> tous les Heros de <lb/>l’Antiquité, pour en faire des Heros parfaits. <lb/>Ie trouue leur intention fort bonne, de vou-<lb break="no"/>loir qu’on ne mette <w><choice>
                <orig>ſur</orig>
                <reg>sur</reg>
-               </choice></w> la Scene que des hom-
-               <lb break="no"/>mes impeccables. Mais je les prie de <w><choice>
+               </choice></w> la Scene que des hom-<lb break="no"/>mes impeccables. Mais je les prie de <w><choice>
                <orig>ſe</orig>
                <reg>se</reg>
                </choice></w> <w><choice>
-               <orig>ſouue-
-                  <lb break="no"/>nir</orig>
-               <reg>ſouue-
-                  <lb break="no"/>nir</reg>
+               <orig>ſouue-<lb break="no"/>nir</orig>
+               <reg>ſouue-<lb break="no"/>nir</reg>
                </choice></w>, que ce n’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
-               </choice></w> pas à moy de changer les re-
-               <lb break="no"/>gles du Theatre. <persName ref="#horace">Horace</persName> nous recommande
-               <lb/>de dépeindre <persName ref="#achille">Achile</persName>, farouche, inexorable,
-               <lb/>violent, tel qu’il <w><choice>
+               </choice></w> pas à moy de changer les re-<lb break="no"/>gles du Theatre. <persName ref="#horace">Horace</persName> nous recommande <lb/>de dépeindre <persName ref="#achille">Achile</persName>, farouche, inexorable, <lb/>violent, tel qu’il <w><choice>
                <orig>eſtoit</orig>
                <reg>estoit</reg>
-               </choice></w>, &amp; tel qu’on dépeint
-               <lb/><w><choice>
+               </choice></w>, &amp; tel qu’on dépeint <lb/><w><choice>
                <orig>ſon</orig>
                <reg>son</reg>
                </choice></w> Fils. Et <persName ref="#aristote"><w><choice>
                <orig>Ariſtote</orig>
                <reg>Aristote</reg>
-               </choice></w></persName> bien éloigné de nous de-
-               <lb break="no"/>mander des Heros parfaits, veut au contraire
-               <lb/>que les <w><choice>
+               </choice></w></persName> bien éloigné de nous de-<lb break="no"/>mander des Heros parfaits, veut au contraire <lb/>que les <w><choice>
                <orig>Perſonnages</orig>
                <reg>Personnages</reg>
                </choice></w> tragiques, c’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
-               </choice></w> à dire,
-               <lb/>ceux dont le <w><choice>
+               </choice></w> à dire, <lb/>ceux dont le <w><choice>
                <orig>mal-heur</orig>
                <reg>mal-heur</reg>
                </choice></w> fait la <w><choice>
                <orig>cataſtrophe</orig>
                <reg>catastrophe</reg>
-               </choice></w> de la
-               <lb/>Tragedie, ne <w><choice>
+               </choice></w> de la <lb/>Tragedie, ne <w><choice>
                <orig>ſoient</orig>
                <reg>soient</reg>
-               </choice></w> ny tout à fait bons, ny
-               <lb/>tout à fait méchans. Il ne veut pas qu’ils <w><choice>
+               </choice></w> ny tout à fait bons, ny <lb/>tout à fait méchans. Il ne veut pas qu’ils <w><choice>
                <orig>ſoient</orig>
                <reg>soient</reg>
-               </choice></w>
-               <lb/>extremément bons, parce que la punition d’vn
-               <lb/>homme de bien exciteroit <w><choice>
+               </choice></w> <lb/>extremément bons, parce que la punition d’vn <lb/>homme de bien exciteroit <w><choice>
                <orig>plûtoſt</orig>
                <reg>plûtost</reg>
-               </choice></w> l’indigna-
-               <lb break="no"/>tion, que la pitié du <w><choice>
+               </choice></w> l’indigna-<lb break="no"/>tion, que la pitié du <w><choice>
                <orig>ſpectateur</orig>
                <reg>spectateur</reg>
                </choice></w>; ny qu’ils <w><choice>
                <orig>ſoient</orig>
                <reg>soient</reg>
-               </choice></w>
-               <lb/>méchans auec excez, parce qu’on n’a point
-               <lb/>pitié d’vn <w><choice>
+               </choice></w> <lb/>méchans auec excez, parce qu’on n’a point <lb/>pitié d’vn <w><choice>
                <orig>ſcelerat</orig>
                <reg>scelerat</reg>
-               </choice></w>. Il faut donc qu’ils ayent
-               <lb/>vne bonté mediocre, c’<w><choice>
+               </choice></w>. Il faut donc qu’ils ayent <lb/>vne bonté mediocre, c’<w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
-               </choice></w> à dire, vne vertu
-               <lb/>capable de <w><choice>
+               </choice></w> à dire, vne vertu <lb/>capable de <w><choice>
                <orig>foibleſſe</orig>
                <reg>foiblesse</reg>
-               </choice></w>, &amp; qu’ils tombent dans
-               <lb/>le <w><choice>
+               </choice></w>, &amp; qu’ils tombent dans <lb/>le <w><choice>
                <orig>mal-heur</orig>
                <reg>mal-heur</reg>
                </choice></w> par quelque faute, qui les <w><choice>
                <orig>faſſe</orig>
                <reg>fasse</reg>
-               </choice></w>
-               <lb/>plaindre, <w><choice>
+               </choice></w> <lb/>plaindre, <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
                </choice></w> les faire <w><choice>
@@ -1081,8 +911,7 @@
                <desc>Bandeau</desc>
             </figure>
 
-            <head rend="center">ANDROMAQUE,
-               <lb/><hi rend="italic">TRAGEDIE.</hi></head>
+            <head rend="center">ANDROMAQUE, <lb/><hi rend="italic">TRAGEDIE.</hi></head>
 
             <figure>
                <desc>Frise</desc>
@@ -1128,10 +957,8 @@ _______________SCENE 1
                            </choice></w> ie retrouue vn Amy <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
-                           </choice></w>
-                           <lb/>fidelle,</l>
-                        <l n="2" xml:id="v2">Ma Fortune va prendre vne face nou-
-                           <lb break="no"/>uelle;</l>
+                           </choice></w> <lb/>fidelle,</l>
+                        <l n="2" xml:id="v2">Ma Fortune va prendre vne face nou-<lb break="no"/>uelle;</l>
                         <l n="3" xml:id="v3">Et déja <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
@@ -1141,8 +968,7 @@ _______________SCENE 1
                            </choice></w> s'<w><choice>
                            <orig>eſtre</orig>
                            <reg>estre</reg>
-                           </choice></w>
-                           <lb/>adouci,</l>
+                           </choice></w> <lb/>adouci,</l>
                         <l n="4" xml:id="v4">Depuis qu'elle a pris <w><choice>
                            <orig>ſoin</orig>
                            <reg>soin</reg>
@@ -1254,8 +1080,7 @@ _______________SCENE 1
                            </choice></w> d'allarmes?</l>
 >>>>>>> c5b1237d7096a020a3668232a76ed77daeb153b6
                         <l n="14" xml:id="v14">Combien à vos malheurs ay-je donné de larmes?</l>
-                        <l n="15" xml:id="v15">Craignant toûjours pour vous quelque nouueau
-                           <lb/>danger</l>
+                        <l n="15" xml:id="v15">Craignant toûjours pour vous quelque nouueau <lb/>danger</l>
                         <l n="16" xml:id="v16">Que ma <w><choice>
                            <orig>triſte</orig>
                            <reg>triste</reg>
@@ -1530,8 +1355,7 @@ _______________SCENE 1
                         <l n="49" xml:id="v49">Mais quand ie me <w><choice>
                            <orig>ſouuins</orig>
                            <reg>souuins</reg>
-                           </choice></w>, que parmy tant d’al-
-                           <lb break="no"/>larmes</l>
+                           </choice></w>, que parmy tant d’al-<lb break="no"/>larmes</l>
                         <l n="50" xml:id="v50"><persName ref="#hermione">Hermionne</persName> à <persName ref="#pyrrhus">Pyrrhus</persName> prodiguoit tous <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
@@ -1560,8 +1384,7 @@ _______________SCENE 1
                            </choice></w> pour des <w><choice>
                            <orig>tranſports</orig>
                            <reg>transports</reg>
-                           </choice></w> de
-                           <lb/>haine;</l>
+                           </choice></w> de <lb/>haine;</l>
                         <l n="55" xml:id="v55"><w><choice>
                            <orig>Déteſtant</orig>
                            <reg>Détestant</reg>
@@ -1896,8 +1719,7 @@ _______________SCENE 1
                            </choice></w> Cœur, dy-moy ce qui <w><choice>
                            <orig>ſe</orig>
                            <reg>se</reg>
-                           </choice></w>
-                           <lb/><w><choice>
+                           </choice></w> <lb/><w><choice>
                            <orig>paſſe</orig>
                            <reg>passe</reg>
                            </choice></w>.</l>
@@ -2058,8 +1880,7 @@ _______________SCENE 1
                         <l n="121" xml:id="v121">Il peut, Seigneur, il peut dans ce <w><choice>
                            <orig>deſordre</orig>
                            <reg>desordre</reg>
-                           </choice></w> extré-
-                           <lb break="no"/>me,</l>
+                           </choice></w> extré-<lb break="no"/>me,</l>
                         <l n="122" xml:id="v122"><w><choice>
                            <orig>Epouſer</orig>
                            <reg>Epouser</reg>
@@ -2306,6 +2127,7 @@ _______________SCENE 2
                      <speaker>ORESTE.</speaker>
                      <lg>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <l n="143" xml:id="v143"><hi rend="dropcap">A</hi>Vant que tous les Grecs vous parlent par ma <lb/>voix,</l>
                         <l n="144" xml:id="v144">Souffrez que <app from="#v144s" to="#v144e">
                  <lem wit="#ed1668a">ie me flate en <w><choice><orig>ſecret</orig><reg>secret</reg></choice></w></lem>
@@ -2319,6 +2141,9 @@ _______________SCENE 2
 =======
                         <l n="143" xml:id="v143"><hi rend="dropcap">A</hi>Vant que tous les Grecs vous parlent par ma
                            <lb/>voix,</l>
+=======
+                        <l n="143" xml:id="v143"><hi rend="dropcap">A</hi>Vant que tous les Grecs vous parlent par ma <lb/>voix,</l>
+>>>>>>> 765f347fdc82813f6bfcd44a501bb10317d4dfc3
                         <l n="144" xml:id="v144">Souffrez que
                            <app from="#v144s" to="#v144e">
                            <lem wit="#ed1668a">ie me flate en <w><choice>
@@ -2344,8 +2169,7 @@ _______________SCENE 2
                         <l n="147" xml:id="v147">Oüy: Comme <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
-                           </choice></w> exploits, nous admirons vos
-                           <lb/>coups;</l>
+                           </choice></w> exploits, nous admirons vos <lb/>coups;</l>
                         <l n="148" xml:id="v148">Hector tomba <w><choice>
                            <orig>ſous</orig>
                            <reg>sous</reg>
@@ -2386,8 +2210,7 @@ _______________SCENE 2
                         <l n="155" xml:id="v155">Ne vous <w><choice>
                            <orig>ſouuient</orig>
                            <reg>souuient</reg>
-                           </choice></w>-il plus, Seigneur, quel fut
-                           <lb/><persName ref="#hector">Hector</persName>?</l>
+                           </choice></w>-il plus, Seigneur, quel fut <lb/><persName ref="#hector">Hector</persName>?</l>
                         <l n="156" xml:id="v156">Nos peuples affoiblis s’en <w><choice>
                            <orig>ſouuiennent</orig>
                            <reg>souuiennent</reg>
@@ -2455,10 +2278,8 @@ _______________SCENE 2
                            <orig>ſoins</orig>
                            <reg>soins</reg>
                            </choice></w> craignez la <w><choice>
-                           <orig>recom-
-                              <lb break="no"/>penſe</orig>
-                           <reg>recom-
-                              <lb break="no"/>penſe</reg>
+                           <orig>recom-<lb break="no"/>penſe</orig>
+                           <reg>recom-<lb break="no"/>penſe</reg>
                            </choice></w>,</l>
                         <l n="167" xml:id="v167">Et que dans <w><choice>
                            <orig>voſtre</orig>
@@ -2565,8 +2386,7 @@ _______________SCENE 2
                            <orig>entremiſe</orig>
                            <reg>entremise</reg>
                            </choice></w>,</l>
-                        <l n="179" xml:id="v179">Qu’vn Peuple tout entier, tant de fois triom-
-                           <lb break="no"/>phant,</l>
+                        <l n="179" xml:id="v179">Qu’vn Peuple tout entier, tant de fois triom-<lb break="no"/>phant,</l>
                         <l n="180" xml:id="v180">N’<w><choice>
                            <orig>euſt</orig>
                            <reg>eust</reg>
@@ -2604,8 +2424,7 @@ _______________SCENE 2
                            <orig>ſoûmis</orig>
                            <reg>soûmis</reg>
                            </choice></w>?</l>
-                        <l n="185" xml:id="v185">Oüy, Seigneur, lors qu’au pied des murs fumans de
-                           <lb/><placeName ref="#troie">Troye</placeName>,</l>
+                        <l n="185" xml:id="v185">Oüy, Seigneur, lors qu’au pied des murs fumans de <lb/><placeName ref="#troie">Troye</placeName>,</l>
                         <l n="186" xml:id="v186">Les Vainqueurs tout <w><choice>
                            <orig>ſanglans</orig>
                            <reg>sanglans</reg>
@@ -2661,10 +2480,8 @@ _______________SCENE 2
                         <fw type="pageNum" place="top-right">9</fw>
 
                         <l n="193" xml:id="v193">On craint, qu’auec <persName ref="#hector">Hector</persName> <placeName ref="#troie">Troye</placeName> vn jour ne <w><choice>
-                           <orig>re-
-                              <lb break="no"/>naiſſe</orig>
-                           <reg>re-
-                              <lb break="no"/>naiſſe</reg>
+                           <orig>re-<lb break="no"/>naiſſe</orig>
+                           <reg>re-<lb break="no"/>naiſſe</reg>
                            </choice></w>:</l>
                         <l n="194" xml:id="v194">Son Fils peut me rauir le jour que ie luy <w><choice>
                            <orig>laiſſe</orig>
@@ -2771,8 +2588,7 @@ _______________SCENE 2
                            <reg>foiblesse</reg>
                            </choice></w> appuyoient leur defance.</l>
                         <l n="211" xml:id="v211">La Victoire, &amp; la Nuit, plus cruelles que nous,</l>
-                        <l n="212" xml:id="v212">Nous excitoient au meurtre, &amp; confondoient nos
-                           <lb/>coups.</l>
+                        <l n="212" xml:id="v212">Nous excitoient au meurtre, &amp; confondoient nos <lb/>coups.</l>
                         <l n="213" xml:id="v213">Mon courroux aux Vaincus ne fut que trop <w><choice>
                            <orig>ſeuere</orig>
                            <reg>seuere</reg>
@@ -2795,8 +2611,7 @@ _______________SCENE 2
                            <orig>loiſir</orig>
                            <reg>loisir</reg>
                            </choice></w>?</l>
-                        <l n="217" xml:id="v217">Non, Seigneur. Que les Grecs cherchent quelque
-                           <lb/>autre Proye,</l>
+                        <l n="217" xml:id="v217">Non, Seigneur. Que les Grecs cherchent quelque <lb/>autre Proye,</l>
                         <l n="218" xml:id="v218">Qu’ils <w><choice>
                            <orig>pourſuiuent</orig>
                            <reg>poursuiuent</reg>
@@ -2851,10 +2666,8 @@ _______________SCENE 2
                            <orig>eſt</orig>
                            <reg>est</reg>
                            </choice></w> <persName ref="#hector">Hector</persName> qu’on <w><choice>
-                           <orig>pour-
-                              <lb break="no"/>ſuit</orig>
-                           <reg>pour-
-                              <lb break="no"/>ſuit</reg>
+                           <orig>pour-<lb break="no"/>ſuit</orig>
+                           <reg>pour-<lb break="no"/>ſuit</reg>
                            </choice></w>.</l>
                         <l n="225" xml:id="v225">Oüy, les Grecs <w><choice>
                            <orig>ſur</orig>
@@ -3069,10 +2882,8 @@ _______________SCENE 3
                            <orig>ſa</orig>
                            <reg>sa</reg>
                            </choice></w> <w><choice>
-                           <orig>Mai
-                              <lb break="no"/>ſtreſſe</orig>
-                           <reg>Mai
-                              <lb break="no"/>ſtreſſe</reg>
+                           <orig>Mai <lb break="no"/>ſtreſſe</orig>
+                           <reg>Mai <lb break="no"/>ſtreſſe</reg>
                            </choice></w>?</l>
                      </lg>
                   </sp>
@@ -3113,8 +2924,7 @@ _______________SCENE 3
                         <l n="253" xml:id="v253">Ah! qu’ils s’aiment, Phœnix, i’y <w><choice>
                            <orig>conſens</orig>
                            <reg>consens</reg>
-                           </choice></w>. Qu’elle
-                           <lb/>parte.</l>
+                           </choice></w>. Qu’elle <lb/>parte.</l>
                         <l n="254" xml:id="v254">Que charmez l’vn de l’autre, ils <choice>
                            <abbr>retournẽt</abbr>
                            <expan>retournent</expan>
@@ -3122,8 +2932,7 @@ _______________SCENE 3
                         <l n="255" xml:id="v255">Tous nos Ports <w><choice>
                            <orig>ſont</orig>
                            <reg>sont</reg>
-                           </choice></w> ouuerts &amp; pour elle &amp; pour
-                           <lb/>luy.</l>
+                           </choice></w> ouuerts &amp; pour elle &amp; pour <lb/>luy.</l>
                         <l n="256" xml:id="v256">Qu’elle m’épargneroit de contrainte &amp; d’ennuy!</l>
                      </lg>
                   </sp>
@@ -3166,8 +2975,7 @@ _______________SCENE 4
                   </figure>
 
                   <head rend="center">SCENE IV.</head>
-                  <stage>PYRRHVS, ANDROMAQVE,
-                     <lb/>CEPHISE.</stage>
+                  <stage>PYRRHVS, ANDROMAQVE, <lb/>CEPHISE.</stage>
 
                   <sp who="#pyrrhus" xml:id="A1S4_1">
                      <speaker>PYRRHVS.</speaker>
@@ -3221,8 +3029,7 @@ _______________SCENE 4
                         <l n="265" xml:id="v265">Ah, Madame! les Grecs, <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
-                           </choice></w> i’en croy leurs allar-
-                           <lb break="no"/>mes,</l>
+                           </choice></w> i’en croy leurs allar-<lb break="no"/>mes,</l>
                         <l n="266" xml:id="v266">Vous donneront <w><choice>
                            <orig>bientoſt</orig>
                            <reg>bientost</reg>
@@ -3289,8 +3096,7 @@ _______________SCENE 4
                            </choice></w>, &amp; qu’il <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> Fils d’<persName ref="#hector">He-
-                           <lb break="no"/>ctor</persName>.</l>
+                           </choice></w> Fils d’<persName ref="#hector">He-<lb break="no"/>ctor</persName>.</l>
                      </lg>
                   </sp>
 
@@ -3337,8 +3143,7 @@ _______________SCENE 4
                         <l n="277" xml:id="v277">Helas! on ne craint point qu’il vange vn jour <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w>
-                           <lb/>Pere.</l>
+                           </choice></w> <lb/>Pere.</l>
                         <l n="278" xml:id="v278">On craint qu’il n’<w><choice>
                            <orig>eſſuyaſt</orig>
                            <reg>essuyast</reg>
@@ -3347,8 +3152,7 @@ _______________SCENE 4
                            <reg>sa</reg>
                            </choice></w> Mere.</l>
                         <l n="279" xml:id="v279">Il m’auroit tenu lieu d’vn Pere, &amp; d’vn Epoux,</l>
-                        <l n="280" xml:id="v280">Mais il me faut tout perdre, &amp; toûjours par vos
-                           <lb/>coups.</l>
+                        <l n="280" xml:id="v280">Mais il me faut tout perdre, &amp; toûjours par vos <lb/>coups.</l>
                      </lg>
                   </sp>
 
@@ -3443,10 +3247,8 @@ _______________SCENE 4
                            <orig>ſi</orig>
                            <reg>si</reg>
                            </choice></w> grand Cœur montre tant de <w><choice>
-                           <orig>foi-
-                              <lb break="no"/>bleſſe</orig>
-                           <reg>foi-
-                              <lb break="no"/>bleſſe</reg>
+                           <orig>foi-<lb break="no"/>bleſſe</orig>
+                           <reg>foi-<lb break="no"/>bleſſe</reg>
                            </choice></w>?</l>
                         <l n="299" xml:id="v299">Voulez-vous qu’vn <w><choice>
                            <orig>deſſein</orig>
@@ -3543,8 +3345,7 @@ _______________SCENE 4
                            <orig>ſont</orig>
                            <reg>sont</reg>
                            </choice></w> bien exercez!</l>
-                        <l n="316" xml:id="v316">Qu’ils m’ont vendu bien cher les pleurs qu’ils ont
-                           <lb/><w><choice>
+                        <l n="316" xml:id="v316">Qu’ils m’ont vendu bien cher les pleurs qu’ils ont <lb/><w><choice>
                            <orig>verſez</orig>
                            <reg>versez</reg>
                            </choice></w>!</l>
@@ -3567,8 +3368,7 @@ _______________SCENE 4
                         <l n="321" xml:id="v321">Tant de <w><choice>
                            <orig>ſoins</orig>
                            <reg>soins</reg>
-                           </choice></w>, tant de pleurs, tant d’ardeurs in-
-                           <lb break="nos"/>quiétes....</l>
+                           </choice></w>, tant de pleurs, tant d’ardeurs in-<lb break="nos"/>quiétes....</l>
                         <l n="322" xml:id="v322">Helas! fus-je iamais <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
@@ -3634,8 +3434,7 @@ _______________SCENE 4
                   <sp who="#andromaque" xml:id="A1S4_12">
                      <speaker>ANDROMAQVE.</speaker>
                      <lg>
-                        <l n="333" xml:id="v333">Seigneur, tant de grandeurs ne nous touchent plus
-                           <lb/>guére,</l>
+                        <l n="333" xml:id="v333">Seigneur, tant de grandeurs ne nous touchent plus <lb/>guére,</l>
                         <l n="334" xml:id="v334">Ie les luy promettois tant qu’a <w><choice>
                            <orig>veſcu</orig>
                            <reg>vescu</reg>
@@ -3655,8 +3454,7 @@ _______________SCENE 4
                         <l n="338" xml:id="v338">Seigneur. C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> vn Exil que mes pleurs vous de-
-                           <lb break="no"/>mandent.</l>
+                           </choice></w> vn Exil que mes pleurs vous de-<lb break="no"/>mandent.</l>
                         <l n="339" xml:id="v339">Souffrez que loin des Grecs, &amp; <w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
@@ -3719,8 +3517,7 @@ _______________SCENE 4
                            </choice></w> des <w><choice>
                            <orig>ſoûpirs</orig>
                            <reg>soûpirs</reg>
-                           </choice></w>, que mon Cœur vous
-                           <lb/>enuoye,</l>
+                           </choice></w>, que mon Cœur vous <lb/>enuoye,</l>
                         <l n="354" xml:id="v354">S’il s’échapoit vers elle, y porteroit de joye!</l>
                      </lg>
                   </sp>
@@ -3774,8 +3571,7 @@ _______________SCENE 4
                         <l n="362" xml:id="v362">Et vous n’<w><choice>
                            <orig>eſtes</orig>
                            <reg>estes</reg>
-                           </choice></w> tous deux connus que par mes
-                           <lb/>larmes.</l>
+                           </choice></w> tous deux connus que par mes <lb/>larmes.</l>
                      </lg>
                   </sp>
 
@@ -3960,15 +3756,12 @@ _______________SCENE 1
                            </figure> E fay ce que tu veux. Ie <w><choice>
                            <orig>conſens</orig>
                            <reg>consens</reg>
-                           </choice></w> qu’il
-                           <lb/>me voye.</l>
-                        <l n="386" xml:id="v386">Ie luy veux bien encore accorder
-                           <lb/>cette joye;</l>
+                           </choice></w> qu’il <lb/>me voye.</l>
+                        <l n="386" xml:id="v386">Ie luy veux bien encore accorder <lb/>cette joye;</l>
                         <l n="387" xml:id="v387"><persName ref="#pylade">Pylade</persName> va bien-<w><choice>
                            <orig>toſt</orig>
                            <reg>tost</reg>
-                           </choice></w> conduire icy
-                           <lb/><w><choice>
+                           </choice></w> conduire icy <lb/><w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
                            </choice></w> pas.</l>
@@ -4082,8 +3875,7 @@ _______________SCENE 1
                            <orig>oſter</orig>
                            <reg>oster</reg>
                            </choice></w>.</l>
-                        <l n="405" xml:id="v405">Mais vous ne dites point ce que vous mande vn
-                           <lb/>Pere.</l>
+                        <l n="405" xml:id="v405">Mais vous ne dites point ce que vous mande vn <lb/>Pere.</l>
                      </lg>
                   </sp>
 
@@ -4152,8 +3944,7 @@ _______________SCENE 1
                   <sp who="#cleone" xml:id="A2S1_8">
                      <speaker>CLEONNE.</speaker>
                      <lg>
-                        <l n="417" xml:id="v417">Fuyez-le donc, Madame. Et puis qu’on vous
-                           <lb/>adore....</l>
+                        <l n="417" xml:id="v417">Fuyez-le donc, Madame. Et puis qu’on vous <lb/>adore....</l>
                      </lg>
                   </sp>
 
@@ -4253,8 +4044,7 @@ _______________SCENE 1
                            </choice></w> l’Ingrat rentroit dans <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w> de-
-                           <lb break="no"/>uoir!</l>
+                           </choice></w> de-<lb break="no"/>uoir!</l>
 
                         <pb n="22" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f40.image"/>
 
@@ -4273,8 +4063,7 @@ _______________SCENE 1
                            <orig>ſous</orig>
                            <reg>sous</reg>
                            </choice></w> mes Loix, Amour, tu pouuois l’engager!</l>
-                        <l n="440" xml:id="v440">S’il vouloit!… Mais l’Ingrat ne veut que m’ou
-                           <lb break="no"/>trager.</l>
+                        <l n="440" xml:id="v440">S’il vouloit!… Mais l’Ingrat ne veut que m’ou <lb break="no"/>trager.</l>
                         <l n="441" xml:id="v441">Demeurons toutefois, pour troubler leur fortune.</l>
                         <l n="442" xml:id="v442">Prenons quelque <w><choice>
                            <orig>plaiſir</orig>
@@ -4316,8 +4105,7 @@ _______________SCENE 1
                         <l n="449" xml:id="v449"><w><choice>
                            <orig>Penſez</orig>
                            <reg>Pensez</reg>
-                           </choice></w>-vous que des yeux toûjours ouuerts aux
-                           <lb/>larmes,</l>
+                           </choice></w>-vous que des yeux toûjours ouuerts aux <lb/>larmes,</l>
                         <l n="450" xml:id="v450">Songent à balancer le pouuoir de vos charmes?</l>
                         <l n="451" xml:id="v451">Et qu’vn Cœur accablé de tant de <w><choice>
                            <orig>déplaiſirs</orig>
@@ -4424,8 +4212,7 @@ _______________SCENE 1
                         <l n="466" xml:id="v466">Nos <w><choice>
                            <orig>Vaiſſeaux</orig>
                            <reg>Vaisseaux</reg>
-                           </choice></w> tout chargez des dépoüilles de
-                           <lb/><placeName ref="#troie">Troye</placeName>,</l>
+                           </choice></w> tout chargez des dépoüilles de <lb/><placeName ref="#troie">Troye</placeName>,</l>
                         <l n="467" xml:id="v467">Les Exploits de <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
@@ -4451,8 +4238,7 @@ _______________SCENE 1
                            </choice></w> trop, <persName ref="#cleone">Cleonne</persName>, &amp; quel que <w><choice>
                            <orig>ſoit</orig>
                            <reg>soit</reg>
-                           </choice></w> <persName ref="#pyrrhus">Pyr-
-                           <lb break="no"/>rhus</persName>,</l>
+                           </choice></w> <persName ref="#pyrrhus">Pyr-<lb break="no"/>rhus</persName>,</l>
                         <l n="472" xml:id="v472"><persName ref="#hermione">Hermionne</persName> <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -4530,8 +4316,7 @@ _______________SCENE 2
                   </figure>
 
                   <head rend="center">SCENE II.</head>
-                  <stage>HERNMIONNE, ORESTE,
-                     <lb/>CLEONNE.</stage>
+                  <stage>HERNMIONNE, ORESTE, <lb/>CLEONNE.</stage>
 
                   <sp who="#hermione" xml:id="A2S2_1">
                      <speaker>HERMIONNE.</speaker>
@@ -4549,8 +4334,7 @@ _______________SCENE 2
                            </choice></w> les <w><choice>
                            <orig>ſoins</orig>
                            <reg>soins</reg>
-                           </choice></w> dont vous charge la
-                           <lb/>Gréce?</l>
+                           </choice></w> dont vous charge la <lb/>Gréce?</l>
                         <l n="479" xml:id="v479">Ou ne dois-je imputer qu’à <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
@@ -4639,10 +4423,8 @@ _______________SCENE 2
                            </choice></w> leurs Dieux que du <w><choice>
                            <orig>ſang</orig>
                            <reg>sang</reg>
-                           </choice></w> des Mor-
-                           <lb break="no"/>tels:</l>
-                        <l n="493" xml:id="v493">Ils m’ont fermé leur Temple, &amp; ces Peuples bar
-                           <lb break="no"/>bares</l>
+                           </choice></w> des Mor-<lb break="no"/>tels:</l>
+                        <l n="493" xml:id="v493">Ils m’ont fermé leur Temple, &amp; ces Peuples bar <lb break="no"/>bares</l>
                         <l n="494" xml:id="v494">De mon <w><choice>
                            <orig>ſang</orig>
                            <reg>sang</reg>
@@ -4815,8 +4597,7 @@ _______________SCENE 2
                            <orig>raiſon</orig>
                            <reg>raison</reg>
                            </choice></w> affermy,</l>
-                        <l n="520" xml:id="v520">Vous croirez-vous toûjours, Seigneur, mon En-
-                           <lb break="no"/>nemy?</l>
+                        <l n="520" xml:id="v520">Vous croirez-vous toûjours, Seigneur, mon En-<lb break="no"/>nemy?</l>
                         <l n="521" xml:id="v521">Quelle <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -4869,10 +4650,8 @@ _______________SCENE 2
                            <orig>diſcours</orig>
                            <reg>discours</reg>
                            </choice></w> s’<w><choice>
-                           <orig>a-
-                              <lb break="no"/>dreſſe</orig>
-                           <reg>a-
-                              <lb break="no"/>dreſſe</reg>
+                           <orig>a-<lb break="no"/>dreſſe</orig>
+                           <reg>a-<lb break="no"/>dreſſe</reg>
                            </choice></w>?</l>
                         <l n="531" xml:id="v531">Ouurez les yeux. Songez qu’<persName ref="#oreste"><w><choice>
                            <orig>Oreſte</orig>
@@ -4880,8 +4659,7 @@ _______________SCENE 2
                            </choice></w></persName> <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> deuant
-                           <lb/>vous,</l>
+                           </choice></w> deuant <lb/>vous,</l>
                         <l n="532" xml:id="v532"><persName ref="#oreste"><w><choice>
                            <orig>Oreſte</orig>
                            <reg>Oreste</reg>
@@ -4901,8 +4679,7 @@ _______________SCENE 2
                            </choice></w> vous dont l’amour <w><choice>
                            <orig>naiſſant</orig>
                            <reg>naissant</reg>
-                           </choice></w> auec leurs
-                           <lb/>charmes,</l>
+                           </choice></w> auec leurs <lb/>charmes,</l>
                         <l n="534" xml:id="v534">Leur apprit le premier le pouuoir de leurs armes,</l>
                         <l n="535" xml:id="v535">Vous que mille vertus me forçoient d’<w><choice>
                            <orig>eſtimer</orig>
@@ -4962,8 +4739,7 @@ _______________SCENE 2
                      <speaker rend="center">ORESTE.</speaker>
                      <lg>
                         <l n="540" part="F">Vous m’en aimeriez plus.</l>
-                        <l n="541" xml:id="v541">Ah! que vous me verriez d’vn regard bien con-
-                           <lb break="no"/>traire!</l>
+                        <l n="541" xml:id="v541">Ah! que vous me verriez d’vn regard bien con-<lb break="no"/>traire!</l>
                         <l n="542" xml:id="v542">Vous me voulez aimer, &amp; ie ne puis vous plaire,</l>
                         <l n="543" xml:id="v543">Et l’Amour <w><choice>
                            <orig>ſeul</orig>
@@ -4989,8 +4765,7 @@ _______________SCENE 2
                            </choice></w> pour moy, <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
-                           </choice></w> vous pouuiez m’en-
-                           <lb break="no"/>tendre!</l>
+                           </choice></w> vous pouuiez m’en-<lb break="no"/>tendre!</l>
                         <l n="547" xml:id="v547">Vous <w><choice>
                            <orig>ſeule</orig>
                            <reg>seule</reg>
@@ -5190,8 +4965,7 @@ _______________SCENE 2
                         <l n="574" xml:id="v574">L’Amour n’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> pas vn feu qu’on renferme en vne
-                           <lb/>ame.</l>
+                           </choice></w> pas vn feu qu’on renferme en vne <lb/>ame.</l>
                         <l n="575" xml:id="v575">Tout nous trahit, la voix, le <w><choice>
                            <orig>ſilence</orig>
                            <reg>silence</reg>
@@ -5223,8 +4997,7 @@ _______________SCENE 2
                         <l n="579" xml:id="v579">Toûjours dans mes <w><choice>
                            <orig>raiſons</orig>
                            <reg>raisons</reg>
-                           </choice></w> cherche quelque dé-
-                           <lb break="no"/>tour,</l>
+                           </choice></w> cherche quelque dé-<lb break="no"/>tour,</l>
                         <l n="580" xml:id="v580">Et croit qu’en moy la haine <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -5236,8 +5009,7 @@ _______________SCENE 2
                         <l n="582" xml:id="v582">Vous <w><choice>
                            <orig>ſçauez</orig>
                            <reg>sçauez</reg>
-                           </choice></w> qu’en ces lieux mon deuoir m’a con-
-                           <lb break="no"/>duite,</l>
+                           </choice></w> qu’en ces lieux mon deuoir m’a con-<lb break="no"/>duite,</l>
                         <l n="583" xml:id="v583">Mon deuoir m’y retient, &amp; ie n’en puis partir,</l>
                         <l n="584" xml:id="v584">Que mon Pere, ou <persName ref="#pyrrhus">Pyrrhus</persName> ne m’en <w><choice>
                            <orig>faſſe</orig>
@@ -5309,8 +5081,7 @@ _______________SCENE 3
                         <l n="591" xml:id="v591"><hi rend="dropcap">O</hi>Vy, oüy, vous me <w><choice>
                            <orig>ſuivrez</orig>
                            <reg>suivrez</reg>
-                           </choice></w>, n’en doutez nul-
-                           <lb break="no"/>lement.</l>
+                           </choice></w>, n’en doutez nul-<lb break="no"/>lement.</l>
                         <l n="592" xml:id="v592">Ie vous <w><choice>
                            <orig>reſpons</orig>
                            <reg>respons</reg>
@@ -5332,8 +5103,7 @@ _______________SCENE 3
                            </choice></w>, &amp; peut-<w><choice>
                            <orig>eſtre</orig>
                            <reg>estre</reg>
-                           </choice></w> au-
-                           <lb break="no"/>jourd’huy</l>
+                           </choice></w> au-<lb break="no"/>jourd’huy</l>
                         <l n="596" xml:id="v596">Il n’attend qu’vn prétexte à l’éloigner de luy.</l>
                         <l n="597" xml:id="v597">Nous n’auons qu’à parler. C’en <w><choice>
                            <orig>eſt</orig>
@@ -5397,8 +5167,7 @@ _______________SCENE 4
                   </figure>
 
                   <head rend="center">SCENE IV.</head>
-                  <stage>PYRRHVS, ORESTE,
-                     <lb/>PHOENIX.</stage>
+                  <stage>PYRRHVS, ORESTE, <lb/>PHOENIX.</stage>
 
                   <sp who="#pyrrhus" xml:id="A2S4_1">
                      <speaker rend="center">PYRRHVS.</speaker>
@@ -5481,8 +5250,7 @@ _______________SCENE 4
                            </choice></w> en ces lieux qu’vn <w><choice>
                            <orig>Teſmoin</orig>
                            <reg>Tesmoin</reg>
-                           </choice></w> tel que
-                           <lb/>vous.</l>
+                           </choice></w> tel que <lb/>vous.</l>
 
                         <fw type="sig">Biiij</fw>
 
@@ -5573,8 +5341,7 @@ _______________SCENE 5
                         <l n="628" xml:id="v628"><w><choice>
                            <orig>Ainſi</orig>
                            <reg>Ainsi</reg>
-                           </choice></w> qu’à tous les Grecs, Seigneur, vous rend à
-                           <lb/>vous.</l>
+                           </choice></w> qu’à tous les Grecs, Seigneur, vous rend à <lb/>vous.</l>
                         <l n="629" xml:id="v629">Et qui l’auroit <w><choice>
                            <orig>penſé</orig>
                            <reg>pensé</reg>
@@ -5608,8 +5375,7 @@ _______________SCENE 5
                         <l n="632" xml:id="v632">Mais <persName ref="#pyrrhus">Pyrrhus</persName>, quand il veut, <w><choice>
                            <orig>ſçait</orig>
                            <reg>sçait</reg>
-                           </choice></w> vaincre en vn
-                           <lb/>moment.</l>
+                           </choice></w> vaincre en vn <lb/>moment.</l>
                         <l n="633" xml:id="v633">Ce n’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -5641,8 +5407,7 @@ _______________SCENE 5
                         <l n="637" xml:id="v637">Dy <w><choice>
                            <orig>plutoſt</orig>
                            <reg>plutost</reg>
-                           </choice></w>, qu’aujourd’huy commence ma Vi-
-                           <lb break="no"/>ctoire.</l>
+                           </choice></w>, qu’aujourd’huy commence ma Vi-<lb break="no"/>ctoire.</l>
                         <l n="638" xml:id="v638">D’aujourd’huy <w><choice>
                            <orig>ſeulement</orig>
                            <reg>seulement</reg>
@@ -5778,8 +5543,7 @@ _______________SCENE 5
                            </choice></w>-elle en l’<w><choice>
                            <orig>embraſſant</orig>
                            <reg>embrassant</reg>
-                           </choice></w> toû-
-                           <lb break="no"/>jours;)</l>
+                           </choice></w> toû-<lb break="no"/>jours;)</l>
                         <l n="657" xml:id="v657">Voila <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
@@ -5803,10 +5567,8 @@ _______________SCENE 5
                            <orig>Eſpoux</orig>
                            <reg>Espoux</reg>
                            </choice></w> que j’<w><choice>
-                           <orig>em-
-                              <lb break="no"/>braſſe</orig>
-                           <reg>em-
-                              <lb break="no"/>braſſe</reg>
+                           <orig>em-<lb break="no"/>braſſe</orig>
+                           <reg>em-<lb break="no"/>braſſe</reg>
                            </choice></w>.</l>
                         <l n="659" xml:id="v659">Et quelle <w><choice>
                            <orig>eſt</orig>
@@ -5834,8 +5596,7 @@ _______________SCENE 5
                         <l n="661" xml:id="v661">Sans doute. C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> le prix que vous gardoit l’In
-                           <lb break="no"/>grate.</l>
+                           </choice></w> le prix que vous gardoit l’In <lb break="no"/>grate.</l>
                         <l n="662" xml:id="v662" part="I">Mais <w><choice>
                            <orig>laiſſez</orig>
                            <reg>laissez</reg>
@@ -6144,8 +5905,7 @@ _______________SCENE 5
                            </choice></w> luy mettre moy-<w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
-                           </choice></w> vn poignard dans le
-                           <lb/><w><choice>
+                           </choice></w> vn poignard dans le <lb/><w><choice>
                            <orig>ſein</orig>
                            <reg>sein</reg>
                            </choice></w>.</l>
@@ -6280,13 +6040,11 @@ _______________SCENE 1
                         <l n="713" xml:id="v713"> <figure>
                            <desc>Initiale</desc>
                            <desc type="letter" subtype="M">M</desc>
-                           </figure> oderez donc, Seigneur, cette fureur
-                           <lb/>extréme.</l>
+                           </figure> oderez donc, Seigneur, cette fureur <lb/>extréme.</l>
                         <l n="714" xml:id="v714">Ie ne vous connoy plus. Vous n’<w><choice>
                            <orig>eſtes</orig>
                            <reg>estes</reg>
-                           </choice></w> plus
-                           <lb/>vous-<w><choice>
+                           </choice></w> plus <lb/>vous-<w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
                            </choice></w>.</l>
@@ -6321,10 +6079,8 @@ _______________SCENE 1
                            <orig>traiſner</orig>
                            <reg>traisner</reg>
                            </choice></w> trop long-temps ma vie &amp; mon <w><choice>
-                           <orig>ſup-
-                              <lb/>plice</orig>
-                           <reg>ſup-
-                              <lb/>plice</reg>
+                           <orig>ſup-<lb/>plice</orig>
+                           <reg>ſup-<lb/>plice</reg>
                            </choice></w>.</l>
                         <l n="718" xml:id="v718">Il faut que ie l’enleue, ou bien que ie <w><choice>
                            <orig>periſſe</orig>
@@ -6404,8 +6160,7 @@ _______________SCENE 1
                            </choice></w> <w><choice>
                            <orig>eſtois</orig>
                            <reg>estois</reg>
-                           </choice></w>-je alors le
-                           <lb/><w><choice>
+                           </choice></w>-je alors le <lb/><w><choice>
                            <orig>maiſtre</orig>
                            <reg>maistre</reg>
                            </choice></w>?</l>
@@ -6485,8 +6240,7 @@ _______________SCENE 1
                            </choice></w> peut-<w><choice>
                            <orig>eſtre</orig>
                            <reg>estre</reg>
-                           </choice></w> à plaindre, autant que ie vous
-                           <lb/>plains.</l>
+                           </choice></w> à plaindre, autant que ie vous <lb/>plains.</l>
                      </lg>
                   </sp>
 
@@ -6628,8 +6382,7 @@ _______________SCENE 1
                            </choice></w>. Ie <w><choice>
                            <orig>ſuis</orig>
                            <reg>suis</reg>
-                           </choice></w> las qu’on me
-                           <lb/>plaigne.</l>
+                           </choice></w> las qu’on me <lb/>plaigne.</l>
                         <l n="766" xml:id="v766">Ie prétens qu’à mon tour l’Inhumaine me craigne,</l>
 
                         <pb n="41" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f59.image"/>
@@ -6774,8 +6527,7 @@ _______________SCENE 1
                            </choice></w> tous <w><choice>
                            <orig>preſts</orig>
                            <reg>prests</reg>
-                           </choice></w>, &amp; le vent nous
-                           <lb/>appelle.</l>
+                           </choice></w>, &amp; le vent nous <lb/>appelle.</l>
                         <l n="795" xml:id="v795">Ie <w><choice>
                            <orig>ſçay</orig>
                            <reg>sçay</reg>
@@ -6832,8 +6584,7 @@ _______________SCENE 1
                         <l n="803" xml:id="v803">Que ne puis-je à mon tour, dans vn <w><choice>
                            <orig>ſort</orig>
                            <reg>sort</reg>
-                           </choice></w> plus heu-
-                           <lb/>reux…</l>
+                           </choice></w> plus heu-<lb/>reux…</l>
                      </lg>
                   </sp>
 
@@ -6909,8 +6660,7 @@ _______________SCENE 2
                            </choice></w> vous ont rendu <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
-                           </choice></w>
-                           <lb/><w><choice>
+                           </choice></w> <lb/><w><choice>
                            <orig>Conqueſte</orig>
                            <reg>Conqueste</reg>
                            </choice></w>.</l>
@@ -7021,8 +6771,7 @@ _______________SCENE 2
                         <fw type="pageNum" place="top-left">44</fw>
                         <fw type="head" place="center">ANDROMAQVE</fw>
 
-                        <l n="821" xml:id="v821">Vos yeux ne font-ils pas tout ce qu’ils veulent
-                           <lb/>faire?</l>
+                        <l n="821" xml:id="v821">Vos yeux ne font-ils pas tout ce qu’ils veulent <lb/>faire?</l>
                         <l n="822" xml:id="v822">Et vous ne vouliez pas <w><choice>
                            <orig>ſans</orig>
                            <reg>sans</reg>
@@ -7063,8 +6812,7 @@ _______________SCENE 2
                         <l n="829" xml:id="v829">Ah! que vous <w><choice>
                            <orig>ſçauiez</orig>
                            <reg>sçauiez</reg>
-                           </choice></w> bien, Cruelle… Mais, Ma-
-                           <lb/>dame,</l>
+                           </choice></w> bien, Cruelle… Mais, Ma-<lb/>dame,</l>
                         <l n="830" xml:id="v830">Chacun peut à <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
@@ -7153,10 +6901,8 @@ _______________SCENE 3
                            <orig>ſi</orig>
                            <reg>si</reg>
                            </choice></w> <w><choice>
-                           <orig>mo-
-                              <lb break="no"/>deſte</orig>
-                           <reg>mo-
-                              <lb break="no"/>deſte</reg>
+                           <orig>mo-<lb break="no"/>deſte</orig>
+                           <reg>mo-<lb break="no"/>deſte</reg>
                            </choice></w>?</l>
                      </lg>
                   </sp>
@@ -7340,8 +7086,7 @@ _______________SCENE 4
                   </figure>
 
                   <head rend="center">SCENE IV.</head>
-                  <stage>ANDROMAQVE, HERNMIONNE,
-                     <lb/>CLEONNE, CEPHISE.</stage>
+                  <stage>ANDROMAQVE, HERNMIONNE, <lb/>CLEONNE, CEPHISE.</stage>
 
                   <sp who="#andromaque" xml:id="A3S4_1">
                      <speaker rend="center">ANDROMAQVE.</speaker>
@@ -7410,8 +7155,7 @@ _______________SCENE 4
                            <orig>intereſt</orig>
                            <reg>interest</reg>
                            </choice></w> nous jette,</l>
-                        <l n="875" xml:id="v875">Lors que de tant de biens, qui pouuoient nous
-                           <lb/>flatter,</l>
+                        <l n="875" xml:id="v875">Lors que de tant de biens, qui pouuoient nous <lb/>flatter,</l>
                         <l n="876" xml:id="v876">C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -7421,8 +7165,7 @@ _______________SCENE 4
                            </choice></w> qui nous <w><choice>
                            <orig>reſte</orig>
                            <reg>reste</reg>
-                           </choice></w>, &amp; qu’on veut nous
-                           <lb/>l’<w><choice>
+                           </choice></w>, &amp; qu’on veut nous <lb/>l’<w><choice>
                            <orig>oſter</orig>
                            <reg>oster</reg>
                            </choice></w>.</l>
@@ -7497,8 +7240,7 @@ _______________SCENE 4
                            <orig>eſt</orig>
                            <reg>est</reg>
                            </choice></w> luy, qui de <persName ref="#pyrrhus">Pyrrhus</persName> fait agir le courroux.</l>
-                        <l n="888" xml:id="v888">S’il faut fléchir <persName ref="#pyrrhus">Pyrrhus</persName>, qui le peut mieux que
-                           <lb/>vous?</l>
+                        <l n="888" xml:id="v888">S’il faut fléchir <persName ref="#pyrrhus">Pyrrhus</persName>, qui le peut mieux que <lb/>vous?</l>
                         <l n="889" xml:id="v889">Vos yeux <w><choice>
                            <orig>aſſez</orig>
                            <reg>assez</reg>
@@ -7595,8 +7337,7 @@ _______________SCENE 6
                   </figure>
 
                   <head rend="center">SCENE VI.</head>
-                  <stage>PYRRHVS, ANDROMAQVE,
-                     <lb/>PHOENIX, CEPHIZE.</stage>
+                  <stage>PYRRHVS, ANDROMAQVE, <lb/>PHOENIX, CEPHIZE.</stage>
 
                   <sp who="#phoenix" xml:id="A3S6_1">
                      <speaker rend="center">PYRRHVS</speaker>
@@ -7998,8 +7739,7 @@ _______________SCENE 6
                         <l n="939" xml:id="v939">Qu’heureux dans <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w> malheur, le Fils de tant de
-                           <lb/>Rois<supplied>.</supplied></l>
+                           </choice></w> malheur, le Fils de tant de <lb/>Rois<supplied>.</supplied></l>
                         <l n="940" xml:id="v940">Puis qu’il deuoit <w><choice>
                            <orig>ſeruir</orig>
                            <reg>seruir</reg>
@@ -8118,8 +7858,7 @@ _______________SCENE 7
                   </figure>
 
                   <head rend="center">SCENE VII.</head>
-                  <stage>PYRRHVS, ANDROMAQVE,
-                     <lb/>CEPHISE.</stage>
+                  <stage>PYRRHVS, ANDROMAQVE, <lb/>CEPHISE.</stage>
 
                   <sp who="#pyrrhus" xml:id="A3S7_1">
                      <speaker rend="center">PYRRHVS</speaker>
@@ -8133,8 +7872,7 @@ _______________SCENE 7
                            </choice></w> à regret, qu’en excitant vos larmes,</l>
                         <l n="954" xml:id="v954">Ie ne fay contre moy que vous donner des armes.</l>
                         <l n="955" xml:id="v955">Ie croyois apporter plus de haine en ces lieux.</l>
-                        <l n="956" xml:id="v956">Mais, Madame, du moins tournez vers moy les
-                           <lb/>yeux.</l>
+                        <l n="956" xml:id="v956">Mais, Madame, du moins tournez vers moy les <lb/>yeux.</l>
                         <l n="957" xml:id="v957">Voyez <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
@@ -8152,8 +7890,7 @@ _______________SCENE 7
                         <l n="959" xml:id="v959">Pourquoy me forcez-vous vous<supplied>-</supplied><w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
-                           </choice></w> à vous
-                           <lb/>trahir?</l>
+                           </choice></w> à vous <lb/>trahir?</l>
                         <l n="960" xml:id="v960">Au nom de <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
@@ -8195,8 +7932,7 @@ _______________SCENE 7
                            </choice></w> de quels <w><choice>
                            <orig>ſermens</orig>
                            <reg>sermens</reg>
-                           </choice></w> ie romps pour vous les
-                           <lb/><w><choice>
+                           </choice></w> ie romps pour vous les <lb/><w><choice>
                            <orig>chaiſnes</orig>
                            <reg>chaisnes</reg>
                            </choice></w>,</l>
@@ -8224,10 +7960,8 @@ _______________SCENE 7
                            <orig>ſon</orig>
                            <reg>son</reg>
                            </choice></w> Hymen s’<w><choice>
-                           <orig>ap-
-                              <lb/>preſte</orig>
-                           <reg>ap-
-                              <lb/>preſte</reg>
+                           <orig>ap-<lb/>preſte</orig>
+                           <reg>ap-<lb/>preſte</reg>
                            </choice></w>.</l>
                         <l n="970" xml:id="v970">Ie vous ceins du Bandeau, préparé pour <w><choice>
                            <orig>ſa</orig>
@@ -8239,8 +7973,7 @@ _______________SCENE 7
                         <l n="971" xml:id="v971">Mais ce n’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> plus, Madame, vne offre à dédai-
-                           <lb break="no"/>gner.</l>
+                           </choice></w> plus, Madame, vne offre à dédai-<lb break="no"/>gner.</l>
                         <l n="972" xml:id="v972">Ie vous le dis, il faut ou perir, ou regner.</l>
                         <l n="973" xml:id="v973">Mon cœur, <w><choice>
                            <orig>deſeſperé</orig>
@@ -8273,16 +8006,13 @@ _______________SCENE 7
                         <l n="977" xml:id="v977">Songez-y, ie vous <w><choice>
                            <orig>laiſſe</orig>
                            <reg>laisse</reg>
-                           </choice></w>, &amp; ie viendray vous
-                           <lb/>prendre,</l>
-                        <l n="978" xml:id="v978">Pour vous mener au Temple, où ce Fils doit m’at-
-                           <lb/>tendre.</l>
+                           </choice></w>, &amp; ie viendray vous <lb/>prendre,</l>
+                        <l n="978" xml:id="v978">Pour vous mener au Temple, où ce Fils doit m’at-<lb/>tendre.</l>
                         <l n="979" xml:id="v979">Et là vous me verrez <w><choice>
                            <orig>ſoûmis</orig>
                            <reg>soûmis</reg>
                            </choice></w>, ou furieux,</l>
-                        <l n="980" xml:id="v980">Vous couronner, Madame, ou le perdre à vos
-                           <lb/>yeux.</l>
+                        <l n="980" xml:id="v980">Vous couronner, Madame, ou le perdre à vos <lb/>yeux.</l>
                      </lg>
                   </sp>
 
@@ -8318,8 +8048,7 @@ _______________SCENE 8
                         <l n="981" xml:id="v981"><hi rend="dropcap">H</hi>E bien, ie vous l'ay dit, qu'en <w><choice>
                            <orig>deſpit</orig>
                            <reg>despit</reg>
-                           </choice></w> de la
-                           <lb/> Grece</l>
+                           </choice></w> de la <lb/> Grece</l>
                         <l n="982" xml:id="v982">De <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
@@ -8416,10 +8145,8 @@ _______________SCENE 8
                            <orig>ſes</orig>
                            <reg>ses</reg>
                            </choice></w> Manes en <w><choice>
-                           <orig>rougiſ-
-                              <lb/>ſent</orig>
-                           <reg>rougiſ-
-                              <lb/>ſent</reg>
+                           <orig>rougiſ-<lb/>ſent</orig>
+                           <reg>rougiſ-<lb/>ſent</reg>
                            </choice></w>?</l>
 
                         <fw type="sig">C v</fw>
@@ -8434,8 +8161,7 @@ _______________SCENE 8
                            <reg>mesprisast</reg>
                            </choice></w>, Madame, vn Roy victorieux,</l>
                         <l n="992" xml:id="v992">Qui vous fait remonter au rang de vos Ayeux;</l>
-                        <l n="993" xml:id="v993">Qui foule aux pieds pour vous vos Vainqueurs en
-                           <lb/>colere,</l>
+                        <l n="993" xml:id="v993">Qui foule aux pieds pour vous vos Vainqueurs en <lb/>colere,</l>
                         <l n="994" xml:id="v994">Qui ne <w><choice>
                            <orig>ſe</orig>
                            <reg>se</reg>
@@ -8515,17 +8241,14 @@ _______________SCENE 8
                         <l n="1007" xml:id="v1007">Songe aux cris des Vainqueurs, <w><choice>
                            <orig>ſonge</orig>
                            <reg>songe</reg>
-                           </choice></w> aux cris des
-                           <lb/>Mourans,</l>
+                           </choice></w> aux cris des <lb/>Mourans,</l>
                         <l n="1008" xml:id="v1008">Dans la flamme étouffez, <w><choice>
                            <orig>ſous</orig>
                            <reg>sous</reg>
                            </choice></w> le fer expirans.</l>
                         <l n="1009" xml:id="v1009">Peins-toy dans ces horreurs <persName ref="#andromaque">Andromaque</persName> <w><choice>
-                           <orig>eſ-
-                              <lb break="no"/>perduë</orig>
-                           <reg>eſ-
-                              <lb break="no"/>perduë</reg>
+                           <orig>eſ-<lb break="no"/>perduë</orig>
+                           <reg>eſ-<lb break="no"/>perduë</reg>
                            </choice></w>.</l>
                         <l n="1010" xml:id="v1010">Voila comme <persName ref="#pyrrhus">Pyrrhus</persName> vint s’offrir à ma veuë,</l>
                         <l n="1011" xml:id="v1011">Voila par quels exploits il <w><choice>
@@ -8574,8 +8297,7 @@ _______________SCENE 8
                         <l n="1017" xml:id="v1017">On n’attend plus que vous. Vous <w><choice>
                            <orig>fremiſſez</orig>
                            <reg>fremissez</reg>
-                           </choice></w>, Ma-
-                           <lb break="no"/>dame?</l>
+                           </choice></w>, Ma-<lb break="no"/>dame?</l>
                      </lg>
                   </sp>
 
@@ -8881,16 +8603,14 @@ _______________SCENE 1
                            </choice></w> <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
-                           </choice></w>
-                           <lb/><w><choice>
+                           </choice></w> <lb/><w><choice>
                            <orig>Eſpoux</orig>
                            <reg>Espoux</reg>
                            </choice></w>, Madame,</l>
                         <l n="1054" xml:id="v1054">C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> <persName ref="#hector">Hector</persName> qui produit ce miracle
-                           <lb/>en <w><choice>
+                           </choice></w> <persName ref="#hector">Hector</persName> qui produit ce miracle <lb/>en <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
                            </choice></w> ame.</l>
@@ -8900,15 +8620,13 @@ _______________SCENE 1
                            </choice></w> <w><choice>
                            <orig>puiſſe</orig>
                            <reg>puisse</reg>
-                           </choice></w> re-
-                           <lb break="no"/>leuer,</l>
+                           </choice></w> re-<lb break="no"/>leuer,</l>
                         <l n="1056" xml:id="v1056">Auec cet heureux Fils, qu’il vous fait <w><choice>
                            <orig>conſeruer</orig>
                            <reg>conseruer</reg>
                            </choice></w>.</l>
                         <l n="1057" xml:id="v1057"><persName ref="#pyrrhus">Pyrrhus</persName> vous l’a promis. Vous venez de l’entendre,</l>
-                        <l n="1058" xml:id="v1058">Madame, il n’attendoit qu’vn mot pour vous le
-                           <lb/>rendre.</l>
+                        <l n="1058" xml:id="v1058">Madame, il n’attendoit qu’vn mot pour vous le <lb/>rendre.</l>
                         <l n="1059" xml:id="v1059">Croyez en <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
@@ -8926,8 +8644,7 @@ _______________SCENE 1
                            </choice></w> tout <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w> Peuple il vous rend Souue-
-                           <lb break="no"/>raine.</l>
+                           </choice></w> Peuple il vous rend Souue-<lb break="no"/>raine.</l>
                         <l n="1062" xml:id="v1062"><w><choice>
                            <orig>Eſt</orig>
                            <reg>Est</reg>
@@ -8966,8 +8683,7 @@ _______________SCENE 1
                         <l n="1067" xml:id="v1067">Mais tout s’<w><choice>
                            <orig>apreſte</orig>
                            <reg>apreste</reg>
-                           </choice></w> au Temple. Et vous auez pro-
-                           <lb break="no"/>mis....</l>
+                           </choice></w> au Temple. Et vous auez pro-<lb break="no"/>mis....</l>
                      </lg>
                   </sp>
 
@@ -9022,8 +8738,7 @@ _______________SCENE 1
                            </choice></w> éleué pour <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w> Maî-
-                           <lb break="no"/>tre,</l>
+                           </choice></w> Maî-<lb break="no"/>tre,</l>
                         <l n="1075" xml:id="v1075">Mais pour voir auec luy <w><choice>
                            <orig>renaiſtre</orig>
                            <reg>renaistre</reg>
@@ -9066,8 +8781,7 @@ _______________SCENE 1
                         <l n="1080" xml:id="v1080">Mais j’ay crû qu’à mon tour tu me <w><choice>
                            <orig>connoiſſois</orig>
                            <reg>connoissois</reg>
-                           </choice></w>
-                           <lb/>mieux.</l>
+                           </choice></w> <lb/>mieux.</l>
                         <l n="1081" xml:id="v1081">Quoy donc as-tu <w><choice>
                            <orig>penſé</orig>
                            <reg>pensé</reg>
@@ -9445,8 +9159,7 @@ _______________SCENE 2
                         <l n="1135" xml:id="v1135">Vous vous <w><choice>
                            <orig>taiſez</orig>
                            <reg>taisez</reg>
-                           </choice></w>, Madame, &amp; ce cruel mé
-                           <lb break="no"/>pris</l>
+                           </choice></w>, Madame, &amp; ce cruel mé <lb break="no"/>pris</l>
                         <l n="1136" xml:id="v1136">N’a pas du moindre trouble agité vos <w><choice>
                            <orig>eſprits</orig>
                            <reg>esprits</reg>
@@ -9461,8 +9174,7 @@ _______________SCENE 2
                         <l n="1138" xml:id="v1138">Vous qu’on voyoit fremir au <w><choice>
                            <orig>ſeul</orig>
                            <reg>seul</reg>
-                           </choice></w> nom d’<persName ref="#andromaque">Andro-
-                           <lb break="no"/>maque</persName>?</l>
+                           </choice></w> nom d’<persName ref="#andromaque">Andro-<lb break="no"/>maque</persName>?</l>
                         <l n="1139" xml:id="v1139">Vous qui <w><choice>
                            <orig>ſans</orig>
                            <reg>sans</reg>
@@ -9633,8 +9345,7 @@ _______________SCENE 3
                         <l n="1157" xml:id="v1157">Si ie vous aime? O Dieux! mes <w><choice>
                            <orig>ſermens</orig>
                            <reg>sermens</reg>
-                           </choice></w>, mes par-
-                           <lb/>jures,</l>
+                           </choice></w>, mes par-<lb/>jures,</l>
                         <l n="1158" xml:id="v1158">Ma fuite, mon retour, mes <w><choice>
                            <orig>reſpects</orig>
                            <reg>respects</reg>
@@ -9642,8 +9353,7 @@ _______________SCENE 3
                         <l n="1159" xml:id="v1159">Mon <w><choice>
                            <orig>deſeſpoir</orig>
                            <reg>desespoir</reg>
-                           </choice></w>, mes yeux de pleurs toûjours
-                           <lb/>noyez,</l>
+                           </choice></w>, mes yeux de pleurs toûjours <lb/>noyez,</l>
                         <l n="1160" xml:id="v1160">Quels témoins croirez-vous, <w><choice>
                            <orig>ſi</orig>
                            <reg>si</reg>
@@ -9787,8 +9497,7 @@ _______________SCENE 3
                         <l n="1183" xml:id="v1183">Vangeons-nous, j’y <w><choice>
                            <orig>conſens</orig>
                            <reg>consens</reg>
-                           </choice></w>. Mais par d’autres
-                           <lb/>chemins.</l>
+                           </choice></w>. Mais par d’autres <lb/>chemins.</l>
                         <l n="1184" xml:id="v1184">Soyons <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
@@ -9838,8 +9547,7 @@ _______________SCENE 3
                            </choice></w>?</l>
                         <l n="1189" xml:id="v1189">Souffrez, au nom des Dieux, que la Grece s’explique,</l>
                         <l n="1190" xml:id="v1190">Et qu’il meure chargé de la haine publique.</l>
-                        <l n="1191" xml:id="v1191">Souuenez-vous qu’il regne, &amp; qu’vn front cou-
-                           <lb break="no"/>ronné…</l>
+                        <l n="1191" xml:id="v1191">Souuenez-vous qu’il regne, &amp; qu’vn front cou-<lb break="no"/>ronné…</l>
                      </lg>
                   </sp>
 
@@ -9872,8 +9580,7 @@ _______________SCENE 3
                         <l n="1197" xml:id="v1197">Ie ne m’en cache point. L’ingrat m’auoit <w><choice>
                            <orig>ſçeû</orig>
                            <reg>sçeû</reg>
-                           </choice></w>
-                           <lb/>plaire,</l>
+                           </choice></w> <lb/>plaire,</l>
                         <l n="1198" xml:id="v1198">Soit qu’<w><choice>
                            <orig>ainſi</orig>
                            <reg>ainsi</reg>
@@ -9954,18 +9661,14 @@ _______________SCENE 3
                            <orig>ſon</orig>
                            <reg>son</reg>
                            </choice></w> <w><choice>
-                           <orig>chaſti-
-                              <lb break="no"/>ment</orig>
-                           <reg>chaſti-
-                              <lb break="no"/>ment</reg>
+                           <orig>chaſti-<lb break="no"/>ment</orig>
+                           <reg>chaſti-<lb break="no"/>ment</reg>
                            </choice></w>,</l>
-                        <l n="1212" xml:id="v1212">Vous ne donnez qu’vn iour, qu’vne heure, qu’vn
-                           <lb/>moment.</l>
+                        <l n="1212" xml:id="v1212">Vous ne donnez qu’vn iour, qu’vne heure, qu’vn <lb/>moment.</l>
                         <l n="1213" xml:id="v1213">Aux yeux de tout <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w> Peuple, il faut que ie l’op
-                           <lb break="no"/>prime?</l>
+                           </choice></w> Peuple, il faut que ie l’op <lb break="no"/>prime?</l>
                         <l n="1214" xml:id="v1214"><w><choice>
                            <orig>Laiſſez</orig>
                            <reg>Laissez</reg>
@@ -10163,8 +9866,7 @@ _______________SCENE 3
                         <l n="1245" xml:id="v1245">Ie m’en vais <w><choice>
                            <orig>ſeule</orig>
                            <reg>seule</reg>
-                           </choice></w> au Temple, où leur hymen
-                           <lb/>s’<w><choice>
+                           </choice></w> au Temple, où leur hymen <lb/>s’<w><choice>
                            <orig>apreſte</orig>
                            <reg>apreste</reg>
                            </choice></w>,</l>
@@ -10301,8 +10003,7 @@ _______________SCENE 3
                            </choice></w> <w><choice>
                            <orig>preſts</orig>
                            <reg>prests</reg>
-                           </choice></w> pour
-                           <lb/><w><choice>
+                           </choice></w> pour <lb/><w><choice>
                            <orig>noſtre</orig>
                            <reg>nostre</reg>
                            </choice></w> <w><choice>
@@ -10340,8 +10041,7 @@ _______________SCENE 4
                   <sp who="#cleone" xml:id="A4S4_1">
                      <speaker/>
                      <lg>
-                        <l n="1263" xml:id="v1263"><hi rend="dropcap">V</hi>Ous vous perdez, Madame. Et vous deuez
-                           <lb/><w><choice>
+                        <l n="1263" xml:id="v1263"><hi rend="dropcap">V</hi>Ous vous perdez, Madame. Et vous deuez <lb/><w><choice>
                            <orig>ſonger</orig>
                            <reg>songer</reg>
                            </choice></w>....</l>
@@ -10361,8 +10061,7 @@ _______________SCENE 4
                            </choice></w> <w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
-                           </choice></w> encor, quoy qu’il m’ait pû pro-
-                           <lb break="no"/>mettre,</l>
+                           </choice></w> encor, quoy qu’il m’ait pû pro-<lb break="no"/>mettre,</l>
                         <l n="1266" xml:id="v1266">Sur d’autres que <w><choice>
                            <orig>ſur</orig>
                            <reg>sur</reg>
@@ -10376,13 +10075,11 @@ _______________SCENE 4
                            </choice></w> pas coupable à <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
-                           </choice></w> yeux, comme aux
-                           <lb/>miens,</l>
+                           </choice></w> yeux, comme aux <lb/>miens,</l>
                         <l n="1268" xml:id="v1268">Et ie tiendrois mes coups bien plus <w><choice>
                            <orig>ſeûrs</orig>
                            <reg>seûrs</reg>
-                           </choice></w> que les
-                           <lb/><w><choice>
+                           </choice></w> que les <lb/><w><choice>
                            <orig>ſiens</orig>
                            <reg>siens</reg>
                            </choice></w>.</l>
@@ -10509,8 +10206,7 @@ _______________SCENE 5
                   <sp who="#pyrrhus" xml:id="A4S5_1">
                      <speaker rend="center">PYRRHVS.</speaker>
                      <lg>
-                        <l n="1283" xml:id="v1283"><hi rend="dropcap">V</hi>Ous ne m’attendiez pas, Madame, &amp; ie voy
-                           <lb/>bien</l>
+                        <l n="1283" xml:id="v1283"><hi rend="dropcap">V</hi>Ous ne m’attendiez pas, Madame, &amp; ie voy <lb/>bien</l>
                         <l n="1284" xml:id="v1284">Que mon abord icy trouble <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
@@ -10603,8 +10299,7 @@ _______________SCENE 5
                         <l n="1304" xml:id="v1304">I’ay cru que mes <w><choice>
                            <orig>ſermens</orig>
                            <reg>sermens</reg>
-                           </choice></w> me tiendroient lieu d’a-
-                           <lb break="no"/>mour.</l>
+                           </choice></w> me tiendroient lieu d’a-<lb break="no"/>mour.</l>
 
                         <gb n="D2"/>
                         <pb n="77" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f93.image"/>
@@ -10642,8 +10337,7 @@ _______________SCENE 5
                            </choice></w> <w><choice>
                            <orig>iuſte</orig>
                            <reg>iuste</reg>
-                           </choice></w> cour-
-                           <lb break="no"/>roux,</l>
+                           </choice></w> cour-<lb break="no"/>roux,</l>
                         <l n="1312" xml:id="v1312">Il me <w><choice>
                            <orig>ſoulagera</orig>
                            <reg>soulagera</reg>
@@ -10672,8 +10366,7 @@ _______________SCENE 5
                            <orig>teſmoins</orig>
                            <reg>tesmoins</reg>
                            </choice></w>,</l>
-                        <l n="1316" xml:id="v1316">M’en dira d’autant plus que vous m’en direz
-                           <lb/>moins.</l>
+                        <l n="1316" xml:id="v1316">M’en dira d’autant plus que vous m’en direz <lb/>moins.</l>
                      </lg>
                   </sp>
 
@@ -10685,10 +10378,8 @@ _______________SCENE 5
                            <reg>despoüillé</reg>
                            </choice></w> d’artifice,</l>
                         <l n="1318" xml:id="v1318">I’aime à voir que du moins vous vous rendiez <w><choice>
-                           <orig>ju-
-                              <lb break="no"/>ſtice</orig>
-                           <reg>ju-
-                              <lb break="no"/>ſtice</reg>
+                           <orig>ju-<lb break="no"/>ſtice</orig>
+                           <reg>ju-<lb break="no"/>ſtice</reg>
                            </choice></w>,</l>
                         <l n="1319" xml:id="v1319">Et que voulant bien rompre vn nœud <w><choice>
                            <orig>ſi</orig>
@@ -10726,8 +10417,7 @@ _______________SCENE 5
                         <l n="1325" xml:id="v1325">Quoy? Sans que ny <w><choice>
                            <orig>ſerment</orig>
                            <reg>serment</reg>
-                           </choice></w>, ny deuoir vous re-
-                           <lb break="no"/>tienne,</l>
+                           </choice></w>, ny deuoir vous re-<lb break="no"/>tienne,</l>
                         <l n="1326" xml:id="v1326">Rechercher vne Grecque, Amant d’vne Troyenne?</l>
                         <l n="1327" xml:id="v1327">Me quitter, me reprendre, &amp; retourner encor</l>
                         <l n="1328" xml:id="v1328">De la Fille d’<persName>Helene</persName>, à la Veuue d’<persName ref="#hector">Hector</persName>?</l>
@@ -10738,8 +10428,7 @@ _______________SCENE 5
                            <orig>Princeſſe</orig>
                            <reg>Princesse</reg>
                            </choice></w>,</l>
-                        <l n="1330" xml:id="v1330">Immoler Troye aux Grecs, au Fils d’<persName ref="#hector">Hector</persName> la
-                           <lb/>Grece?</l>
+                        <l n="1330" xml:id="v1330">Immoler Troye aux Grecs, au Fils d’<persName ref="#hector">Hector</persName> la <lb/>Grece?</l>
                         <l n="1331" xml:id="v1331">Tout cela part d’vn cœur <w><choice>
                            <orig>touſiours</orig>
                            <reg>tousiours</reg>
@@ -10775,8 +10464,7 @@ _______________SCENE 5
                            </choice></w> <w><choice>
                            <orig>Eſpouſe</orig>
                            <reg>Espouse</reg>
-                           </choice></w>, il vous faudroit peut-
-                           <lb/><w><choice>
+                           </choice></w>, il vous faudroit peut-<lb/><w><choice>
                            <orig>eſtre</orig>
                            <reg>estre</reg>
                            </choice></w></l>
@@ -10790,8 +10478,7 @@ _______________SCENE 5
                            </choice></w> grand cœur <w><choice>
                            <orig>ſans</orig>
                            <reg>sans</reg>
-                           </choice></w> doute attend apres mes
-                           <lb/>pleurs,</l>
+                           </choice></w> doute attend apres mes <lb/>pleurs,</l>
                         <l n="1336" xml:id="v1336">Pour aller dans <w><choice>
                            <orig>ſes</orig>
                            <reg>ses</reg>
@@ -10928,8 +10615,7 @@ _______________SCENE 5
                         <l n="1361" xml:id="v1361">Nos Cœurs n’<w><choice>
                            <orig>eſtoient</orig>
                            <reg>estoient</reg>
-                           </choice></w> point faits dépendans l’vn
-                           <lb/>de l’autre.</l>
+                           </choice></w> point faits dépendans l’vn <lb/>de l’autre.</l>
                         <l n="1362" xml:id="v1362">Ie <w><choice>
                            <orig>ſuivois</orig>
                            <reg>suivois</reg>
@@ -10957,13 +10643,11 @@ _______________SCENE 5
                         <l n="1365" xml:id="v1365">I’ay <w><choice>
                            <orig>deſdaigné</orig>
                            <reg>desdaigné</reg>
-                           </choice></w> pour toy les vœux de tous nos
-                           <lb/>Princes,</l>
+                           </choice></w> pour toy les vœux de tous nos <lb/>Princes,</l>
                         <l n="1366" xml:id="v1366">Ie t’ay cherché moy-<w><choice>
                            <orig>meſme</orig>
                            <reg>mesme</reg>
-                           </choice></w> au fond de tes Pro-
-                           <lb break="no"/>uinces.</l>
+                           </choice></w> au fond de tes Pro-<lb break="no"/>uinces.</l>
                         <l n="1367" xml:id="v1367">I’y <w><choice>
                            <orig>ſuis</orig>
                            <reg>suis</reg>
@@ -11063,8 +10747,7 @@ _______________SCENE 5
                         <l n="1391" xml:id="v1391">Ces Dieux, ces <w><choice>
                            <orig>juſtes</orig>
                            <reg>justes</reg>
-                           </choice></w> Dieux n’auront pas ou-
-                           <lb break="no"/>blié,</l>
+                           </choice></w> Dieux n’auront pas ou-<lb break="no"/>blié,</l>
                         <l n="1392" xml:id="v1392">Que les <w><choice>
                            <orig>meſmes</orig>
                            <reg>mesmes</reg>
@@ -11078,10 +10761,8 @@ _______________SCENE 5
                         <fw type="pageNum" place="top-left">80</fw>
                         <fw type="head" place="center">ANDROMAQVE</fw>
 
-                        <l n="1393" xml:id="v1393">Porte aux pieds des Autels ce Cœur qui m’aban-
-                           <lb break="no"/>donne.</l>
-                        <l n="1394" xml:id="v1394">Va, cours. Mais crains encor d’y trouuer <persName ref="#hermione">Her-
-                           <lb break="no"/>mionne</persName>.</l>
+                        <l n="1393" xml:id="v1393">Porte aux pieds des Autels ce Cœur qui m’aban-<lb break="no"/>donne.</l>
+                        <l n="1394" xml:id="v1394">Va, cours. Mais crains encor d’y trouuer <persName ref="#hermione">Her-<lb break="no"/>mionne</persName>.</l>
                      </lg>
                   </sp>
 
@@ -11108,8 +10789,7 @@ _______________SCENE 6
                         <l n="1396" xml:id="v1396">Vne Amante en fureur, qui cherche à <w><choice>
                            <orig>ſe</orig>
                            <reg>se</reg>
-                           </choice></w> van-
-                           <lb/>ger.</l>
+                           </choice></w> van-<lb/>ger.</l>
                         <l n="1397" xml:id="v1397">Elle n’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -11195,24 +10875,21 @@ _______________SCENE 1
                            </figure> v <w><choice>
                            <orig>ſuis</orig>
                            <reg>suis</reg>
-                           </choice></w>-je? Qu’ay-je fait? Que dois-je
-                           <lb/>faire encore?</l>
+                           </choice></w>-je? Qu’ay-je fait? Que dois-je <lb/>faire encore?</l>
                         <l n="1402" xml:id="v1402">Quel <w><choice>
                            <orig>tranſport</orig>
                            <reg>transport</reg>
                            </choice></w> me <w><choice>
                            <orig>ſaiſit</orig>
                            <reg>saisit</reg>
-                           </choice></w>? Quel cha-
-                           <lb break="no"/>grin me deuore?</l>
+                           </choice></w>? Quel cha-<lb break="no"/>grin me deuore?</l>
                         <l n="1403" xml:id="v1403">Errante, &amp; <w><choice>
                            <orig>ſans</orig>
                            <reg>sans</reg>
                            </choice></w> <w><choice>
                            <orig>deſſein</orig>
                            <reg>dessein</reg>
-                           </choice></w>, ie cours dans
-                           <lb/> ce Palais.</l>
+                           </choice></w>, ie cours dans <lb/> ce Palais.</l>
                         <l n="1404" xml:id="v1404">Ah! ne puis-je <w><choice>
                            <orig>ſçavoir</orig>
                            <reg>sçavoir</reg>
@@ -11311,8 +10988,7 @@ _______________SCENE 1
                         <l n="1419" xml:id="v1419">Il croit que <w><choice>
                            <orig>touſiours</orig>
                            <reg>tousiours</reg>
-                           </choice></w> foible, &amp; d’vn cœur incer-
-                           <lb break="no"/>tain,</l>
+                           </choice></w> foible, &amp; d’vn cœur incer-<lb break="no"/>tain,</l>
                         <l n="1420" xml:id="v1420">Ie pareray d’vn bras les coups de l’autre main.</l>
                         <l n="1421" xml:id="v1421">Il juge encor de moy par mes bontez <w><choice>
                            <orig>paſſées</orig>
@@ -11358,8 +11034,7 @@ _______________SCENE 1
                         <l n="1429" xml:id="v1429">A le vouloir? Hé quoy? C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> donc moy qui l’or-
-                           <lb break="no"/>donne?</l>
+                           </choice></w> donc moy qui l’or-<lb break="no"/>donne?</l>
                         <l n="1430" xml:id="v1430">Sa Mort <w><choice>
                            <orig>ſera</orig>
                            <reg>sera</reg>
@@ -11445,8 +11120,7 @@ _______________SCENE 2
                   <sp who="#hermione" xml:id="A5S2_1">
                      <speaker rend="center">HERMIONNE.</speaker>
                      <lg>
-                        <l n="1438" xml:id="v1438"><hi rend="dropcap">A</hi>H! qu’ay-je fait, <persName ref="#cleone">Cleonne</persName>? Et que viens-tu
-                           <lb/>me dire?</l>
+                        <l n="1438" xml:id="v1438"><hi rend="dropcap">A</hi>H! qu’ay-je fait, <persName ref="#cleone">Cleonne</persName>? Et que viens-tu <lb/>me dire?</l>
                         <l n="1439" xml:id="v1439" part="I">Que fait <persName ref="#pyrrhus">Pyrrhus</persName>?</l>
                      </lg>
                   </sp>
@@ -11849,13 +11523,11 @@ _______________SCENE 2
                            <orig>ſa</orig>
                            <reg>sa</reg>
                            </choice></w> faueur arma la Grece entiere?</l>
-                        <l n="1487" xml:id="v1487">Ses yeux pour leur querelle, en dix ans de com-
-                           <lb break="no"/>bats,</l>
+                        <l n="1487" xml:id="v1487">Ses yeux pour leur querelle, en dix ans de com-<lb break="no"/>bats,</l>
                         <l n="1488" xml:id="v1488">Virent perir vingt Rois, qu’ils ne <w><choice>
                            <orig>connoiſſoient</orig>
                            <reg>connoissoient</reg>
-                           </choice></w>
-                           <lb/>pas?</l>
+                           </choice></w> <lb/>pas?</l>
                         <l n="1489" xml:id="v1489">Et moy je ne prétens que la mort d’vn Parjure,</l>
                         <l n="1490" xml:id="v1490">Et ie charge vn Amant du <w><choice>
                            <orig>ſoin</orig>
@@ -11944,9 +11616,7 @@ _______________SCENE 3
                   </figure>
 
                   <head rend="center">SCENE III.</head>
-                  <stage>ORESTE, ANDROMAQVE,
-                     <lb/>HERMIONNE, CLEONNE,
-                     <lb/>CEPHISE, soldats d'ORESTE.</stage>
+                  <stage>ORESTE, ANDROMAQVE, <lb/>HERMIONNE, CLEONNE, <lb/>CEPHISE, soldats d'ORESTE.</stage>
 
                   <sp who="#oreste" xml:id="A5S3_1">
                      <speaker rend="center">ORESTE.</speaker>
@@ -11961,8 +11631,7 @@ _______________SCENE 3
                            </choice></w> goûter <w><choice>
                            <orig>voſtre</orig>
                            <reg>vostre</reg>
-                           </choice></w>
-                           <lb/>vangeance.</l>
+                           </choice></w> <lb/>vangeance.</l>
                         <l n="1503" xml:id="v1503">Voyez cette Captiue. Elle peut mieux que moy</l>
                         <l n="1504" xml:id="v1504">Vous apprendre qu’<persName ref="#oreste"><w><choice>
                            <orig>Oreſte</orig>
@@ -12052,8 +11721,7 @@ _______________SCENE 3
                         <l n="1516" xml:id="v1516">Qui <w><choice>
                            <orig>fiſt</orig>
                            <reg>fist</reg>
-                           </choice></w> couler mes pleurs pour vn autre qu’<persName ref="#hector">He-
-                           <lb break="no"/>ctor</persName>.</l>
+                           </choice></w> couler mes pleurs pour vn autre qu’<persName ref="#hector">He-<lb break="no"/>ctor</persName>.</l>
 
                         <pb n="87" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f103.image"/>
 
@@ -12077,8 +11745,7 @@ _______________SCENE 3
                         <l n="1519" xml:id="v1519">Plus barbare aujourd’huy qu’<persName ref="#achille">Achille</persName> &amp; que <w><choice>
                            <orig>ſon</orig>
                            <reg>son</reg>
-                           </choice></w>
-                           <lb/>Fils,</l>
+                           </choice></w> <lb/>Fils,</l>
                         <l n="1520" xml:id="v1520">Vous me faites pleurer mes plus grands Ennemis;</l>
                         <l n="1521" xml:id="v1521">Et ce que n’auoient pû <w><choice>
                            <orig>promeſſe</orig>
@@ -12273,8 +11940,7 @@ _______________SCENE 3
                         <l n="1554" xml:id="v1554">Ie l’ay veû dans leurs mains quelque temps <w><choice>
                            <orig>ſe</orig>
                            <reg>se</reg>
-                           </choice></w> de-
-                           <lb break="no"/>battre,</l>
+                           </choice></w> de-<lb break="no"/>battre,</l>
                         <l n="1555" xml:id="v1555">Tout <w><choice>
                            <orig>ſanglant</orig>
                            <reg>sanglant</reg>
@@ -12303,8 +11969,7 @@ _______________SCENE 3
                            <orig>ſatisfera</orig>
                            <reg>satisfera</reg>
                            </choice></w> la Grece:</l>
-                        <l n="1559" xml:id="v1559">Cependant j’ay voulu qu’<persName ref="#andromaque">Andromaque</persName> aujour-
-                           <lb break="no"/>d’huy</l>
+                        <l n="1559" xml:id="v1559">Cependant j’ay voulu qu’<persName ref="#andromaque">Andromaque</persName> aujour-<lb break="no"/>d’huy</l>
                         <l n="1560" xml:id="v1560"><w><choice>
                            <orig>Honnoraſt</orig>
                            <reg>Honnorast</reg>
@@ -12346,8 +12011,7 @@ _______________SCENE 3
                         <l n="1567" xml:id="v1567">Vous vouliez que ma main <w><choice>
                            <orig>portaſt</orig>
                            <reg>portast</reg>
-                           </choice></w> les premiers
-                           <lb/>coups,</l>
+                           </choice></w> les premiers <lb/>coups,</l>
                         <l n="1568" xml:id="v1568">Qu’il <w><choice>
                            <orig>ſentiſt</orig>
                            <reg>sentist</reg>
@@ -12358,13 +12022,11 @@ _______________SCENE 3
                            </choice></w> moy, dont l’ardeur leur a <w><choice>
                            <orig>ſeruy</orig>
                            <reg>seruy</reg>
-                           </choice></w> d’exem-
-                           <lb break="no"/>ple,</l>
+                           </choice></w> d’exem-<lb break="no"/>ple,</l>
                         <l n="1570" xml:id="v1570">Ie les ay pour vous <w><choice>
                            <orig>ſeule</orig>
                            <reg>seule</reg>
-                           </choice></w> entraînez dans le Tem-
-                           <lb break="no"/>ple,</l>
+                           </choice></w> entraînez dans le Tem-<lb break="no"/>ple,</l>
 
                         <pb n="89" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f105.image"/>
 
@@ -12459,8 +12121,7 @@ _______________SCENE 3
                            <reg>pensée</reg>
                            </choice></w>?</l>
                         <l n="1587" xml:id="v1587">Et ne voyois-tu pas dans mes emportemens,</l>
-                        <l n="1588" xml:id="v1588">Que mon cœur démentoit ma bouche à tous mo-
-                           <lb break="no"/>mens?</l>
+                        <l n="1588" xml:id="v1588">Que mon cœur démentoit ma bouche à tous mo-<lb break="no"/>mens?</l>
                         <l n="1589" xml:id="v1589">Quand je l’aurois voulu, falloit-il y <w><choice>
                            <orig>ſouſcrire</orig>
                            <reg>souscrire</reg>
@@ -12539,13 +12200,11 @@ _______________SCENE 3
                         <l n="1604" xml:id="v1604"><w><choice>
                            <orig>Traiſtre</orig>
                            <reg>Traistre</reg>
-                           </choice></w>, qu’elle ait produit vn monstre comme
-                           <lb/>toy.</l>
+                           </choice></w>, qu’elle ait produit vn monstre comme <lb/>toy.</l>
                         <l n="1605" xml:id="v1605">Allons, Madame, allons. C’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> moy qui vous dé-
-                           <lb break="no"/>liure.</l>
+                           </choice></w> moy qui vous dé-<lb break="no"/>liure.</l>
                         <l n="1606" xml:id="v1606"><persName ref="#pyrrhus">Pyrrhus</persName> <w><choice>
                            <orig>ainſi</orig>
                            <reg>ainsi</reg>
@@ -12557,8 +12216,7 @@ _______________SCENE 3
                         <l n="1608" xml:id="v1608">Montrons qui de nous deux <w><choice>
                            <orig>ſçaura</orig>
                            <reg>sçaura</reg>
-                           </choice></w> mieux le van-
-                           <lb break="no"/>ger.</l>
+                           </choice></w> mieux le van-<lb break="no"/>ger.</l>
                      </lg>
                   </sp>
 
@@ -12597,8 +12255,7 @@ _______________SCENE 4
                         <l n="1609" xml:id="v1609"><hi rend="dropcap">Q</hi>Ve voy-je? <w><choice>
                            <orig>Eſt</orig>
                            <reg>Est</reg>
-                           </choice></w>-ce <persName ref="#hermione">Hermionne</persName>? Et que viens-
-                           <lb/>je d’entendre?</l>
+                           </choice></w>-ce <persName ref="#hermione">Hermionne</persName>? Et que viens-<lb/>je d’entendre?</l>
                         <l n="1610" xml:id="v1610">Pour qui coule le <w><choice>
                            <orig>ſang</orig>
                            <reg>sang</reg>
@@ -12629,8 +12286,7 @@ _______________SCENE 4
                         <l n="1613" xml:id="v1613">Quoy? j’étouffe en mon cœur la <w><choice>
                            <orig>raiſon</orig>
                            <reg>raison</reg>
-                           </choice></w> qui m’é-
-                           <lb break="no"/>claire.</l>
+                           </choice></w> qui m’é-<lb break="no"/>claire.</l>
                         <l n="1614" xml:id="v1614">I’<w><choice>
                            <orig>aſſaſſine</orig>
                            <reg>assassine</reg>
@@ -12741,8 +12397,7 @@ _______________SCENE 5
                            </choice></w> nous <w><choice>
                            <orig>pourſuit</orig>
                            <reg>poursuit</reg>
-                           </choice></w> à main for-
-                           <lb break="no"/>te.</l>
+                           </choice></w> à main for-<lb break="no"/>te.</l>
                         <l n="1631" xml:id="v1631">Aux ordres d’<persName ref="#andromaque">Andromaque</persName> icy tout <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
@@ -12762,8 +12417,7 @@ _______________SCENE 5
                         <l n="1635" xml:id="v1635">Commande qu’on le vange. Et peut-<w><choice>
                            <orig>eſtre</orig>
                            <reg>estre</reg>
-                           </choice></w> qu’en-
-                           <lb break="no"/>cor,</l>
+                           </choice></w> qu’en-<lb break="no"/>cor,</l>
                         <l n="1636" xml:id="v1636">Elle <w><choice>
                            <orig>pourſuit</orig>
                            <reg>poursuit</reg>
@@ -12771,10 +12425,8 @@ _______________SCENE 5
                            <orig>ſur</orig>
                            <reg>sur</reg>
                            </choice></w> nous la vangeance d’<persName ref="#hector">Hector</persName>.</l>
-                        <l n="1637" xml:id="v1637">Allons. N’attendons pas que l’on nous enuiron-
-                           <lb break="no"/>ne,</l>
-                        <l n="1638" xml:id="v1638">Nos Grecs nous rejoindront. Et tandis qu’<persName ref="#hermione">Her-
-                           <lb/>mionne</persName></l>
+                        <l n="1637" xml:id="v1637">Allons. N’attendons pas que l’on nous enuiron-<lb break="no"/>ne,</l>
+                        <l n="1638" xml:id="v1638">Nos Grecs nous rejoindront. Et tandis qu’<persName ref="#hermione">Her-<lb/>mionne</persName></l>
                         <l n="1639" xml:id="v1639">Tient encore le Peuple autour d’elle <w><choice>
                            <orig>arreſté</orig>
                            <reg>arresté</reg>
@@ -12798,8 +12450,7 @@ _______________SCENE 5
                         <l n="1641" xml:id="v1641">Non, non, c’<w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> <persName ref="#hermione">Hermionne</persName>, Amis, que ie veux
-                           <lb/><w><choice>
+                           </choice></w> <persName ref="#hermione">Hermionne</persName>, Amis, que ie veux <lb/><w><choice>
                            <orig>ſuiure</orig>
                            <reg>suiure</reg>
                            </choice></w>,</l>
@@ -12833,10 +12484,8 @@ _______________SCENE 5
                            </choice></w>, &amp; l’objet de <w><choice>
                            <orig>ſa</orig>
                            <reg>sa</reg>
-                           </choice></w> ra-
-                           <lb break="no"/>ge,</l>
-                        <l n="1646" xml:id="v1646">Cherchez-vous chez les Morts quelque nouuel ou-
-                           <lb break="no"/>trage?</l>
+                           </choice></w> ra-<lb break="no"/>ge,</l>
+                        <l n="1646" xml:id="v1646">Cherchez-vous chez les Morts quelque nouuel ou-<lb break="no"/>trage?</l>
                         <l n="1647" xml:id="v1647">Et parce qu’elle meurt, faut-il que vous mouriez?</l>
                      </lg>
                   </sp>
@@ -12852,8 +12501,7 @@ _______________SCENE 5
                      <speaker rend="center">PYLADE.</speaker>
                      <lg>
                         <l n="1648" part="F">Hé quoy? vous l’ignoriez?</l>
-                        <l n="1649" xml:id="v1649">En rentrant dans ces lieux nous l’auons rencon-
-                           <lb break="no"/>trée,</l>
+                        <l n="1649" xml:id="v1649">En rentrant dans ces lieux nous l’auons rencon-<lb break="no"/>trée,</l>
                         <l n="1650" xml:id="v1650">Qui couroit vers le Temple, inquiete, égarée.</l>
                         <l n="1651" xml:id="v1651">Elle a trouué <persName ref="#pyrrhus">Pyrrhus</persName>, porté <w><choice>
                            <orig>ſur</orig>
@@ -12901,10 +12549,8 @@ _______________SCENE 5
                            <orig>paſſe</orig>
                            <reg>passe</reg>
                            </choice></w> mon <w><choice>
-                           <orig>eſpe
-                              <lb break="no"/>rance</orig>
-                           <reg>eſpe
-                              <lb break="no"/>rance</reg>
+                           <orig>eſpe <lb break="no"/>rance</orig>
+                           <reg>eſpe <lb break="no"/>rance</reg>
                            </choice></w>.</l>
                         <l n="1658" xml:id="v1658">Oüy, ie te louë, ô Ciel! de ta <w><choice>
                            <orig>perſeuerance</orig>
@@ -12920,8 +12566,7 @@ _______________SCENE 5
                            <orig>ſoin</orig>
                            <reg>soin</reg>
                            </choice></w> de me punir,</l>
-                        <l n="1660" xml:id="v1660">Au comble des douleurs tu m’as fait parue-
-                           <lb break="no"/>nir.</l>
+                        <l n="1660" xml:id="v1660">Au comble des douleurs tu m’as fait parue-<lb break="no"/>nir.</l>
 
                         <pb n="94" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f110.image"/>
 
@@ -12955,18 +12600,15 @@ _______________SCENE 5
                            </choice></w> <w><choice>
                            <orig>eſt</orig>
                            <reg>est</reg>
-                           </choice></w> rem-
-                           <lb break="no"/>ply.</l>
+                           </choice></w> rem-<lb break="no"/>ply.</l>
                         <l n="1665" xml:id="v1665">Où <w><choice>
                            <orig>ſont</orig>
                            <reg>sont</reg>
-                           </choice></w> ces deux Amans? Pour couronner ma
-                           <lb/>joye,</l>
+                           </choice></w> ces deux Amans? Pour couronner ma <lb/>joye,</l>
                         <l n="1666" xml:id="v1666">Dans leur <w><choice>
                            <orig>ſang</orig>
                            <reg>sang</reg>
-                           </choice></w>, dans le mien, il faut que ie me
-                           <lb/>noye:</l>
+                           </choice></w>, dans le mien, il faut que ie me <lb/>noye:</l>
                         <l n="1667" xml:id="v1667">L’vn &amp; l’autre en mourant, ie les veux regarder.</l>
                         <l n="1668" xml:id="v1668"><w><choice>
                            <orig>Réüniſſons</orig>
@@ -12975,8 +12617,7 @@ _______________SCENE 5
                         <l n="1669" xml:id="v1669">Mais quelle <w><choice>
                            <orig>épaiſſe</orig>
                            <reg>épaisse</reg>
-                           </choice></w> nuit tout à coup m’enui
-                           <lb break="no"/>ronne?</l>
+                           </choice></w> nuit tout à coup m’enui <lb break="no"/>ronne?</l>
                         <l n="1670" xml:id="v1670">De quel <w><choice>
                            <orig>coſté</orig>
                            <reg>costé</reg>
@@ -12997,8 +12638,7 @@ _______________SCENE 5
                            </choice></w> de <w><choice>
                            <orig>ſang</orig>
                            <reg>sang</reg>
-                           </choice></w> coulent autour de
-                           <lb/>moy!</l>
+                           </choice></w> coulent autour de <lb/>moy!</l>
                      </lg>
                   </sp>
 
@@ -13023,10 +12663,8 @@ _______________SCENE 5
                            <reg>reserué</reg>
                            </choice></w>.</l>
                         <l n="1677" xml:id="v1677">Mais que vois-je? A mes yeux <persName ref="#hermione">Hermionne</persName> l’<w><choice>
-                           <orig>em-
-                              <lb break="no"/>braſſe</orig>
-                           <reg>em-
-                              <lb break="no"/>braſſe</reg>
+                           <orig>em-<lb break="no"/>braſſe</orig>
+                           <reg>em-<lb break="no"/>braſſe</reg>
                            </choice></w>?</l>
                         <l n="1678" xml:id="v1678">Elle vient l’arracher au coup qui le <w><choice>
                            <orig>menaſſe</orig>
@@ -13042,8 +12680,7 @@ _______________SCENE 5
                            </choice></w> <w><choice>
                            <orig>traiſne</orig>
                            <reg>traisne</reg>
-                           </choice></w>-t’elle apres
-                           <lb/><w><choice>
+                           </choice></w>-t’elle apres <lb/><w><choice>
                            <orig>ſoy</orig>
                            <reg>soy</reg>
                            </choice></w>?</l>
@@ -13051,10 +12688,8 @@ _______________SCENE 5
                            <orig>ſont</orig>
                            <reg>sont</reg>
                            </choice></w>-elles <w><choice>
-                           <orig>pre-
-                              <lb/>ſtes</orig>
-                           <reg>pre-
-                              <lb/>ſtes</reg>
+                           <orig>pre-<lb/>ſtes</orig>
+                           <reg>pre-<lb/>ſtes</reg>
                            </choice></w>?</l>
                         <l n="1682" xml:id="v1682">Pour qui <w><choice>
                            <orig>ſont</orig>
@@ -13112,8 +12747,7 @@ _______________SCENE 5
                         <l n="1690" xml:id="v1690">Ménageons les momens que ce <w><choice>
                            <orig>tranſport</orig>
                            <reg>transport</reg>
-                           </choice></w> nous
-                           <lb/><w><choice>
+                           </choice></w> nous <lb/><w><choice>
                            <orig>laiſſe</orig>
                            <reg>laisse</reg>
                            </choice></w>.</l>
@@ -13153,21 +12787,16 @@ _______________SCENE 5
             <p> <figure>
                <desc>Initiale</desc>
                <desc type="letter" subtype="L">L</desc>
-               </figure> OVIS PAR LA GRACE DE DIEV,
-               <lb/>ROY DE FRANCE ET DE NAVARRE;
-               <lb/>A nos amez &amp; feaux <w><choice>
+               </figure> OVIS PAR LA GRACE DE DIEV, <lb/>ROY DE FRANCE ET DE NAVARRE; <lb/>A nos amez &amp; feaux <w><choice>
                <orig>Conſeillers</orig>
                <reg>Conseillers</reg>
-               </choice></w> les
-               <lb/>Gens tenans nos Cours de Parlement,&#x2028;
-               <lb/><w><choice>
+               </choice></w> les <lb/>Gens tenans nos Cours de Parlement,&#x2028; <lb/><w><choice>
                <orig>Maiſtres</orig>
                <reg>Maistres</reg>
                </choice></w> des <w><choice>
                <orig>ſifflent</orig>
                <reg>sifflent</reg>
-               </choice></w> ordinaires&#x2028;
-               <lb/>de <w><choice>
+               </choice></w> ordinaires&#x2028; <lb/>de <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
                </choice></w> <w><choice>
@@ -13177,83 +12806,60 @@ _______________SCENE 5
                <orig>ſifflent</orig>
                <reg>sifflent</reg>
                </choice></w> de Paris, Baillifs, <w><choice>
-               <orig>Se-
-                  <lb break="no"/>neſchaux</orig>
-               <reg>Se-
-                  <lb break="no"/>neſchaux</reg>
-               </choice></w>, leurs Lieutenans Ciuils, &amp; autres nos&#x2028;
-               <lb/><w><choice>
+               <orig>Se-<lb break="no"/>neſchaux</orig>
+               <reg>Se-<lb break="no"/>neſchaux</reg>
+               </choice></w>, leurs Lieutenans Ciuils, &amp; autres nos&#x2028; <lb/><w><choice>
                <orig>Iuſticiers</orig>
                <reg>Iusticiers</reg>
-               </choice></w>, &amp; Officiers qu’il appartiendra, Salut.&#x2028;
-               <lb/>Noftre bien amé <persName rend="small-caps"><forename>Iean</forename> <surname>Racine</surname></persName>, Prieur de l’Epi-
-               <lb break="no"/>nay, nous a fait <w><choice>
+               </choice></w>, &amp; Officiers qu’il appartiendra, Salut.&#x2028; <lb/>Noftre bien amé <persName rend="small-caps"><forename>Iean</forename> <surname>Racine</surname></persName>, Prieur de l’Epi-<lb break="no"/>nay, nous a fait <w><choice>
                <orig>remonſtrer</orig>
                <reg>remonstrer</reg>
                </choice></w> qu’il a <w><choice>
                <orig>compoſé</orig>
                <reg>composé</reg>
-               </choice></w> vne&#x2028;
-               <lb/>Piece de Theatre, qu’il <w><choice>
+               </choice></w> vne&#x2028; <lb/>Piece de Theatre, qu’il <w><choice>
                <orig>deſireroit</orig>
                <reg>desireroit</reg>
-               </choice></w> faire imprimer, &amp;
-               <lb/>donner au public, <w><choice>
+               </choice></w> faire imprimer, &amp; <lb/>donner au public, <w><choice>
                <orig>ſous</orig>
                <reg>sous</reg>
-               </choice></w> le titre de L’<title rend="italic">Andromaque</title>,&#x2028;
-               <lb/>mais il craint qu’ayant fait la <w><choice>
+               </choice></w> le titre de L’<title rend="italic">Andromaque</title>,&#x2028; <lb/>mais il craint qu’ayant fait la <w><choice>
                <orig>dépenſe</orig>
                <reg>dépense</reg>
                </choice></w> de l’<w><choice>
-               <orig>impreſ-
-                  <lb break="no"/>ſion</orig>
-               <reg>impreſ-
-                  <lb break="no"/>ſion</reg>
+               <orig>impreſ-<lb break="no"/>ſion</orig>
+               <reg>impreſ-<lb break="no"/>ſion</reg>
                </choice></w> de ce Liure, d’autres n’<w><choice>
                <orig>entrepriſſent</orig>
                <reg>entreprissent</reg>
-               </choice></w> de l’im-
-               <lb break="no"/>primer à <w><choice>
+               </choice></w> de l’im-<lb break="no"/>primer à <w><choice>
                <orig>ſon</orig>
                <reg>son</reg>
-               </choice></w> prejudice, s’il n’auoit pour ce nos&#x2028;
-               <lb/>Lettres de Priuilege, qu’il nous a tres-humble-
-               <lb break="no"/>ment fait <w><choice>
+               </choice></w> prejudice, s’il n’auoit pour ce nos&#x2028; <lb/>Lettres de Priuilege, qu’il nous a tres-humble-<lb break="no"/>ment fait <w><choice>
                <orig>ſupplier</orig>
                <reg>supplier</reg>
-               </choice></w> de luy accorder. A <hi rend="small-caps">ces cavses&#x2028;</hi>
-               <lb/>voulans fauorablement traiter l’<w><choice>
+               </choice></w> de luy accorder. A <hi rend="small-caps">ces cavses&#x2028;</hi> <lb/>voulans fauorablement traiter l’<w><choice>
                <orig>Expoſant</orig>
                <reg>Exposant</reg>
-               </choice></w>, Nous&#x2028;
-               <lb/>luy auons permis &amp; accordé, permettons &amp; accor-
-               <lb break="no"/>dons par ces <w><choice>
+               </choice></w>, Nous&#x2028; <lb/>luy auons permis &amp; accordé, permettons &amp; accor-<lb break="no"/>dons par ces <w><choice>
                <orig>preſentes</orig>
                <reg>presentes</reg>
-               </choice></w>, de faire imprimer ledit Li-
-               <lb break="no"/>ure, qui a pour titre L’<title rend="italic">Andromaque</title>, par tel Librai-
-               <lb break="no"/>re ou Imprimeur qu’il voudra <w><choice>
+               </choice></w>, de faire imprimer ledit Li-<lb break="no"/>ure, qui a pour titre L’<title rend="italic">Andromaque</title>, par tel Librai-<lb break="no"/>re ou Imprimeur qu’il voudra <w><choice>
                <orig>choiſir</orig>
                <reg>choisir</reg>
-               </choice></w> de ceux par&#x2028;
-               <lb/>Nous <w><choice>
+               </choice></w> de ceux par&#x2028; <lb/>Nous <w><choice>
                <orig>reſeruez</orig>
                <reg>reseruez</reg>
-               </choice></w>, en tel volume, marge, caractere,
-               <lb/>&amp; autant de fois que bon luy <w><choice>
+               </choice></w>, en tel volume, marge, caractere, <lb/>&amp; autant de fois que bon luy <w><choice>
                <orig>ſemblera</orig>
                <reg>semblera</reg>
-               </choice></w>, pendant le&#x2028;
-               <lb/>temps de cinq années, à commencer du jour qu’il&#x2028;
-               <lb/><w><choice>
+               </choice></w>, pendant le&#x2028; <lb/>temps de cinq années, à commencer du jour qu’il&#x2028; <lb/><w><choice>
                <orig>ſera</orig>
                <reg>sera</reg>
                </choice></w> acheué d’imprimer, &amp; le vendre &amp; <w><choice>
                <orig>diſtribuër</orig>
                <reg>distribuër</reg>
-               </choice></w>&#x2028;
-               <lb/><w><choice>
+               </choice></w>&#x2028; <lb/><w><choice>
                <orig>par tout</orig>
                <reg>par tout</reg>
                </choice></w> <w><choice>
@@ -13265,13 +12871,10 @@ _______________SCENE 5
                </choice></w> <w><choice>
                <orig>deffenſes</orig>
                <reg>deffenses</reg>
-               </choice></w> à tous&#x2028;
-               <lb/>Libraires, Imprimeurs, ou autres, d’imprimer,&#x2028;
-               <lb/>faire imprimer, vendre, &amp; <w><choice>
+               </choice></w> à tous&#x2028; <lb/>Libraires, Imprimeurs, ou autres, d’imprimer,&#x2028; <lb/>faire imprimer, vendre, &amp; <w><choice>
                <orig>diſtribuër</orig>
                <reg>distribuër</reg>
-               </choice></w> ledit Liure&#x2028;
-               <lb/><w><choice>
+               </choice></w> ledit Liure&#x2028; <lb/><w><choice>
                <orig>ſous</orig>
                <reg>sous</reg>
                </choice></w> quelque pretexte que ce <w><choice>
@@ -13281,18 +12884,14 @@ _______________SCENE 5
                <orig>meſme</orig>
                <reg>mesme</reg>
                </choice></w> d’<w><choice>
-               <orig>im-
-                  <lb break="no"/>preſſion</orig>
-               <reg>im-
-                  <lb break="no"/>preſſion</reg>
+               <orig>im-<lb break="no"/>preſſion</orig>
+               <reg>im-<lb break="no"/>preſſion</reg>
                </choice></w> étrangere, &amp; autrement, <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
                </choice></w> le <w><choice>
-               <orig>conſente-
-                  <lb break="no"/>ment</orig>
-               <reg>conſente-
-                  <lb break="no"/>ment</reg>
+               <orig>conſente-<lb break="no"/>ment</orig>
+               <reg>conſente-<lb break="no"/>ment</reg>
                </choice></w> de l’<w><choice>
                <orig>Expoſant</orig>
                <reg>Exposant</reg>
@@ -13305,49 +12904,37 @@ _______________SCENE 5
                </choice></w>, <w><choice>
                <orig>ſur</orig>
                <reg>sur</reg>
-               </choice></w> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/>
-               <lb/>peine de <w><choice>
+               </choice></w> <pb n="NP" facs="http://gallica.bnf.fr/ark:/12148/btv1b8610810z/f111.image"/> <lb/>peine de <w><choice>
                <orig>confiſcation</orig>
                <reg>confiscation</reg>
-               </choice></w> des exemplaires contrefaits,&#x2028;
-               <lb/>quinze cens liures d’amande, dépens, dom-
-               <lb break="no"/>mages, &amp; <w><choice>
+               </choice></w> des exemplaires contrefaits,&#x2028; <lb/>quinze cens liures d’amande, dépens, dom-<lb break="no"/>mages, &amp; <w><choice>
                <orig>intereſts</orig>
                <reg>interests</reg>
-               </choice></w>, à la charge d’en mettre deux&#x2028;
-               <lb/>Exemplaires en <w><choice>
+               </choice></w>, à la charge d’en mettre deux&#x2028; <lb/>Exemplaires en <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
-               </choice></w> Bibliotheque publique, vn&#x2028;
-               <lb/>autre en <w><choice>
+               </choice></w> Bibliotheque publique, vn&#x2028; <lb/>autre en <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
                </choice></w> Cabinet des Liures en <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
                </choice></w> <w><choice>
-               <orig>Cha-
-                  <lb break="no"/>ſteau</orig>
-               <reg>Cha-
-                  <lb break="no"/>ſteau</reg>
-               </choice></w> du Louure, &amp; vn autre en la Bibliotheque de&#x2028;
-               <lb/><w><choice>
+               <orig>Cha-<lb break="no"/>ſteau</orig>
+               <reg>Cha-<lb break="no"/>ſteau</reg>
+               </choice></w> du Louure, &amp; vn autre en la Bibliotheque de&#x2028; <lb/><w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
-               </choice></w> tres-cher, &amp; feal Cheualier, Chancellier de&#x2028;
-               <lb/>France le Sieur Seguyer, à peine de nullité des&#x2028;
-               <lb/><w><choice>
+               </choice></w> tres-cher, &amp; feal Cheualier, Chancellier de&#x2028; <lb/>France le Sieur Seguyer, à peine de nullité des&#x2028; <lb/><w><choice>
                <orig>preſentes</orig>
                <reg>presentes</reg>
                </choice></w>, du contenu <w><choice>
                <orig>deſquelles</orig>
                <reg>desquelles</reg>
-               </choice></w> Nous vous&#x2028;
-               <lb/>mandons, &amp; enjoignons de faire joüir l’<w><choice>
+               </choice></w> Nous vous&#x2028; <lb/>mandons, &amp; enjoignons de faire joüir l’<w><choice>
                <orig>Expoſant</orig>
                <reg>Exposant</reg>
-               </choice></w>,&#x2028;
-               <lb/>&amp; <w><choice>
+               </choice></w>,&#x2028; <lb/>&amp; <w><choice>
                <orig>ſes</orig>
                <reg>ses</reg>
                </choice></w> ayans <w><choice>
@@ -13357,10 +12944,8 @@ _______________SCENE 5
                <orig>paiſiblement</orig>
                <reg>paisiblement</reg>
                </choice></w>, <w><choice>
-               <orig>ceſ-
-                  <lb break="no"/>ſant</orig>
-               <reg>ceſ-
-                  <lb break="no"/>ſant</reg>
+               <orig>ceſ-<lb break="no"/>ſant</orig>
+               <reg>ceſ-<lb break="no"/>ſant</reg>
                </choice></w>, &amp; <w><choice>
                <orig>faiſant</orig>
                <reg>faisant</reg>
@@ -13368,46 +12953,36 @@ _______________SCENE 5
                <orig>ceſſer</orig>
                <reg>cesser</reg>
                </choice></w> tous troubles &amp; <w><choice>
-               <orig>empeſche-
-                  <lb break="no"/>mens</orig>
-               <reg>empeſche-
-                  <lb break="no"/>mens</reg>
-               </choice></w> au contraire. Voulons qu’en mettant au&#x2028;
-               <lb/>commencement, ou à la fin de chacun des Liures&#x2028;
-               <lb/>l’Extrait des <w><choice>
+               <orig>empeſche-<lb break="no"/>mens</orig>
+               <reg>empeſche-<lb break="no"/>mens</reg>
+               </choice></w> au contraire. Voulons qu’en mettant au&#x2028; <lb/>commencement, ou à la fin de chacun des Liures&#x2028; <lb/>l’Extrait des <w><choice>
                <orig>preſentes</orig>
                <reg>presentes</reg>
                </choice></w>, elles <w><choice>
                <orig>ſoient</orig>
                <reg>soient</reg>
-               </choice></w> tenuës pour&#x2028;
-               <lb/>deuëment <w><choice>
+               </choice></w> tenuës pour&#x2028; <lb/>deuëment <w><choice>
                <orig>ſignifiées</orig>
                <reg>signifiées</reg>
-               </choice></w>, &amp; qu’aux coppies collation-
-               <lb break="no"/>nées par l’vn de nos amez, &amp; feaux <w><choice>
+               </choice></w>, &amp; qu’aux coppies collation-<lb break="no"/>nées par l’vn de nos amez, &amp; feaux <w><choice>
                <orig>Conſeillers</orig>
                <reg>Conseillers</reg>
                </choice></w><choice>
                <sic>.</sic>
                <corr>,</corr>
-               </choice> &amp;&#x2028;
-               <lb/>Secretaires, foy <w><choice>
+               </choice> &amp;&#x2028; <lb/>Secretaires, foy <w><choice>
                <orig>ſoit</orig>
                <reg>soit</reg>
-               </choice></w> adjoûtée comme à l’original&#x2028;
-               <lb/><hi rend="small-caps">Mandons</hi> au premier <w><choice>
+               </choice></w> adjoûtée comme à l’original&#x2028; <lb/><hi rend="small-caps">Mandons</hi> au premier <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
                </choice></w> <w><choice>
                <orig>Huiſſier</orig>
                <reg>Huissier</reg>
-               </choice></w> ou Ser-
-               <lb break="no"/>gent faire pour l’execution des <w><choice>
+               </choice></w> ou Ser-<lb break="no"/>gent faire pour l’execution des <w><choice>
                <orig>Preſentes</orig>
                <reg>Presentes</reg>
-               </choice></w>, toutes&#x2028;
-               <lb/><w><choice>
+               </choice></w>, toutes&#x2028; <lb/><w><choice>
                <orig>ſignifications</orig>
                <reg>significations</reg>
                </choice></w>, <w><choice>
@@ -13416,18 +12991,15 @@ _______________SCENE 5
                </choice></w>, <w><choice>
                <orig>ſaiſies</orig>
                <reg>saisies</reg>
-               </choice></w>, &amp; autres actes&#x2028;
-               <lb/>requis &amp; <w><choice>
+               </choice></w>, &amp; autres actes&#x2028; <lb/>requis &amp; <w><choice>
                <orig>neceſſaires</orig>
                <reg>necessaires</reg>
                </choice></w>, <w><choice>
                <orig>ſans</orig>
                <reg>sans</reg>
                </choice></w> demander autre <w><choice>
-               <orig>permiſ-
-                  <lb break="no"/>ſion</orig>
-               <reg>permiſ-
-                  <lb break="no"/>ſion</reg>
+               <orig>permiſ-<lb break="no"/>ſion</orig>
+               <reg>permiſ-<lb break="no"/>ſion</reg>
                </choice></w>: Car tel <w><choice>
                <orig>eſt</orig>
                <reg>est</reg>
@@ -13437,9 +13009,7 @@ _______________SCENE 5
                </choice></w> <w><choice>
                <orig>Plaiſir</orig>
                <reg>Plaisir</reg>
-               </choice></w>. Donné à Paris le&#x2028;
-               <lb/>vingt-huitiéme jour de Decembre l’an de grace mil&#x2028;
-               <lb/><w><choice>
+               </choice></w>. Donné à Paris le&#x2028; <lb/>vingt-huitiéme jour de Decembre l’an de grace mil&#x2028; <lb/><w><choice>
                <orig>ſix</orig>
                <reg>six</reg>
                </choice></w> cens <w><choice>
@@ -13451,8 +13021,7 @@ _______________SCENE 5
                </choice></w>, &amp; de <w><choice>
                <orig>noſtre</orig>
                <reg>nostre</reg>
-               </choice></w> regne le vingt-
-               <lb/><choice>
+               </choice></w> regne le vingt-<lb/><choice>
                <corr><w><choice>
                   <orig>cinquieſmé</orig>
                   <reg>cinquiesmé</reg>
@@ -13467,32 +13036,25 @@ _______________SCENE 5
                </choice></w> <w><choice>
                <orig>Conſeil</orig>
                <reg>Conseil</reg>
-               </choice></w>. Signé, <!-- signature? -->
-               <lb/><persName rend="small-caps">Demalon</persName>. </p>
-            <p>
-               <lb/>Et ledit <w><choice>
+               </choice></w>. Signé, <!-- signature? --> <lb/><persName rend="small-caps">Demalon</persName>. </p>
+            <p> <lb/>Et ledit <w><choice>
                <orig>ſieur</orig>
                <reg>sieur</reg>
                </choice></w> <persName>Racine</persName> a cedé <w><choice>
                <orig>ſon</orig>
                <reg>son</reg>
-               </choice></w> droit de Priui-
-               <lb break="no"/>lege à <persName><forename>Theodore</forename> <surname>Girard</surname></persName>, Marchand Libraire à Pa-
-               <lb break="no"/>ris, <w><choice>
+               </choice></w> droit de Priui-<lb break="no"/>lege à <persName><forename>Theodore</forename> <surname>Girard</surname></persName>, Marchand Libraire à Pa-<lb break="no"/>ris, <w><choice>
                <orig>ſuiuant</orig>
                <reg>suiuant</reg>
                </choice></w> l’accord fait entr’eux. </p>
-            <p>
-               <lb/>Et ledit Girard a <w><choice>
+            <p> <lb/>Et ledit Girard a <w><choice>
                <orig>aſſocié</orig>
                <reg>associé</reg>
-               </choice></w> audit Priuilege <persName><forename>Thomas</forename>&#x2028;
-               <lb/><surname>Iolly</surname></persName>, &amp; <persName><forename>Claude</forename> <surname>Barbin</surname></persName>, <w><choice>
+               </choice></w> audit Priuilege <persName><forename>Thomas</forename>&#x2028; <lb/><surname>Iolly</surname></persName>, &amp; <persName><forename>Claude</forename> <surname>Barbin</surname></persName>, <w><choice>
                <orig>auſſi</orig>
                <reg>aussi</reg>
                </choice></w> Marchands Libraires. </p>
-            <p>
-               <lb/><hi rend="italic"><w><choice>
+            <p> <lb/><hi rend="italic"><w><choice>
                <orig>Regiſtré</orig>
                <reg>Registré</reg>
                </choice></w> <w><choice>
