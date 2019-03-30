@@ -3,3 +3,5 @@
 ```Andromaque_choice.xml``` est ```Andromaque.xml``` avec des ```choice``` où le ```reg```a le s long régularisé. Il est obtenu automatiquement avec ```copyAndModify.xsl```
 
 ```Andromaque_choice_inline.xml``` réinjecte les notes et l'apparat du ```back``` dans le code avec ```App_inLine.xsl```.
+
+```toHTML.xsl```permet de créer une page HTML de base au design somptueux. Il faut y changer des trucs.
