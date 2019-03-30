@@ -4,12 +4,9 @@ Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Leve
 
 ## Lieu
 
-Maison des Sciences de l'Homme
-
-14, avenue Berthelot
-
-69007 Lyon
-
+Maison des Sciences de l'Homme\
+14, avenue Berthelot\
+69007 Lyon\
 Tramway: Centre Berthelot (T2)
 
 ## Programme
