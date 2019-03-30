@@ -2,6 +2,13 @@
 
 Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Levenson, Jean-Paul Rehr et Simon Gabay pour la [formation XSLT](https://cosme.hypotheses.org/1117) du consortium COSME² (23-24 avril 2019).
 
+## Lieu
+
+Maison des Sciences de l'Homme\
+14, avenue Berthelot\
+69007 Lyon\
+Tramway: Centre Berthelot (T2)
+
 ## Programme
 
 
