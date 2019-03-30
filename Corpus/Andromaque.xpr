@@ -4,17 +4,81 @@
         <filters directoryPatterns="" filePatterns="Andromaque.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="18.1" xml:space="preserve">
-                <map>
+                <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Andromaque_choice_inline.xml</String>
+                                    <String>Andromaque_c_withChoices.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>toHTML</String>
+                                        <String>App_inLine</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Andromaque_c.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>addingChoices</String>
+                                        <String>withoutC</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Andromaque_c%20copy.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>test</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Andromaque_c_withChoices_Appinline.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>toHTML_orig</String>
+                                        <String>toHTML_reg</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Andromaque_c_choices.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>App_inLine</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -30,36 +94,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>App_inLine</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Andromaque_choice_choice_inline.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>toHTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Andromaque.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>copyAndModify</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -120,10 +154,64 @@
                         <scenario-array>
                             <scenario>
                                 <field name="advancedOptionsMap">
-                                    <null/>
+                                    <serializableOrderedMap>
+                                        <entry>
+                                            <String>Saxon-PE</String>
+                                            <xsltSaxonBAdvancedOptions>
+                                                <field name="allowCallsOnExtensionFunctions">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="registerSaxonCEExtensions">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="showVersionWarnings">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidation">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidationRecover">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="lineNumbering">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="initialMode">
+                                                    <null/>
+                                                </field>
+                                                <field name="initialTemplate">
+                                                    <null/>
+                                                </field>
+                                                <field name="traceXPathExpression">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="expandAttributeDefaults">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="errorRecoverPolicy">
+                                                    <String>saxon.recover.with.warning</String>
+                                                </field>
+                                                <field name="stripWS">
+                                                    <String>saxon.strip.ws.none</String>
+                                                </field>
+                                                <field name="optimizationLevel">
+                                                    <String>10</String>
+                                                </field>
+                                                <field name="useConfigFile">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="configSystemID">
+                                                    <null/>
+                                                </field>
+                                                <field name="initializer">
+                                                    <String></String>
+                                                </field>
+                                            </xsltSaxonBAdvancedOptions>
+                                        </entry>
+                                    </serializableOrderedMap>
                                 </field>
                                 <field name="name">
-                                    <String>toHTML</String>
+                                    <String>App_inLine</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -141,7 +229,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/toHTML.xsl</String>
+                                    <String>${pdu}/XSLT/addingAppInLine.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -162,10 +250,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}.html</File>
+                                    <File>${cfn}_Appinline.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}.html</String>
+                                    <String>${cfn}_Appinline.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -257,7 +345,7 @@
                                     </serializableOrderedMap>
                                 </field>
                                 <field name="name">
-                                    <String>copyAndModify</String>
+                                    <String>addingChoices</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -275,7 +363,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/copyAndModify.xsl</String>
+                                    <String>${pdu}/XSLT/addingChoices_c.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -296,10 +384,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}_choice.xml</File>
+                                    <File>${cfn}_withChoices.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}_choice.xml</String>
+                                    <String>${cfn}_withChoices.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -530,6 +618,92 @@
                                     <null/>
                                 </field>
                                 <field name="name">
+                                    <String>lucain</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/lucain.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
                                     <String>tei2LaTeX</String>
                                 </field>
                                 <field name="baseURL">
@@ -616,7 +790,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>lucain</String>
+                                    <String>test</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -634,7 +808,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/lucain.xsl</String>
+                                    <String>${pdu}/XSLT/addingChoices_c%20copy.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -652,13 +826,13 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <null/>
+                                    <File>test.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>test.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -699,64 +873,10 @@
                             </scenario>
                             <scenario>
                                 <field name="advancedOptionsMap">
-                                    <serializableOrderedMap>
-                                        <entry>
-                                            <String>Saxon-PE</String>
-                                            <xsltSaxonBAdvancedOptions>
-                                                <field name="allowCallsOnExtensionFunctions">
-                                                    <Boolean>true</Boolean>
-                                                </field>
-                                                <field name="registerSaxonCEExtensions">
-                                                    <Boolean>true</Boolean>
-                                                </field>
-                                                <field name="showVersionWarnings">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="dtdSourceValidation">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="dtdSourceValidationRecover">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="lineNumbering">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="initialMode">
-                                                    <null/>
-                                                </field>
-                                                <field name="initialTemplate">
-                                                    <null/>
-                                                </field>
-                                                <field name="traceXPathExpression">
-                                                    <Boolean>true</Boolean>
-                                                </field>
-                                                <field name="expandAttributeDefaults">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="errorRecoverPolicy">
-                                                    <String>saxon.recover.with.warning</String>
-                                                </field>
-                                                <field name="stripWS">
-                                                    <String>saxon.strip.ws.none</String>
-                                                </field>
-                                                <field name="optimizationLevel">
-                                                    <String>10</String>
-                                                </field>
-                                                <field name="useConfigFile">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="configSystemID">
-                                                    <null/>
-                                                </field>
-                                                <field name="initializer">
-                                                    <String></String>
-                                                </field>
-                                            </xsltSaxonBAdvancedOptions>
-                                        </entry>
-                                    </serializableOrderedMap>
+                                    <null/>
                                 </field>
                                 <field name="name">
-                                    <String>App_inLine</String>
+                                    <String>toHTML_orig</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -774,7 +894,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/App_inLine.xsl</String>
+                                    <String>${pdu}/XSLT/toHTML_orig.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -795,10 +915,182 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}_inline.xml</File>
+                                    <File>${pd}/HTML/${cfn}_orig.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}_inline.xml</String>
+                                    <String>${pd}/HTML/${cfn}_orig.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>toHTML_reg</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/XSLT/toHTML_reg.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${pd}/HTML/${cfn}_reg.html</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}/HTML/${cfn}_reg.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>withoutC</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/XSLT/without_c.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${cfn}_withoutC.xml</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${cfn}_withoutC.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -839,7 +1131,7 @@
                             </scenario>
                         </scenario-array>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
