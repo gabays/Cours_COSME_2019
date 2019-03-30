@@ -1,11 +1,11 @@
-body {
+﻿body {
     background-color: grey;
-        margin: 3em;
+    margin: 3em;
 }
 
 #header {
     background-color: white;
-    text-align:center;
+    text-align: center;
 }
 
 #main {
@@ -13,20 +13,20 @@ body {
     margin-right: 50%;
 }
 
-p  {
+p {
     display: block;
 }
 
-.verse  {
-    margin-left: 2em;  
+.verse {
+    margin-left: 2em;
 }
 
-.verseM  {
-    margin-left: 8em;  
+.verseM {
+    margin-left: 8em;
 }
 
-.verseF  {
-    margin-left: 8em;  
+.verseF {
+    margin-left: 8em;
 }
 
 hr {
@@ -38,38 +38,66 @@ hr {
 
 /* table des matières */
 
-#tableOfContent  {
+#tableOfContent {
     background-color: violet;
     display: block;
     padding: 1em;
-    position: fixed; 
+    position: fixed;
     right: 0;
 }
 
-.tableOfContent  {
-    margin-left: 2em;  
+.tableOfContent {
+    margin-left: 2em;
     color: red;
 }
 
 /* lettre */
 
-#aMadame  {
+#aMadame {
     background-color: blue;
+    animation: bgColor 5s infinite linear;
     display: block;
     padding: 1em;
 }
 
-.opener  {
+@keyframes bgColor {
+  12.5% {
+    background-color: #FF0000;
+  }
+  25% {
+    background-color: #FFA500;
+  }
+  37.5% {
+    background-color: #FFFF00;
+  }
+  50% {
+    background-color: #7FFF00;
+  }
+  62.5% {
+    background-color: #00FFFF;
+  }
+  75% {
+    background-color: #0000FF;
+  }
+  87.5% {
+    background-color: #9932CC;
+  }
+  100% {
+    background-color: #FF1493;
+  }
+}
+
+.opener {
     padding-left: 1em;
 }
 
-.closer  {
+.closer {
     text-align: right;
 }
 
 /* preface */
 
-#preface  {
+#preface {
     background-color: red;
     display: block;
     padding: 1em;
@@ -78,11 +106,11 @@ hr {
 
 /* Mise en page */
 
-.pb  {
-    font-size: 70%; 
+.pb {
+    font-size: 70%;
 }
 
-.fw  {
+.fw {
     text-align: right;
     font-size: 70%;
     padding-left: 0;
@@ -90,7 +118,7 @@ hr {
 
 /* CastList */
 
-#castList  {
+#castList {
     background-color: green;
     display: block;
     padding: 1em;
@@ -98,7 +126,7 @@ hr {
 
 /* Play */
 
-#play  {
+#play {
     background-color: yellow;
     display: block;
     padding: 1em;
@@ -117,23 +145,23 @@ hr {
     padding-top: 1em;
 }
 
-.stage  {
+.stage {
     text-align: center;
     padding-top: 1em;
 }
 
-#stage  {
+#stage {
     text-align: center;
     padding-top: 1em;
 }
 
-.speaker  {
+.speaker {
     padding-top: 1em;
 }
 
 /* Privilege */
 
-#privilege  {
+#privilege {
     background-color: orange;
     display: block;
     padding: 1em;
