@@ -1,7 +1,9 @@
-```Andromaque.xml``` est le doc "allégé" au niveau du code pour garder un truc lisible.
+```Andromaque_c.xml``` est le doc "allégé" au niveau du code pour garder le document le plus lisible posible. L'essentiel des modifications possibles est contenu encodé dans ```c``` via des attributs.
 
-```Andromaque_choice.xml``` est ```Andromaque.xml``` avec des ```choice``` où le ```reg```a le s long régularisé. Il est obtenu automatiquement avec ```copyAndModify.xsl```
+```without_c.xsl``` permet de retirer le tag ```c``` est d'obtenir un texte encore plus lisible. On pourrait aussi envisager de retirer ```persName```, ```placeName``` ou ```anchor```.
 
-```Andromaque_choice_inline.xml``` réinjecte les notes et l'apparat du ```back``` dans le code avec ```App_inLine.xsl```.
+```addingChoices_c.xsl``` permet de transformer les ```c``` en ```choice``` avec ```orig``` et ```reg``` ou ```abbr``` et ```expan``` suivant les cas, avec ```reg``` ou ```expan```déjà complétés.
 
-```toHTML.xsl```permet de créer une page HTML de base au design somptueux. Il faut y changer des trucs.
+```addingAppInLine.xsl```permet d'injecter les notes et l'apparat critique (qui sont dans le ```back```) au bon endroit dans le texte à partir des ```anchor``` dans le texte.
+
+```toHTML_orig.xsl``` et ```toHTML_reg.xsl``` permettent de créer deux pages HTML au design somptueux (Matthias est corresponsable). Il y a de la marge pour améliorer le résultats (<-litote).
