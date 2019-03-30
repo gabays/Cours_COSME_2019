@@ -1,0 +1,140 @@
+body {
+    background-color: grey;
+        margin: 3em;
+}
+
+#header {
+    background-color: white;
+    text-align:center;
+}
+
+#main {
+    float: left;
+    margin-right: 50%;
+}
+
+p  {
+    display: block;
+}
+
+.verse  {
+    margin-left: 2em;  
+}
+
+.verseM  {
+    margin-left: 8em;  
+}
+
+.verseF  {
+    margin-left: 8em;  
+}
+
+hr {
+    display: block;
+    background-color: black;
+}
+
+
+
+/* table des matières */
+
+#tableOfContent  {
+    background-color: violet;
+    display: block;
+    padding: 1em;
+    position: fixed; 
+    right: 0;
+}
+
+.tableOfContent  {
+    margin-left: 2em;  
+    color: red;
+}
+
+/* lettre */
+
+#aMadame  {
+    background-color: blue;
+    display: block;
+    padding: 1em;
+}
+
+.opener  {
+    padding-left: 1em;
+}
+
+.closer  {
+    text-align: right;
+}
+
+/* preface */
+
+#preface  {
+    background-color: red;
+    display: block;
+    padding: 1em;
+}
+
+
+/* Mise en page */
+
+.pb  {
+    font-size: 70%; 
+}
+
+.fw  {
+    text-align: right;
+    font-size: 70%;
+    padding-left: 0;
+}
+
+/* CastList */
+
+#castList  {
+    background-color: green;
+    display: block;
+    padding: 1em;
+}
+
+/* Play */
+
+#play  {
+    background-color: yellow;
+    display: block;
+    padding: 1em;
+}
+
+
+.actTitle {
+    text-align: center;
+    font-size: 130%;
+    padding-top: 1em;
+}
+
+.sceneTitle {
+    text-align: center;
+    font-size: 115%;
+    padding-top: 1em;
+}
+
+.stage  {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#stage  {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.speaker  {
+    padding-top: 1em;
+}
+
+/* Privilege */
+
+#privilege  {
+    background-color: orange;
+    display: block;
+    padding: 1em;
+}
