@@ -122,6 +122,13 @@ Le prédicat est noté entre crochets droits après l'élément auquel il se rap
 - Une propriété de l'élément :
 	- div[@type="scene"] 
 ---
+###### Exercices
+**À partir du fichier andromaque_c.xml, donner les chemins suivants avec la syntaxe la plus concise possible :**
+- Récupérer tous les vers de la première réplique;
+- Récupérer tous les noms des personnages déclarés dans le teiHeader;
+- Récupérer le premier vers de la pièce.
+
+---
 # III-XSLT
 ---
 
