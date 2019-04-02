@@ -143,3 +143,123 @@ Le prédicat est noté entre crochets droits après l'élément auquel il se rap
 
 ---
 ## Initier un fichier XSLT
+
+- Ouvrir le fichier XML *andromaque_c.xml*
+- Ouvrir un nouveau fichier de format XSLT
+- Ce fichier contient l'en-tête suivante :
+`<xsl:stylesheet`       `xmlns:xsl="http://www.w3.org/1999/XSL/Transform"`
+`xmlns:xs="http://www.w3.org/2001/XMLSchema"`
+`exclude-result-prefixes="xs" version="2.0">` 
+[...]
+`</xsl:stylesheet>`
+- Rajouter : `xpath-default-namespace="http://www.tei-c.org/ns/1.0"`après la déclaration *xmlns:xs*
+---
+## Observer
+
+1) Ecrire dans le feuille XSLT la règle suivante et l'appliquer :
+```XML
+<xsl:template match="/">
+    <xsl:apply-templates/>
+</xsl:template> 
+```
+2) Appliquer la règle suivante :
+```XML
+<xsl:template match="text()"/>
+```
+3) Sélectionner un élément du document source et copier son contenu
+```XML
+<xsl:template match="div[@type='play']/head">
+  <h1><xsl:value-of select="."/></h1>
+</xsl:template>
+```
+---
+## Mettre en place une règle
+
+- Pour donner des instructions XSL, on utilise des templates grâce à l’élément : 
+```XML
+<xsl:template>
+  ```
+
+- On utilise l’attribut match pour sélectionner grâce à un chemin Xpath un élément de l’arbre XML : 
+```XML
+<xsl:template match="mon_element_xml">
+  ```
+---
+On peut ajouter dans la règle du texte,
+```XML
+<xsl:template match="div[@type='play']/head">
+    Ici, il y avait mon élément
+</xsl:template>
+  ```
+
+mais aussi des balises, ou un motif qui permet de récupérer certains éléments de l’arbre XML soit tels quels, soit transformés ou triés par des fonctions XSL ou Xpath.
+
+```XML
+<xsl:template match="div[@type='play']/head">
+  <h1>
+      <xsl:value-of select="."/>
+  </h1>
+</xsl:template>
+```
+NB: La fonction XSLT *value-of* permet de récupérer le contenu textuel d'un balise.
+
+---
+## Principe de fonctionnement du langage de XSLT
+
+- « Par défaut, un processeur XSLT lit le document XML d’entrée de haut en bas, commençant à l’élément racine et descendant dans l’arborescence en suivant l’ordre d’apparition des éléments. Les règles modèles sont activées dans l’ordre de rencontre des éléments. Ceci signifie qu’une règle modèle pour un élément sera activée avant les règles modèles correspondant à ses sous-éléments. »
+
+Elliotte Rusty Harold, W. Scott Means, Philippe Ensarguet [et al.], *XML en concentré*, Paris, O’Reilly, 2005, p. 164.
+
+---
+
+- **XSLT est un langage XML**, il possède la même logique d'imbrication. Ainsi une règle XSLT s'applique à l'élément sélectionné et ses enfants. Si on veut que les règles écrites pour un élément enfant s'appliquent, il faut en autoriser l'application en ajoutant dans la règle de l'élément parent la fonction XSLT *apply-templates*.
+```XML
+<xsl:template match="div[@type='act']">
+        <div class="actTitle" id="{@xml:id}">
+            <xsl:value-of select="head"/>
+        </div>
+        <xsl:apply-templates/>
+</xsl:template>
+````
+
+---
+
+## Exercice guidé
+
+Transformer le fichier XML *andromaque_c.xml* pour créer une page HTML simple.
+
+### Mettre en place la structure HTML
+
+1- Ouvrir le fichier XML;
+2- Ouvrir le fichier XSL *XSL_HTML_structure.xsl*
+3- Compléter la première règle pour structurer les informations dans une page HTML minimale :
+- Indiquer qu'on appliquera les règles (à définir) qui porteront uniquement sur les éléments enfants de `div[@type='play']`
+
+---
+
+### Ajout d'informations depuis le XML source vers le fichier HTML de sortie
+
+#### 1- Écrire une nouvelle règle :
+- Récupérer la valeur la balise `<head>`contenue dans la `div[@type='play']`
+- Englober le texte ainsi récupéré dans une balise HTML `<h1>`
+
+---
+#### 2- Écrire une nouvelle règle pour traiter l'élément `div[@type='act']`
+- Récupérer la valeur la balise `<head>`contenue dans la `div[@type='play']`
+- Englober le texte ainsi récupéré dans une balise HTML `<div>`
+- Ajouter sur la balise HTML `div`un attribut *id*
+- Récupérer la valeur de @xml:id de `div[@type='act']` pour remplir la valeur de l'attribut HTML *id*.
+- Le reste des règles définies pour les éléments enfants de `div[@type='act']` devra s'appliquer après l'élément div que nous venons de créer.
+
+---
+#### 3- Écrire une règle pour l'élément `div[@type='scene'] afin d'effectuer la transformation suivante.
+
+![500%](img/XMLtoHTML.png)
+
+**PS :** l'ajout du nom du "speaker" et des vers seront traités à l'aide d'une autre règle.
+
+---
+#### 4-Compléter le fichier HTML :
+- Créer une règle pour récupérer le nom du speaker (voir la transformation ci-dessus)
+- Créer une règle pour récupérer les vers (voir la transformation ci-dessus)
+- Observer le texte des vers, quels problèmes identifiez-vous ?

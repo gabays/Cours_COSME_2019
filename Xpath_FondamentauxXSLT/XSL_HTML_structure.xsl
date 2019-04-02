@@ -3,8 +3,12 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     version="2.0">
+    <!-- en-tête du fichier xsl qui indique que l'on utilise la version 2.0 et que le nom de domaine par défaut du Xpath est tei -->
     <xsl:output method="html" encoding="UTF-8"/>
+    <!-- réglage de la sorite en format HTML avec un encodage de caractère UTF-8 -->
     <xsl:template match="/">
+     <!-- Cette règle permet de parser l'arbre XML source depuis le racine -->
+        <!-- Ci-dessous ajout des balises HTML de structuration du fichier -->
       <html>
         <head>
             <title>Edition numérique d'Andromaque (1668)</title>
@@ -12,6 +16,7 @@
             <meta charset="UTF-8"></meta>
         </head>
         <body>
+            <!-- Mise en place d'une table des matières permettant la navigation au sein du fichier -->
             <div id="tableOfContent">
                 <ul>
                     <li>
@@ -36,13 +41,10 @@
             </div>
             <div id="main">
                 <div id="play">
-                    <!-- Règles à ajouter ici -->
+                    <!-- Les différents éléments du fichier XML seront insérés à ce niveau de la structure -->
                 </div>
             </div>
         </body>
     </html>
-    </xsl:template>
-    
-    
-    
+    </xsl:template>   
 </xsl:stylesheet>

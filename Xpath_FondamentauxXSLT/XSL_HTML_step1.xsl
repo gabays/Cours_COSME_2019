@@ -4,6 +4,8 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output method="html" encoding="UTF-8"/>
+    <!-- strip-space permet de supprimer les espaces superflues entre les différents éléments de document de sortie -->
+    <xsl:strip-space elements="*"/>
     <xsl:template match="/">
       <html>
         <head>
@@ -36,23 +38,25 @@
             </div>
             <div id="main">
                 <div id="play">
+                    <!-- On n'appliquera que les règles XSL qui concernent les éléments enfants de la div[@type='play'] -->
                     <xsl:apply-templates select="descendant::div[@type='play']"/>                
                 </div>
             </div>
         </body>
     </html>
     </xsl:template>
-    
-    <xsl:template match="div[@type='play']">
-        <h1><xsl:value-of select="head"/></h1>
-        <xsl:apply-templates select="div[@type='act']"/>
+  
+    <!--1, NB : XSL:value-of permet de récupérer le texte qui se trouve dans la balise head de la div[@type='play'] -->  
+    <xsl:template match="div[@type='play']/head">
+        <h1><xsl:value-of select="."/></h1>
     </xsl:template>
-    
+   <!-- 2 --> 
     <xsl:template match="div[@type='act']">
         <div class="actTitle" id="{@xml:id}">
             <xsl:value-of select="head"/>
         </div>
-        <xsl:apply-templates select="div"/>
+        <!-- l'apply-templates permet d'appliquer les règles des éléments enfants de div[@type='act'] -->
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="div[@type='scene']">
@@ -62,7 +66,7 @@
         <div class="stage">
             <xsl:value-of select="stage"/>
         </div>
-        <xsl:apply-templates select="sp"/>
+        <xsl:apply-templates/>
     </xsl:template>
       
     <xsl:template match="speaker">
@@ -73,12 +77,17 @@
     
     <xsl:template match="l">
         <div class="verse" id="{@xml:id}">
+            <!-- Ici le Xpath de @select permet de récupérer plusieurs valeurs :
+            - le texte enfant des <l>
+            - le texte enfant des desc[@type='letter']
+            - le texte enfant des <c> -->
             <xsl:value-of select="text()|
                 figure/desc[@type='letter']/text()|
                 c/text()"/>
         </div>
     </xsl:template>
     
+    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
     <xsl:template match="fw|figure|pb"/>
     
 </xsl:stylesheet>
