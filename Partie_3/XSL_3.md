@@ -89,7 +89,7 @@ où string est le noeud textuel à traîter.
 ---
 
 # Exercices 
+- Créer une notice qui reprend la ``<listPerson>``
 - Pour chaque personnage, créer un renvoi vers sa notice en début du document. 
-- Pour la liste des personnages, créer un index qui indique les scènes d'apparition. 
 
 
