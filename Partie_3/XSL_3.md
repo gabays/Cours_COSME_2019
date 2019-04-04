@@ -1,8 +1,9 @@
 ﻿Cours Cosme 2019
 
-# XSLT: approfondissement
+# XSLT: approfondissement II
 
-Matthias Gille Levenson
+Matthias GILLE LEVENSON
+
 23 avril 2019
 
 ---
@@ -29,7 +30,7 @@ On peut l'utiliser de deux façons:
 
         
         <xsl:variable name="nom">
-           <xsl:value-of select="...">
+           règles à appliquer...
         </xsl:variable>
         
 
@@ -47,13 +48,11 @@ On peut aussi se servir des variables pour filtrer précisément les données qu
 ## fn:concat()
 
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
->« fn:concat( 	$arg1 	 as xs:anyAtomicType?,
-$arg2 	 as xs:anyAtomicType?,
-... 	) as xs:string»
+>« fn:concat(string,string,...)»
 
-[W3C](https://www.w3.org/TR/xpath-functions-31/)
+[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Les arguments passés sont des chaînes de caractères simples (sans espaces). Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
 
 ## fn:translate()
 La fonction ``fn:translate()`` permet de remplacer des caractères. Cette fonction est définie comme suit:
@@ -89,7 +88,7 @@ où string est le noeud textuel à traîter.
 ---
 
 # Exercices 
-- Créer une notice pour chaque personnage listé dans la ``<listPerson>``
-- Pour chaque personnage, créer un renvoi vers sa notice en début du document. 
+- Créer une notice pour chaque personnage listé dans la ``<listPerson>``.
+- Pour chaque personnage listé dans cette ``<listPerson>``, créer un lien vers sa notice en début du document. 
 
 
