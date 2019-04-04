@@ -6,6 +6,9 @@ Simon Gabay
 Lyon, 23 avril 2019
 
 ---
+# Conditions et tests en XSLT (I)
+
+---
 ## Fonctions XPath à deux arguments
 
 Il existe des fonctions XPath, qui sont reconnaissables au fait qu'elles se terminent par ```()```. Ainsi ```contains()```, ```starts-with()```, ```ends-with()```, ```substring-after()```, etc.
@@ -79,6 +82,7 @@ Ce test est notamment fait à partir de fonctions XPath.
 2. Numérotez les lignes qui sont un multiple de 5.
 
 ---
+# Conditions et tests en XSLT (II)
 
 ## ```xsl:choose```
 
