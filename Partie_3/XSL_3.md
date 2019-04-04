@@ -24,8 +24,7 @@ En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **néc
 On peut l'utiliser de deux façons: 
 
 -  `` <xsl:variable name="nom"  select="valeur_a_capturer"/>``
-- 
-```
+- ```
 <xsl:variable name="nom">
         <xsl:value-of select="...">
 </xsl:variable>
@@ -58,6 +57,8 @@ Cette fonction est définie comme suit:
 
 >fn:translate(string1,string2,string3)
 
+[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
+
 Attention, la fonction translate convertit les caractères **un à un**:
 
 <img src="img/xsl_essai1.png" alt="drawing" width="600"/>
@@ -68,15 +69,17 @@ Attention, la fonction translate convertit les caractères **un à un**:
 - ``` translate(abcdefg, 'dcba', 'defg')``` donne 'gfedefg'.
 
 ## fn:replace()
-La fonction ``replace()`` permet de remplacer des chaînes de caractères en suivant un motif ( *pattern* ) défini. Cette fonction est définie ainsi: 
+La fonction ``replace()`` permet de remplacer des chaînes de caractères en suivant un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. Cette fonction est définie ainsi: 
 
 > fn:replace(string,pattern,replace)
+
+[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
 
 ### Exemple
 
 
 - ``` replace(abcdefg, 'abcd', 'defg')``` donne 'defgefg'.
-- ``` replace(abcdefg, 'dcba', 'defg')``` donne 'abcdef'.
+- ``` replace(abcdefg, 'dcba', 'defg')``` donne 'abcdefg'.
 
 ---
 
