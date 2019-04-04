@@ -60,7 +60,7 @@ Cette fonction est définie comme suit:
 
 Attention, la fonction translate convertit les caractères **un à un**:
 
-<img src="img/xsl_essai1.png" alt="drawing" width="200"/>
+<img src="img/xsl_essai1.png" alt="drawing" width="600"/>
 
 ### Exemple
 
