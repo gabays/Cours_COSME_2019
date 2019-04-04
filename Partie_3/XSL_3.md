@@ -25,12 +25,13 @@ On peut l'utiliser de deux façons:
 
 - `` <xsl:variable name="nom"  select="valeur_a_capturer"/>``
 
--
-```
-<xsl:variable name="nom">
-        <xsl:value-of select="...">
-</xsl:variable>
-```    
+- on peut aussi proposer la façon suivante: 
+
+        ```
+        <xsl:variable name="nom">
+           <xsl:value-of select="...">
+        </xsl:variable>
+        ```    
 
 Les variables sont appelées à l'aide du caractères dollar $:
 
