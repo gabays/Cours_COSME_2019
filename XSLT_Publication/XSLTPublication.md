@@ -6,10 +6,10 @@ Simon Gabay
 Lyon, 23 avril 2019
 
 ---
-# Conditions et tests en XSLT (I)
+# I Conditions et tests en XSLT (1ère partie)
 
 ---
-## Fonctions XPath à deux arguments
+## I.a Fonctions XPath à deux arguments
 
 Il existe des fonctions XPath, qui sont reconnaissables au fait qu'elles se terminent par ```()```. Ainsi ```contains()```, ```starts-with()```, ```ends-with()```, ```substring-after()```, etc.
 
@@ -28,7 +28,7 @@ contains($arg1, $arg2)
 ```
 
 ---
-### Exercice 1
+### Exercice I.a
 
 Quel est le résultat obtenu avec ces expressions XPath?
 
@@ -56,7 +56,7 @@ speaker[starts-with(@., 'H')]
 ```
 
 ---
-## ```xsl:if```
+## I.b ```xsl:if```
 
 L'élément ```xsl:if``` obéit à la syntaxe suivante:
 
@@ -77,12 +77,12 @@ L'élément ```xsl:if``` obéit à la syntaxe suivante:
 Ce test est notamment fait à partir de fonctions XPath.
 
 ---
-## Exercice 2
+## Exercice I.b
 1. Numérotez les lignes d'*Andromaque*, mais uniquement les dizaines (10, 20, 30, 40, 50).
 2. Numérotez les lignes qui sont un multiple de 5.
 
 ---
-# Conditions et tests en XSLT (II)
+# II Conditions et tests en XSLT (2ème partie)
 
 ## ```xsl:choose```
 
@@ -136,7 +136,7 @@ Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, per
 
 ---
 
-## Exercice
+## Exercice II
 
 En regardant notre fichier XML de pus près, on remarque que les antilabes (morcellement du vers sur plusieurs répliques) ont été identifiées avec l'attribut ```@part```:
 
