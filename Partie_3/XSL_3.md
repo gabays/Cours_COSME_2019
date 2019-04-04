@@ -58,7 +58,8 @@ Cette fonction est définie comme suit:
 
 >fn:translate(string1,string2,string3)
 
-Attention, la fonction translate convertit les caractères **un à un**. 
+Attention, la fonction translate convertit les caractères **un à un**:
+![image](img/xsl_essai1.png)
 
 ### Exemple
 
