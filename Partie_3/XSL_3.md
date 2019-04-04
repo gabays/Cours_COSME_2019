@@ -23,9 +23,10 @@ En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **néc
 
 On peut l'utiliser de deux façons: 
 
-1.  `` <xsl:variable name="nom"  select="valeur_a_capturer"/>``
+- `` <xsl:variable name="nom"  select="valeur_a_capturer"/>``
 
-2.  ```
+-
+```
 <xsl:variable name="nom">
         <xsl:value-of select="...">
 </xsl:variable>
