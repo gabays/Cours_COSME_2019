@@ -6,7 +6,7 @@ Simon Gabay
 Lyon, 23 avril 2019
 
 ---
-# I Conditions et tests en XSLT (1ère partie)
+# I. Conditions et tests en XSLT (1ère partie)
 
 ---
 ## I.a Fonctions XPath à deux arguments
@@ -82,7 +82,7 @@ Ce test est notamment fait à partir de fonctions XPath.
 2. Numérotez les lignes qui sont un multiple de 5.
 
 ---
-# II Conditions et tests en XSLT (2ème partie)
+# II. Conditions et tests en XSLT (2ème partie)
 
 ## ```xsl:choose```
 
