@@ -91,7 +91,7 @@ Les variables sont appelées à l'aide du caractères **dollar '$'**:
 
 Une variable peut être globale (applicable à toute la feuille de transformation) ou propre à chaque *template*. Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle ou dans une feuille de transformation en général la même valeur, on évite de réécrire plusieurs fois le même code. 
 
-## Exercice
+## Illustration
 
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 
@@ -100,22 +100,37 @@ Pour chaque entité nommée du texte, nous voulons récupérer les informations 
 
 ### Résultat
 
+Il faut pour résoudre ce problème créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information du teiHeader avec un ``@xml:id`` correspondant, et de l'imprimer. 
 
-
-        <xsl:template match="text//persName">
-            <xsl:variable name="persName_id" select="@ref">
-                <div style="note_marginale">
-                    <xsl:value-of select="ancestor::TEI//listPerson//persName[concat('#', @xml:id)=$persName_id]">
-                </div>
-            <xsl:value-of select="."/>
-        </xsl:template>
 
 ---
 
 
-# Exercices 
+## Exercices 
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
-- Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document. 
+- Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document:
+
+
+      <xsl:template match="persName[@ref]">
+            <!--Récupérer l'@id du persName-->
+            <xsl:variable name="id_persName" select="translate(@ref, '#', '')"/>
+            <!--Récupérer l'@id du persName-->
+            <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice, et pas                    dans la liste des personnages-->
+            <xsl:choose>
+                <xsl:when test="//person[@xml:id = $id_persName]">
+                    <!--faire un lien vers cette notice-->
+                    <a href="{@ref}">
+                        <xsl:apply-templates/>
+                    </a>
+                    <!--faire un lien vers cette notice-->
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <!--Appliquer la règle uniquement aux noms de personnages...-->
+            </xsl:template>
+
 
 ---
 
@@ -144,7 +159,7 @@ Cette expression Xpath doit sélectionner et imprimer les titres de tous les fic
 
 ## ``<xsl:result-document/>``
 
-Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui en indiquera l'URI et le nom, est obligatoire: 
+Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui indiquera l'URI du document créé (et en déterminera donc le nom), est obligatoire: 
 
         <xsl:template match="...">
             <xsl:result-document href="fiches_temoins/fiche_temoin_{$id_temoin}.html">
@@ -156,5 +171,5 @@ Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs doc
         
  Cet exemple permet de créer des fiches témoins au format html avec un nom dépendant d'une variable définie dans la template, ou plus haut dans la feuille de style.
  
- **N.B.**: Si ces deux fonctions sont nécessaires pour vous, il est probable que vous tirerez grand profit de l'utilisation des bases de données XML et du langage d'interrogation correspondant XQuery. 
+ **N.B.**: Si ces deux fonctions sont nécessaires pour vous, il est probable que vous tirerez grand profit de l'utilisation des bases de données XML et du langage d'interrogation correspondant XQuery: ``fn:collection()``, en particulier, est aussi une fonction XQuery. 
 

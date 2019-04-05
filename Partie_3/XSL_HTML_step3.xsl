@@ -135,9 +135,9 @@
         <xsl:variable name="id_persName" select="translate(@ref, '#', '')"/>
         <!--Récupérer l'@id du persName-->
 
-        <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice, et pas dans la liste des personnages-->
+        <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice-->
         <xsl:choose>
-            <xsl:when test="not(//castItem[@xml:id = $id_persName])">
+            <xsl:when test="//person[@xml:id = $id_persName]">
                 <!--faire un lien vers cette notice-->
                 <a href="{@ref}">
                     <xsl:apply-templates/>
