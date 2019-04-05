@@ -13,7 +13,7 @@ Matthias GILLE LEVENSON
 ## fn:concat()
 
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
->« fn:concat(string,string,...)»
+> «fn:concat(string,string,...)»
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
@@ -23,7 +23,7 @@ Les arguments passés sont des chaînes de caractères. Cette fonction est souve
 ## fn:replace()
 La fonction ``replace()`` permet de remplacer des chaînes de caractères qui respectent un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. La syntaxe de cette fonction est définie ainsi: 
 
-> fn:replace(string,pattern,replace)
+> «fn:replace(string,pattern,replace)»
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
@@ -41,7 +41,7 @@ où *string* est le noeud textuel à traîter. **Attention**, *string* peut êtr
 ## fn:translate()
 La fonction ``fn:translate()`` est un peu différente de ``fn:replace()``: elle permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
 
->fn:translate(string1,string2,string3)
+> «fn:translate(string1,string2,string3)»
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
@@ -65,17 +65,14 @@ La principale différence avec ``replace()`` est que la fonction translate conve
 
 Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation (**saxon** en géneŕal avec le programme Oxygen): 
 
->« If we use logic to control the flow of our stylesheets, we’ll probably want to store tem-
-porary results along the way. In other words, we’ll need to use variables. XSLT provides
-the ``<xsl:variable>`` element, which allows you to store a value and associate it with a
-name.»
+>« If we use logic to control the flow of our stylesheets, we’ll probably want to store temporary results along the way. In other words, we’ll need to use variables. XSLT provides the ``<xsl:variable>`` element, which allows you to store a value and associate it with a name.»
 
 Tidwell, D. (2008). *XSLT: Mastering XML Transformations.* 2nd ed. O’Reilly Media, p.167. 
 
 
 En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **nécessairement** identifiée à l'aide d'un attribut ``@name``. 
 
-On peut l'utiliser de deux façons: 
+On peut l'utiliser de deux façons principales: 
 
 - `` <xsl:variable name="nom"  select="valeur_a_capturer"/>``
 
@@ -87,12 +84,12 @@ On peut l'utiliser de deux façons:
         </xsl:variable>
                 
 
-Les variables sont appelées à l'aide du caractères dollar $:
+Les variables sont appelées à l'aide du caractères **dollar '$'**:
 
 - ``<xsl:value-of select="$ma_variable"/>``
 
 
-Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle la même valeur, on évite de réécrire plusieurs fois le même code. Une variable peut être globale (applicable à toute la feuille de transformation) ou propre à chaque *template*. 
+Une variable peut être globale (applicable à toute la feuille de transformation) ou propre à chaque *template*. Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle ou dans une feuille de transformation en général la même valeur, on évite de réécrire plusieurs fois le même code. 
 
 ## Exercice
 
@@ -117,7 +114,42 @@ Pour chaque entité nommée du texte, nous voulons récupérer les informations 
 
 
 # Exercices 
-- Créer une notice pour chaque personnage listé dans la ``<listPerson>``.
-- Pour chaque nom de personnage qui apparaît dans le corps du texte et qui est **listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document. 
+- Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
+- Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document. 
 
+---
+
+
+# Bonus. ``fn:collection()`` et ``<xsl:result-document/>``
+
+Dans cette dernière partie nous allons voir comment travailler avec plusieurs documents d'entrée et de sortie. 
+
+
+## ``fn:collection()``
+
+La fonction Xpath ``collection()`` permet de travailler avec plusieurs documents d'entrée, et d'importer plusieurs documents xml différents. Sa syntaxe est la suivante: 
+
+> «fn:collection(string)»
+
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
+Où *string* (**entre guillemets**, donc) est un URI, en général un URL.  Une fois le ou les documents sélectionné.s entre les parenthèses, on emploie une expression Xpath: 
+
+        <xsl:value-of select="collection('...Hugo/romans/*.xml')//teiHeader//title"/>
+        
+Cette expression Xpath doit sélectionner et imprimer les titres de tous les fichier xml qui sont dans le dossier indiqué.
+
+## ``<xsl:result-document/>``
+
+Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui en indiquera l'URI et le nom, est obligatoire: 
+
+        <xsl:template match="...">
+            <xsl:result-document href="fiches_temoins/fiche_temoin_{$id_temoin}.html">
+              <html>
+              ....
+              </html>
+            </xsl:result-document>
+        </xsl:template>
+        
+ Cet exemple permet de créer des fiches témoins au format html avec un nom dépendant d'une variable définie dans la template, ou plus haut dans la feuille de style. 
 

@@ -12,7 +12,8 @@
                 <meta charset="UTF-8"/>
             </head>
             <body>
-                <div id="personnages">
+                <div id="notices_personnages">
+                    <h3>Notices: personnages</h3>
                     <xsl:apply-templates select="//person"/>
                 </div>
                 <div id="tableOfContent">
@@ -102,7 +103,6 @@
     <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
     <xsl:template match="person">
         <xsl:variable name="id_person" select="@xml:id"/>
-        <xsl:if test="ancestor::TEI//text//persName[translate(@ref, '#', '') = $id_person]">
             <div id="{@xml:id}">
                 <h3>
                     <xsl:value-of select="persName"/>
@@ -125,12 +125,11 @@
                     </xsl:for-each>-->
                 </p>
             </div>
-        </xsl:if>
     </xsl:template>
 
 
     <!--Traitement des noms de personnage dans le texte: renvoyer vers la liste des personnages qui ont une notice. Suppose p.e. de refaire le xml pour typer les personnages.-->
-    <xsl:template match="persName">
+    <xsl:template match="persName[@ref]">
 
         <!--Récupérer l'@id du persName-->
         <xsl:variable name="id_persName" select="translate(@ref, '#', '')"/>
