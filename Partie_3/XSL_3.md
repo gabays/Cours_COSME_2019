@@ -124,6 +124,7 @@ Pour chaque entité nommée du texte, nous voulons récupérer les informations 
 
 Dans cette dernière partie nous allons voir comment travailler avec plusieurs documents d'entrée et de sortie. 
 
+---
 
 ## ``fn:collection()``
 
@@ -139,6 +140,8 @@ Où *string* (**entre guillemets**, donc) est un URI, en général un URL.  Une 
         
 Cette expression Xpath doit sélectionner et imprimer les titres de tous les fichier xml qui sont dans le dossier indiqué.
 
+---
+
 ## ``<xsl:result-document/>``
 
 Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui en indiquera l'URI et le nom, est obligatoire: 
@@ -151,5 +154,7 @@ Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs doc
             </xsl:result-document>
         </xsl:template>
         
- Cet exemple permet de créer des fiches témoins au format html avec un nom dépendant d'une variable définie dans la template, ou plus haut dans la feuille de style. 
+ Cet exemple permet de créer des fiches témoins au format html avec un nom dépendant d'une variable définie dans la template, ou plus haut dans la feuille de style.
+ 
+ **N.B.**: Si ces deux fonctions sont nécessaires pour vous, il est probable que vous tirerez grand profit de l'utilisation des bases de données XML et du langage d'interrogation correspondant XQuery. 
 
