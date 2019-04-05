@@ -52,6 +52,8 @@ Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer
 La principale différence avec replace est que la fonction translate convertit les caractères **un à un**:
 
 
+<img src="img/translate.png" width="400"/>
+
 ### Exemple
 
 - ``` translate('abcdefg', 'abcd', 'defghijk')``` donne 'defgefg'.
@@ -61,7 +63,7 @@ La principale différence avec replace est que la fonction translate convertit l
 
 # Les variables
 
-Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation **saxon**: 
+Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation (**saxon** en géneŕal avec le programme Oxygen): 
 
 >« If we use logic to control the flow of our stylesheets, we’ll probably want to store tem-
 porary results along the way. In other words, we’ll need to use variables. XSLT provides
