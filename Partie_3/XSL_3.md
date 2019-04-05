@@ -118,6 +118,6 @@ Pour chaque entité nommée du texte, nous voulons récupérer les informations 
 
 # Exercices 
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``.
-- Pour chaque personnage listé dans cette ``<listPerson>``, créer un lien vers sa notice en début du document. 
+- Pour chaque nom de personnage qui apparaît dans le corps du texte et qui est **listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document. 
 
 
