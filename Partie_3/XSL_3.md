@@ -49,7 +49,7 @@ Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer
 
 **Attention**, comme pour la fonction précédente, *string1* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
 
-La principale différence avec replace est que la fonction translate convertit les caractères **un à un**:
+La principale différence avec ``replace()`` est que la fonction translate convertit les caractères **un à un**:
 
 
 <img src="img/translate.png" width="400"/>
@@ -70,7 +70,7 @@ porary results along the way. In other words, we’ll need to use variables. XSL
 the ``<xsl:variable>`` element, which allows you to store a value and associate it with a
 name.»
 
-Tidwell, D. (2008). *XSLT: Mastering XML Transformations.* 2nd ed. O’Reilly Media.
+Tidwell, D. (2008). *XSLT: Mastering XML Transformations.* 2nd ed. O’Reilly Media, p.167. 
 
 
 En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **nécessairement** identifiée à l'aide d'un attribut ``@name``. 
@@ -92,13 +92,18 @@ Les variables sont appelées à l'aide du caractères dollar $:
 - ``<xsl:value-of select="$ma_variable"/>``
 
 
-Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle la même valeur, on évite de réécrire plusieurs fois le même code. 
+Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle la même valeur, on évite de réécrire plusieurs fois le même code. Une variable peut être globale (applicable à toute la feuille de transformation) ou propre à chaque *template*. 
 
 ## Exercice
 
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 
-**Problème**: pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader. Comment faire ? 
+### Problème
+Pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader, et les mettre dans une division avec un style pour donner un rendu que nous avons auparavant défini. Comment faire ? 
+
+### Résultat
+
+
 
         <xsl:template match="text//persName">
             <xsl:variable name="persName_id" select="@ref">
