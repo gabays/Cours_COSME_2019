@@ -8,9 +8,57 @@ Matthias GILLE LEVENSON
 
 ---
 
+# Quelques fonctions xpath
+ Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère, et sont très utiles pour travailler sur des attributs et des identifiants en particulier. 
+## fn:concat()
+
+La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
+>« fn:concat(string,string,...)»
+
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
+Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+
+
+## fn:replace()
+La fonction ``replace()`` permet de remplacer des chaînes de caractères qui respectent un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. La syntaxe de cette fonction est définie ainsi: 
+
+> fn:replace(string,pattern,replace)
+
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
+où *string* est le noeud textuel à traîter. 
+### Exemple
+
+
+- ``` replace(abcdefg, 'abcd', 'defghijk')``` donne 'defghijkefg'.
+- ``` replace(abcdefg, 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
+
+
+## fn:translate()
+La fonction ``fn:translate()`` est un peu différente de ``fn:replace()``: elle permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
+
+>fn:translate(string1,string2,string3)
+
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
+Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer, string3 les caractères par lesquels les remplacer.
+
+Attention, la fonction translate convertit les caractères **un à un**:
+
+
+### Exemple
+
+- ``` translate(abcdefg, 'abcd', 'defghijk')``` donne 'defgefg'.
+- ``` translate(abcdefg, 'dcba', 'defg')``` donne 'gfedefg'.
+
+---
+
+---
+
 # Les variables
 
-Une variable est une donnée stockée dans la mémoire du programme de transformation: 
+Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation **saxon**: 
 
 >« If we use logic to control the flow of our stylesheets, we’ll probably want to store tem-
 porary results along the way. In other words, we’ll need to use variables. XSLT provides
@@ -32,60 +80,31 @@ On peut l'utiliser de deux façons:
         <xsl:variable name="nom">
            règles à appliquer...
         </xsl:variable>
-        
+                
 
 Les variables sont appelées à l'aide du caractères dollar $:
 
 - ``<xsl:value-of select="$ma_variable"/>``
 
 
-On peut aussi se servir des variables pour filtrer précisément les données que l'on veut sélectionner et transformer. 
+Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle la même valeur, on évite de réécrire plusieurs fois le même code. 
+
+## Exercice
+
+Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
+
+**Problème**: pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader. Comment faire ? 
+
+        <xsl:template match="text//persName">
+            <xsl:variable name="persName_id" select="@ref">
+                <div style="note_marginale">
+                    <xsl:value-of select="ancestor::TEI//listPerson//persName[concat('#', @xml:id)=$persName_id]">
+                </div>
+            <xsl:value-of select="."/>
+        </xsl:template>
 
 ---
 
-# Quelques fonctions xpath
-
-## fn:concat()
-
-La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
->« fn:concat(string,string,...)»
-
-[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
-
-Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
-
-## fn:translate()
-La fonction ``fn:translate()`` permet de remplacer des caractères. Cette fonction est définie comme suit:
-
->fn:translate(string1,string2,string3)
-
-[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
-
-Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer, string3 les caractères par lesquels les remplacer.
-
-Attention, la fonction translate convertit les caractères **un à un**:
-
-
-### Exemple
-
-- ``` translate(abcdefg, 'abcd', 'defghijk')``` donne 'defgefg'.
-- ``` translate(abcdefg, 'dcba', 'defg')``` donne 'gfedefg'.
-
-## fn:replace()
-La fonction ``replace()`` permet de remplacer des chaînes de caractères qui respectent un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. Cette fonction est définie ainsi: 
-
-> fn:replace(string,pattern,replace)
-
-[MDN](https://www.w3schools.com/xml/xsl_functions.asp)
-
-où string est le noeud textuel à traîter. 
-### Exemple
-
-
-- ``` replace(abcdefg, 'abcd', 'defghijk')``` donne 'defghijkefg'.
-- ``` replace(abcdefg, 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
-
----
 
 # Exercices 
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``.
