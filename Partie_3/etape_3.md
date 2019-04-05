@@ -140,9 +140,9 @@ Cette règle met en forme les notices; il reste maintenant à les imprimer dans 
 
 
       <xsl:template match="persName[@ref]">
-            <!--Récupérer l'@id du persName-->
+            <!--Récupérer l'id du persName-->
             <xsl:variable name="id_persName" select="translate(@ref, '#', '')"/>
-            <!--Récupérer l'@id du persName-->
+            <!--Récupérer l'id du persName-->
             <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice, et pas  dans la liste des personnages-->
             <xsl:choose>
                 <xsl:when test="//person[@xml:id = $id_persName]">
@@ -202,7 +202,7 @@ La fonction Xpath ``collection()`` permet de travailler avec plusieurs documents
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Où *string* (**entre guillemets**, donc) est un URI, en général un URL.  Une fois le ou les documents sélectionné.s entre les parenthèses, on emploie une expression Xpath: 
+Où *string* (**entre guillemets**) est un URI, en général un URL.  Une fois le ou les documents sélectionné.s entre les parenthèses, on emploie une expression Xpath: 
 
         <xsl:value-of select="collection('...Hugo/romans/*.xml')//teiHeader//title"/>
         
@@ -224,5 +224,8 @@ Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs doc
         
  Cet exemple permet de créer des fiches témoins au format html avec un nom dépendant d'une variable définie dans la template, ou plus haut dans la feuille de style.
  
- **N.B.**: Si ces deux fonctions sont nécessaires pour vous, il est probable que vous tirerez grand profit de l'utilisation des bases de données XML et du langage d'interrogation correspondant XQuery: ``fn:collection()``, en particulier, est aussi une fonction XQuery. 
+ **N.B.**: Si ces deux fonctions sont nécessaires pour vous, il est probable que vous tirerez grand profit de l'utilisation des bases de données XML et du langage d'interrogation correspondant XQuery: ``fn:collection()``, en particulier, est aussi une fonction XQuery. Un bon point de départ est le livre de Walmsey: 
+ 
+Walmsley, P. (2015). *XQuery*. 2st ed. Beijing ; Sebastopol, Calif: O’Reilly.
+
 
