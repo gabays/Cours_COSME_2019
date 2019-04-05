@@ -108,6 +108,34 @@ Il faut pour résoudre ce problème créer une règle disant d'aller chercher, q
 
 ## Exercices 
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
+
+        <xsl:template match="person">
+            <xsl:variable name="id_person" select="@xml:id"/>
+                <div id="{@xml:id}">
+                    <h3>
+                        <xsl:value-of select="persName"/>
+                    </h3>
+                    <p>
+                        <xsl:apply-templates select="note"/>
+                        <br/>
+                        <xsl:text>Références:</xsl:text>
+                        <a href="{descendant::ref[@type = 'wiki']/@target}">
+                            <xsl:value-of select="bibl/ref[@type = 'wiki']/@target"/>
+                        </a>
+                        <br/>
+                    </p>
+                </div>
+        </xsl:template>        
+Cette règle met en forme les notices; il reste maintenant à les imprimer dans une division précise, dans la règle qui sélectionne la racine:
+
+        <div id="notices_personnages">
+            <h3>Notices: personnages</h3>
+            <xsl:apply-templates select="//person"/>
+        </div>
+
+
+
+
 - Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document:
 
 
@@ -115,7 +143,7 @@ Il faut pour résoudre ce problème créer une règle disant d'aller chercher, q
             <!--Récupérer l'@id du persName-->
             <xsl:variable name="id_persName" select="translate(@ref, '#', '')"/>
             <!--Récupérer l'@id du persName-->
-            <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice, et pas                    dans la liste des personnages-->
+            <!--Appliquer la règle uniquement aux noms de personnages qui sont listés dans la notice, et pas  dans la liste des personnages-->
             <xsl:choose>
                 <xsl:when test="//person[@xml:id = $id_persName]">
                     <!--faire un lien vers cette notice-->
@@ -130,7 +158,32 @@ Il faut pour résoudre ce problème créer une règle disant d'aller chercher, q
             </xsl:choose>
             <!--Appliquer la règle uniquement aux noms de personnages...-->
             </xsl:template>
+Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi? 
 
+        <xsl:template match="l">
+            <div class="verse" id="{@xml:id}">
+                <!-- Ici le Xpath de @select permet de récupérer plusieurs valeurs :
+                - le texte enfant des <l>
+                - le texte enfant des desc[@type='letter']
+                - le texte enfant des <c> -->
+                <xsl:apply-templates
+                    select="text() | figure/desc[@type = 'letter']/text() |c/text()"/>
+            </div>
+        </xsl:template>
+``<persName/>`` est enfant de ``<l/>``; or la règle qui traite ``<l/>`` limite indique les noeuds enfants qui peuvent être traités par les autres règles (``<xsl:apply-templates select="text() | figure/desc[@type = 'letter']/text() |c/text()"/>``): il faut indiquer que les règles qui portent sur ``persName`` doivent aussi s'appliquer:
+
+        <xsl:template match="l">
+            <div class="verse" id="{@xml:id}">
+                <!-- Ici le Xpath de @select permet de récupérer plusieurs valeurs :
+                - le texte enfant des <l>
+                - le texte enfant des desc[@type='letter']
+                - le texte enfant des <c> -->
+                <!--Maj matthias: appliquer les règles sur toutes les balises mentionnées + sur les persName-->
+                <xsl:apply-templates
+                    select="text() | figure/desc[@type = 'letter']/text() |c/text() | persName"/>
+            </div>
+        </xsl:template>
+        
 
 ---
 
