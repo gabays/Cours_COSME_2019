@@ -100,7 +100,7 @@ Pour chaque entité nommée du texte, nous voulons récupérer les informations 
 
 ### Résultat
 
-Il faut pour résoudre ce problème créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information du teiHeader avec un ``@xml:id`` correspondant, et de l'imprimer. 
+On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information du teiHeader avec un ``@xml:id`` correspondant, et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant: 
 
 
 ---
@@ -188,9 +188,9 @@ Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi?
 ---
 
 
-# Bonus. ``fn:collection()`` et ``<xsl:result-document/>``
+# Bonus. Jongler avec plusieurs documents d'entrée et de sortie. 
 
-Dans cette dernière partie nous allons voir comment travailler avec plusieurs documents d'entrée et de sortie. 
+
 
 ---
 
