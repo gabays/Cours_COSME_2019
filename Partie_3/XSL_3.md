@@ -27,7 +27,9 @@ La fonction ``replace()`` permet de remplacer des chaînes de caractères qui re
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '.
+où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
+<img src="img/replace.png" width="200"/>
+
 ### Exemple
 
 
