@@ -27,7 +27,7 @@ La fonction ``replace()`` permet de remplacer des chaînes de caractères qui re
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
+où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère (ce qui arrive peu souvent): **dans le second cas seulement**, il est nécessaire d'entourer la chaîne de guillemets simples ' '. ``replace()`` **convertit les chaînes de caractère en bloc si le motif est trouvé**
 
 <img src="img/replace.png" width="400"/>
 
@@ -39,7 +39,7 @@ où *string* est le noeud textuel à traîter. **Attention**, *string* peut êtr
 
 
 ## fn:translate()
-La fonction ``fn:translate()`` est un peu différente de ``fn:replace()``: elle permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
+La fonction ``fn:translate()`` permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
 
 > «fn:translate(string1,string2,string3)»
 
@@ -47,9 +47,9 @@ La fonction ``fn:translate()`` est un peu différente de ``fn:replace()``: elle 
 
 Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer, string3 les caractères par lesquels les remplacer. 
 
-**Attention**, comme pour la fonction précédente, *string1* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
+**Attention**, comme pour la fonction précédente, *string1* peut être un noeud ou une chaîne de caractère: dans le second cas seulement, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
 
-La principale différence avec ``replace()`` est que la fonction translate convertit les caractères **un à un**:
+La principale différence avec ``replace()`` est que la fonction translate **convertit les caractères un à un**:
 
 
 <img src="img/translate.png" width="400"/>
