@@ -27,7 +27,7 @@ La fonction ``replace()`` permet de remplacer des chaînes de caractères qui re
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère (ce qui arrive peu souvent): **dans le second cas seulement**, il est nécessaire d'entourer la chaîne de guillemets simples ' '. ``replace()`` **convertit les chaînes de caractère en bloc si le motif est trouvé**
+où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère (ce qui arrive peu souvent): **dans le second cas seulement**, il est nécessaire d'entourer la chaîne de guillemets simples ' '. ``replace()`` **convertit la chaîne de caractère en bloc si le motif est trouvé**:
 
 <img src="img/replace.png" width="400"/>
 
@@ -98,9 +98,9 @@ Imaginons une édition TEI avec un teiHeader qui comporte des informations préc
 ### Problème
 Pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader, et les mettre dans une division avec un style pour donner un rendu que nous avons auparavant défini. Comment faire ? 
 
-### Résultat
+### Solution possible
 
-On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information du teiHeader avec un ``@xml:id`` correspondant, et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant: 
+On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information correspodant dans les métadonnées du teiHeader (dans le noeud avec un ``@xml:id`` correspondant), et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant, en utilisant les variables.
 
 
 ---
