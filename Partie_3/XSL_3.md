@@ -27,12 +27,12 @@ La fonction ``replace()`` permet de remplacer des chaînes de caractères qui re
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-où *string* est le noeud textuel à traîter. 
+où *string* est le noeud textuel à traîter. **Attention**, *string* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '.
 ### Exemple
 
 
-- ``` replace(abcdefg, 'abcd', 'defghijk')``` donne 'defghijkefg'.
-- ``` replace(abcdefg, 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
+- ``` replace('abcdefg', 'abcd', 'defghijk')``` donne 'defghijkefg'.
+- ``` replace('abcdefg', 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
 
 
 ## fn:translate()
@@ -42,17 +42,17 @@ La fonction ``fn:translate()`` est un peu différente de ``fn:replace()``: elle 
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer, string3 les caractères par lesquels les remplacer.
+Le string1 est le noeud textuel à traiter, string2 les caractères à remplacer, string3 les caractères par lesquels les remplacer. 
 
-Attention, la fonction translate convertit les caractères **un à un**:
+**Attention**, comme pour la fonction précédente, *string1* peut être un noeud ou une chaîne de caractère: dans le second cas, il est nécessaire d'entourer la chaîne de guillemets simples ' '. 
+
+La principale différence avec replace est que la fonction translate convertit les caractères **un à un**:
 
 
 ### Exemple
 
-- ``` translate(abcdefg, 'abcd', 'defghijk')``` donne 'defgefg'.
-- ``` translate(abcdefg, 'dcba', 'defg')``` donne 'gfedefg'.
-
----
+- ``` translate('abcdefg', 'abcd', 'defghijk')``` donne 'defgefg'.
+- ``` translate('abcdefg', 'dcba', 'defg')``` donne 'gfedefg'.
 
 ---
 
@@ -68,7 +68,7 @@ name.»
 Tidwell, D. (2008). *XSLT: Mastering XML Transformations.* 2nd ed. O’Reilly Media.
 
 
-En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **nécessairement** nommée à l'aide d'un attribut ``@name``. 
+En XSL, on utilise donc la fonction ``<xsl:variable>``. Une variable est  **nécessairement** identifiée à l'aide d'un attribut ``@name``. 
 
 On peut l'utiliser de deux façons: 
 

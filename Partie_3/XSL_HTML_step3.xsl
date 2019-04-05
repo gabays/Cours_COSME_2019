@@ -99,7 +99,7 @@
 
 
 
-    <!--Pour chaque personnage qui est cité dans le texte avec une persName, créer une notice-->
+    <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
     <xsl:template match="person">
         <xsl:variable name="id_person" select="@xml:id"/>
         <xsl:if test="ancestor::TEI//text//persName[translate(@ref, '#', '') = $id_person]">
