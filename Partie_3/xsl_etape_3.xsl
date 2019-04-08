@@ -109,7 +109,7 @@
             <p>
                 <xsl:apply-templates select="note"/>
                 <br/>
-                <xsl:text>Références:</xsl:text>
+                <xsl:text>Référence:</xsl:text>
                 <a href="{descendant::ref[@type = 'wiki']/@target}">
                     <!--Remplacement récursif des caractères échappés dans l'URL-->
                     <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
