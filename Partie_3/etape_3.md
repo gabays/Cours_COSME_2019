@@ -8,7 +8,7 @@ Matthias GILLE LEVENSON
 
 ---
 
-# I Quelques fonctions xpath
+# I Encore des fonctions xpath
  Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère, et sont très utiles pour travailler sur des attributs et des identifiants en particulier. 
 ## I.1 fn:concat()
 
@@ -63,7 +63,7 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 
 # II Les variables
 
-Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation (**saxon** en géneŕal avec le programme Oxygen): 
+Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du moteur de transformation (**saxon** en géneŕal): 
 
 >« If we use logic to control the flow of our stylesheets, we’ll probably want to store temporary results along the way. In other words, we’ll need to use variables. XSLT provides the ``<xsl:variable>`` element, which allows you to store a value and associate it with a name.»
 
@@ -129,7 +129,7 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
                     </p>
                 </div>
         </xsl:template>        
-Cette règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice:
+Cette règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice (en l'occurrence, en premier dans le fichier html):
 
         <div id="notices_personnages">
             <h3>Notices: personnages</h3>
@@ -207,7 +207,9 @@ Les variables peuvent être très utiles pour modifier des chaînes de caractèr
             
 
 ### Exercice
-Créer une règle de remplacement récursif pour rendre lisibles les URL. 
+Créer une règle de remplacement récursif pour rendre lisibles les URL, qui échappent dans le fichier XML les accent grave et aigus: 
+
+        https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que > https://fr.wikipedia.org/wiki/Sénèque
 
 Solution possible: 
 
