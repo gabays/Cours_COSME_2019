@@ -84,7 +84,7 @@ On peut l'utiliser de deux façons principales:
         </xsl:variable>
                 
 
-Les variables sont appelées à l'aide du caractères **dollar '$'**:
+Les variables sont appelées à l'aide du caractère **dollar '$'**:
 
 - ``<xsl:value-of select="$ma_variable"/>``
 
@@ -121,7 +121,7 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
                     <p>
                         <xsl:apply-templates select="note"/>
                         <br/>
-                        <xsl:text>Références:</xsl:text>
+                        <xsl:text>Référence:</xsl:text>
                         <a href="{descendant::ref[@type = 'wiki']/@target}">
                             <xsl:value-of select="bibl/ref[@type = 'wiki']/@target"/>
                         </a>
