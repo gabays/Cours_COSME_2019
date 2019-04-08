@@ -93,7 +93,7 @@ Une variable peut être globale (applicable à toute la feuille de transformatio
 
 
 
-## Illustration II
+## Illustration I
 
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 

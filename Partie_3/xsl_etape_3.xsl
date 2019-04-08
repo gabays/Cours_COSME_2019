@@ -103,28 +103,24 @@
     <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
     <xsl:template match="person">
         <xsl:variable name="id_person" select="@xml:id"/>
-            <div id="{@xml:id}">
-                <h3>
-                    <xsl:value-of select="persName"/>
-                </h3>
-                <p>
-                    <xsl:apply-templates select="note"/>
-                    <br/>
-                    <xsl:text>Références:</xsl:text>
-                    <a href="{descendant::ref[@type = 'wiki']/@target}">
-                        <xsl:value-of select="bibl/ref[@type = 'wiki']/@target"/>
-                    </a>
-                    <br/>
-                    <!-- <xsl:text>Index:</xsl:text>
-                    <xsl:for-each select="ancestor::TEI//text//div[@type = 'scene']//persName[@ref = concat('#', $id_person)]">
-                        <xsl:text>Acte </xsl:text>
-                        <xsl:value-of select="ancestor::div[@type = 'act']/@n"/>
-                        <xsl:text>, scène </xsl:text>
-                        <xsl:value-of select="ancestor::div[@type = 'scene']/@n"/>
-                        <xsl:text>; </xsl:text>
-                    </xsl:for-each>-->
-                </p>
-            </div>
+        <div id="{@xml:id}">
+            <h3>
+                <xsl:value-of select="persName"/>
+            </h3>
+            <p>
+                <xsl:apply-templates select="note"/>
+                <br/>
+                <xsl:text>Références:</xsl:text>
+                <a href="{descendant::ref[@type = 'wiki']/@target}">
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
+                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:value-of select="$remplacement2"/>
+                </a>
+                <br/>
+            </p>
+        </div>
     </xsl:template>
 
 
