@@ -108,11 +108,12 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
 ---
 
 
-## II.2 Exercice
+## II.2 Exercices
+
+### II.2.1 Exercice 1
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
 
         <xsl:template match="person">
-            <xsl:variable name="id_person" select="@xml:id"/>
                 <div id="{@xml:id}">
                     <h3>
                         <xsl:value-of select="persName"/>
@@ -137,36 +138,8 @@ Cette règle met en forme les notices; il reste maintenant à les imprimer dans 
 
 
 
-## II.3 Illustration II: utiliser les variables pour modifier des chaînes de caractères
 
-Les variables peuvent être très utiles pour modifier des chaînes de caractères de façon récursive: comment faire pour modifier, dans une même chaîne de caractères, plusieurs sous-chaînes avec le XSL ? Il suffit de faire des modifications récursives à l'aide de variables. Cela est très pratique, par exemple, pour travailler sur des caractères d'échappement. Un exemple avec de l'échappement pour LaTeX: 
-
-
-        <xsl:template match="text()">
-        <xsl:variable name="remplacement1" select="replace(., '&','\&')"/>
-        <xsl:variable name="remplacement2" select="replace($remplacement1, '-','--')"/>
-        ...
-        <xsl:variable name="remplacementN" select="replace(...)"/>
-        <xsl:value-of select="$remplacementN"/>
-        </xsl:template>
-        
-            
-
-### Exercice 1
-Créer une règle de remplacement récursif pour rendre lisibles les URL. 
-
-Solution possible: 
-
-                <a href="{descendant::ref[@type = 'wiki']/@target}">
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
-                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:value-of select="$remplacement2"/>
-                </a>
-
-
-### Exercice 2
+### II.2.2 Exercice 2
 
 - Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document:
 
@@ -216,6 +189,36 @@ Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi?
             </div>
         </xsl:template>
         
+
+
+## II.3 Utiliser les variables pour modifier des chaînes de caractères
+
+Les variables peuvent être très utiles pour modifier des chaînes de caractères de façon récursive: comment faire pour modifier, dans une même chaîne de caractères, plusieurs sous-chaînes avec le XSL ? Il suffit de faire des modifications récursives à l'aide de variables. Cela est très pratique, par exemple, pour travailler sur des caractères d'échappement. Un exemple avec de l'échappement pour LaTeX: 
+
+
+        <xsl:template match="text()">
+        <xsl:variable name="remplacement1" select="replace(., '&','\&')"/>
+        <xsl:variable name="remplacement2" select="replace($remplacement1, '-','--')"/>
+        ...
+        <xsl:variable name="remplacementN" select="replace(...)"/>
+        <xsl:value-of select="$remplacementN"/>
+        </xsl:template>
+        
+            
+
+### Exercice
+Créer une règle de remplacement récursif pour rendre lisibles les URL. 
+
+Solution possible: 
+
+                <a href="{descendant::ref[@type = 'wiki']/@target}">
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
+                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:value-of select="$remplacement2"/>
+                </a>
+
 
 ---
 

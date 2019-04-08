@@ -102,7 +102,6 @@
 
     <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
     <xsl:template match="person">
-        <xsl:variable name="id_person" select="@xml:id"/>
         <div id="{@xml:id}">
             <h3>
                 <xsl:value-of select="persName"/>
