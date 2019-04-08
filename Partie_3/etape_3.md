@@ -8,9 +8,9 @@ Matthias GILLE LEVENSON
 
 ---
 
-# Quelques fonctions xpath
+# I Quelques fonctions xpath
  Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère, et sont très utiles pour travailler sur des attributs et des identifiants en particulier. 
-## fn:concat()
+## I.1 fn:concat()
 
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
 > «fn:concat(string,string,...)»
@@ -20,7 +20,7 @@ La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*stri
 Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
 
 
-## fn:replace()
+## I.2 fn:replace()
 La fonction ``replace()`` permet de remplacer des chaînes de caractères qui respectent un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. La syntaxe de cette fonction est définie ainsi: 
 
 > «fn:replace(string,pattern,replace)»
@@ -31,14 +31,14 @@ où *string* est le noeud textuel à traîter. **Attention**, *string* peut êtr
 
 <img src="img/replace.png" width="400"/>
 
-### Exemple
+###  Exemple
 
 
 - ``` replace('abcdefg', 'abcd', 'defghijk')``` donne 'defghijkefg'.
 - ``` replace('abcdefg', 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
 
 
-## fn:translate()
+## I.3 fn:translate()
 La fonction ``fn:translate()`` permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
 
 > «fn:translate(string1,string2,string3)»
@@ -61,7 +61,7 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 
 ---
 
-# Les variables
+# II Les variables
 
 Une variable est une donnée stockée dans la mémoire d'un programme, en l'occurrence ici du programme de transformation (**saxon** en géneŕal avec le programme Oxygen): 
 
@@ -93,14 +93,14 @@ Une variable peut être globale (applicable à toute la feuille de transformatio
 
 
 
-## Illustration I
+## II.1 Illustration I
 
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 
-### Problème
+### II.1.1 Problème
 Pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader, et les mettre dans une division avec un style pour donner un rendu que nous avons auparavant défini. Comment faire ? 
 
-### Solution possible
+### II.1.2 Solution possible
 
 On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information correspodant dans les métadonnées du teiHeader (dans le noeud avec un ``@xml:id`` correspondant), et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant, en utilisant les variables.
 
@@ -108,7 +108,7 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
 ---
 
 
-## Exercices 
+## II.2 Exercice
 - Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
 
         <xsl:template match="person">
@@ -137,7 +137,7 @@ Cette règle met en forme les notices; il reste maintenant à les imprimer dans 
 
 
 
-## Illustration II: utiliser les variables pour modifier des chaînes de caractères
+## II.3 Illustration II: utiliser les variables pour modifier des chaînes de caractères
 
 Les variables peuvent être très utiles pour modifier des chaînes de caractères de façon récursive: comment faire pour modifier, dans une même chaîne de caractères, plusieurs sous-chaînes avec le XSL ? Il suffit de faire des modifications récursives à l'aide de variables. Cela est très pratique, par exemple, pour travailler sur des caractères d'échappement. Un exemple avec de l'échappement pour LaTeX: 
 
@@ -152,10 +152,21 @@ Les variables peuvent être très utiles pour modifier des chaînes de caractèr
         
             
 
-### Exercice
+### Exercice 1
 Créer une règle de remplacement récursif pour rendre lisibles les URL. 
 
+Solution possible: 
 
+                <a href="{descendant::ref[@type = 'wiki']/@target}">
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
+                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:value-of select="$remplacement2"/>
+                </a>
+
+
+### Exercice 2
 
 - Pour chaque nom de personnage qui apparaît dans le corps du texte **et qui est listé dans cette ``<listPerson>``**, créer un lien vers sa notice en début du document:
 
@@ -209,13 +220,13 @@ Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi?
 ---
 
 
-# Bonus. Jongler avec plusieurs documents d'entrée et de sortie. 
+# III Bonus. Jongler avec plusieurs documents d'entrée et de sortie. 
 
 
 
 ---
 
-## ``fn:collection()``
+## III.1 ``fn:collection()``
 
 La fonction Xpath ``collection()`` permet de travailler avec plusieurs documents d'entrée, et d'importer plusieurs documents xml différents. Sa syntaxe est la suivante: 
 
@@ -231,7 +242,7 @@ Cette expression Xpath doit sélectionner et imprimer les titres de tous les fic
 
 ---
 
-## ``<xsl:result-document/>``
+## III.2 ``<xsl:result-document/>``
 
 Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui indiquera l'URI du document créé (et en déterminera donc le nom), est obligatoire: 
 
