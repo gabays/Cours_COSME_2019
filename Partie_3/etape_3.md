@@ -129,7 +129,7 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
                     </p>
                 </div>
         </xsl:template>        
-Cette règle met en forme les notices; il reste maintenant à les imprimer dans une division précise, dans la règle qui sélectionne la racine:
+Cette règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice:
 
         <div id="notices_personnages">
             <h3>Notices: personnages</h3>
