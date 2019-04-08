@@ -91,7 +91,9 @@ Les variables sont appelées à l'aide du caractères **dollar '$'**:
 
 Une variable peut être globale (applicable à toute la feuille de transformation) ou propre à chaque *template*. Les variables sont utiles pour ne pas surcharger le code, et le rendre plus clair: si on doit réutiliser dans une règle ou dans une feuille de transformation en général la même valeur, on évite de réécrire plusieurs fois le même code. 
 
-## Illustration
+
+
+## Illustration II
 
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 
@@ -133,6 +135,25 @@ Cette règle met en forme les notices; il reste maintenant à les imprimer dans 
             <xsl:apply-templates select="//person"/>
         </div>
 
+
+
+## Illustration II: utiliser les variables pour modifier des chaînes de caractères
+
+Les variables peuvent être très utiles pour modifier des chaînes de caractères de façon récursive: comment faire pour modifier, dans une même chaîne de caractères, plusieurs sous-chaînes avec le XSL ? Il suffit de faire des modifications récursives à l'aide de variables. Cela est très pratique, par exemple, pour travailler sur des caractères d'échappement. Un exemple avec de l'échappement pour LaTeX: 
+
+
+        <xsl:template match="text()">
+        <xsl:variable name="remplacement1" select="replace(., '&','\&')"/>
+        <xsl:variable name="remplacement2" select="replace($remplacement1, '-','--')"/>
+        ...
+        <xsl:variable name="remplacementN" select="replace(...)"/>
+        <xsl:value-of select="$remplacementN"/>
+        </xsl:template>
+        
+            
+
+### Exercice
+Créer une règle de remplacement récursif pour rendre lisibles les URL. 
 
 
 
