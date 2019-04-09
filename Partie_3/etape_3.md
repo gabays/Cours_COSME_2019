@@ -17,7 +17,7 @@ La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*stri
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+Si les arguments passés sont des chaînes de caractères, il est nécessaire d'ajouter des guillemets simples ''. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
 
 
 ## I.2 fn:replace()
