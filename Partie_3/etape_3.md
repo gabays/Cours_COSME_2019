@@ -59,6 +59,13 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 - ``` translate('abcdefg', 'abcd', 'defghijk')``` donne 'defgefg'.
 - ``` translate('abcdefg', 'dcba', 'defg')``` donne 'gfedefg'.
 
+
+### Exercice
+
+Pour un objet donné (un noeud par exemple), comment passer d'un attribut de type pointeur (``@ref`` ou ``@target``) à un attribut de type identifiant (``@xml:id``), et vice-versa ? 
+- quelle est la forme de ces différents types d'attributs ? 
+- quelles fonctions pourraient permettre de passer d'un type d'attribut à l'autre ? 
+
 ---
 
 # II Les variables
