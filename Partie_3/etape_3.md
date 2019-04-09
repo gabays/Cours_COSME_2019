@@ -15,13 +15,18 @@ Matthias GILLE LEVENSON
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
 > «fn:concat(string,string,...)»
 
-### Exemple
-
-``concat(@type, ' ', @n)`` donnera act 1 si le noeud contextuel 
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
+
 Si les arguments passés sont des chaînes de caractères, il est nécessaire d'ajouter des guillemets simples ' '. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+
+### Exemple
+
+``concat(@type, ' ', @n)`` donnera "act 1" si le noeud contextuel est la première ``div`` de type ``act``. Attention, la fonction concat ne crée pas d'espaces par défaut. 
+
+
+
 
 
 ## I.2 fn:replace()
