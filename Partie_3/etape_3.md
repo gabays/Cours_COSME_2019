@@ -62,8 +62,8 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 
 ### Exercice
 
-Pour un objet donné (un noeud par exemple), comment passer d'un attribut de type pointeur (``@ref`` ou ``@target``) à un attribut de type identifiant (``@xml:id``), et vice-versa ? 
-- quelle est la forme de ces différents types d'attributs ? 
+Pour un noeud identifié, comment passer d'un attribut de type identifiant  (``@xml:id``) à un attribut de type pointeur (``@ref`` ou ``@target``), et vice-versa ? 
+- quelle est la forme canonique de ces deux types d'attributs ? 
 - quelles fonctions pourraient permettre de passer d'un type d'attribut à l'autre ? 
 
 ---
