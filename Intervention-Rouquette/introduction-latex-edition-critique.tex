@@ -1,0 +1,241 @@
+\documentclass[transnotheorems,noamsthm]{beamer}
+\usepackage{fontspec,polyglossia,xunicode,hyperref,csquotes}
+\usepackage{graphicx}
+\graphicspath{{img/}{}}
+\usetheme[]{Boadilla}
+\usepackage{metalogo}
+\newenvironment{slide}{%
+  \begin{frame}
+  <presentation>\mode<presentation>{\frametitle{\insertsubsection}}%
+  }%
+  {\end{frame}}
+\newenvironment{slide*}{\begin{frame}<presentation>[<1>]\mode<presentation>{\frametitle{\insertsubsection}}}{\end{frame}}
+
+\AtBeginSection{
+  \begin{frame}
+    \sectionpage
+  \end{frame}
+}
+
+\beamerdefaultoverlayspecification{<+->}
+\setmainfont{Linux Libertine O}
+\setmainlanguage{french}
+\setotherlanguage{english}
+\usepackage{minted}
+\newcounter{code}
+\resetcounteronoverlays{code}
+\usepackage{hyperref}
+\newcommand{\package}[1]{\emph{#1}}
+\hypersetup{bookmarksdepth=6}
+\NewDocumentCommand{\code}{mmo}{%
+  \stepcounter{code}%
+  \begin{block}{code \thecode: #2}%
+			\tiny\IfNoValueF{#3}{#3}%
+      \inputminted[linenos=true,breaklines=true, ]{latex}{code/#1}%
+  \end{block}
+	}
+\setcounter{tocdepth}{1}
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+\newcommand{\shortcode}{\mintinline{latex}}
+\usepackage[]{qrcode}
+\usepackage[style=verbose,autocite=plain]{biblatex}
+
+%%% les patch de reledmac et de biblatex sont incompatibles. En attendant on annule celui de reledmac.
+\makeatletter
+\let\old\@footnotetext
+\usepackage[noeledsec,noend,series={A,B}]{reledmac}
+\let\@footnotetext\old
+\makeatother
+\defbibheading{bibliography}{}
+\addbibresource{biblio.bib}
+\renewcommand{\newunitpunct}[0]{\addcomma\addspace}
+
+\author{Maïeul Rouquette}
+\title{Mettre en forme une édition critique avec \LaTeX}
+\institute{Université de Lausanne --- IRSB}
+\date{25 janvier 2019}
+\newcommand{\linkintitlepage}[1]{%
+  \bgroup
+    \tiny
+    \vfill
+    \parbox[c][2cm]{0.8\textwidth}{
+      \url{#1}
+      \vfill
+      Licence Creative Commons France 3.0 - Paternité - Partage à l'identique
+    }
+    \hfill \qrcode{#1}
+  \egroup
+}
+
+\begin{document}
+
+
+\begin{frame}
+	\titlepage
+  \linkintitlepage{https://geekographie.maieul.net/225}
+\end{frame}
+
+\begin{frame}
+  \tableofcontents
+\end{frame}
+\section{Qu'est-ce que \LaTeX\ ?}
+
+\subsection{Un logiciel de typographie}
+
+\begin{slide}
+  \begin{itemize}
+    \item Un logiciel de typographie automatisé
+    \item Un logiciel non Wysiwyg (\enquote{\textenglish{What you see is what you get}})
+    \item L'utilisateur / utilisatrice saisit des commandes pour structurer sémantiquement son texte
+    \item \LaTeX\ transforme ce code en PDF de haute qualité typographique
+    \item \LaTeX\ est libre et gratuit
+    \item \LaTeX\ existe en 3 déclinaisons principales : pdf\LaTeX, \XeLaTeX\ et Lua\LaTeX
+  \end{itemize}
+\end{slide}
+\subsection{Un logiciel extensible}
+
+\begin{slide}
+  \begin{itemize}
+    \item Il est possible de créer ses propres commandes \LaTeX\ pour automatiser certaines tâches
+    \item De nombreux packages pour gérer des problèmes spécifiques:
+      \begin{itemize}
+        \item Bibliographie : \package{Bib\LaTeX}
+        \item Index : \package{indextools}
+        \item Dessin vectoriel : \package{TikZ}
+        \item Édition critique et traduction parallèle : \package{reledmac} et \package{reledpar} (anciennement \package{ledmac} / \package{ledpar})
+          \item etc.
+      \end{itemize}
+  \end{itemize}
+\end{slide}
+\section{\LaTeX\ pour les éditions critiques}
+\subsection{Ce pourquoi \LaTeX\ n'est pas prévu}
+
+\begin{slide}
+  \begin{itemize}
+    \item Pour collationner les manuscrits
+    \item Pour analyser les variantes et construire un \emph{stemma codicum}
+    \item Pour établir le texte édité
+  \end{itemize}
+\end{slide}
+\subsection{Ce que permet le package \emph{reledmac} de \LaTeX}
+
+\begin{slide}
+  \begin{itemize}
+    \item Mettre en page l'édition critique, avec notamment renvoi aux numéros de lignes
+    \item Disposer de plusieurs niveaux de notes
+    \item Configurer l'apparence des notes
+    \item Mettre en forme de la poésie
+    \item Mettre en parallèle l'édition et la traduction, en synchronisant automatiquement les pages
+    \item Gérer l'apparat des manuscrits
+    \item Le manuel fait plus de 100 pages\ldots
+  \end{itemize}
+\end{slide}
+
+\subsection{Principes généraux}
+
+\begin{slide}
+  \begin{itemize}
+    \item L'édition critique est un \alert{texte numéroté}
+    \item Il peut contenir des \alert{lemmes}
+    \item Chaque lemme est associé à une ou plusieurs \alert{notes de bas de page}, qui se référent au numéro de ligne du lemme
+    \item Il peut y avoir plusieurs niveaux de notes
+    \item \package{reledmac} est \alert{neutre} quand au contenu de ces  notes. L'usage dépend du projet:
+        \begin{itemize}
+          \item Variantes
+          \item Commentaires
+          \item Apparat des sources
+          \item etc.
+        \end{itemize}
+    \item  On dispose également de :
+      \begin{itemize}
+        \item Notes \enquote{familières} (par appel de note)
+        \item Notes critiques de fin
+        \item Notes de marge
+      \end{itemize}
+  \end{itemize}
+\end{slide}
+
+\section{Exemples}
+\subsection{Exemple minimum}
+
+\begin{slide}
+  \code{reledmac_mwe.tex}{Un texte, quelques lemmes, des notes critiques sur un niveau}
+  \begin{minipage}{0.8\textwidth}
+    \input{code/reledmac_mwe}
+  \end{minipage}
+\end{slide}
+
+
+\subsection{Un meilleur encodage}
+
+\begin{slide}
+  \code{reledmac_semantic_annotation.tex}{Commandes sémantiques}
+  \begin{minipage}{0.8\textwidth}
+    \input{code/reledmac_semantic_annotation}
+  \end{minipage}
+\end{slide}
+
+\subsection{Apparence des notes critiques}
+
+\input{code/reledmac_settings}
+\begin{slide}
+  \code{reledmac_settings.tex}{Notes un peu plus compactes}
+  \begin{minipage}{0.8\textwidth}
+    \input{code/reledmac_semantic_annotation}
+  \end{minipage}
+\end{slide}
+\subsection{Lemmes longs et imbriqués}
+
+\begin{slide}
+  \code{reledmac_long_lemme.tex}{Un long lemme peut être abrégé}
+  \begin{minipage}{0.8\textwidth}
+    \input{code/reledmac_long_lemme}
+  \end{minipage}
+\end{slide}
+\subsection{Mots identiques}
+
+\newcommand{\variant}[3]{\edtext{#1}{\Afootnote{#2: #3}}}
+\newcommand{\om}[2]{\variant{#1}{#2}{\emph{om.}}}
+\newcommand{\add}[3]{\variant{#1}{#2}{\emph{add.} #3}}
+\begin{slide}
+  \code{reledmac_sameword.tex}{Mais de quel chat parle-t-on?}
+  \begin{minipage}{0.8\textwidth}
+    \input{code/reledmac_sameword}
+  \end{minipage}
+\end{slide}
+\subsection{Textes et traductions en parallèles}
+
+\begin{slide}
+  \code{reledpar-pages.tex}{Exemple minimum avec \package{reledpar}}
+\end{slide}
+\section{Pour aller plus loin}
+
+\subsection{Documentation}
+
+\begin{slide}
+  \nocite{*}
+  \printbibliography
+\end{slide}
+\subsection{Installer \LaTeX}
+
+\begin{slide}
+   \begin{itemize}
+     \item Installer une distribution \TeX : nous recommandons la \TeX Live (\url{http://tug.org/texlive/}) (y compris sous Windows)
+     \item Possibilité de tester en ligne avec Overleaf (\url{https://www.overleaf.org})
+   \end{itemize}
+\end{slide}
+
+\subsection{Interconnexion avec d'autres outils}
+\begin{slide}
+  \begin{itemize}
+    \item Il existe des outils pour basculer de TEI vers \package{reledmac} : cf. Annexe B du manuel de \package{reledmac}
+    \item Logiciel \package{samewords} (Michael Stenskjær Christensen)  \\
+ \url{https://samewords.readthedocs.io/en/latest/}
+
+  \end{itemize}
+\end{slide}
+
+
+
+\end{document}
