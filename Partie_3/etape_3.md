@@ -15,9 +15,13 @@ Matthias GILLE LEVENSON
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
 > «fn:concat(string,string,...)»
 
+### Exemple
+
+``concat(@type, ' ', @n)`` donnera act 1 si le noeud contextuel 
+
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Si les arguments passés sont des chaînes de caractères, il est nécessaire d'ajouter des guillemets simples ''. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+Si les arguments passés sont des chaînes de caractères, il est nécessaire d'ajouter des guillemets simples ' '. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
 
 
 ## I.2 fn:replace()
@@ -60,11 +64,12 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 - ``` translate('abcdefg', 'dcba', 'defg')``` donne 'gfedefg'.
 
 
-### Exercice
+### Exercice sur les fonctions XPath
 
-Pour un noeud identifié, comment passer d'un attribut de type identifiant  (``@xml:id``) à un attribut de type pointeur (``@ref`` ou ``@target``), et vice-versa ? 
-- quelle est la forme canonique de ces deux types d'attributs ? 
-- quelles fonctions pourraient permettre de passer d'un type d'attribut à l'autre ? 
+Pour un noeud donné, comment transformer un attribut de type identifiant  (``@xml:id``) en attribut de type pointeur  (``@target``), et vice-versa ? 
+
+- quelle est la forme canonique de la valeur des attributs de type pointeur pour une référence interne au document ? 
+- quelles fonctions pourraient permettre de passer d'un type d'attribut à un autre ? 
 
 ---
 
