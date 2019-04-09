@@ -53,8 +53,8 @@
 
 \author{Maïeul Rouquette}
 \title{Mettre en forme une édition critique avec \LaTeX}
-\institute{Université de Lausanne --- IRSB}
-\date{25 janvier 2019}
+\institute{Formation XSLT, Cosme, Lyon}
+\date{23 avril 2019}
 \newcommand{\linkintitlepage}[1]{%
   \bgroup
     \tiny
@@ -73,7 +73,7 @@
 
 \begin{frame}
 	\titlepage
-  \linkintitlepage{https://geekographie.maieul.net/225}
+  \linkintitlepage{https://geekographie.maieul.net/229}
 \end{frame}
 
 \begin{frame}
@@ -92,6 +92,13 @@
     \item \LaTeX\ est libre et gratuit
     \item \LaTeX\ existe en 3 déclinaisons principales : pdf\LaTeX, \XeLaTeX\ et Lua\LaTeX
   \end{itemize}
+\end{slide}
+
+\begin{slide}
+  \centering
+  \includegraphics[height=0.8\textheight]{comparison.pdf}
+
+  \url{http://www.rtznet.nl/zink/latex.php?lang=nl}
 \end{slide}
 \subsection{Un logiciel extensible}
 
@@ -116,6 +123,7 @@
     \item Pour collationner les manuscrits
     \item Pour analyser les variantes et construire un \emph{stemma codicum}
     \item Pour établir le texte édité
+    \item Pour avoir un encodage structurée de l'édition et obtenir plusieurs sorties
   \end{itemize}
 \end{slide}
 \subsection{Ce que permet le package \emph{reledmac} de \LaTeX}
@@ -132,6 +140,9 @@
   \end{itemize}
 \end{slide}
 
+\begin{slide}
+  \alert{$\Longrightarrow$}  \LaTeX est une sortie idéale d'une transformation XLST pour qui veut produire une forme \enquote{livre} de son édition critique
+\end{slide}
 \subsection{Principes généraux}
 
 \begin{slide}
@@ -153,10 +164,12 @@
         \item Notes critiques de fin
         \item Notes de marge
       \end{itemize}
+    \item \alert{$\Longrightarrow$} Le remplissage de ces notes fera partie des réglages de la feuille de style XLST
   \end{itemize}
 \end{slide}
 
 \section{Exemples}
+
 \subsection{Exemple minimum}
 
 \begin{slide}
@@ -229,10 +242,10 @@
 \subsection{Interconnexion avec d'autres outils}
 \begin{slide}
   \begin{itemize}
-    \item Il existe des outils pour basculer de TEI vers \package{reledmac} : cf. Annexe B du manuel de \package{reledmac}
+    \item L'Annexe B du manuel de \package{reledmac} fournit un certain nombre de liens vers des feuilles XLST existantes
+    \item On pourra aussi commencer avec la TEI-Cat toolbox de Marjorie Burghart : \url{http://teicat.huma-num.fr/}
     \item Logiciel \package{samewords} (Michael Stenskjær Christensen)  \\
  \url{https://samewords.readthedocs.io/en/latest/}
-
   \end{itemize}
 \end{slide}
 
