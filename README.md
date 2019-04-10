@@ -12,17 +12,17 @@ Tramway: Centre Berthelot (T2)
 ## Programme
 
 
-| Jour | Heure | Cours | Enseignant |
-|---|---|---|---|
-| 23/04 | matin | XPath et fondamentaux du langage XSLT | A. Pinche |
-| 23/04 | après-midi I | XSLT: publication | M. Gille Levenson et S. Gabay |
-| 23/04 | après-midi II | Conférence: LaTeX et l'édition | Maïeul Rouquette |
+| Jour | Heure | Cours | Enseignant | Dossier |
+|---|---|---|---|---|
+| 23/04 | matin | XPath et fondamentaux du langage XSLT | A. Pinche | Partie_1 |
+| 23/04 | après-midi I | XSLT: publication | M. Gille Levenson et S. Gabay | Partie_2 et  Partie_3 |
+| 23/04 | après-midi II | Conférence: LaTeX et l'édition | Maïeul Rouquette | |
 | 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
 | 24/04 | après-midi | Travail sur les projets des participants |  |
 
 ## Transformation
 
-Un Makefile a été ajouté pour faciliter la transformation des fichiers: une fois dans la racine du dépôt, ``make`` permet pour chaque étape du cours de créer des fichiers html avec les feuilles de transformation xsl proposées. Il est bien sûr possible de créer des scénario de validation "à la main" à l'aide du logiciel XML de votre choix. 
+Un Makefile a été ajouté pour faciliter la transformation des fichiers: une fois dans la racine du dépôt, ``make`` permet pour chaque étape du cours de créer des fichiers html avec les feuilles de transformation xsl proposées. Il est bien sûr possible de créer des scénario de validation "à la main" à l'aide du logiciel XML de votre choix.
 
 
 ## Licence de diffusion
