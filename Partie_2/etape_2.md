@@ -29,9 +29,11 @@ Passons en revue quelques fonctions qui peuvent être utiles
 Quelques exemples:
 
 >fn:last()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-last)
 
 >fn:position()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-position)
 
 Lorsqu'on utilise une fonction
@@ -45,6 +47,7 @@ Lorsqu'on utilise une fonction
 Un exemple:
 
 >fn:count()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-count)
 
 Pour pouvoir compter, il faut savoir ce que l'on compte: cette information est précisée au moyen d'un *argument*, qui est passé entre les ```()``` de la fonction. La syntaxe d'une fonction est décrite de la manière suivante:
@@ -57,15 +60,19 @@ Ainsi, ```count(//l)``` compte tous les ```l``` du document.
 ### Les fonctions à deux arguments
 
 >fn:contains()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-contains)
 
 >fn:starts-with()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-starts-with)
 
 >fn:ends-with()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-ends-with)
 
 >fn:substring-after()
+
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-substring-after)
 
 Prenons l'exemple de ```contains()```: il permet de contrôler que
