@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
-    version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
     <xsl:output method="html" encoding="UTF-8"/>
     <!-- strip-space permet de supprimer les espaces superflues entre les différents éléments de document de sortie -->
     <xsl:strip-space elements="*"/>
@@ -13,6 +11,7 @@
                 <link rel="stylesheet" type="text/css" href="andromaque.css"></link>
                 <meta charset="UTF-8"></meta>
             </head>
+            
             <body>
                 <div id="tableOfContent">
                     <ul>
@@ -46,10 +45,11 @@
         </html>
     </xsl:template>
     
-    
     <!--1, NB : XSL:value-of permet de récupérer le texte qui se trouve dans la balise head de la div[@type='play'] -->  
     <xsl:template match="div[@type='play']/head">
-        <h1><xsl:value-of select="."/></h1>
+        <h1>
+            <xsl:value-of select="."/>
+        </h1>
     </xsl:template>
     <!-- 2 --> 
     <xsl:template match="div[@type='act']">
@@ -85,7 +85,7 @@
                     <div class="verseF">
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text()"/>
+                            c/text() | persName | note"/>
                     </div>
                 </xsl:when>
                 <xsl:when test="@part = 'M'">
@@ -93,7 +93,7 @@
                     <div class="verseM">
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text()"/>
+                            c/text() | persName | note"/>
                     </div>
                 </xsl:when>
                 <xsl:otherwise>
@@ -108,13 +108,37 @@
                         </xsl:if>
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text()"/>
+                            c/text() | persName | note"/>
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
-            
         </div>
+    </xsl:template>    
+    
+    <xsl:template match="note">
+        <span class="tooltip">
+            <img src="img_413193.png" height="10"/>
+            <span class="tooltiptext">
+                <xsl:apply-templates select="text()|title|ref"/>
+            </span>
+        </span> 
     </xsl:template>
+    
+    <xsl:template match="title">
+        <i>
+            <xsl:apply-templates/>
+        </i> 
+    </xsl:template>
+    
+    <xsl:template match="ref">
+        <a href="{@target}">
+            <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a> 
+    </xsl:template>
+ 
     
     <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
     <xsl:template match="fw|figure|pb"/>

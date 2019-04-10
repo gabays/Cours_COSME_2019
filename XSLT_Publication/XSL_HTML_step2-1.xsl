@@ -82,9 +82,9 @@
             <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')">
                 [<xsl:value-of select="@n"/>]
             </xsl:if>
-            <xsl:value-of select="text()|
+            <xsl:apply-templates select="text()|
                 figure/desc[@type='letter']/text()|
-                c/text()"/>
+                c/text() | persName"/>
         </div>
     </xsl:template>
     
