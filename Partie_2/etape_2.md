@@ -327,7 +327,7 @@ L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la synt
 ### Exercice III
 
 Tranformez les notes afin de les afficher dans une info-bulle, et que les liens vers gallica s'ouvrent dans un ouvel onglet.
-1. Pour un nouvel onglet… cherchez sur internet! (indice: ça se passe dans ```@target```)
+1. Pour l'ouverture dans un nouvel onglet… cherchez sur internet! (indice: ça se passe dans ```@target```). Trouvez deux manières différentes d'encoder les attributs.
 2. Afin d'afficher le texte dans une info-bulle, vous pouvez utiliser ```tooltip```, qui fonctionne de la manière suivante:
 
 ```HTML

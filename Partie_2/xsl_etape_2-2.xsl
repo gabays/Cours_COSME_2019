@@ -78,42 +78,36 @@
     
     <xsl:template match="l">
         <!-- Pour gérer les antilabes (morcellement du vers sur plusieurs répliques), à l'aide de <l @type"F|M"> -->
-        <div class="verse" id="{@xml:id}">
-            <xsl:choose>
-                <!-- Si c'est la fin du vers -->
-                <xsl:when test="@part = 'F'">
-                    <div class="verseF">
-                        <xsl:apply-templates select="text()|
-                            figure/desc[@type='letter']/text()|
-                            c/text() | placeName | persName"/>
-                    </div>
-                </xsl:when>
-                <!-- Si c'est le milieu du vers -->
-                <xsl:when test="@part = 'M'">
-                    <div class="verseM">
-                        <xsl:apply-templates select="text()|
-                            figure/desc[@type='letter']/text()|
-                            c/text() | placeName | persName"/>
-                    </div>
-                </xsl:when>
-                <!-- Si ce n'est ni la fin, ni le milieu du vers – doncle début du vers -->
-                <xsl:otherwise>
-                    <div class="verse">
-                        <!-- On ajoute le numéro du vers comme attribut à <div class="verse"> -->
-                        <xsl:attribute name="id">
-                            <xsl:value-of select="@xml:id"/>
-                        </xsl:attribute>
-                        <!-- Si le numéro du vers finit par '0' c'est un multiple de 10, s'il finit par '0' ou '5' c'est un multiple de 5. -->
-                        <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')">
-                            [<xsl:value-of select="@n"/>]
-                        </xsl:if>
-                        <xsl:apply-templates select="text()|
-                            figure/desc[@type='letter']/text()|
-                            c/text() | placeName | persName"/>
-                    </div>
-                </xsl:otherwise>
-            </xsl:choose>
-        </div>
+        <xsl:choose>
+            <!-- Si c'est la fin du vers -->
+            <xsl:when test="@part = 'F'">
+                <div class="verseF">
+                    <xsl:apply-templates select="text()|
+                        figure/desc[@type='letter']/text()|
+                        c/text() | placeName | persName | note"/>
+                </div>
+            </xsl:when>
+            <!-- Si c'est le milieu du vers -->
+            <xsl:when test="@part = 'M'">
+                <div class="verseM">
+                    <xsl:apply-templates select="text()|
+                        figure/desc[@type='letter']/text()|
+                        c/text() | placeName | persName | note"/>
+                </div>
+            </xsl:when>
+            <!-- Si ce n'est ni la fin, ni le milieu du vers – doncle début du vers -->
+            <xsl:otherwise>
+                <div class="verse">
+                    <!-- Si le numéro du vers finit par '0' c'est un multiple de 10, s'il finit par '0' ou '5' c'est un multiple de 5. -->
+                    <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')">
+                        [<xsl:value-of select="@n"/>]
+                    </xsl:if>
+                    <xsl:apply-templates select="text()|
+                        figure/desc[@type='letter']/text()|
+                        c/text() | placeName | persName | note"/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>    
     
     <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->

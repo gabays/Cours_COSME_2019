@@ -132,7 +132,6 @@ hr {
     padding: 1em;
 }
 
-
 .actTitle {
     text-align: center;
     font-size: 130%;
@@ -172,13 +171,6 @@ hr {
   position: relative;
   display: inline-block;
 }
-
-
-img{
-   height: 14px;
-   margin-left: 2px;
-}
-
 
 /* Tooltip text */
 .tooltip .tooltiptext {
