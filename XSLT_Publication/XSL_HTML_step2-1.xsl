@@ -78,7 +78,7 @@
     
     <xsl:template match="l">
         <div class="verse" id="{@xml:id}">
-            <!-- On vérifie si le numéro du vers se termine par '0' (ou '5') -->
+            <!-- Si le numéro du vers finit par '0' c'est un multiple de 10, s'il finit par '0' ou '5' c'est un multiple de 5. -->
             <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')">
                 [<xsl:value-of select="@n"/>]
             </xsl:if>
