@@ -23,6 +23,12 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 
 ### Exemple
 
+#### Définition préliminaire: le noeud contextuel
+
+> [[l']] endroit dans le document XML qui est considéré comme nœud courant pour appliquer l'expression XPath
+
+[svground.fr](http://svground.fr/xpath-axes.php)
+
 ``concat(@type, ' ', @n)`` donnera "act 1" si le noeud contextuel est la première ``div`` de type ``act`` (ou, plus exactement, si le noeud contextuel est une div de type "act" et de nombre "1"). Attention, la fonction concat() ne crée pas d'espaces par défaut: il faut les ajouter soi-même. 
 
 
