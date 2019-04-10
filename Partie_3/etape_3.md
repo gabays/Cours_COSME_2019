@@ -25,7 +25,7 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 
 #### Définition préliminaire: le noeud contextuel
 
-> [[l']] endroit dans le document XML qui est considéré comme nœud courant pour appliquer l'expression XPath
+> [l'] endroit dans le document XML qui est considéré comme nœud courant pour appliquer l'expression XPath
 
 [svground.fr](http://svground.fr/xpath-axes.php)
 
