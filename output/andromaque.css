@@ -171,8 +171,14 @@ hr {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
+
+
+img{
+   height: 14px;
+   margin-left: 2px;
+}
+
 
 /* Tooltip text */
 .tooltip .tooltiptext {
@@ -212,4 +218,4 @@ hr {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-} 
+}
