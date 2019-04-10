@@ -268,14 +268,71 @@ Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```vers
 *Corrigé ```xsl_etape_2-3.xsl```.*
 
 ---
+# III. L'art de se complifier la vie – ou ajouter une note
 
-### Exercice Bonus
+L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou en élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
 
-Ajoutez des notes en popup avec tooltip. Si vous reprenez
+```XML
+<xsl:template match="monElement">
+  <xsl:attribute name="nomAttribut">
+    Valeur de l'attribut
+  </xsl:attribute>
+</xsl:template>
+```
+[W3C](https://www.w3schools.com/xml/ref_xsl_el_attribute.asp)
+
+L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la syntaxe suivante:
+
+```XML
+<xsl:text>Ici je met ce que je veux</xsl:text>
+```
+[W3C](https://www.w3schools.com/xml/ref_xsl_el_text.asp)
+
+Ainsi, le code suivant
+
+```XML
+<xsl:template match="monElement">
+  <span class="uneClasse">
+    Mon contenu
+  </span>
+</xsl:template>
+```
+
+est strictement équivalent à
+
+```XML
+<xsl:template match="monElement">
+  <span>
+    <xsl:attribute name="class">
+      uneClasse
+  </xsl:attribute>
+  Mon contenu
+</xsl:template>
+```
+
+L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la syntaxe suivante:
+
+```XML
+<xsl:template match="monElement">
+  <span>
+    <xsl:attribute name="class">
+      <xsl:text>uneClasse</xsl:text>
+  </xsl:attribute>
+  Mon contenu
+</xsl:template>
+```
+
+---
+
+### Exercice III
+
+Tranformez les notes afin de les afficher dans une info-bulle, et que les liens vers gallica s'ouvrent dans un ouvel onglet.
+1. Pour un nouvel onglet… cherchez sur internet! (indice: ça se passe dans ```@target```)
+2. Afin d'afficher le texte dans une info-bulle, vous pouvez utiliser ```tooltip```, qui fonctionne de la manière suivante:
 
 ```HTML
- <div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
+ <div class="tooltip">Appel de note
+  <span class="tooltiptext">Contenu de la note</span>
 </div>
 ```
 
