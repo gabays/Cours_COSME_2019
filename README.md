@@ -27,7 +27,7 @@ Un Makefile a été ajouté pour faciliter la transformation des fichiers: une f
 
 ## Licence de diffusion
 
-Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences. En particulier, Saxon 9 HE est distribué  [sous licence MPL](https://www.mozilla.org/en-US/MPL/2.0/).
+Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences. En particulier, [Saxon 9 HE](http://saxon.sourceforge.net/#F9.9HE) est distribué  [sous licence MPL](https://www.mozilla.org/en-US/MPL/2.0/).
 
 
 <a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />
