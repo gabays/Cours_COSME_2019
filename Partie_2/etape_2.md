@@ -292,7 +292,7 @@ L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément –
 L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la syntaxe suivante:
 
 ```XML
-<xsl:text>Ici je met ce que je veux</xsl:text>
+<xsl:text>Ici je mets ce que je veux</xsl:text>
 ```
 [W3C](https://www.w3schools.com/xml/ref_xsl_el_text.asp)
 
