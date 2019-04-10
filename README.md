@@ -20,6 +20,10 @@ Tramway: Centre Berthelot (T2)
 | 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
 | 24/04 | après-midi | Travail sur les projets des participants |  |
 
+## Transformation
+
+Un Makefile a été ajouté pour faciliter la transformation des fichiers: une fois dans la racine du dépôt, ``make`` permet pour chaque étape du cours de créer des fichiers html avec les feuilles de transformation xsl proposées. Il est bien sûr possible de créer des scénario de validation "à la main" à l'aide du logiciel XML de votre choix. 
+
 
 ## Licence de diffusion
 
