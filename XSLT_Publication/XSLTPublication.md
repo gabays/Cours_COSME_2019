@@ -276,4 +276,5 @@ Ajoutez des notes en popup avec tooltip. Si vous reprenez
   <span class="tooltiptext">Tooltip text</span>
 </div>
 ```
+
 *Corrigé ```XSL_HTML_step2-4.xsl```.
