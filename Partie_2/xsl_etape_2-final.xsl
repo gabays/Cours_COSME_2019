@@ -85,7 +85,7 @@
                     <div class="verseF">
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text() | persName | note"/>
+                            c/text() | placeName | persName | note"/>
                     </div>
                 </xsl:when>
                 <!-- Si c'est le milieu du vers -->
@@ -93,7 +93,7 @@
                     <div class="verseM">
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text() | persName | note"/>
+                            c/text() | placeName | persName | note"/>
                     </div>
                 </xsl:when>
                 <!-- Si ce n'est ni la fin, ni le milieu du vers – doncle début du vers -->
@@ -109,7 +109,7 @@
                         </xsl:if>
                         <xsl:apply-templates select="text()|
                             figure/desc[@type='letter']/text()|
-                            c/text() | persName | note"/>
+                            c/text() | placeName | persName | note"/>
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
@@ -119,7 +119,8 @@
 <!-- J'ajoute les notes avec tooltip. -->
     <xsl:template match="note">
         <span class="tooltip">
-            <img src="img_413193.png" height="10"/>
+            &#32;
+            <img src="img/icon.png" height="10"/>
             <span class="tooltiptext">
                 <xsl:apply-templates select="text()|title|ref"/>
             </span>
