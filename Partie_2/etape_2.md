@@ -276,7 +276,7 @@ Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```vers
 *Corrigé: ```xsl_etape_2-2.xsl```.*
 
 ---
-# III. L'art de se complifier la vie – ou ajouter une note
+# III. L'art de se compliquer la vie – ou ajouter une note
 
 L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou un élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
 
