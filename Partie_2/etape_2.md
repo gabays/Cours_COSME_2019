@@ -16,10 +16,10 @@ Lyon, 23 avril 2019
 Les fonctions XPath:
 1. Se terminent par un ```()``` (et commencent parfois par préfixe ```fn:```)
 2. Retournent
-  2.1 une valeur booléenne (*vrai* vs *faux*)
-  2.2 Un nombre
-  2.3 Une chaîne de caractères
-  2.4 Des nœuds
+    2.1 une valeur booléenne (*vrai* vs *faux*)
+    2.2 Un nombre
+    2.3 Une chaîne de caractères
+    2.4 Des nœuds
 
 3. Peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
 
