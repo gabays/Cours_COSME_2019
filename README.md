@@ -20,10 +20,14 @@ Tramway: Centre Berthelot (T2)
 | 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
 | 24/04 | après-midi | Travail sur les projets des participants |  |
 
+## Transformation
+
+Un Makefile a été ajouté pour faciliter la transformation des fichiers: une fois dans la racine du dépôt, ``make`` permet pour chaque étape du cours de créer des fichiers html avec les feuilles de transformation xsl proposées. Il est bien sûr possible de créer des scénario de validation "à la main" à l'aide du logiciel XML de votre choix. 
+
 
 ## Licence de diffusion
 
-Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences.
+Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences. En particulier, Saxon 9 HE est distribué  [sous licence MPL](https://www.mozilla.org/en-US/MPL/2.0/).
 
 
 <a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />
