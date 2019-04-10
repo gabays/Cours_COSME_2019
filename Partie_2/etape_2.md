@@ -118,10 +118,12 @@ Et maintenant dans notre fichier ```andromaque.xml```:
 
 >//speaker[starts-with(., 'H')]
 
-*Corrigé ```XSL_HTML_step2-1.xsl```.
+*Corrigé ```xsl_etape_2-1.xsl```.*
 
 ---
 # II. Les conditionnelles en XSLT
+
+---
 
 ## II.a ```xsl:if```
 
@@ -160,7 +162,7 @@ Vous pouvez donc
 1. numéroter les lignes d'*Andromaque*, mais uniquement les dizaines (10, 20, 30, 40, 50).
 2. numéroter les lignes qui sont un multiple de 5.
 
-*Corrigé ```XSL_HTML_step2-2.xsl```.
+*Corrigé ```xsl_etape_2-2.xsl```.*
 
 ---
 
@@ -263,7 +265,7 @@ Notre css a prévu cette situation
 
 Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```verseF```) dans le fichier HTML en fonction de ```l @part``` dans le fichier XML.
 
-*Corrigé ```XSL_HTML_step2-3.xsl```.
+*Corrigé ```xsl_etape_2-3.xsl```.*
 
 ---
 
@@ -277,4 +279,4 @@ Ajoutez des notes en popup avec tooltip. Si vous reprenez
 </div>
 ```
 
-*Corrigé ```XSL_HTML_step2-4.xsl```.
+*Corrigé ```xsl_etape_2-final.xsl```.*
