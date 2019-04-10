@@ -310,7 +310,7 @@ est équivalent à
 </xsl:template>
 ```
 
-Qui est équivalent à
+qui est équivalent à
 
 ```XML
 <xsl:template match="monElement">
@@ -321,6 +321,10 @@ Qui est équivalent à
   Mon contenu
 </xsl:template>
 ```
+
+Alors pourquoi les utiliser? Ils offrent une plus grande marge de manœuvre quant à leur contenu. Ainsi:
+1. ```xsl:text``` permet de mieux controler les espaces et les retours à la ligne du texte ajouté.
+2. ```xsl:attribute``` permet de récupérer comme valeur d'attribut des données via ```xsl:value-of``` par exemple.
 
 ---
 
