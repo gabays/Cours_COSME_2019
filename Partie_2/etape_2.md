@@ -270,7 +270,7 @@ Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```vers
 ---
 # III. L'art de se complifier la vie – ou ajouter une note
 
-L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou en élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
+L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou un élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
 
 ```XML
 <xsl:template match="monElement">
@@ -298,7 +298,7 @@ Ainsi, le code suivant
 </xsl:template>
 ```
 
-est strictement équivalent à
+est équivalent à
 
 ```XML
 <xsl:template match="monElement">
@@ -310,7 +310,7 @@ est strictement équivalent à
 </xsl:template>
 ```
 
-L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la syntaxe suivante:
+Qui est équivalent à
 
 ```XML
 <xsl:template match="monElement">
