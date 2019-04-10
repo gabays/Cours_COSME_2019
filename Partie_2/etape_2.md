@@ -87,7 +87,7 @@ Pour cela, nous allons ajouter des *arguments* à la fonction XPath en précisan
 
 >contains($arg1, $arg2)
 
-***ATTENTION***, XML/XPath est semsible à la casse!
+***ATTENTION***, XML/XPath est sensible à la casse!
 
 ---
 ### Exercice I
