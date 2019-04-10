@@ -268,7 +268,7 @@ Où *string* (**entre guillemets**) est un URI, en général un URL.  Une fois l
 
         <xsl:value-of select="collection('...Hugo/romans/*.xml')//teiHeader//title"/>
         
-Cette expression Xpath doit sélectionner et imprimer les titres de tous les fichier xml qui sont dans le dossier indiqué.
+Cette expression Xpath doit sélectionner et imprimer les titres de tous les documents xml qui sont dans le dossier indiqué.
 
 ---
 
