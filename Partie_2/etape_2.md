@@ -122,13 +122,11 @@ Quel est le résultat obtenu avec ces expressions XPath?
 
 >//a[contains(., '4')]
 
-Et maintenant dans notre fichier ```andromaque.xml```:
+Et maintenant dans notre fichier ```andromaque_c.xml```:
 
 >//sp/@who[contains(., 'h')]
 
 >//speaker[starts-with(., 'H')]
-
-*Corrigé ```xsl_etape_2-1.xsl```.*
 
 ---
 # II. Les conditionnelles en XSLT
@@ -172,7 +170,7 @@ Vous pouvez donc
 1. numéroter les lignes d'*Andromaque*, mais uniquement les dizaines (10, 20, 30, 40, 50).
 2. numéroter les lignes qui sont un multiple de 5.
 
-*Corrigé ```xsl_etape_2-2.xsl```.*
+*Corrigé ```xsl_etape_2-1.xsl```.*
 
 ---
 
@@ -275,7 +273,7 @@ Notre css a prévu cette situation
 
 Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```verseF```) dans le fichier HTML en fonction de ```l @part``` dans le fichier XML.
 
-*Corrigé ```xsl_etape_2-3.xsl```.*
+*Corrigé: ```xsl_etape_2-2.xsl```.*
 
 ---
 # III. L'art de se complifier la vie – ou ajouter une note
@@ -350,4 +348,4 @@ Tranformez les notes afin de les afficher dans une info-bulle, et que les liens 
 </div>
 ```
 
-*Corrigé ```xsl_etape_2-final.xsl```.*
+*Corrigé: ```xsl_etape_2-final.xsl```.*
