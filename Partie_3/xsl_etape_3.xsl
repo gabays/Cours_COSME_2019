@@ -34,7 +34,7 @@
                 <div id="header">
                     <h1>Edition numérique d'Andromaque (1668)</h1>
                 </div>
-                <div id="notices_personnages">
+                <div class="notices_personnages">
                     <h3>Notices: personnages</h3>
                     <xsl:apply-templates select="//person"/>
                 </div>
