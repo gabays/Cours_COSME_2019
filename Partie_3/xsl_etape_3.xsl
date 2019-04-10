@@ -8,8 +8,8 @@
         <html>
             <head>
                 <title>Edition numérique d'Andromaque (1668)</title>
-                <link rel="stylesheet" type="text/css" href="andromaque.css"/>
-                <meta charset="UTF-8"/>
+                <link rel="stylesheet" type="text/css" href="andromaque.css"></link>
+                <meta charset="UTF-8"></meta>
             </head>
             <body>
                 <div id="notices_personnages">
@@ -41,29 +41,29 @@
                 <div id="main">
                     <div id="play">
                         <!-- On n'appliquera que les règles XSL qui concernent les éléments enfants de la div[@type='play'] -->
-                        <xsl:apply-templates select="descendant::div[@type = 'play']"/>
+                        <xsl:apply-templates select="descendant::div[@type='play']"/>                
                     </div>
                 </div>
             </body>
         </html>
     </xsl:template>
-
-    <!--1, NB : XSL:value-of permet de récupérer le texte qui se trouve dans la balise head de la div[@type='play'] -->
-    <xsl:template match="div[@type = 'play']/head">
+    
+    <!--1, NB : XSL:value-of permet de récupérer le texte qui se trouve dans la balise head de la div[@type='play'] -->  
+    <xsl:template match="div[@type='play']/head">
         <h1>
             <xsl:value-of select="."/>
         </h1>
     </xsl:template>
-    <!-- 2 -->
-    <xsl:template match="div[@type = 'act']">
+    <!-- 2 --> 
+    <xsl:template match="div[@type='act']">
         <div class="actTitle" id="{@xml:id}">
             <xsl:value-of select="head"/>
         </div>
         <!-- l'apply-templates permet d'appliquer les règles des éléments enfants de div[@type='act'] -->
         <xsl:apply-templates/>
     </xsl:template>
-
-    <xsl:template match="div[@type = 'scene']">
+    
+    <xsl:template match="div[@type='scene']">
         <div class="sceneTitle" id="{@xml:id}">
             <xsl:value-of select="head"/>
         </div>
@@ -72,57 +72,54 @@
         </div>
         <xsl:apply-templates/>
     </xsl:template>
-
+    
     <xsl:template match="speaker">
         <div class="speaker">
             <xsl:value-of select="."/>
         </div>
     </xsl:template>
-
+    
     <xsl:template match="l">
+        <!-- Pour gérer les antilabes (morcellement du vers sur plusieurs répliques), à l'aide de <l @type"F|M"> -->
         <div class="verse" id="{@xml:id}">
-            <!-- Ici le Xpath de @select permet de récupérer plusieurs valeurs :
-            - le texte enfant des <l>
-            - le texte enfant des desc[@type='letter']
-            - le texte enfant des <c> -->
-            <!--Maj matthias: appliquer les règles sur toutes les balises mentionnées + sur les persName-->
-            <xsl:apply-templates
-                select="
-                    text() |
-                    figure/desc[@type = 'letter']/text() |
-                    c/text() | persName"
-            />
+            <xsl:choose>
+                <!-- Si c'est la fin du vers -->
+                <xsl:when test="@part = 'F'">
+                    <div class="verseF">
+                        <xsl:apply-templates select="text()|
+                            figure/desc[@type='letter']/text()|
+                            c/text() | persName | note"/>
+                    </div>
+                </xsl:when>
+                <!-- Si c'est le milieu du vers -->
+                <xsl:when test="@part = 'M'">
+                    <div class="verseM">
+                        <xsl:apply-templates select="text()|
+                            figure/desc[@type='letter']/text()|
+                            c/text() | persName | note"/>
+                    </div>
+                </xsl:when>
+                <!-- Si ce n'est ni la fin, ni le milieu du vers – doncle début du vers -->
+                <xsl:otherwise>
+                    <div class="verse">
+                        <!-- On ajoute le numéro du vers comme attribut à <div class="verse"> -->
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <!-- Si le numéro du vers finit par '0' c'est un multiple de 10, s'il finit par '0' ou '5' c'est un multiple de 5. -->
+                        <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')">
+                            [<xsl:value-of select="@n"/>]
+                        </xsl:if>
+                        <xsl:apply-templates select="text()|
+                            figure/desc[@type='letter']/text()|
+                            c/text() | persName | note"/>
+                    </div>
+                </xsl:otherwise>
+            </xsl:choose>
         </div>
-    </xsl:template>
-
-    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
-    <xsl:template match="fw | figure | pb"/>
-
-
-
-    <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
-    <xsl:template match="person">
-        <div id="{@xml:id}">
-            <h3>
-                <xsl:value-of select="persName"/>
-            </h3>
-            <p>
-                <xsl:apply-templates select="note"/>
-                <br/>
-                <xsl:text>Référence:</xsl:text>
-                <a href="{descendant::ref[@type = 'wiki']/@target}">
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
-                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:value-of select="$remplacement2"/>
-                </a>
-                <br/>
-            </p>
-        </div>
-    </xsl:template>
-
-
+    </xsl:template>    
+    
+    
     <!--Traitement des noms de personnage dans le texte: renvoyer vers la liste des personnages qui ont une notice. Suppose p.e. de refaire le xml pour typer les personnages.-->
     <xsl:template match="persName[@ref]">
 
@@ -148,4 +145,57 @@
 
 
 
+    <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
+    <xsl:template match="person">
+        <div id="{@xml:id}">
+            <h3>
+                <xsl:value-of select="persName"/>
+            </h3>
+            <p>
+                <xsl:apply-templates select="note"/>
+                <br/>
+                <xsl:text>Référence:</xsl:text>
+                <a href="{descendant::ref[@type = 'wiki']/@target}">
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
+                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:value-of select="$remplacement2"/>
+                </a>
+                <br/>
+            </p>
+        </div>
+    </xsl:template>
+
+<!-- J'ajoute les notes avec tooltip. -->
+    <xsl:template match="note">
+        <span class="tooltip">
+            <img src="img_413193.png" height="10"/>
+            <span class="tooltiptext">
+                <xsl:apply-templates select="text()|title|ref"/>
+            </span>
+        </span> 
+    </xsl:template>
+
+<!-- Je mets les titres en italique -->
+    <xsl:template match="title">
+        <i>
+            <xsl:apply-templates/>
+        </i> 
+    </xsl:template>
+ 
+<!-- Je transforme les liens contenus dans les @target de <ref> en hyperliens --> 
+    <xsl:template match="ref">
+        <a href="{@target}">
+            <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a> 
+    </xsl:template>
+ 
+    
+    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
+    <xsl:template match="fw|figure|pb"/>
+    
 </xsl:stylesheet>
