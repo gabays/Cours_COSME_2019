@@ -3,15 +3,70 @@ Cours Cosme 2019
 # XSLT: publication
 
 Simon Gabay
+
 Lyon, 23 avril 2019
 
 ---
-# I. Conditions et tests en XSLT (1ère partie)
+# I. Les fonctions XPath
 
 ---
-## I.a Fonctions XPath à deux arguments
 
-Il existe des fonctions XPath, qui sont reconnaissables au fait qu'elles se terminent par ```()```. Ainsi ```contains()```, ```starts-with()```, ```ends-with()```, ```substring-after()```, etc.
+## C'est quoi?
+
+Les fonctions XPath:
+1. Se terminent par un ```()``` (et commencent parfois par préfixe ```fn:```)
+2. Retournent
+  2.1 une valeur booléenne (*vrai* vs *faux*)
+  2.2 Un nombre
+  2.3 Une chaîne de caractère
+  2.4 Des nœuds
+3. Peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
+
+Passons en revue quelques fonctions qui peuvent être utiles
+
+## Les fonctions sans argument
+
+Quelques exemples:
+
+>fn:last()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-last)
+
+>fn:position()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-position)
+
+Lorsqu'on utilise une fonction
+1. On retire le préfixe ```fn:```
+2. On les utilise souvent comme prédicat (pour mémoire: ```axe:nœud[predicat]```), ainsi ```//l[last()]```renvoie le dernier ```l``` de chaque nœud qui en contiendrait un (et ```(//l)[last()]``` renvoie le dernier élément ```l``` de toute la pièce).
+3. On peut ajouter des opérateurs booléens, ainsi ```//l[position()=1]``` renvoie le premier ```l``` d'une série, et ```//l[last()-1]``` l'avant-dernier.
+
+
+## Les fonctions à un argument
+
+Un exemple:
+
+>fn:count()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-count)
+
+Pour pouvoir compter, il faut savoir ce que l'on compte: cette information est précisée au moyen d'un *argument*, qui est passé entre les ```()``` de la fonction. La syntaxe d'une fonction est décrite de la manière suivante:
+
+>fn:count($arg)
+
+Ainsi, ```count(//l)``` compte tous les ```l``` du document.
+
+
+### Les fonctions à deux arguments
+
+>fn:contains()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-contains)
+
+>fn:starts-with()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-starts-with)
+
+>fn:ends-with()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-ends-with)
+
+>fn:substring-after()
+[W3C](https://www.w3.org/TR/xpath-functions-31/#func-substring-after)
 
 Prenons l'exemple de ```contains()```: il permet de contrôler que
 1. une chaîne de caractère…
@@ -23,42 +78,52 @@ Nous avons donc besoin de préciser:
 
 Pour cela, nous allons ajouter des *arguments* à la fonction XPath en précisant l'un (```$arg1```) et l'autre (```$arg2```), en suivant la syntaxe suivante:
 
-```XML
-contains($arg1, $arg2)
-```
+>contains($arg1, $arg2)
+
+***ATTENTION***, XML/XPath est semsible à la casse!
 
 ---
-### Exercice I.a
+### Exercice I
+
+Pour le nœud suivant:
+
+```XML
+<root>
+  <a>1</a>
+  <c>2</c>
+  <a>3</a>
+  <a>4</a>
+  <a>5</a>
+</root>
+```
+>count(a)
+
+>//c[last()]
+
+>//a[position()=2]
 
 Quel est le résultat obtenu avec ces expressions XPath?
 
+>contains('test', 's')
 
-```XML
-contains('test', 's')
-```
+>starts-with('test', 's')
 
-```XML
-starts-with('test', 's')
-```
+>substring-after('test', 's')
 
-```XML
-substring-after('test', 's')
-```
+>//a[contains(., '4')]
 
-Et maintenant dans notre fichier ```andromsque.xml```:
+Et maintenant dans notre fichier ```andromaque.xml```:
 
-```XML
-sp[contains(@who, 'H')]
-```
+>//sp/@who[contains(., 'h')]
 
-```XML
-speaker[starts-with(@., 'H')]
-```
+>//speaker[starts-with(., 'H')]
 
 ---
-## I.b ```xsl:if```
+# II. Les conditionnelles en XSLT
 
-L'élément ```xsl:if``` obéit à la syntaxe suivante:
+## II.a ```xsl:if```
+
+L'élément ```xsl:if``` permet de réaliser un test conditionnel pour le contenu du fichier XML. Il obéit à la syntaxe suivante:
 
 ```XML
 <xsl:template match="monElement">
@@ -67,6 +132,7 @@ L'élément ```xsl:if``` obéit à la syntaxe suivante:
   </xsl:if>
 </xsl:template>
 ```
+[W3C](https://www.w3schools.com/xml/xsl_if.asp)
 
 ```xsl:if``` contient un attribut obligatoire ```@test``` qui contient une expression XPath. Cette expression XPath doit renvoyer une valeur booléenne : *true* ou *false*. Cette valeur est obtenue à partir de trois grands types de données:
 
@@ -74,19 +140,29 @@ L'élément ```xsl:if``` obéit à la syntaxe suivante:
 2. Un fragment de l'arbre XML (est-ce un nœud parent?)
 3. Une chaîne de caractère (contient-elle une lettre précise?)
 
-Ce test est notamment fait à partir de fonctions XPath.
+Ce test est notamment fait à partir de fonctions XPath comme celles que nous avons vu auparavant.
 
 ---
-## Exercice I.b
-1. Numérotez les lignes d'*Andromaque*, mais uniquement les dizaines (10, 20, 30, 40, 50).
-2. Numérotez les lignes qui sont un multiple de 5.
+### Exercice II.a
+
+Les vers de notre document sont numérotées à l'aide d'un ```@n```
+
+```XML
+<l n="13" xml:id="v13">Combien dans cét exil ay-je <c ana="ſ_s">ſ</c>ouffert d'allarmes?</l>
+<l n="14" xml:id="v14">Combien à vos malheurs ay-je donné de larmes?</l>
+<l n="15" xml:id="v15">Craignant toûjours pour vous quelque nou<c ana="u_v">u</c>eau <lb/>danger</l>
+```
+
+Vous pouvez donc
+
+1. numéroter les lignes d'*Andromaque*, mais uniquement les dizaines (10, 20, 30, 40, 50).
+2. numéroter les lignes qui sont un multiple de 5.
 
 ---
-# II. Conditions et tests en XSLT (2ème partie)
 
-## ```xsl:choose```
+## II.b ```xsl:choose```
 
-L'élément ```xsl:choose``` ressemble énormément à ```xsl:if```. Sa syntaxe minimale est la suivante:
+L'élément ```xsl:choose``` ressemble énormément à ```xsl:if```. Il permet de réaliser une série de tests conditionnels (```xsl:if``` ne permettant d'en effectuer qu'un seul) et doit contenir *a minima* un ```xsl:when```. Sa syntaxe minimale est donc la suivante:
 
 ```XML
 <xsl:template match="monElement">
@@ -98,7 +174,9 @@ L'élément ```xsl:choose``` ressemble énormément à ```xsl:if```. Sa syntaxe 
 </xsl:template>
 ```
 
-Contrairement à ```xsl:if```, il est cependant possible de proposer une liste de conditions alternatives qui s'appliquent toutes au même élément:
+[W3C](https://www.w3schools.com/xml/xsl_choose.asp)
+
+Contrairement à ```xsl:if```, il est possible de proposer une liste de conditions alternatives:
 
 ```XML
 <xsl:choose>
@@ -114,7 +192,7 @@ Contrairement à ```xsl:if```, il est cependant possible de proposer une liste d
 </xsl:choose>
 ```
 
-Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, permettant de prévoir le cas où aucune des conditions prélablement définies n'est remplie – très utile pour éviter les oublis!
+Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, permettant de prévoir le cas où aucune des conditions prélablement définies n'est remplie – très utile pour éviter des oublis.
 
 ```XML
 <xsl:choose>
@@ -136,7 +214,7 @@ Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, per
 
 ---
 
-## Exercice II
+### Exercice II.b
 
 En regardant notre fichier XML de pus près, on remarque que les antilabes (morcellement du vers sur plusieurs répliques) ont été identifiées avec l'attribut ```@part```:
 
@@ -180,5 +258,3 @@ Notre css a prévu cette situation
 ```
 
 Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```verseF```) dans le fichier HTML en fonction de ```l @part``` dans le fichier XML.
-
-
