@@ -18,7 +18,7 @@ Les fonctions XPath:
 2. Retournent
   2.1 une valeur booléenne (*vrai* vs *faux*)
   2.2 Un nombre
-  2.3 Une chaîne de caractère
+  2.3 Une chaîne de caractères
   2.4 Des nœuds
 3. Peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
 
@@ -76,7 +76,7 @@ Ainsi, ```count(//l)``` compte tous les ```l``` du document.
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-substring-after)
 
 Prenons l'exemple de ```contains()```: il permet de contrôler que
-1. une chaîne de caractère…
+1. une chaîne de caractères…
 2. … contient un/des caractère(s) précis.
 
 Nous avons donc besoin de préciser:
@@ -149,7 +149,7 @@ L'élément ```xsl:if``` permet de réaliser un test conditionnel pour le conten
 
 1. Un nombre (est-il pair ou impair?)
 2. Un fragment de l'arbre XML (est-ce un nœud parent?)
-3. Une chaîne de caractère (contient-elle une lettre précise?)
+3. Une chaîne de caractères (contient-elle une lettre précise?)
 
 Ce test est notamment fait à partir de fonctions XPath comme celles que nous avons vu auparavant.
 
