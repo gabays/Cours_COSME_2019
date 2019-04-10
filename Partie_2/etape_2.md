@@ -103,6 +103,9 @@ Pour le nœud suivant:
   <a>5</a>
 </root>
 ```
+
+Que renvoient:
+
 >count(a)
 
 >//c[last()]
