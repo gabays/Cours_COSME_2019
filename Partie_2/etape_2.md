@@ -14,13 +14,13 @@ Lyon, 23 avril 2019
 ## C'est quoi?
 
 Les fonctions XPath:
-1. Se terminent par un ```()``` (et commencent parfois par préfixe ```fn:```)
-2. Retournent
+1. se terminent par un ```()``` (et commencent parfois par préfixe ```fn:```)
+2. retournent
     - une valeur booléenne (*vrai* vs *faux*)
     - Un nombre
     - Une chaîne de caractères
     - Des nœuds
-3. Peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
+3. peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
 
 Passons en revue quelques fonctions qui peuvent être utiles
 
@@ -36,10 +36,10 @@ Quelques exemples:
 
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-position)
 
-Lorsqu'on utilise une fonction
-1. On retire le préfixe ```fn:```
-2. On les utilise souvent comme prédicat (pour mémoire: ```axe:nœud[predicat]```), ainsi ```//l[last()]```renvoie le dernier ```l``` de chaque nœud qui en contiendrait un (et ```(//l)[last()]``` renvoie le dernier élément ```l``` de toute la pièce).
-3. On peut ajouter des opérateurs booléens, ainsi ```//l[position()=1]``` renvoie le premier ```l``` d'une série, et ```//l[last()-1]``` l'avant-dernier.
+Lorsqu'on utilise une fonction:
+1. on retire le préfixe ```fn:```
+2. on la place souvent comme prédicat (pour mémoire: ```axe:nœud[predicat]```), ainsi ```//l[last()]```renvoie le dernier ```l``` de chaque nœud qui en contiendrait un (et ```(//l)[last()]``` renvoie le dernier élément ```l``` de toute la pièce).
+3. on peut ajouter des opérateurs booléens, ainsi ```//l[position()=1]``` renvoie le premier ```l``` d'une série, et ```//l[last()-1]``` l'avant-dernier.
 
 
 ## Les fonctions à un argument
