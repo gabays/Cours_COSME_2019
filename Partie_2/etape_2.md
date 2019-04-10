@@ -20,7 +20,6 @@ Les fonctions XPath:
     2.2 Un nombre
     2.3 Une chaîne de caractères
     2.4 Des nœuds
-
 3. Peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
 
 Passons en revue quelques fonctions qui peuvent être utiles
