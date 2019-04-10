@@ -23,7 +23,7 @@ Tramway: Centre Berthelot (T2)
 
 ## Licence de diffusion
 
-Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences.
+Le cours est distribué avec la licence CC-BY, mais certains documents (notamment le corpus) obéissent à d'autres licences. En particulier, Saxon 9 HE est distribué  (sous licence MPL)[https://www.mozilla.org/en-US/MPL/2.0/].
 
 
 <a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />
