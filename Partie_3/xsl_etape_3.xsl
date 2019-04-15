@@ -12,10 +12,6 @@
                 <meta charset="UTF-8"/>
             </head>
             <body>
-                <div id="notices_personnages">
-                    <h3>Notices: personnages</h3>
-                    <xsl:apply-templates select="//person"/>
-                </div>
                 <div id="tableOfContent">
                     <ul>
                         <li>
@@ -37,6 +33,10 @@
                 </div>
                 <div id="header">
                     <h1>Edition numérique d'Andromaque (1668)</h1>
+                </div>
+                <div class="notices_personnages">
+                    <h3>Notices: personnages</h3>
+                    <xsl:apply-templates select="//person"/>
                 </div>
                 <div id="main">
                     <div id="play">
@@ -80,45 +80,49 @@
     </xsl:template>
 
     <xsl:template match="l">
+        <!-- Pour gérer les antilabes (morcellement du vers sur plusieurs répliques), à l'aide de <l @type"F|M"> -->
         <div class="verse" id="{@xml:id}">
-            <!-- Ici le Xpath de @select permet de récupérer plusieurs valeurs :
-            - le texte enfant des <l>
-            - le texte enfant des desc[@type='letter']
-            - le texte enfant des <c> -->
-            <!--Maj matthias: appliquer les règles sur toutes les balises mentionnées + sur les persName-->
-            <xsl:apply-templates
-                select="
-                    text() |
-                    figure/desc[@type = 'letter']/text() |
-                    c/text() | persName"
-            />
-        </div>
-    </xsl:template>
-
-    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
-    <xsl:template match="fw | figure | pb"/>
-
-
-
-    <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
-    <xsl:template match="person">
-        <div id="{@xml:id}">
-            <h3>
-                <xsl:value-of select="persName"/>
-            </h3>
-            <p>
-                <xsl:apply-templates select="note"/>
-                <br/>
-                <xsl:text>Référence:</xsl:text>
-                <a href="{descendant::ref[@type = 'wiki']/@target}">
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
-                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
-                    <!--Remplacement récursif des caractères échappés dans l'URL-->
-                    <xsl:value-of select="$remplacement2"/>
-                </a>
-                <br/>
-            </p>
+            <xsl:choose>
+                <!-- Si c'est la fin du vers -->
+                <xsl:when test="@part = 'F'">
+                    <div class="verseF">
+                        <xsl:apply-templates
+                            select="
+                                text() |
+                                figure/desc[@type = 'letter']/text() |
+                                c/text() | persName | note"
+                        />
+                    </div>
+                </xsl:when>
+                <!-- Si c'est le milieu du vers -->
+                <xsl:when test="@part = 'M'">
+                    <div class="verseM">
+                        <xsl:apply-templates
+                            select="
+                                text() |
+                                figure/desc[@type = 'letter']/text() |
+                                c/text() | persName | note"
+                        />
+                    </div>
+                </xsl:when>
+                <!-- Si ce n'est ni la fin, ni le milieu du vers – doncle début du vers -->
+                <xsl:otherwise>
+                    <div class="verse">
+                        <!-- On ajoute le numéro du vers comme attribut à <div class="verse"> -->
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <!-- Si le numéro du vers finit par '0' c'est un multiple de 10, s'il finit par '0' ou '5' c'est un multiple de 5. -->
+                        <xsl:if test="ends-with(@n, '0') or ends-with(@n, '5')"> [<xsl:value-of select="@n"/>] </xsl:if>
+                        <xsl:apply-templates
+                            select="
+                                text() |
+                                figure/desc[@type = 'letter']/text() |
+                                c/text() | persName | note"
+                        />
+                    </div>
+                </xsl:otherwise>
+            </xsl:choose>
         </div>
     </xsl:template>
 
@@ -147,5 +151,58 @@
     </xsl:template>
 
 
+
+    <!--Pour chaque personnage qui est cité dans le texte avec un persName, créer une notice-->
+    <xsl:template match="person">
+        <div id="{@xml:id}">
+            <h3>
+                <xsl:value-of select="persName"/>
+            </h3>
+            <p>
+                <xsl:apply-templates select="note"/>
+                <br/>
+                <xsl:text>Référence:</xsl:text>
+                <a href="{descendant::ref[@type = 'wiki']/@target}">
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:variable name="remplacement1" select="replace(bibl/ref[@type = 'wiki']/@target, '%C3%A9', 'é')"/>
+                    <xsl:variable name="remplacement2" select="replace($remplacement1, '%C3%A8', 'è')"/>
+                    <!--Remplacement récursif des caractères échappés dans l'URL-->
+                    <xsl:value-of select="$remplacement2"/>
+                </a>
+                <br/>
+            </p>
+        </div>
+    </xsl:template>
+
+    <!-- J'ajoute les notes avec tooltip. -->
+    <xsl:template match="note[ancestor::text]">
+        <span class="tooltip">
+            <img src="img_413193.png" height="10"/>
+            <span class="tooltiptext">
+                <xsl:apply-templates select="text() | title | ref"/>
+            </span>
+        </span>
+    </xsl:template>
+
+    <!-- Je mets les titres en italique -->
+    <xsl:template match="title">
+        <i>
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>
+
+    <!-- Je transforme les liens contenus dans les @target de <ref> en hyperliens -->
+    <xsl:template match="ref">
+        <a href="{@target}">
+            <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
+    </xsl:template>
+
+
+    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
+    <xsl:template match="fw | figure | pb"/>
 
 </xsl:stylesheet>

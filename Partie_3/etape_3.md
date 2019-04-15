@@ -15,9 +15,26 @@ Matthias GILLE LEVENSON
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
 > «fn:concat(string,string,...)»
 
+
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-Les arguments passés sont des chaînes de caractères. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+
+Si les arguments passés sont des chaînes de caractères, il est nécessaire d'ajouter des guillemets simples ' '. Cette fonction est souvent utilisée pour manipuler des identifiants et des valeurs d'attributs.
+
+### Exemple
+
+#### Définition préliminaire: le noeud contextuel
+
+> [l'] endroit dans le document XML qui est considéré comme nœud courant pour appliquer l'expression XPath
+
+[svground.fr](http://svground.fr/xpath-axes.php)
+
+#### Exemple
+
+``concat(@type, ' ', @n)`` donnera "act 1" si le noeud contextuel est la première ``div`` de type ``act`` (ou, plus exactement, si le noeud contextuel est une div de type "act" et de nombre "1"). Attention, la fonction concat() ne crée pas d'espaces par défaut: il faut les ajouter soi-même. 
+
+
+
 
 
 ## I.2 fn:replace()
@@ -58,6 +75,14 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 
 - ``` translate('abcdefg', 'abcd', 'defghijk')``` donne 'defgefg'.
 - ``` translate('abcdefg', 'dcba', 'defg')``` donne 'gfedefg'.
+
+
+### Exercice sur les fonctions XPath
+
+Pour un noeud donné, comment transformer un attribut de type identifiant  (``@xml:id``) en attribut de type pointeur  (``@target``), et vice-versa ? 
+
+- quelle est la forme canonique de la valeur des attributs de type pointeur pour une référence interne au document ? 
+- quelles fonctions pourraient permettre de passer d'un type d'attribut à un autre ? 
 
 ---
 
@@ -243,7 +268,7 @@ Où *string* (**entre guillemets**) est un URI, en général un URL.  Une fois l
 
         <xsl:value-of select="collection('...Hugo/romans/*.xml')//teiHeader//title"/>
         
-Cette expression Xpath doit sélectionner et imprimer les titres de tous les fichier xml qui sont dans le dossier indiqué.
+Cette expression Xpath doit sélectionner et imprimer les titres de tous les documents xml qui sont dans le dossier indiqué.
 
 ---
 

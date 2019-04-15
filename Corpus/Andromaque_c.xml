@@ -900,8 +900,9 @@ _______________SCENE 1
                               ana="ſ_s">ſ</c>es charmes,</l>
                         <l n="51" xml:id="v51">Tu <c ana="ſ_s">ſ</c>çais de quel courroux mon cœur
                            alors épris</l>
-                        <l n="52" xml:id="v52">Voulut, en l’oubliant, <anchor xml:id="v52s"
-                              />vanger<anchor xml:id="v52e"/> tous <c ana="ſ_s">ſ</c>es mépris.</l>
+                        <l n="52" xml:id="v52">Voulut, en l’oubliant, vanger<note type="expl" target="#v52e">Cf. Subligny, <title>La folle querelle</title>, <ref
+                           target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item"
+                           >préface</ref>.</note> tous <c ana="ſ_s">ſ</c>es mépris.</l>
                         <l n="53" xml:id="v53"><c ana="I_J">I</c>e fis croire, &amp; <c ana="i_j"
                               >i</c>e crûs ma victoire certaine.</l>
                         <l n="54" xml:id="v54"><c ana="I_J">I</c>e pris tous mes tran<c ana="ſ_s"
@@ -939,8 +940,10 @@ _______________SCENE 1
                               >ſ</c>ortir de mon Cœur.</l>
                         <l n="65" xml:id="v65">Mais admire a<c ana="u_v">u</c>ec moy le Sort, dont
                            la pour<c ana="ſ_s">ſ</c>uite</l>
-                        <l n="66" xml:id="v66">Me fait courir <anchor xml:id="v66s"/>moy-me<c
-                              ana="ſ_s">ſ</c>me<anchor xml:id="v66e"/> au piege que j’éuite.</l>
+                        <l n="66" xml:id="v66">Me fait courir moy-me<c ana="ſ_s">ſ</c>me<note type="expl"
+                              target="#v66e">Cf. Subligny, <title>La folle querelle</title>, <ref
+                              target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item"
+                              >p.126</ref>.</note> au piege que j’éuite.</l>
                         <l n="67" xml:id="v67"><c ana="I_J">I</c>’entens de tous co<c ana="ſ_s"
                               >ſ</c>tez qu’on menace Pyrrhus.</l>
                         <l n="68" xml:id="v68">Toute la Gréce éclate en murmures confus.</l>
@@ -1086,9 +1089,11 @@ _______________SCENE 1
                      <lg>
                         <l n="123" xml:id="v123">Mais dy-moy, de quel œil <persName ref="#hermione"
                               >Hermionne</persName> peut voir</l>
-                        <l n="124" xml:id="v124"><anchor xml:id="v124s"/>Ses attraits offen<c
+                        <l n="124" xml:id="v124">Ses attraits offen<c
                               ana="ſ_s">ſ</c>ez, &amp; <c ana="ſ_s">ſ</c>es yeux <c ana="ſ_s"
-                           >ſ</c>ans pou<c ana="u_v">u</c>oir.<anchor xml:id="v124e"/></l>
+                                 >ſ</c>ans pou<c ana="u_v">u</c>oir.<note type="expl" target="#v124e">Cf. Subligny, <title>La folle querelle</title>,
+                                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f158.item"
+                                       >p.131</ref>.</note></l>
                      </lg>
                   </sp>
 
@@ -1106,8 +1111,9 @@ _______________SCENE 1
                            Seigneur, au moins en apparance,</l>
                         <l n="126" xml:id="v126">Semble de <c ana="ſ_s">ſ</c>on Amant dédaigner
                               l’incon<c ana="ſ_s">ſ</c>tance,</l>
-                        <l n="127" xml:id="v127">Et croit que trop heureux <anchor xml:id="v127s"
-                              />d’appai<c ana="ſ_s">ſ</c>er<anchor xml:id="v127e"/>
+                        <l n="127" xml:id="v127">Et croit que trop heureux d’appai<c ana="ſ_s">ſ</c>er<note type="expl" target="#v127e">Cf. Subligny, <title>La folle querelle</title>,
+                           <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item"
+                              >préface</ref>.</note>
                            <c ana="ſ_s">ſ</c>a rigueur,</l>
                         <l n="128" xml:id="v128">Il la viendra pre<c ana="ſ_s">ſ</c><c ana="ſ_s"
                               >ſ</c>er de reprendre <c ana="ſ_s">ſ</c>on Cœur.</l>
@@ -7284,183 +7290,5 @@ _______________SCENE 5
          </div>
 
       </body>
-      <back>
-
-         <div xml:id="apparatus">
-            <p>
-               <app from="#v0s" to="#v0e">
-                  <lem wit="#ed1668a">Fils d’Agamemnon, Amant d’Hermionne</lem>
-                  <rdg wit="#ed1675">Fils d’Agamemnon</rdg>
-                  <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p146.jpg"/>
-               </app>
-               <app from="#v5s" to="#v5e">
-                  <lem wit="#ed1668a">Qui m'eu<c ana="ſ_s">ſ</c>t dit,</lem>
-                  <rdg wit="#ed1697">Qui l’eu<c ana="ſ_s">ſ</c>t dit?</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p151.jpg"/>
-               </app>
-               <app from="#v12s" to="#v12e">
-                  <lem wit="#ed1668a">Mycéne</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">l’Epire</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v31s" to="#v31e">
-                  <lem wit="#ed1668a">apres tant</lem>
-                  <rdg wit="#ed1697">oubliant</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
-               </app>
-               <app from="#v32s" to="#v32e">
-                  <lem wit="#ed1668a">Peut-il vous inuiter</lem>
-                  <rdg wit="#ed1697">Pouvez-vous con<c ana="ſ_s">ſ</c>entir</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
-               </app>
-               <app from="#v38s" to="#v38e">
-                  <lem wit="#ed1668a">n’in<c ana="ſ_s">ſ</c>ulte</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">n’accable</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p148.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p152.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p152.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v52s" to="#v52e">
-                  <lem wit="#ed1668a">vanger</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">punir</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p153.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v58s" to="#v58e">
-                  <lem wit="#ed1668a">Dans</lem>
-                  <rdg wit="#ed1697">En</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
-               </app>
-               <app from="#v66s" to="#v66e">
-                  <lem wit="#ed1668a">moy-me<c ana="ſ_s">ſ</c>me</lem>
-                  <rdg wit="#ed1697">alors</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p153.jpg"/>
-               </app>
-               <app from="#v98s" to="#v98e">
-                  <lem wit="#ed1668a">tran<c ana="ſ_s">ſ</c>port</lem>
-                  <rdg wit="#ed1697">De<c ana="ſ_s">ſ</c>tin</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
-               </app>
-               <app from="#v104s" to="#v104e">
-                  <lem wit="#ed1668a">Cœur</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1687 #ed1697">bien</rdg>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1687_t1_p154.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p154.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v113s" to="#v113e">
-                  <lem wit="#ed1668a">Il luy cache <c ana="ſ_s">ſ</c>on Fils, il mena<c ana="ſ_s"
-                        >ſ</c><c ana="ſ_s">ſ</c>e <c ana="ſ_s">ſ</c>a te<c ana="ſ_s">ſ</c>te,</lem>
-                  <rdg wit="#ed1697">De <c ana="ſ_s">ſ</c>on fils qu’il luy cache il menace la te<c
-                        ana="ſ_s">ſ</c>te</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
-               </app>
-               <app from="#v122s" to="#v122e">
-                  <lem wit="#ed1668a">perdre</lem>
-                  <rdg wit="#ed1697">punir</rdg>
-                  <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
-               </app>
-               <app from="#v124s" to="#v124e">
-                  <lem wit="#ed1668a">Ses attraits offen<c ana="ſ_s">ſ</c>ez, &amp; <c ana="ſ_s"
-                        >ſ</c>es yeux <c ana="ſ_s">ſ</c>ans pou<c ana="u_v">u</c>oir.</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">Son hymen differé, <c ana="ſ_s">ſ</c>es
-                        charmes <c ana="ſ_s">ſ</c>ans pouvoir</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p149.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v127s" to="#v127e">
-                  <lem wit="#ed1668a">d’appai<c ana="ſ_s">ſ</c>er</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">de fléchir</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p151.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p155.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p155.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v144s" to="#v144e">
-                  <lem wit="#ed1668a">ie me flate en <c ana="ſ_s">ſ</c>ecret</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1675 #ed1687 #ed1697">j’o<c ana="ſ_s">ſ</c>e icy me flatter</rdg>
-                     <witDetail wit="#ed1675" facs="facsimiles/ed1675/ed1675_t1_p152.jpg"/>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p156.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p156.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v184s" to="#v184e">
-                  <lem wit="#ed1668a">des Captifs</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1687 #ed1697">d’un Captif</rdg>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p157.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p157.jpg"/>
-                  </rdgGrp>
-               </app>
-               <app from="#v243s" to="#v243e">
-                  <lem wit="#ed1668a">en ce jour</lem>
-                  <rdgGrp>
-                     <rdg wit="#ed1687 #ed1697">quelque jour</rdg>
-                     <witDetail wit="#ed1687" facs="facsimiles/ed1687/ed1675_t1_p160.jpg"/>
-                     <witDetail wit="#ed1697" facs="facsimiles/ed1697/ed1697_t1_p160.jpg"/>
-                  </rdgGrp>
-               </app>
-            </p>
-         </div>
-
-         <div type="commentary">
-            <p>
-               <note type="expl" target="#aMe">La destinataire de la lettre est Henriette
-                  d'Angleterre (1644-†1670), épouse de Monsieur le frère du roi.</note>
-               <note type="expl" target="#vEe"> « […] nous longeons les côtes de l’Épire, nous
-                  entrons dans le port des Chaones et nous dirigeons vers la haute ville de
-                  Buthrote. […] Il y avait, ce jour, cérémonie solennelle, offrandes funèbres ; […]
-                  Andromaque sur la cendre versait la libation, elle appelait les Mânes près d’un
-                  tombeau d’Hector. Vide, hélas ! elle l’avait saintement paré de gazon vert, avec
-                  deux autels où retrouver ses larmes. […] Elle baissa le visage et murmura d’une
-                  voix défaite : ‘‘Ô seule heureuse avant toutes, la vierge Priamide qui reçut
-                  l’ordre de mourir sur le tombeau d’un ennemi devant les hauts murs de Troie, qui
-                  n’a pas subi le tirage au sort ni touché en captive le lit d’un vainqueur son
-                  maître ! Nous, des cendres de notre patrie traînée sur des mers lointaines, nous
-                  avons enduré les dédains du rejeton d’Achille et son insolente jeunesse, nous
-                  avons enfanté dans la servitude. Puis, […] il a suivi la petite-fille de Léda,
-                  Hermione, un hyménée lacédémonien […]. Mais follement enflammé par l’amour de
-                  l’épouse qui lui était ravie, poursuivi par les furies de ses crimes, Oreste le
-                  surprend à l’improviste et le tue devant les autels de ses pères.’’ » Version
-                  condensée de Virgile, <title>Énéide</title>, chant III, vv. 292.332. </note>
-               <note type="expl" target="#cSe">Dans la pièce, « soldats d’Oreste ».</note>
-               <note type="expl" target="#v52e">Cf. Subligny, <title>La folle querelle</title>, <ref
-                     target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item"
-                  >préface</ref>.</note>
-               <note type="expl" target="#v66e">Cf. Subligny, <title>La folle querelle</title>, <ref
-                     target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f153.item"
-                  >p.126</ref>.</note>
-               <note type="expl" target="#v124e">Cf. Subligny, <title>La folle querelle</title>,
-                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f158.item"
-                     >p.131</ref>.</note>
-               <note type="expl" target="#v127e">Cf. Subligny, <title>La folle querelle</title>,
-                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item"
-                     >préface</ref>.</note>
-               <note type="expl" target="#v144e">Cf. Subligny, <title>La folle querelle</title>,
-                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f15.item"
-                     >préface</ref>.</note>
-               <note type="lang" target="#v320e">passé simple.</note>
-               <note type="lang" target="#v767e"><hi rend="it">nn</hi></note>
-               <note type="lang" target="#v780e"><hi rend="it">nn</hi></note>
-               <note type="desc" target="#p75e">Il n'existe pas de pages 73 et 74.</note>
-            </p>
-         </div>
-
-      </back>
    </text>
 </TEI>
