@@ -19,6 +19,18 @@
 % Annonce des personnages
 \newcommand{\personscene}[1]{\par\hspace{2\stanzaindentbase}\emph{#1}}
 \newcommand{\enonciateur}[1]{\par\hspace{\stanzaindentbase}\textbf{#1}}
+
+% Apparat textuel (positif?)
+
+% #1 Le lemme tel que dans le texte
+% #2 Le ms concerné
+% #3 ce qu'il y a a droite (les variantes)
+\newcommand{\app}[3]{\edtext{#1}{%
+    \lemma{#1 \wit{#2}}%
+    \Afootnote{#3}%
+  }%
+}
+\newcommand{\wit}[1]{(#1)}
 \begin{document}
 
 \tableofcontents
@@ -34,7 +46,11 @@ O VY, puis que ie retrouue vn Amy ſi fidelle,&
 Ma Fortune va prendre vne face nou-uelle;&
 Et déja ſon courroux ſemble s'eſtre adouci,&
 Depuis qu'elle a pris ſoin de nous rejoindre ici.&
-Qui m'euſt dit, qu'vn riuage à mes vœux ſi funeſte,&
+\app%
+  {Qui m'euſt dit,}%
+  {1668a}%
+  {Qui l'euſt dit, \wit{1697}}
+  qu'vn riuage à mes vœux ſi funeſte,&
 Préſenteroit d'abord Pylade aux yeux d'Oreſte,&
 Qu'apres plus de ſix mois que ie t'auois perdu,&
 A la Cour de Pyrrhus tu me ſerois rendu!\&
@@ -43,7 +59,12 @@ A la Cour de Pyrrhus tu me ſerois rendu!\&
 I'en rends graces au Ciel, qui m'arreſtant ſans ceſſe,&
 Sembloit m'auoir fermé le chemin de la Gréce,&
 Depuis le jour fatal que la fureur des Eaux,&
-Preſque aux yeux de Mycéne, écarta nos Vaiſſeaux.&
+Preſque aux yeux de
+\app%
+  {Mycéne}%
+  {1668a}%
+  {l'Epire \wit{1675 1687 1697}},
+  écarta nos Vaiſſeaux.&
 Combien dans cét exil ay-je ſouffert d'allarmes?&
 Combien à vos malheurs ay-je donné de larmes?&
 Craignant toûjours pour vous quelque nouueau danger&
@@ -66,7 +87,12 @@ Et ſi ie viens chercher, ou la vie, ou la mort?\&
 \stanza[\enonciateur{Pylade}]
 Quoy! voſtre Ame à l'Amour, en Eſclaue aſſeruie,&
 Se repoſe ſur luy du ſoin de voſtre vie?&
-Par quels charmes, apres tant de tourmens ſoufferts&
+Par quels charmes,
+\app%
+  {apres tant}%
+  {1668a}%
+  {oubliant \wit{1697}}
+de tourmens ſoufferts&
 Peut-il vous inuiter à rentrer dans ſes fers?&
 Penſez-vous qu'Hermionne, à inéxorable,&
 Vous prépare en vn Sort plus fauorable?&
