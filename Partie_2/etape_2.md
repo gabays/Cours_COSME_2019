@@ -1,17 +1,21 @@
-Cours Cosme 2019
-
-# XSLT: publication
-
-Simon Gabay
-
-Lyon, 23 avril 2019
-
 ---
-# I. Les fonctions XPath
-
+author: Simon Gabay
+title: XSLT: publication
+lang:fr
+header-includes:
+    - \usepackage{setspace}\doublespacing
 ---
 
-## C'est quoi?
+# La Publication avec XSLT
+Simon Gabay, Cours Cosme2
+
+---
+
+## I. Les fonctions XPath
+
+---
+
+### C'est quoi?
 
 Les fonctions XPath:
 1. se terminent par un ```()``` (et commencent parfois par préfixe ```fn:```)
@@ -24,7 +28,7 @@ Les fonctions XPath:
 
 Passons en revue quelques fonctions qui peuvent être utiles
 
-## Les fonctions sans argument
+### Les fonctions sans argument
 
 Quelques exemples:
 
@@ -41,8 +45,7 @@ Lorsqu'on utilise une fonction:
 2. on la place souvent comme prédicat (pour mémoire: ```axe:nœud[predicat]```), ainsi ```//l[last()]```renvoie le dernier ```l``` de chaque nœud qui en contiendrait un (et ```(//l)[last()]``` renvoie le dernier élément ```l``` de toute la pièce).
 3. on peut ajouter des opérateurs booléens, ainsi ```//l[position()=1]``` renvoie le premier ```l``` d'une série, et ```//l[last()-1]``` l'avant-dernier.
 
-
-## Les fonctions à un argument
+### Les fonctions à un argument
 
 Un exemple:
 
@@ -55,7 +58,6 @@ Pour pouvoir compter, il faut savoir ce que l'on compte: cette information est p
 >fn:count($arg)
 
 Ainsi, ```count(//l)``` compte tous les ```l``` du document.
-
 
 ### Les fonctions à deux arguments
 
@@ -90,6 +92,7 @@ Pour cela, nous allons ajouter des *arguments* à la fonction XPath en précisan
 ***ATTENTION***, XML/XPath est sensible à la casse!
 
 ---
+
 ### Exercice I
 
 Pour le nœud suivant:
@@ -129,11 +132,13 @@ Et maintenant dans notre fichier ```andromaque_c.xml```:
 >//speaker[starts-with(., 'H')]
 
 ---
-# II. Les conditionnelles en XSLT
+---
+
+## II. Les conditionnelles en XSLT
 
 ---
 
-## II.a ```xsl:if```
+### II.a ```xsl:if```
 
 L'élément ```xsl:if``` permet de réaliser un test conditionnel pour le contenu du fichier XML. Il obéit à la syntaxe suivante:
 
@@ -155,6 +160,7 @@ L'élément ```xsl:if``` permet de réaliser un test conditionnel pour le conten
 Ce test est notamment fait à partir de fonctions XPath comme celles que nous avons vu auparavant.
 
 ---
+
 ### Exercice II.a
 
 Les vers de notre document sont numérotées à l'aide d'un ```@n```
@@ -174,7 +180,7 @@ Vous pouvez donc
 
 ---
 
-## II.b ```xsl:choose```
+### II.b ```xsl:choose```
 
 L'élément ```xsl:choose``` ressemble énormément à ```xsl:if```. Il permet de réaliser une série de tests conditionnels (```xsl:if``` ne permettant d'en effectuer qu'un seul) et doit contenir *a minima* un ```xsl:when```. Sa syntaxe minimale est donc la suivante:
 
@@ -251,9 +257,8 @@ En regardant notre fichier XML de pus près, on remarque que les antilabes (morc
 ````
 
 Noter les antilabes est important pour l'analyse stylistique de l'œuvre, mais aussi pour sa mise en page:
-![](img/exemple_racine.jpg)
 
-(Source: wikisource)
+![*Andromaque* de Racine, wikisource](img/exemple_racine.jpg)
 
 Notre css a prévu cette situation
 
@@ -276,7 +281,12 @@ Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```vers
 *Corrigé: ```xsl_etape_2-2.xsl```.*
 
 ---
-# III. L'art de se compliquer la vie – ou ajouter une note
+---
+
+## III. L'art de se compliquer la vie – ou ajouter une note
+
+---
+
 
 L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou un élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
 
