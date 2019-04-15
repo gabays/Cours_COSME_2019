@@ -84,7 +84,7 @@
             </xsl:if>
             <xsl:apply-templates select="text()|
                 figure/desc[@type='letter']/text()|
-                c/text() | placeName | persName"/>
+                c/text() | rs | placeName | persName"/>
         </div>
     </xsl:template>
     

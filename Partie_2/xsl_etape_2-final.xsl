@@ -84,7 +84,7 @@
                 <div class="verseF">
                     <xsl:apply-templates select="text()|
                         figure/desc[@type='letter']/text()|
-                        c/text() | placeName | persName | note"/>
+                        c/text() | rs | placeName | persName | note"/>
                 </div>
             </xsl:when>
             <!-- Si c'est le milieu du vers -->
@@ -92,7 +92,7 @@
                 <div class="verseM">
                     <xsl:apply-templates select="text()|
                         figure/desc[@type='letter']/text()|
-                        c/text() | placeName | persName | note"/>
+                        c/text() | rs | placeName | persName | note"/>
                 </div>
             </xsl:when>
             <!-- Si ce n'est ni la fin, ni le milieu du vers – donc le début du vers -->
@@ -104,7 +104,7 @@
                     </xsl:if>
                     <xsl:apply-templates select="text()|
                         figure/desc[@type='letter']/text()|
-                        c/text() | placeName | persName | note"/>
+                        c/text() | rs | placeName | persName | note"/>
                 </div>
             </xsl:otherwise>
         </xsl:choose>
