@@ -1,10 +1,10 @@
 \documentclass{book}
+\usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{glossaries}
 \usepackage[noend,series={A},noeledsec, noledgroup]{reledmac}
 \usepackage{reledpar}
 \usepackage{libertinus}
-\usepackage{polyglossia}
-\setmainlanguage{french}
-\usepackage{hyperref}
 \usepackage[paperwidth=10cm, paperheight=15cm]{geometry}
 
 % Pas de numéro pour les chapitres, vers etc
@@ -35,6 +35,21 @@
 % Pas de flag pour les lignes de droites
 \setRlineflag{}
 
+% Glossaires (à compléter)
+\renewcommand{\pagelinesep}{.}
+\glstoctrue
+\makeglossaries
+\longnewglossaryentry{Hector}{name=Hector}{
+  Héros troyen de la guerre de Troie. Fils du roi Priam et de la reine Hécube, il est tué par Achille qui veut venger la mort de Patrocle.
+
+   Référence: \url{https://fr.wikipedia.org/wiki/Hector}
+}
+
+\longnewglossaryentry{Menelas}{name=Ménélas}{
+   \sloppy Personnage de la mythologie grecque, roi de Sparte, fils d'Atrée et d'Érope. Mari d'Hélène et frère d'Agamemnon, il est l'un des héros achéens de la guerre de Troie.
+
+   Référence: \url{https://fr.wikipedia.org/wiki/Ménélas}
+}
 \begin{document}
 
 \tableofcontents
@@ -139,7 +154,7 @@ I’entens de tous coſtez qu’on menace Pyrrhus.&
 Toute la Gréce éclate en murmures confus.&
 On ſe plaint, qu’oubliant ſon Sang, \ampersand\  ſa promeſſe,&
 Il éleue en ſa Cour l’Ennemy de la Gréce,&
-Aſtyanax, d'Hector jeune \ampersand\  malheureux Fils,&
+Aſtyanax, d'\edgls{Hector} jeune \ampersand\  malheureux Fils,&
 Reſte de tant de Roys ſous enſeuelis.&
 I’apprens, que pour rauir ſon enfance au Suplice,&
 Andromaque trompa l’ingénieux Vlyſſe,&
@@ -285,7 +300,7 @@ Je me trompois moy-méme.&
 Amy, n'insulte point un Malheureux qui t'aime.&
 T'ay-je iamais caché mon cœur \ampersand\ mes desirs?&
 Tu vis naistre ma flâme \ampersand\ mes premiers soûpirs.&
-Enfin, quand Menelas disposa de sa Fille&
+Enfin, quand \edgls{Menelas} disposa de sa Fille&
 En faveur de Pyrrhus, vangeur de sa Famille;&
 Tu vis mon desespoir, \ampersand\ tu m’as veu depuis&
 Traîner de Mers en Mers ma chaîne \ampersand\ mes ennuis.&
@@ -409,4 +424,5 @@ A revoir un Amant qui ne vient que pour elle.\&
 \end{Rightside}
 \end{pages}
 \Pages
+\printglossaries
 \end{document}
