@@ -1,0 +1,428 @@
+\documentclass{book}
+\usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{glossaries}
+\usepackage[noend,series={A},noeledsec, noledgroup]{reledmac}
+\usepackage{reledpar}
+\usepackage{libertinus}
+\usepackage[paperwidth=10cm, paperheight=15cm]{geometry}
+
+% Pas de numéro pour les chapitres, vers etc
+\setcounter{secnumdepth}{-2}
+
+% Réglage de la poésie
+\setstanzaindents{2,0}%Indentation des vers, je n'ai aucune idée de s'il y a quelque chose spécifique à ce type de poésie
+\setcounter{stanzaindentsrepetition}{1}
+\sethangingsymbol{[\,}%rejet de vers
+\newcommand{\antilabe}{\skipnumbering\unskip\hspace{2\stanzaindentbase}}
+
+% Annonce des personnages
+\newcommand{\personscene}[1]{\par\hspace{2\stanzaindentbase}\emph{#1}}
+\newcommand{\enonciateur}[1]{\par\hspace{\stanzaindentbase}\textbf{#1}}
+
+% Apparat textuel (positif?)
+
+% #1 Le lemme tel que dans le texte
+% #2 Le ms concerné
+% #3 ce qu'il y a a droite (les variantes)
+\newcommand{\app}[3]{\edtext{#1}{%
+    \lemma{#1 \wit{#2}}%
+    \Afootnote{#3}%
+  }%
+}
+\newcommand{\wit}[1]{(#1)}
+
+% Pas de flag pour les lignes de droites
+\setRlineflag{}
+
+% Glossaires (à compléter)
+\renewcommand{\pagelinesep}{.}
+\glstoctrue
+\makeglossaries
+\longnewglossaryentry{Hector}{name=Hector}{
+  Héros troyen de la guerre de Troie. Fils du roi Priam et de la reine Hécube, il est tué par Achille qui veut venger la mort de Patrocle.
+
+   Référence: \url{https://fr.wikipedia.org/wiki/Hector}
+}
+
+\longnewglossaryentry{Menelas}{name=Ménélas}{
+   \sloppy Personnage de la mythologie grecque, roi de Sparte, fils d'Atrée et d'Érope. Mari d'Hélène et frère d'Agamemnon, il est l'un des héros achéens de la guerre de Troie.
+
+   Référence: \url{https://fr.wikipedia.org/wiki/Ménélas}
+}
+\begin{document}
+
+\tableofcontents
+\begin{pages}
+  \begin{Leftside}
+\beginnumbering
+\stanza[\chapter{Acte premier}
+  \section{Scene premiere}
+  \personscene{Oreste, Pylade}
+  \enonciateur{Oreste}
+]
+O VY, puis que ie retrouue vn Amy ſi fidelle,&
+Ma Fortune va prendre vne face nou-uelle;&
+Et déja ſon courroux ſemble s'eſtre adouci,&
+Depuis qu'elle a pris ſoin de nous rejoindre ici.&
+\app%
+  {Qui m'euſt dit,}%
+  {1668a}%
+  {Qui l'euſt dit, \wit{1697}}
+  qu'vn riuage à mes vœux ſi funeſte,&
+Préſenteroit d'abord Pylade aux yeux d'Oreſte,&
+Qu'apres plus de ſix mois que ie t'auois perdu,&
+A la Cour de Pyrrhus tu me ſerois rendu!\&
+
+\stanza[\enonciateur{Pylade}]
+I'en rends graces au Ciel, qui m'arreſtant ſans ceſſe,&
+Sembloit m'auoir fermé le chemin de la Gréce,&
+Depuis le jour fatal que la fureur des Eaux,&
+Preſque aux yeux de
+\app%
+  {Mycéne}%
+  {1668a}%
+  {l'Epire \wit{1675 1687 1697}},
+  écarta nos Vaiſſeaux.&
+Combien dans cét exil ay-je ſouffert d'allarmes?&
+Combien à vos malheurs ay-je donné de larmes?&
+Craignant toûjours pour vous quelque nouueau danger&
+Que ma triſte Amitié ne pouuoit partager.&
+Sur tout ie redoutois cette Mélancolie&
+Où j'ay veu ſi long-temps voſtre Ame enſeuelie.&
+Ie craignois que le Ciel, par vn cruel ſecours,&
+Ne vous offrît la mort, que vous cherchiez toûjours.&
+Mais ie vous voy, Seigneur, \ampersand\  ſi j'oſe le dire,&
+Vn Deſtin plus heureux vous conduit en .&
+Le pompeux Appareil qui ſuit icy vos pas,&
+N'eſt point d'vn Malheureux qui cherche le trépas.\&
+
+\stanza[\enonciateur{Oreste}]
+Helas! qui peut ſçavoir le Deſtin qui m'ameine?&
+L'Amour me fait icy chercher vne Inhumaine.&
+Mais qui ſçait ce qu'il doit ordonner de mon Sort,&
+Et ſi ie viens chercher, ou la vie, ou la mort?\&
+
+\stanza[\enonciateur{Pylade}]
+Quoy! voſtre Ame à l'Amour, en Eſclaue aſſeruie,&
+Se repoſe ſur luy du ſoin de voſtre vie?&
+Par quels charmes,
+\app%
+  {apres tant}%
+  {1668a}%
+  {oubliant \wit{1697}}
+de tourmens ſoufferts&
+Peut-il vous inuiter à rentrer dans ſes fers?&
+Penſez-vous qu'Hermionne, à inéxorable,&
+Vous prépare en vn Sort plus fauorable?&
+Honteux d'auoir pouſsé tant de vœux ſuperflus,&
+Vous l'abhorriez. Enfin, vous ne m'en parliez plus.&
+Vous me trompiez, Seigneur.\&
+
+\stanza[\enonciateur{Oreste}]
+\antilabe Ie me trompois moy-méme.&
+Amy, n'inſulte point vn Malheureux qui t'aime.&
+T'ay-je iamais caché mon cœur \ampersand\  mes deſirs?&
+Tu vis naiſtre ma flâme \ampersand\  mes premiers ſoûpirs.&
+Enfin, quand Menelas diſpoſa de&
+En faueur de Pyrrhus, vangeur de ſa Famille;&
+Tu vis mon deſeſpoir, \ampersand\ tu m’as veu depuis&
+Traîner de Mers en Mers ma chaîne \ampersand\ mes ennuis.&
+Ie te vis à regret, en cét eſtat funeſte,&
+Preſt à ſuiure par tout le déplorable Oreſte,&
+Toûjours de ma fureur interrompre le cours,&
+Et de moy-meſme enfin me ſauuer tous les jours.&
+Mais quand ie me ſouuins, que parmy tant d’al-larmes&
+Hermionne à Pyrrhus prodiguoit tous ſes charmes,&
+Tu ſçais de quel courroux mon cœur alors épris&
+Voulut, en l’oubliant, vanger tous ſes mépris.&
+Ie fis croire, \ampersand\ ie crûs ma victoire certaine.&
+Ie pris tous mes tranſports pour des tranſports de haine;&
+Déteſtant ſes rigueurs, rabaiſſant ſes attraits,&
+Ie défiois ſes yeux de me troubler iamais.&
+Voila comme ie crûs étouffer ma tendreſſe.&
+Dans ce calme trompeur j’arriuay dans la Gréce;&
+Et ie trouuay d’abord ſes Princes raſſemblez,&
+Qu’vn péril aſſez grand ſembloit auoir troublez.&
+I’y courus. Ie penſay que la Guerre, \ampersand\ la Gloire,&
+De ſoins plus importans rempliroient ma memoire;&
+Que mes ſens reprenant leur premiere vigueur,&
+L’Amour acheueroit de ſortir de mon Cœur.&
+Mais admire auec moy le Sort, dont la pourſuite&
+Me fait courir moy-meſme au piege que j’éuite.&
+I’entens de tous coſtez qu’on menace Pyrrhus.&
+Toute la Gréce éclate en murmures confus.&
+On ſe plaint, qu’oubliant ſon Sang, \ampersand\  ſa promeſſe,&
+Il éleue en ſa Cour l’Ennemy de la Gréce,&
+Aſtyanax, d'\edgls{Hector} jeune \ampersand\  malheureux Fils,&
+Reſte de tant de Roys ſous enſeuelis.&
+I’apprens, que pour rauir ſon enfance au Suplice,&
+Andromaque trompa l’ingénieux Vlyſſe,&
+Tandis qu’vn autre Enfant arraché de ſes bras,&
+Sous le nom de , fut conduit au trépas.&
+On dit, que peu ſenſible aux charmes d’Hermionne,&
+Mon Riual porte ailleurs ſon Cœur \ampersand\  ſa Couronne;&
+Ménelas, ſans le croire, en paroiſt affligé,&
+Et ſe plaint d’vn Hymen ſi long-temps negligé.&
+Parmy les déplaiſirs où ſon Ame ſe noye,&
+Il s’éleue en la mienne vne ſecrette joye.&
+Ie triomphe; \ampersand\  pourtant ie me flate d’abord&
+Que la ſeule vengeance excite ce tranſport.&
+Mais l’Ingrate en mō Cœur reprit bientoſt ſa place,&
+De mes feux mal éteints ie reconnus la trace,&
+Ie ſentis que ma haine alloit finir ſon cours,&
+Ou plûtoſt ie ſentis que ie l’aimois toûjours.&
+Ainſi de tous les Grecs ie brigue le ſuffrage.&
+On m’enuoye à Pyrrhus. I’entreprens ce voyage.&
+Ie viens voir ſi l’on peut arracher de ſes bras&
+Cét Enfant, dont la vie allarme tant d’Eſtats.&
+Heureux, ſi ie pouuois dans l’ardeur qui me preſſe,&
+Au lieu d’Aſtyanax, luy rauir ma Princeſſe.&
+Car enfin n’attens pas que mes feux redoublez,&
+Des périls les plus grands, puiſſent eſtre troublez.&
+Puis qu’apres tant d’efforts ma reſiſtance eſt vaine,&
+Ie me liure en aueugle au tranſport qui m’entraîne,&
+I’aime, ie viens chercher Hermionne en ces lieux,&
+La fléchir, l’enleuer, ou mourir à ſes yeux.&
+Toy qui connois Pyrrhus, que penſes-tu qu’il faſſe?&
+Dans ſa Cour, dans ſon Cœur, dy-moy ce qui ſe paſſe.&
+Mon Hermionne encor le tient-elle aſſeruy?&
+Me rendra-t'il, Pylade, vn Cœurqu’il m’a rauy?\&
+
+\stanza[\enonciateur{Pylade}]
+Ie vous abuſerois, ſi i’oſois vous promettre&
+Qu’entre vos mains, Seigneur, il voulut la remettre.&
+Non, que de ſa Conqueſte il paroiſſe flaté.&
+Pour la Veuue d’Hector ſes feux ont éclaté.&
+Il l’aime. Mais enfin cette Veuue inhumaine&
+N’a payé jusqu’icy ſon amour que de haine,&
+Et chaque jour encore on luy voit tout tenter,&
+Pour fléchir ſa Captive, ou pour l’épouuanter.&
+Il luy cache ſon Fils, il menaſſe ſa teſte,&
+Et fait couler des pleurs, qu’auſſi-toſt il arreſte.&
+Hermionne elle-meſme a veu plus de cent fois&
+Cet Amant irrité reuenir ſous ſes loix,&
+Et de ſes vœux troublez luy rapportant l’hommage,&
+Soûpirer à ſes pieds moins d’amour, que de rage.&
+Ainſi n’attendez pas, que l’on puiſſe aujourd’huy&
+Vous répondre d’vn Cœur, ſi peu maiſtre de luy.&
+Il peut, Seigneur, il peut dans ce deſordre extré-me,&
+Epouſer ce qu’il hait, \ampersand\  perdre ce qu’il aime.\&
+
+\stanza[\enonciateur{Oreste}]
+Mais dy-moy, de quel œil Hermionne peut voir&
+Ses attraits offenſez, \ampersand\  ſes yeux ſans pouuoir.\&
+
+\stanza[\enonciateur{Pylade}]
+Hermionne, Seigneur, au moins en apparance,&
+Semble de ſon Amant dédaigner l’inconſtance,&
+Et croit que trop heureux d’appaiſerſa rigueur,&
+Il la viendra preſſer de reprendre ſon Cœur.&
+Mais ie l’ay veuë enfin me confier ſes larmes.&
+Elle pleure en ſecret le mépris de ſes charmes.&
+Toûjours preſte à partir, \ampersand\ demeurant toûjours,&
+Quelquefois elle appelle Oreſte à ſon ſecours.\&
+
+\stanza[\enonciateur{Pylade}]
+Ah! ſi ie le croyois, i’irois bientoſt, Pylade,&
+Me jetter....\&
+
+\stanza[\enonciateur{Pylade}]
+\antilabe Acheuez, Seigneur, voſtre Ambaſſade.&
+Vous attendez le Roy. Parlez, \ampersand\  luy montrez&
+Contre le Fils d’Hector tous les Grecs conjurez.&
+Loin de leur accorder ce Fils de ſa Maiſtreſſe,&
+Leur haine ne fera qu’irriter ſa tendreſſe.&
+Plus on les veut broüiller, plus on va les vnir.&
+Preſſez. Demandez tout, pour ne rien obtenir.&
+Il vient.\&
+
+\stanza[\enonciateur{Oreste}]
+\antilabe Hé bien, va donc diſpoſer la Cruelle&
+A reuoir vn Amant qui ne vient que pour elle.\&
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\stanza[\chapter{Acte premier}
+  \section{Scene premiere}
+  \personscene{Oreste, Pylade}
+  \enonciateur{Oreste}
+]
+VY, puis que je retrouve un Amy si fidelle,&
+Ma Fortune va prendre une face nou-uelle;&
+Et déja son courroux semble s'estre adouci,&
+Depuis qu'elle a pris soin de nous rejoindre ici.&
+Qui m'eust dit, qu'un rivage à mes vœux si funeste,&
+Présenteroit d'abord Pylade aux yeux d'Oreste,&
+Qu'apres plus de six mois que je t'avois perdu,&
+A la Cour de Pyrrhus tu me serois rendu!\&
+
+\stanza[\enonciateur{Pylade}]
+I'en rends graces au Ciel, qui m'arrestant sans cesse,&
+Sembloit m'avoir fermé le chemin de la Gréce,&
+Depuis le jour fatal que la fureur des Eaux,&
+Presque aux yeux de Mycéne, écarta nos Vaisseaux.&
+Combien dans cét exil ay-je souffert d'allarmes?&
+Combien à vos malheurs ay-je donné de larmes?&
+Craignant toûjours pour vous quelque nouveau danger&
+Que ma triste Amitié ne pouvoit partager.&
+Sur tout je redoutois cette Mélancolie&
+Où j'ay veu si long-temps vostre Ame ensevelie.&
+Je craignois que le Ciel, par un cruel secours,&
+Ne vous offrît la mort, que vous cherchiez toûjours.&
+Mais je vous voy, Seigneur, \ampersand\ si j'ose le dire,&
+Un Destin plus heureux vous conduit en Epire.&
+Le pompeux Appareil qui suit icy vos pas,&
+N'est point d'un Malheureux qui cherche le trépas.\&
+
+\stanza[\enonciateur{Oreste}]
+Helas! qui peut sçavoir le Destin qui m'ameine?&
+L'Amour me fait icy chercher une Inhumaine.&
+Mais qui sçait ce qu'il doit ordonner de mon Sort,&
+Et si je viens chercher, ou la vie, ou la mort?\&
+
+\stanza[\enonciateur{Pylade}]
+Quoy! vostre Ame à l'Amour, en Esclave asseruie,&
+Se repose sur luy du soin de vostre vie?&
+Par quels charmes, apres tant de tourmens soufferts&
+Peut-il vous inuiter à rentrer dans ses fers?&
+Pensez-vous qu'Hermionne, à Sparte inéxorable,&
+Vous prépare en Epire un Sort plus favorable?&
+Honteux d'avoir poussé tant de vœux superflus,&
+Vous l'abhorriez. Enfin, vous ne m'en parliez plus.&
+Vous me trompiez, Seigneur.\&
+
+
+\stanza[\enonciateur{Oreste}]
+\antilabe
+Je me trompois moy-méme.&
+Amy, n'insulte point un Malheureux qui t'aime.&
+T'ay-je iamais caché mon cœur \ampersand\ mes desirs?&
+Tu vis naistre ma flâme \ampersand\ mes premiers soûpirs.&
+Enfin, quand \edgls{Menelas} disposa de sa Fille&
+En faveur de Pyrrhus, vangeur de sa Famille;&
+Tu vis mon desespoir, \ampersand\ tu m’as veu depuis&
+Traîner de Mers en Mers ma chaîne \ampersand\ mes ennuis.&
+Je te vis à regret, en cét estat funeste,&
+Prest à suiure par tout le déplorable Oreste,&
+Toûjours de ma fureur interrompre le cours,&
+Et de moy-mesme enfin me sauver tous les jours.&
+Mais quand je me souvins, que parmy tant d’al-larmes&
+Hermionne à Pyrrhus prodiguoit tous ses charmes,&
+Tu sçais de quel courroux mon cœur alors épris&
+Voulut, en l’oubliant, vanger\footnoteA{Cf. Subligny, \emph{La folle querelle}, \href{https://gallica.bnf.fr/ark:/12148/bpt6k111119r/f17.item}{préface}.} tous ses mépris.&
+Je fis croire, \ampersand\ je crûs ma victoire certaine.&
+Je pris tous mes transports pour des transports de haine;&
+Détestant ses rigueurs, rabaissant ses attraits,&
+Je défiois ses yeux de me troubler iamais.&
+Voila comme je crûs étouffer ma tendresse.&
+Dans ce calme trompeur j’arrivay dans la Gréce;&
+Et je trouvay d’abord ses Princes rassemblez,&
+Qu’un péril assez grand sembloit avoir troublez.\&
+
+\stanza[\enonciateur{Pylade}]
+J’y courus. Je pensay que la Guerre, \ampersand\ la Gloire,&
+De soins plus importans rempliroient ma memoire;&
+Que mes sens reprenant leur premiere vigueur,&
+L’Amour acheveroit de sortir de mon Cœur.&
+Mais admire avec moy le Sort, dont la poursuite&
+Me fait courir moy-mesme au piege que j’éuite.&
+J’entens de tous costez qu’on menace Pyrrhus.&
+Toute la Gréce éclate en murmures confus.&
+On se plaint, qu’oubliant son Sang, \ampersand\ sa promesse,&
+Il éleve en sa Cour l’Ennemy de la Gréce,&
+Astyanax, d'Hector jeune \ampersand\ malheureux Fils,&
+Reste de tant de Roys sous Troye ensevelis.&
+J’apprens, que pour ravir son enfance au Suplice,&
+Andromaque trompa l’ingénieux Ulysse,&
+Tandis qu’un autre Enfant arraché de ses bras,&
+Sous le nom de son Fils, fut conduit au trépas.&
+On dit, que peu sensible aux charmes d’Hermionne,&
+Mon Rival porte ailleurs son Cœur \ampersand\ sa Couronne;&
+Ménelas, sans le croire, en paroist affligé,&
+Et se plaint d’un Hymen si long-temps negligé.&
+Parmy les déplaisirs où son Ame se noye,&
+Il s’éleve en la mienne une secrette joye.&
+Je triomphe; \ampersand\ pourtant je me flate d’abord&
+Que la seule vengeance excite ce transport.&
+Mais l’Ingrate en on Cœur reprit bientost sa place,&
+De mes feux mal éteints je reconnus la trace,&
+Je sentis que ma haine alloit finir son cours,&
+Ou plûtost je sentis que je l’aimois toûjours.&
+Ainsi de tous les Grecs je brigue le suffrage.&
+On m’enuoye à Pyrrhus. I’entreprens ce voyage.&
+Je viens voir si l’on peut arracher de ses bras&
+Cét Enfant, dont la vie allarme tant d’Estats.&
+Heureux, si je pouvois dans l’ardeur qui me presse,&
+Au lieu d’Astyanax, luy ravir ma Princesse.&
+Car enfin n’attens pas que mes feux redoublez,&
+Des périls les plus grands, puissent estre troublez.&
+Puis qu’apres tant d’efforts ma resistance est vaine,&
+Je me liure en aveugle au transport qui m’entraîne,&
+J’aime, je viens chercher Hermionne en ces lieux,&
+La fléchir, l’enlever, ou mourir à ses yeux.&
+Toy qui connois Pyrrhus, que penses-tu qu’il fasse?&
+Dans sa Cour, dans son Cœur, dy-moy ce qui se passe.&
+Mon Hermionne encor le tient-elle asseruy?&
+Me rendra-t'il, Pylade, un Cœurqu’il m’a rauy?\&
+
+\stanza[\enonciateur{Pylade}]
+Je vous abuserois, si j’osois vous promettre&
+Qu’entre vos mains, Seigneur, il voulut la remettre.&
+Non, que de sa Conqueste il paroisse flaté.&
+Pour la Veuve d’Hector ses feux ont éclaté.&
+Il l’aime. Mais enfin cette Veuve inhumaine&
+N’a payé jusqu’icy son amour que de haine,&
+Et chaque jour encore on luy voit tout tenter,&
+Pour fléchir sa Captive, ou pour l’épouvanter.&
+Il luy cache son Fils, il menasse sa teste,&
+Et fait couler des pleurs, qu’aussi-tost il arreste.&
+Hermionne elle-mesme a veu plus de cent fois&
+Cet Amant irrité revenir sous ses loix,&
+Et de ses vœux troublez luy rapportant l’hommage,&
+Soûpirer à ses pieds moins d’amour, que de rage.&
+Ainsi n’attendez pas, que l’on puisse aujourd’huy&
+Vous répondre d’un Cœur, si peu maistre de luy.&
+Il peut, Seigneur, il peut dans ce desordre extré-me,&
+Epouser ce qu’il hait, \ampersand\ perdre ce qu’il aime.\&
+
+\stanza[\enonciateur{Pylade}]
+Mais dy-moy, de quel œil Hermionne peut voir&
+Ses attraits offensez, \ampersand\ ses yeux sans pouvoir.\&
+
+\stanza[\enonciateur{Pylade}]
+Hermionne, Seigneur, au moins en apparance,&
+Semble de son Amant dédaigner l’inconstance,&
+Et croit que trop heureux d’appaiser sa rigueur,&
+Il la viendra presser de reprendre son Cœur.&
+Mais je l’ay veuë enfin me confier ses larmes.&
+Elle pleure en secret le mépris de ses charmes.&
+Toûjours preste à partir, \ampersand\ demeurant toûjours,&
+Quelquefois elle appelle Oreste à son secours.\&
+
+\stanza[\enonciateur{Pylade}]
+Ah! si je le croyois, j’irois bientost, Pylade,&
+Me jetter....\&
+
+\stanza[\enonciateur{Pylade}]
+\antilabe
+Achevez, Seigneur, vostre Ambassade.&
+Vous attendez le Roy. Parlez, \ampersand\ luy montrez&
+Contre le Fils d’Hector tous les Grecs conjurez.&
+Loin de leur accorder ce Fils de sa Maistresse,&
+Leur haine ne fera qu’irriter sa tendresse.&
+Plus on les veut broüiller, plus on va les unir.&
+Pressez. Demandez tout, pour ne rien obtenir.&
+Il vient.\&
+
+\stanza[\enonciateur{Pylade}]
+\antilabe
+Hé bien, va donc disposer la Cruelle&
+A revoir un Amant qui ne vient que pour elle.\&
+\endnumbering
+\end{Rightside}
+\end{pages}
+\Pages
+\printglossaries
+\end{document}
