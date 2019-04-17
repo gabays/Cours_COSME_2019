@@ -252,7 +252,7 @@ Transformer le fichier XML *andromaque_c.xml* pour créer une page HTML simple.
 - Le reste des règles définies pour les éléments enfants de `div[@type='act']` devra s'appliquer après l'élément div que nous venons de créer.
 
 ---
-#### 3- Écrire une règle pour l'élément `div[@type='scene'] afin d'effectuer la transformation suivante.
+#### 3- Écrire une règle pour l'élément `div[@type='scene']` afin d'effectuer la transformation suivante.
 
 ![500%](img/XMLtoHTML.png)
 
