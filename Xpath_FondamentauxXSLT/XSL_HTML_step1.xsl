@@ -4,8 +4,11 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output method="html" encoding="UTF-8"/>
+    
     <!-- strip-space permet de supprimer les espaces superflues entre les différents éléments de document de sortie -->
     <xsl:strip-space elements="*"/>
+    
+    <!-- Cette règle permet de parser l'arbre XML source depuis le racine -->
     <xsl:template match="/">
       <html>
         <head>
@@ -14,6 +17,7 @@
             <meta charset="UTF-8"></meta>
         </head>
         <body>
+            <!-- Mise en place d'une table des matières permettant la navigation au sein du fichier -->
             <div id="tableOfContent">
                 <ul>
                     <li>
@@ -87,7 +91,7 @@
         </div>
     </xsl:template>
     
-    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées -->
+    <!-- Cette règle vide permet de ne pas récupérer le contenu des balises citées dans le Xpath -->
     <xsl:template match="fw|figure|pb"/>
     
 </xsl:stylesheet>

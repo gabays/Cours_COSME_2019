@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- en-tête du fichier xsl qui indique que l'on utilise la version 2.0 et que le nom de domaine par défaut du Xpath est tei -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     version="2.0">
-    <!-- en-tête du fichier xsl qui indique que l'on utilise la version 2.0 et que le nom de domaine par défaut du Xpath est tei -->
+    
+    <!-- réglage de la sortie au format HTML avec un encodage de caractères UTF-8 -->
     <xsl:output method="html" encoding="UTF-8"/>
-    <!-- réglage de la sorite en format HTML avec un encodage de caractère UTF-8 -->
+    
+    <!-- Cette règle permet de parser l'arbre XML source depuis le racine -->
     <xsl:template match="/">
-     <!-- Cette règle permet de parser l'arbre XML source depuis le racine -->
         <!-- Ci-dessous ajout des balises HTML de structuration du fichier -->
       <html>
         <head>
