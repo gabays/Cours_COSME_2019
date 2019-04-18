@@ -1,0 +1,13 @@
+*.1
+*.1R
+*.aux
+*.fdb_latemk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.log
+*.pdf
+*.out
+*.toc
