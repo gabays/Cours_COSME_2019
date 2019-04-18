@@ -33,9 +33,7 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\contentsline {section}{SCENE III.}{36}{section*.8}% 
+\contentsline {section}{SCENE III.}{35}{section*.8}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -73,7 +71,7 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE II.}{74}{section*.16}% 
+\contentsline {section}{SCENE II.}{72}{section*.16}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -92,10 +90,12 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE III.}{92}{section*.18}% 
+\contentsline {section}{SCENE III.}{90}{section*.18}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE IV.}{94}{section*.20}% 
+\contentsline {section}{SCENE IV.}{92}{section*.20}% 
+\babel@toc {french}{}
+\babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \contentsline {section}{SCENE V.}{96}{section*.22}% 
@@ -111,10 +111,10 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {chapter}{ACTE III.}{109}{chapter*.24}% 
+\contentsline {section}{SCENE PREMIERE.}{109}{section*.25}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {chapter}{ACTE III.}{111}{chapter*.24}% 
-\contentsline {section}{SCENE PREMIERE.}{111}{section*.25}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -127,77 +127,77 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE II.}{124}{section*.28}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE II.}{130}{section*.28}% 
+\contentsline {section}{SCENE III.}{128}{section*.29}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE III.}{136}{section*.30}% 
+\contentsline {section}{SCENE IV.}{134}{section*.32}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE IV.}{140}{section*.32}% 
+\contentsline {section}{SCENE V.}{140}{section*.34}% 
+\contentsline {section}{SCENE VI.}{140}{section*.35}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE V.}{148}{section*.34}% 
-\contentsline {section}{SCENE VI.}{148}{section*.35}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE VII.}{150}{section*.38}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE VIII.}{157}{section*.39}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE VII.}{160}{section*.38}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE VIII.}{168}{section*.40}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {chapter}{ACTE IV.}{171}{chapter*.42}% 
+\contentsline {section}{SCENE I.}{171}{section*.43}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {chapter}{ACTE IV.}{179}{chapter*.42}% 
-\contentsline {section}{SCENE I.}{179}{section*.43}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE II.}{182}{section*.46}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE III.}{186}{section*.47}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE II.}{194}{section*.46}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE III.}{202}{section*.48}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -206,8 +206,10 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE IV.}{204}{section*.50}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE V.}{206}{section*.51}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -216,40 +218,39 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE IV.}{220}{section*.50}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE V.}{222}{section*.52}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE VI.}{222}{section*.54}% 
+\contentsline {chapter}{ACTE V.}{223}{chapter*.55}% 
+\contentsline {section}{SCENE PREMIERE.}{223}{section*.56}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE II.}{228}{section*.57}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE VI.}{238}{section*.54}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {chapter}{ACTE V.}{240}{chapter*.56}% 
-\contentsline {section}{SCENE PREMIERE.}{240}{section*.57}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE III.}{240}{section*.61}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE II.}{248}{section*.60}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -258,9 +259,10 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
+\contentsline {section}{SCENE IV.}{254}{section*.64}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE III.}{258}{section*.62}% 
+\contentsline {section}{SCENE V.}{256}{section*.65}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -275,10 +277,8 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE IV.}{273}{section*.64}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
-\contentsline {section}{SCENE V.}{278}{section*.66}% 
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
@@ -532,20 +532,4 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\babel@toc {french}{}
-\contentsline {chapter}{Glossaire}{291}{section*.68}% 
+\contentsline {chapter}{Glossaire}{281}{section*.68}% 

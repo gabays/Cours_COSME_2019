@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Problèmes à régler :
+    
+- Mise en forme du glossaire, tous les noms ne sont pas toujours écrits de la même manière (problèmes d'accents et tiret dans le nom d'Hector), ce qui pose des problèmes pour la reconnaissance de l'occurence.
+ => une solution récupérer la graphie du glossaire 
+- début de solution mise en place de l'index sur la forme régularisée uniquement (+ évite de multiplier les occurrences entre page de droite et page de gauche
+=> + problème latex dans la reconnaissance des numéros de vers de l'index incohérent et lien brisé de l'index vers le texte
+-->
+
 <!-- Préambule du document avec ajout par défaut du domaine tei dans le xpath -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -85,7 +93,7 @@
 
 <!-- Règle qui permet la constitution des entrées du glossaire -->
 <xsl:template match="person">
-<xsl:text>\longnewglossaryentry{</xsl:text><xsl:value-of select="translate(persName, 'éè', 'ee')"/>}{name=<xsl:value-of select="persName"/>}{
+<xsl:text>\longnewglossaryentry{</xsl:text><xsl:value-of select="persName"/>}{name=<xsl:value-of select="persName"/>}{
     <xsl:value-of select="note"/>
     Référence: \url{--><!--<xsl:value-of select=".//ref[1]/@target"/>--><xsl:text>}
 }
@@ -160,16 +168,20 @@
        </xsl:choose>
     </xsl:template>
     
-    <!-- Signalement des occurences d'un nom de personnages dans le corpus (permet de constuire le glossaire) -->    
+    <!-- Signalement des occurences d'un nom de personnages dans le corpus (permet de constuire le glossaire) uniquement dans la forme régularisée -->    
     <xsl:template match="persName" mode="reg">
         <!-- Variable qui "stocke" la valeur de l'attribut @ref -->
         <xsl:variable name="ref" select="replace(@ref, '#', '')"/>
         <!-- Condition qui permet de ne signaler que les noms de personnages qui apparaissent dans le glossaire -->
-        <xsl:if test="ancestor::TEI/teiHeader//person[@xml:id=$ref]">
+       <xsl:choose> <xsl:when test="ancestor::TEI/teiHeader//person[@xml:id=$ref]">
             <xsl:text>\edgls{</xsl:text>
-                    <xsl:apply-templates mode="reg"></xsl:apply-templates>
+           <xsl:value-of select="ancestor::TEI/teiHeader//person[@xml:id=$ref]/persName"/>
                <xsl:text>}</xsl:text>
-        </xsl:if>
+        </xsl:when>
+       <xsl:otherwise>
+           <xsl:apply-templates mode="reg"/>
+       </xsl:otherwise>
+       </xsl:choose>
     </xsl:template>
     
    
@@ -213,6 +225,7 @@
     
     <!-- Règles de mise en page des éléments xml qui peuvent apparaitre dans les vers -->
     <xsl:template match="text()" mode="orig reg"><xsl:value-of select="replace(., '&amp;', '﻿\\ampersand\\')"/></xsl:template>   
+   <xsl:template match="persName" mode="orig"><xsl:apply-templates mode="orig"/></xsl:template>
     <xsl:template match="hi" mode="orig reg">
         <xsl:apply-templates mode="#current"></xsl:apply-templates>
     </xsl:template>   

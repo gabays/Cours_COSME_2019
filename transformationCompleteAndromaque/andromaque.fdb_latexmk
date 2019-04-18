@@ -1,9 +1,9 @@
 # Fdb version 3
-["cusdep glo gls andromaque"] 0 "andromaque.glo" "andromaque.gls" "andromaque" 0
-  "andromaque.glo" 1555576753 5604 7da691e585db4ca5931b155564463184 ""
+["cusdep glo gls andromaque"] 1555598611 "andromaque.glo" "andromaque.gls" "andromaque" 1555598611
+  "andromaque.glo" 1555598454 6106 09e6788b3133261e003aec17de3d44de ""
   (generated)
   "andromaque.gls"
-["pdflatex"] 1555576697 "andromaque.tex" "andromaque.pdf" "andromaque" 1555576697
+["pdflatex"] 1555598612 "andromaque.tex" "andromaque.pdf" "andromaque" 1555598612
   "/usr/local/texlive/2018/texmf-dist/tex/generic/babel-french/french.ldf" 1548889682 67191 9e6e0be5e07f3612bd366551a79d98d8 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def" 1542149371 74097 730193adbb112990f38051a05f35ac11 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty" 1542149371 16329 4c42e43c85185e6cb0936a628ade375c ""
@@ -100,19 +100,18 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/xargs/xargs.sty" 1480098843 12403 a11204384274e5980f17ec9564088fa4 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/xfor/xfor.sty" 1480098843 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1480098843 4962 9c1069474ff71dbc47d5006555e352d3 ""
-  "andromaque.1" 1555576632 123003 334324564d29af5879c33074c08b6538 ""
-  "andromaque.1R" 0 -1 0 ""
-  "andromaque.aux" 1555576631 18555 6c886fafa105a433cb24bd94b66081fe ""
-  "andromaque.gls" 1555575035 6564 27a72e143ecb0067c7f03c7d7ad486be "cusdep glo gls andromaque"
-  "andromaque.out" 1555576632 2015 9a4fd872d9dc82626bf2681b5946780b ""
-  "andromaque.tex" 1555576593 240552 93c4025bb26eb2b28d7b3a76086313a8 ""
-  "andromaque.toc" 1555576632 13431 5995219720019d0498f3859c7d888f25 ""
+  "andromaque.1" 1555598454 122819 c01aeb056f961e8a959c1b32429a1827 ""
+  "andromaque.1R" 1555598454 127386 70563309f2ac17dc8d038ca0c6ca757d ""
+  "andromaque.aux" 1555598453 12620 0765d0a22365ac7db2501a02a2593201 ""
+  "andromaque.gls" 1555598612 4899 6d693fbc93aaadb336d5240ca4092a54 "cusdep glo gls andromaque"
+  "andromaque.out" 1555598454 1968 9bf53c70d71d619830c7f40436cacbcd ""
+  "andromaque.tex" 1555598605 251615 5a348a533b185df4fd585d72d45ebb45 ""
+  "andromaque.toc" 1555598454 7259 390a8bbc2db63847f9c611bab70cb167 ""
   (generated)
-  "andromaque.toc"
-  "andromaque.1"
-  "andromaque.glo"
-  "andromaque.1R"
-  "andromaque.pdf"
-  "andromaque.log"
-  "andromaque.aux"
   "andromaque.out"
+  "andromaque.log"
+  "andromaque.pdf"
+  "andromaque.aux"
+  "andromaque.toc"
+  "andromaque.1R"
+  "andromaque.1"
