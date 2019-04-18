@@ -4,8 +4,8 @@
     
 - Mise en forme du glossaire, tous les noms ne sont pas toujours écrits de la même manière (problèmes d'accents et tiret dans le nom d'Hector), ce qui pose des problèmes pour la reconnaissance de l'occurence.
  => une solution récupérer la graphie du glossaire 
-- début de solution mise en place de l'index sur la forme régularisée uniquement (+ évite de multiplier les occurrences entre page de droite et page de gauche
-=> + problème latex dans la reconnaissance des numéros de vers de l'index incohérent et lien brisé de l'index vers le texte
+- début de solution mise en place de l'index sur la forme régularisée uniquement (+ évite de multiplier les occurrences entre page de droite et page de gauche)
+
 -->
 
 <!-- Préambule du document avec ajout par défaut du domaine tei dans le xpath -->
