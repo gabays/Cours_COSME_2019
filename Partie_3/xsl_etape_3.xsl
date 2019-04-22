@@ -90,7 +90,7 @@
                             select="
                                 text() |
                                 figure/desc[@type = 'letter']/text() |
-                                c/text() | persName | note"
+                                c/text() | rs | persName | note"
                         />
                     </div>
                 </xsl:when>
@@ -101,7 +101,7 @@
                             select="
                                 text() |
                                 figure/desc[@type = 'letter']/text() |
-                                c/text() | persName | note"
+                                c/text() | rs | persName | note"
                         />
                     </div>
                 </xsl:when>
