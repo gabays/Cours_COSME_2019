@@ -75,7 +75,7 @@
 
     <xsl:template match="speaker">
         <div class="speaker">
-            <xsl:value-of select="."/>
+            <xsl:value-of select="concat(substring(.,1,1), lower-case(substring(., 2)))"/>
         </div>
     </xsl:template>
 

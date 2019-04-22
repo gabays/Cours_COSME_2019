@@ -31,13 +31,51 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 
 #### Exemple
 
-``concat(@type, ' ', @n)`` donnera "act 1" si le noeud contextuel est la première ``div`` de type ``act`` (ou, plus exactement, si le noeud contextuel est une div de type "act" et de nombre "1"). Attention, la fonction concat() ne crée pas d'espaces par défaut: il faut les ajouter soi-même. 
+``concat(@type, ' ', @n)`` donnera "act 1" si le noeud contextuel est la première ``div`` de type ``act`` (ou, plus exactement, si le noeud contextuel est une div de type "act" et de nombre "1"). La fonction concat() ne crée pas d'espaces par défaut: il faut les ajouter soi-même, comme montré dans l'exemple. 
+
+
+## I.2 fn:substring()
+
+
+
+>«fn:substring(string,start,len)»
+
+>«fn:substring(string,start)»
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
+La fonction permet d'extraire des sous-chaînes de caractères à partir d'une chaîne donnée, *en utilisant la position du premier caractère de la sous-chaîne*. La syntaxe de la fonction indique: 
+- la chaîne à transformer
+- le caractère qui marque la sous-chaîne à conserver. Attention, le premier caractère de la chaîne choisie est compté 1 et non pas 0 comme dans d'autres langages (javascript par exemple). 
+- optionnellement, la longueur de la sous-chaîne à conserver.
+
+Comme on le voit, on peut utiliser cette fonction de deux façons différentes: avec trois arguments, on indiquera la longueur de la chaîne de caractères que l'on veut conserver. Sans le troisième argument, la chaîne entière sea conservée après le caractère choisi par sa position. 
+## I.3 fn:lower-case() et fn:upper-case()
+
+> «fn:lower-case(string)»
+[W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+> «fn:lower-case(string)»
+[idem.](https://www.w3schools.com/xml/xsl_functions.asp)
+
+
+La fonction lower-case fonctionne de la même manière. 
+## Exercice
+
+
+Il y a trop de noms en majuscule dans notre texte. Pour tous les ``speaker``, transformer les noms des personnages de sorte à ce que seule la première lettre du nom soit en majuscule. 
+
+### Possibilité: 
+                ```
+                <xsl:template match="speaker">
+                    <div class="speaker">
+                        <xsl:value-of select="concat(substring(.,1,1), lower-case(substring(., 2)))"/>
+                    </div>
+                </xsl:template>
+                ```
 
 
 
 
-
-## I.2 fn:replace()
+## I.4 fn:replace()
 La fonction ``replace()`` permet de remplacer des chaînes de caractères qui respectent un motif (*pattern*) défini. Si le motif est trouvé dans la chaîne de caractère, il est remplacé par le troisième argument. La syntaxe de cette fonction est définie ainsi: 
 
 > «fn:replace(string,pattern,replace)»
@@ -55,7 +93,7 @@ où *string* est le noeud textuel à traîter. **Attention**, *string* peut êtr
 - ``` replace('abcdefg', 'dcba', 'defg')``` donne 'abcdefg': le motif n'a pas été trouvé.
 
 
-## I.3 fn:translate()
+## I.5 fn:translate()
 La fonction ``fn:translate()`` permet aussi de remplacer des caractères, mais fonctionne de façon distincte. La syntaxe de cette fonction est définie comme suit:
 
 > «fn:translate(string1,string2,string3)»
