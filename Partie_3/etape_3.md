@@ -67,6 +67,7 @@ Comme on le voit, on peut utiliser cette fonction de deux façons différentes: 
 
 
 La fonction lower-case fonctionne de la même manière. 
+
 ## Exercice
 
 
@@ -169,11 +170,11 @@ Une variable peut être globale (applicable à toute la feuille de transformatio
 Imaginons une édition TEI avec un teiHeader qui comporte des informations précises sur les entités nommées du texte. Ces entités nommées sont donc présentées, définies, décrites dans le teiHeader, chacune a un identifiant unique ``@xml:id``. Chaque entité du corps du texte renvoie vers sa définition à l'aide d'un pointeur ``@target``. 
 
 ### II.1.1 Problème
-Pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader, et les mettre dans une division avec un style pour donner un rendu que nous avons auparavant défini. Comment faire ? 
+Pour chaque entité nommée du texte, nous voulons récupérer les informations correspondantes qui sont dans le teiHeader, et les mettre dans une ``div`` avec une classe donnée. Comment faire ? 
 
 ### II.1.2 Solution possible
 
-On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information correspodant dans les métadonnées du teiHeader (dans le noeud avec un ``@xml:id`` correspondant), et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant, en utilisant les variables.
+On peut, pour résoudre ce problème, créer une règle disant d'aller chercher, quand on rencontre une entité nommée, l'information correspondant dans les métadonnées du teiHeader (dans le noeud avec un ``@xml:id`` correspondant), et de l'imprimer. Nous allons voir comment faire dans l'exercice suivant, en utilisant les variables.
 
 
 ---
@@ -182,7 +183,7 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
 ## II.2 Exercices
 
 ### II.2.1 Exercice 1
-- Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. 
+- Créer une notice pour chaque personnage listé dans la ``<listPerson>``. Chaque notice devra contenir la description et les liens renvoyant vers la fichier wikipedia et wikidata. Cette notice doit apparaître au début de l'édition html. 
 
         <xsl:template match="person">
                 <div id="{@xml:id}">
@@ -200,7 +201,8 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
                     </p>
                 </div>
         </xsl:template>        
-Cette règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice (en l'occurrence, en premier dans le fichier html):
+        
+Cette première règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice (en l'occurrence, en premier dans le fichier html):
 
         <div id="notices_personnages">
             <h3>Notices: personnages</h3>
@@ -234,7 +236,8 @@ Cette règle met en forme les notices, mais si on transforme le XML, rien ne se 
             </xsl:choose>
             <!--Appliquer la règle uniquement aux noms de personnages...-->
             </xsl:template>
-Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi? 
+            
+Attention, sur la XSL fournie, cette règle n'aura pas d'effet. Pourquoi? Il faut voir la règle qui s'applique sur les ``l`` pour comprendre.
 
         <xsl:template match="l">
             <div class="verse" id="{@xml:id}">
