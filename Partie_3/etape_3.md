@@ -8,7 +8,7 @@ Matthias GILLE LEVENSON
 
 ---
 
-# I Encore des fonctions xpath
+# I Encore des fonctions XPath
 Cette sessions sera surtout consacrée à l'étude de fonctions xpath très utiles pour la transformation d'éditions xml.  Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère.
 
 ## I.1 fn:concat()
@@ -63,7 +63,7 @@ Les fonctions lower et upper-case permettent de changer la casse de chaînes de 
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-> «fn:lower-case(string)»
+> «fn:upper-case(string)»
 
 [idem.](https://www.w3schools.com/xml/xsl_functions.asp)
 
