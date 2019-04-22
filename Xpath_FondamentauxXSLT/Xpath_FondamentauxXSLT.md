@@ -233,19 +233,19 @@ Transformer le fichier XML *andromaque_c.xml* pour créer une page HTML simple.
 1- Ouvrir le fichier XML;
 2- Ouvrir le fichier XSL *XSL_HTML_structure.xsl*
 3- Compléter la première règle pour structurer les informations dans une page HTML minimale :
-- Indiquer qu'on appliquera les règles (à définir) qui porteront uniquement sur les éléments enfants de `div[@type='play']`
+- Indiquer qu'on n'appliquera que les règles qui porteront uniquement sur les éléments enfants de `div[@type='play']`
 
 ---
 
 ### Ajout d'informations depuis le XML source vers le fichier HTML de sortie
 
 #### 1- Écrire une nouvelle règle :
-- Récupérer la valeur la balise `<head>`contenue dans la `div[@type='play']`
+- Récupérer la valeur de la balise `<head>`contenue dans la `div[@type='play']`
 - Englober le texte ainsi récupéré dans une balise HTML `<h1>`
 
 ---
 #### 2- Écrire une nouvelle règle pour traiter l'élément `div[@type='act']`
-- Récupérer la valeur la balise `<head>`contenue dans la `div[@type='play']`
+- Récupérer la valeur de la balise `<head>`contenue dans la `div[@type='act']`
 - Englober le texte ainsi récupéré dans une balise HTML `<div>`
 - Ajouter sur la balise HTML `div`un attribut *id*
 - Récupérer la valeur de @xml:id de `div[@type='act']` pour remplir la valeur de l'attribut HTML *id*.
