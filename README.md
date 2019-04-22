@@ -17,7 +17,7 @@ Tramway: Centre Berthelot (T2)
 | 23/04 | matin | XPath et fondamentaux du langage XSLT | A. Pinche | [Partie_1](https://github.com/gabays/Cours_COSME_2019/tree/master/Xpath_FondamentauxXSLT) |
 | 23/04 | après-midi I | XSLT: publication | S. Gabay et M. Gille Levenson | [Partie_2](https://github.com/gabays/Cours_COSME_2019/tree/master/Partie_2) et  [Partie_3](https://github.com/gabays/Cours_COSME_2019/tree/master/Partie_3) |
 | 23/04 | après-midi II | Conférence: LaTeX et l'édition | Maïeul Rouquette | |
-| 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
+| 24/04 | matin | XSLT: Transformations pour analyser les données | J.-P. Rehr |
 | 24/04 | après-midi | Travail sur les projets des participants |  |
 
 ## Transformation
