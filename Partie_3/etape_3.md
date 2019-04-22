@@ -9,10 +9,12 @@ Matthias GILLE LEVENSON
 ---
 
 # I Encore des fonctions xpath
- Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère, et sont très utiles pour travailler sur des attributs et des identifiants en particulier. 
+Cette sessions sera surtout consacrée à l'étude de fonctions xpath très utiles pour la transformation d'éditions xml.  Les fonctions Xpath suivantes permettent de manipuler des chaînes de caractère.
+
 ## I.1 fn:concat()
 
 La fonction ``concat()`` permet de fusionner deux chaînes de caractères (*strings*). La documentation de xpath la définit de la manière qui suit: 
+
 > «fn:concat(string,string,...)»
 
 
@@ -35,8 +37,7 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 
 
 ## I.2 fn:substring()
-
-
+La fonction ``substring()`` permet d'extraire des sous-chaînes de caractères d'une chaîne donnée, en utilisant un caractère de départ en fonction de sa position (contrairement à ``substring-before()`` et ``substring-after()`` qui utilisent le caractère en soi comme point de départ). La syntaxe de cette fonction est la suivante: 
 
 >«fn:substring(string,start,len)»
 
@@ -44,9 +45,9 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-La fonction permet d'extraire des sous-chaînes de caractères d'une chaîne donnée, *en utilisant la position du premier caractère de la sous-chaîne*. La syntaxe de la fonction indique: 
+La syntaxe de la fonction indique: 
 - la chaîne à transformer (*string*)
-- le caractère qui marque la sous-chaîne à conserver (*start*). Attention, la position du premier caractère de la chaîne (*string*) est 1 et non pas 0 comme dans d'autres langages (javascript par exemple). 
+- le caractère de départ, qui marque la sous-chaîne à conserver (*start*). Attention, la position du premier caractère de la chaîne (*string*) est 1 et non pas 0 comme dans d'autres langages (javascript par exemple). 
 - optionnellement, la longueur de la sous-chaîne à conserver (*len*).
 
 Comme on le voit, on peut utiliser cette fonction de deux façons différentes: avec trois arguments, on indiquera la longueur de la chaîne de caractères que l'on veut conserver. Sans le troisième argument, la chaîne entière sea conservée après le caractère choisi par sa position. 
@@ -56,6 +57,7 @@ Comme on le voit, on peut utiliser cette fonction de deux façons différentes: 
 ``substring('abcdefg', 3)`` donne 'cdefg', et ``substring('abcdefg', 3, 3)`` donne 'cde'
 
 ## I.3 fn:lower-case() et fn:upper-case()
+Les fonctions lower et upper-case permettent de changer la casse de chaînes de caractères données. Leur syntaxe est la suivante: 
 
 > «fn:lower-case(string)»
 
@@ -124,7 +126,7 @@ La principale différence avec ``replace()`` est que la fonction translate **con
 - ``` translate('abcdefg', 'dcba', 'defg')``` donne 'gfedefg'.
 
 
-### Exercice sur les fonctions XPath
+### Exercice 
 
 Pour un noeud donné, comment transformer un attribut de type identifiant  (``@xml:id``) en attribut de type pointeur  (``@target``), et vice-versa ? 
 
@@ -202,7 +204,9 @@ On peut, pour résoudre ce problème, créer une règle disant d'aller chercher,
                 </div>
         </xsl:template>        
         
-Cette première règle met en forme les notices, mais si on transforme le XML, rien ne se passe: en effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice (en l'occurrence, en premier dans le fichier html):
+Cette première règle est censée mettre en forme les notices, mais si on transforme le XML, rien ne se passe: pourquoi ? 
+
+En effet, notre XSL n'ordonne jamais de processer les éléments enfants du ``teiHeader``; pour ce faire, il faut indiquer au moteur qu'il doit appliquer les règles s'appliquant à l'élément ``person``. De la sorte, nous pouvons décider où va apparaître la notice (en l'occurrence, en premier dans le fichier html):
 
         <div id="notices_personnages">
             <h3>Notices: personnages</h3>
@@ -317,13 +321,13 @@ Où *string* (**entre guillemets**) est un URI, en général un URL.  Une fois l
 
         <xsl:value-of select="collection('...Hugo/romans/*.xml')//teiHeader//title"/>
         
-Cette expression Xpath doit sélectionner et imprimer les titres de tous les documents xml qui sont dans le dossier indiqué.
+Cette expression Xpath doit sélectionner et imprimer les titres de tous les documents xml qui sont dans le dossier indiqué, en l'occurrence les titres de tous les romans de Victor Hugo dans le dossier.
 
 ---
 
 ## III.2 ``<xsl:result-document/>``
 
-Cette fonction xsl permet d'arriver au résultat inverse: produire plusieurs documents de sortie. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui indiquera l'URI du document créé (et en déterminera donc le nom), est obligatoire: 
+La fonction ``xsl:result-document``permet d'arriver au résultat inverse: produire plusieurs documents de sortie à partir d'un ou plusieurs documents d'entrée. Cette fonction ordonne la création d'un nouveau document de sortie. L'atttribut ``href``, qui indiquera l'URI du document créé (et en déterminera donc le nom), est obligatoire: 
 
         <xsl:template match="...">
             <xsl:result-document href="fiches_temoins/fiche_temoin_{$id_temoin}.html">
