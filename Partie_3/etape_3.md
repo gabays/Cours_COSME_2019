@@ -41,19 +41,28 @@ Si les arguments passés sont des chaînes de caractères, il est nécessaire d'
 >«fn:substring(string,start,len)»
 
 >«fn:substring(string,start)»
+
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
 
-La fonction permet d'extraire des sous-chaînes de caractères à partir d'une chaîne donnée, *en utilisant la position du premier caractère de la sous-chaîne*. La syntaxe de la fonction indique: 
-- la chaîne à transformer
-- le caractère qui marque la sous-chaîne à conserver. Attention, le premier caractère de la chaîne choisie est compté 1 et non pas 0 comme dans d'autres langages (javascript par exemple). 
-- optionnellement, la longueur de la sous-chaîne à conserver.
+La fonction permet d'extraire des sous-chaînes de caractères d'une chaîne donnée, *en utilisant la position du premier caractère de la sous-chaîne*. La syntaxe de la fonction indique: 
+- la chaîne à transformer (*string*)
+- le caractère qui marque la sous-chaîne à conserver (*start*). Attention, la position du premier caractère de la chaîne (*string*) est 1 et non pas 0 comme dans d'autres langages (javascript par exemple). 
+- optionnellement, la longueur de la sous-chaîne à conserver (*len*).
 
 Comme on le voit, on peut utiliser cette fonction de deux façons différentes: avec trois arguments, on indiquera la longueur de la chaîne de caractères que l'on veut conserver. Sans le troisième argument, la chaîne entière sea conservée après le caractère choisi par sa position. 
+
+### Exemple
+
+``substring('abcdefg', 3)`` donne 'cdefg', et ``substring('abcdefg', 3, 3)`` donne 'cde'
+
 ## I.3 fn:lower-case() et fn:upper-case()
 
 > «fn:lower-case(string)»
+
 [W3C](https://www.w3schools.com/xml/xsl_functions.asp)
+
 > «fn:lower-case(string)»
+
 [idem.](https://www.w3schools.com/xml/xsl_functions.asp)
 
 
@@ -64,13 +73,12 @@ La fonction lower-case fonctionne de la même manière.
 Il y a trop de noms en majuscule dans notre texte. Pour tous les ``speaker``, transformer les noms des personnages de sorte à ce que seule la première lettre du nom soit en majuscule. 
 
 ### Possibilité: 
-                ```
+
                 <xsl:template match="speaker">
                     <div class="speaker">
                         <xsl:value-of select="concat(substring(.,1,1), lower-case(substring(., 2)))"/>
                     </div>
                 </xsl:template>
-                ```
 
 
 
