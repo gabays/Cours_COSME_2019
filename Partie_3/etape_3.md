@@ -285,7 +285,7 @@ Les variables peuvent être très utiles pour modifier des chaînes de caractèr
             
 
 ### Exercice
-Créer une règle de remplacement récursif pour rendre lisibles les URL, qui échappent dans le fichier XML les accent grave et aigus: 
+Créer une règle de remplacement récursif pour rendre lisibles les URL, qui échappent dans le fichier XML les accents grave et aigus: 
 
         https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A8que > https://fr.wikipedia.org/wiki/Sénèque
 
