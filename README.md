@@ -32,7 +32,7 @@ Le cours est distribué avec la licence CC-BY, mais certains documents (notammen
 
 ## Crédits institutionnels
 
-Cette formation est financée par le Consortium COSME, membre de la TGIR (Très Grande Infrastructure de Recherche) Huma-Num, et bénéficie du soutien du CIHAM, UMR 5648. 
+Cette formation est financée par le **Consortium COSME**, membre de la TGIR (Très Grande Infrastructure de Recherche) **Huma-Num**, et bénéficie du soutien du **CIHAM UMR 5648**. 
 
 ![alt text](img/cosme.png)
 ![alt text](img/huma-num.png)
