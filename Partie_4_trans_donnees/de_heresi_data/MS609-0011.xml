@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0011.xml">
+   
+   <teiHeader xml:id="MS609-0011-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0011">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0011"/>
+         <div type="folio" n="1v-2r"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0011-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0011-1">
+               <lb break="y" n="37"/>
+               <add type="margin_gloss" subtype="observation" place="left" hand="#original_609">cruces</add>
+                  Item.
+               <date type="deposition_date" sameAs="#MS609-0001.xml" cert="medium">Anno die quo supra.</date>  
+               <persName nymRef="#W_Donat_MSP-AU" role="dep">W. Donat</persName> 
+               testis iuratus dixit quod ipse testis et 
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" ana="#pAdo #pDux" role="par">W<supplied reason="expname">illelmus</supplied> de Canast</persName> 
+               <placeName type="event_loc" nymRef="#journey">iverunt apud 
+                  <placeName type="event_loc" nymRef="#Laurac_Aude">Laurac</placeName>
+                  <lb break="y" n="38"/>et duxerunt inde 
+                  <persName nymRef="#W_B_H" role="her">W. B.</persName> 
+                  et socium eius, hereticos, apud Mansum et introduxerunt <del type="notary" rend="expunctus">eu</del> eos 
+                  <placeName type="event_loc" nymRef="#home_of_Guilhem_Malhorga_MSP">in domum 
+                     <persName nymRef="#Guilhem_Malhorga_MSP-AU" ana="#pHereticated" role="inf">Willelmi de<lb break="y" n="39"/>Malhorgas</persName>
+                  </placeName>,
+               </placeName> avunculi dicti 
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" role="ref">Willelmi de Canast</persName>. Et ipse 
+               <persName nymRef="#Guilhem_Malhorga_MSP-AU" role="ref">Willelmus de Malhorgas</persName> infirmabatur tunc, 
+               et dicti heretici<lb break="y" n="40"/>hereticaverunt 
+               tunc dictum Willelmum. Et interfuerunt dicte hereticationi ipsi et 
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" role="ref">W<supplied reason="expname">illelmus</supplied> de Canast</persName> predictus; et 
+               <persName nymRef="#Guilhem_Canast_Senior_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmus</supplied> de Canast senior</persName>,
+               <pb n="2r"/>
+               <lb break="y" n="1"/> avunculus ipsius testis; et 
+               <persName nymRef="#Durand_Vadis_MSP-AU" ana="#pAdo" role="par">Durandus Vadis</persName>; 
+               <persName nymRef="#Guilhelma_Sicre_MSP-AU" ana="#pAdo" role="par">Willelma Sicresa</persName>, filiastra dicti 
+               <del type="notary" rend="expunctus">hetia</del> hereticati. Et omnes<lb break="y" n="2"/>et 
+               <persName nymRef="#W_Donat_MSP-AU" ana="#pAdo #pDux" role="par"/>ipse testis 
+               adoraverunt ibi dictos hereticos. <date type="event_date" when="1236">Et 
+                  sunt XIX anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0011-2">Item. Dixit quod 
+               <del type="notary" rend="expunctus">no</del> 
+               <persName nymRef="#W_Donat_MSP-AU" ana="#pVidPub" role="par"/>vidit hereticos 
+               <placeName type="event_loc" nymRef="#open_public_MSP">publice<lb break="y" n="3"/>stantes</placeName> in terra. 
+               Alibi non vidit hereticos. <date type="event_date" when="1215">Et sunt XXX anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0011-3">Item. Dixit 
+               <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_bonam_fidem #pos_veraces #pos_amicos_dei">
+                  quod credidit hereticos esse<lb break="y" n="4"/> bonos et habere bonam fidem et esse veraces et amicos Dei</seg>. Et 
+               <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia #pos_err_baptismo #pos_err_hostia #pos_err_matrimonio #pos_err_hostia">
+                  audivit hereticos dicentes quod deus non<lb break="y" n="5"/>visibilia fecit, et quod baptismus aque nichil valet,  
+                  et quod hostia sacrata non est corpus Christi, et quod<lb break="y" n="6"/>in matrimonio non est salus, et quod mortui 
+                  non resurgent. Et ipse testis credidit tunc sicut ipsi dicebant</seg>. Et<lb break="y" n="7"/>
+               <seg type="hist_bel">
+                  <date type="prev_bel_start" when="1215">sunt XXX anni quod primo credidit hereticos</date> et 
+                  <date type="prev_bel_end" when="1233">sunt XIX anni quod ultimo dimisit</date>
+               </seg>. Et 
+               <seg type="prev_conf" ana="#neg_penance">fuit confessus<lb break="y" n="8"/>
+                  <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrerio</persName>, 
+                  sed non habuit ab ipso penitentiam</seg> neque vidit hereticos XIX <supplied reason="added">anni</supplied> sunt. Et abiuravit heresim 
+               et iuravit et cetera. <seg type="witnesses" sameAs="#MS609-0001.xml" cert="medium">Testes: predicti.</seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0011-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0011-1">
+               <add type="margin_gloss" subtype="observation" place="left" hand="#original_609">crosses</add>Item. Year and day as above, the sworn witness W. Donat said that he and 
+               Guilhem Canast-Bru went to Laurac and led W. B. and his companion, heretics, to 
+               Mas-Saintes-Puelles and brought them to the house of Guilhem, uncle of said Guilhem Canast-Bru. 
+               Guilhem Malhorga was there sick, and the aforesaid heretics then hereticated said Guilhem. 
+               Present at the heretication were the witness himself, the aforementioned Guilhem Canast-Bru; 
+               Guilhem Canast senior, uncle of the witness; Durand Vadis; Guilhelma Sicre, daughter-in-law of the hereticated. 
+               And everyone and the witness adored the aforesaid heretics. This was about 19 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0011-2">Item. The witness said that he saw heretics standing in open public. 
+               He did not see the heretics elsewhere and this was about 30 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0011-3">Item. The witness said that he believed the heretics to be good men, and 
+               to have good faith, and were true and friends of God. He heard heretics say that God did not make 
+               visible things, and that baptism by water is meaningless, that the holy host is not the body of 
+               Christ, that there is no salvation in marriage, that there is no resurrection from death, and 
+               the witness believed then what they said. It was 30 years ago that he first believed the heretics 
+               and it was 19 years ago that he left such belief behind. This was confessed to brother Ferrier 
+               but he did not have penance and the witness has not seen heretics in 19 years. He abjured heresy 
+               and swore, etc. Witnesses: as stated before.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

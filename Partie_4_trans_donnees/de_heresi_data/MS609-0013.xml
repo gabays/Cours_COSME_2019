@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0013.xml" n="ms609_0013_bernard_cogota.xml">
+   
+   <teiHeader xml:id="MS609-0013-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <!-- @corresp refers to bibliographic entry for citing digital edition -->
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0013">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0013"/>
+         <div type="folio" n="2r-2v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="9-10"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+               <item facs="#img_609_0011"/>
+            </list>
+         </div>
+      </front>
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0013-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-1">
+               <lb break="y" n="20"/>Item. 
+               <date type="deposition_date" when="1245-06-13" cert="high">Anno quo
+                  <surplus reason="surplus">die</surplus> supra Ydus Iunii.</date> 
+               <persName nymRef="#Bernard_Cogota_MSP-AU" role="dep">B<supplied reason="expname">ernardus</supplied> Cogata</persName> testis iuratus dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Vidal">in domo 
+                  <persName nymRef="#Guilhem_Vidal_MSP-AU" role="own">Willelmi Vitalis</persName>
+               </placeName> 
+               <persName nymRef="#Bertrand_Marti_H" role="her">Bertrandum Marti</persName>
+               <lb break="y" n="21"/>et socium eius, hereticos. Et vidit ibi ipsum 
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo #pAud" role="par">W<supplied reason="expname">illelmum</supplied> Vitalis</persName>; et 
+               <persName nymRef="#Segura_Vidal_MSP-AU" ana="#pAdo #pAud" role="par">Seguram, uxor ipsius Wilhelmi Vitalis</persName>;  
+               <persName nymRef="#Arnald_Maiestre_MSP-AU" ana="#pAdo #pAud" role="par">Arnaldum Maiestre</persName>; 
+               <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pAdo #pAud" role="par">Ar<lb break="no" n="22"/>naldum Godal</persName>; 
+               <persName nymRef="#Bernard_Cap-de-Porc_MSP-AU" ana="#pAdo #pAud" role="par">B<supplied reason="expname">ernardum</supplied> Cap de Porc</persName>;  
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" ana="#pAdo #pAud" role="par">W<supplied reason="expname">illelmum</supplied> de Canast-Brus</persName>;  
+               <persName nymRef="#Arnald_Canast_MSP-AU" ana="#pAdo #pAud" role="par">Arnaldum de Canast</persName>; et
+               <persName nymRef="#Peire_Vidal_sib_Guilhem_Vidal_MSP-AU" ana="#pAdo #pAud" role="par">P<supplied reason="expname">etrum</supplied> Vidal</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo #pAud" role="par">plures alios de<lb break="y" n="23"/>quibus non recolit</persName>. Et 
+               <persName nymRef="#Bernard_Cogota_MSP-AU" ana="#pAdo #pAud" role="par"/>ipse testis et omnes alii 
+               audierunt predicationem eorum et adoraverunt eos ter flexis genibus<lb break="y" n="24"/>dicendo
+               <quote>Benedicite, probi homines, orate Deum pro nobis</quote>. Et <date type="event_date" when="1233">sunt XII anni vel circa</date>.</seg> 
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-2">Item dixit quod 
+               <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">in<lb break="y" n="25"/>domo 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">Petri de Cap de Porc</persName>
+               </placeName> 
+               <persName nymRef="#Johan_Cambiaire_MSP-AU" role="her">Iohannem Cambiarre</persName> et socium suum, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Bernard_del_Mas_Senior_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied> del Mas<lb break="y" n="26"/>seniorem</persName>;  
+               <persName nymRef="#Arnald_de_Rosengue_MSP-AU" ana="#pAdo" role="par">Arnaldum de Rozerge</persName>;  
+               <persName nymRef="#Garnier_Senior_MSP-AU" ana="#pAdo" role="par">Garnerium</persName>; 
+               <persName nymRef="#Peire_Gauta_Senior_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">etrum</supplied> Gauta seniorem</persName>; et ipsum 
+               <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">etrum</supplied> Cap de Porc</persName>; et 
+               <persName nymRef="#Bernard_Cap-de-Porc_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied>, 
+                  fratrem<lb break="y" n="27"/>dicti Petri Cap de Porc</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>. 
+               Et ipse testis<persName nymRef="#Bernard_Cogota_MSP-AU" ana="#pAdo" role="par"/> et omnes alii 
+               adoraverunt dictos hereticos.<lb break="y" n="28"/> 
+               <date type="event_date" when="1235">Et sunt X anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-3">Item. Dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Peirona_Na_Riqua_MSP-AU">in domo de 
+                  <persName nymRef="#Peirona_Na_Riqua_MSP-AU" role="own">Nariqua</persName>
+               </placeName> 
+               <persName nymRef="#Raimund_de_Na_Riqua_MSP-AU" role="her">Raimudum, filium dicte Riqua</persName>, 
+               et socium suum,<lb break="y" n="29"/> hereticos. Et vidit ibi 
+               <persName nymRef="#Roger_Sartre_MSP-AU" ana="#pAdo" role="par">Roggerium Sartre</persName>;  
+               <persName nymRef="#Peire_Gauta_Senior_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">etrum</supplied> Gauta seniorem</persName>; et 
+               <persName nymRef="#Sybile_de_Na_Riqua_MSP-AU" ana="#pAdo" role="par">Sebilia, filia dicte Riqua</persName>; et ipsam 
+               <persName nymRef="#Peirona_Na_Riqua_MSP-AU" ana="#pAdo" role="par">Riqua</persName>;
+               <lb break="y" n="30"/> et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>. 
+               Et <persName nymRef="#Bernard_Cogota_MSP-AU" ana="#pAdo" role="par"/>ipse testis et omnes alii 
+               adoraverunt dictos hereticos. <date type="event_date" when="1235">Et fuit eodem tempore</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-4">
+               <lb break="y" n="31"/>Item. Dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Companh_Gaufred">in domo 
+                  <persName nymRef="#Companh_Gaufred_MSP-AU" role="own">den Campanh, <emph xml:lang="OC">sabater</emph>,
+                  </persName>
+               </placeName> 
+               <persName nymRef="#Pons_Petit_MSP-AU" role="her">P<supplied reason="expname">oncium</supplied> Petit</persName> et socium suum, hereticos. 
+               Et vidit ibi cum eis 
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">ilhelmum</supplied>
+                  <lb break="y" n="32"/>de Canast-Brus</persName>; et ipsum 
+               <persName nymRef="#Companh_Gaufred_MSP-AU" ana="#pAdo" role="par">Companh</persName>; et 
+               <persName nymRef="#Guilhelma_Gaufred_MSP-AU" ana="#pAdo" role="par">Wilhelma Gaufresa, 
+                  <roleName type="fam">matrem dicti</roleName> 
+                  <persName nymRef="#Companh_Gaufred_MSP-AU" role="ref">Companh</persName>
+               </persName>; et 
+               <persName nymRef="#Ermengard_Gaufred_MSP-AU" ana="#pAdo" role="par">Esmengardam,<lb break="y" n="33"/>
+                  <roleName type="fam">filiam dicte</roleName> 
+                  <persName nymRef="#Guilhelma_Gaufred_MSP-AU" role="ref">Wilhelme Gaufresa</persName>
+               </persName>. Et 
+               <persName nymRef="#Bernard_Cogota_MSP-AU" ana="#pAdo" role="par"/>ipse testis et omnes alii 
+               adoraverunt ibi dictos hereticos. <date type="event_date" when="1233">Et sunt XII anni vel circa.</date>
+            </seg>
+            
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-5" corresp="#MS609-0080-2">
+               <pb n="2v"/>
+                    <lb break="y" n="1"/>Item. Vidit 
+               <placeName type="event_loc" nymRef="home_of_Guilhelma_Maiestre_nee_Companh_MSP-AU">in domo 
+                  <persName nymRef="#Guilhelma_Maiestre_nee_Companh_MSP-AU" ana="#pAdo" role="par">Wilhelme, filie 
+                     <del type="notary" rend="expunctus">quondam</del> quandam den Companh, concubine Arnaldi Maiestre</persName>
+               </placeName>, 
+               <persName nymRef="#Bernard_de_Mairevilla_H" role="her">Bernardum de Maire<lb break="n" n="2"/>vila</persName> et socium suum, hereticos. 
+               Et vidit ibi cum eis 
+               <persName nymRef="#Guilhem_Pons_de_Recauth_MSP-AU" ana="#pAdo #pHereSaw" role="par">W<supplied reason="expname">illelmum</supplied> Ponz de Recauth</persName>; et 
+               <persName nymRef="#Peire_de_Recauth_MSP-AU" ana="#pAdo #pHereSaw" role="par">Petrum, fratrem eius</persName>; et 
+               <persName nymRef="#Guilhem_Teissere_MSP-AU" ana="#pAdo #pHereSaw" role="par">W<supplied reason="expname">illelmum</supplied> Teissere</persName>; 
+               <lb break="y" n="3"/>
+               <persName nymRef="#Raimund_de_Recauth_MSP_AU" ana="#pAdo #pHereSaw" role="par">Raimundum de Recau</persName>; et 
+               <persName nymRef="#Arnald_Maiestre_MSP-AU" ana="#pAdo #pHereticated" role="inf">Arnaldum Maiestre</persName>, 
+               qui iacebat tunc infirmus in infirmitate qua decessit; et 
+               <persName nymRef="#Guilhelma_sister_Arnald_Maiestre_MSP-AU" ana="#pAdo #pHereSaw" role="par">Wilhelmam,<lb break="y" n="4"/>sororem dicti Arnaldi Maiestre</persName>. 
+               <surplus reason="repeated">et Raimundum de las de Recaut</surplus> 
+               Et tunc dicti heretici hereticaverunt dictum 
+               <persName nymRef="#Arnald_Maiestre_MSP-AU" role="ref">Arnaldum Maiestre</persName>
+               <lb break="y" n="5"/>ipso teste vidente. Et ipse testis et omnes alii adoraverunt 
+               ibi dictos hereticos. <date type="event_date" when="1233">Et sunt XII anni vel circa.</date>
+             </seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0013-6">
+               <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_amicos_dei #pos_posse_salvari">
+                  Predictos hereticos credidit esse<lb break="y" n="6"/>bonos homines et amicos Dei et posse
+                   salvari per ipsos licet sciret quod ecclesia persequereter eos</seg>. Et 
+               <seg type="conf" subtype="errors" ana="#pos_err_visibilia #pos_err_hostia #pos_err_baptismo                      #pos_err_matrimonio #pos_err_resurrectione">audivit<lb break="y" n="7"/>eos dicentes errores de visibilibus 
+                  quod Deus non fecerat ea, et quod hostia sacrata non est corpus Christi, et quod<lb n="8"/>in baptismo 
+                  et matrimonio non <del type="notary" rend="expunctus">est salus</del> erat salus, et quod carnis resurrectio non erat.  
+                  Et ipse credidit tunc sicut ipsi<lb break="y" n="9"/>dicebant</seg>. <seg type="hist_bel">Et 
+                  <date type="prev_bel_start" when="1229">sunt XVI anni quod primo credidit hereticos 
+               esse bonos</date> sed <date type="prev_bel_end" when="1237">non credidit VIII anni sunt</date>
+               </seg>. 
+               Et <seg type="prev_conf">fuit confessus 
+               <persName nymRef="#Guilhem_Arnald_OP" role="pinq">fratri<lb break="y" n="10"/>Wilhelmo Arnaldi</persName> et socium suum, inquisitores, apud 
+                  <placeName type="prev_conf" nymRef="#Toulouse_Haute-Garonne">Tholosam</placeName> et venit coram eis non citatus et 
+               <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrario</persName> apud<lb break="y" n="11"/>
+                  <placeName type="prev_conf" nymRef="#Saissac_Aude">Sayssac</placeName>
+               </seg>. Et postea non 
+               vidit hereticos et credidit dicta confessiones esse veraces.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-7">
+               <seg type="inq_int" subtype="specific_question">Item. Dixit quod 
+               <persName nymRef="#Peire_Gauta_Senior_MSP-AU" ana="#pThreat" role="par">P<supplied reason="expname">etrus</supplied> Gauta</persName> 
+               loqutus est <placeName type="event_loc" nymRef="#open_public_MSP">pub<lb break="n" n="12"/>lice</placeName> 
+                  <persName nymRef="#Bernard_del_Mas_Senior_MSP-AU" ana="#pThreat" role="par">Bernardo, domino del Mas</persName>, contra ipsum testem in hunc modum 
+               <quote>
+                            <persName nymRef="#Bernard_del_Mas_Senior_MSP-AU" role="ref">Bernarde del Mas</persName>, est ne bonum quod aliquis qui dete<lb break="n" n="13"/>xerit 
+             nos eat vivus super terram?</quote> Et propter illa verba, ipse testis cum familia sua exivit de Manso.</seg>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0013-8">
+               <seg type="inq_int" subtype="specific_question">Item. Dixit<lb break="y" n="14"/>quod 
+               <persName nymRef="#Jordan_de_Quiders_MSP-AU" ana="#pThreat" role="par">Iordanus de Quiders</persName> 
+                  dixit <quote>Nuper ipsi testi modo apparebit quis expeditus erit citius vos qui 
+               provenistis<lb break="y" n="15"/>alios in confessione</quote>.</seg> Et abiuravit heresim et iuravit et cetera. 
+               <seg type="witnesses">Testes: 
+               <persName nymRef="#Arnald_Prior_StSernin" role="wit">Arnaldus, prior Sancti Saturnini</persName>; et 
+               <persName nymRef="#Peire_de_Caraman_Magister" role="wit">magister P<supplied reason="expname">etrus</supplied> de Caramag</persName>; et 
+               <persName nymRef="#Bernard_de_Caux_OP" role="inq">frater B<supplied reason="expname">ernardus</supplied>, inquisitor</persName>.</seg>
+            </seg>   
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0013-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0013-1">Item. Year and day as above, the Ides of June. The sworn witness Bernard Cogota 
+               said that he saw Bertrand Marti and his companions, heretics, in the house of Guilhem Vidal, saw there 
+               Guilhem Vitalis himself and Segura, the wife of Guilhem Vitalis, Arnald Maiestre, Arnald Godalh, 
+               Bernard Cap-de-Porc, Guilhem Canast-Bru, Arnald Canast and P. Vidal and many others who he did not recall. 
+               The witness and all others listened to their preaching and adored them three times with bended knee, 
+               saying "Bless us, good men, pray to God for us." This was about 12 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0013-2">Item. The witness said that in the house of Peire Cap-de-Porc he saw Johan Cambiaire 
+               and his companion, heretics, and saw with them there Bernard del Mas senior, Arnald de Rosengue, Companh Gaufred, 
+               Peire Gauta senior, and Peire Cap-de-Porc himself and Bernard brother of Peire Cap-de-Porc and many others he did 
+               not recall. The witness and all others adored said heretics. This was about 10 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0013-3">Item. The witness said that in the house of na Riqua he saw the son of na Riqua, 
+               Raimund, and his companions, heretics, and he saw with them there Roger Sartre, Peire Gauta senior, and Sybile, 
+               sister of said Na Riqua, and Na Riqua herself, and many others he did not recall. The witness and all 
+               others adored said heretics. This was in the same period.</seg>
+            <seg type="trans" corresp="#MS609-0013-4">Item. The witness said that in the house of the shoemaker Companh he saw Peire Petit 
+               and companion, heretics, and he saw there with them Guilhem Canast-Bru and Companh himself and Guilhelma Gaufred, 
+               mother of said Companh, and Esmengarde, daughter of said Guilhelma Gaufred. And the witness and all others adored 
+               said heretics. This was about 12 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0013-5">Item. The witness saw in the house of Guilhelma, daughter of Companh, wife of 
+               Arnald Maiestre, Bernard de Mairevilla and companion, heretics. And saw there with them Guilhem Pons de Recauth 
+               and his brother Peire, and Guilhem Teisserre, and Raimund de Recauth, and Arnald Maiestre, who was laid low at that time 
+               with a sickness of which he died, and Guilhelma, the sister of said Arnald Maiestre. The aforesaid heretics then 
+               hereticated Arnald Maiestre, which the witness himself saw. This was about 12 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0013-6">The witness believed the aforesaid heretics to be good men and friends of God and 
+               that he could be saved by them even though he knew they were pursued by the Church. He heard them speak errors: 
+               that visible things were not made by God, that the holy host is not the body of Christ, that there is no salvation 
+               in baptism or marriage, and that there is no resurrection of the body, and the witness himself believed that 
+               which they said. It was 30 years ago that he first believed the heretics to be good men, and left this 
+               belief 8 years ago. This was confessed to brother Guilhem Arnold and his inquisitor associates at Toulouse, 
+               and he came to them unsolicited, and brother Ferrier at Saissac, and since then he has not seen heretics, 
+               and he believes the aforesaid confessions to be true.</seg>
+            <seg type="trans" corresp="#MS609-0013-7">Item. The witness said that Peire Gauta senior in speaking in public with Bernard, 
+               lord of Mas-Saintes-Puelles said in front of the witness himself, "Bernard, is it not good that someone who reveals 
+               us still lives on earth?" And because of these words the witness with his family left Mas-Saintes-Puelles.</seg>
+            <seg type="trans" corresp="#MS609-0013-8">Item. The witness said that Jordan de Quiders said to him recently, "Soon there will appear 
+               someone who will more quickly free you all, who may have disdained others in their confession." He abjured 
+               heresy and swore, etc. Witnesses: Arnald, Prior of Saint-Sernin; Magister Peire de Caraman; and brother Bernard, inquisitor.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

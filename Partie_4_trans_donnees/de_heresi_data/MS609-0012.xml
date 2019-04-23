@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0012.xml">
+   
+   <teiHeader xml:id="MS609-0012-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0012">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0012"/>
+         <div type="folio" n="2r"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0012-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0012-1">
+               <lb break="yes" n="9"/>
+               <add type="margin_gloss" subtype="observation" place="left" hand="#original_609">cruces habet
+                  </add>Item. 
+               <date type="deposition_date" sameAs="#MS609-0001.xml" cert="medium">
+                  Anno et die quo supra.</date> 
+               <persName nymRef="#Paul_Vidal_MSP-AU" role="dep">Paulus Vitalis</persName>
+               <add type="margin_gloss" subtype="observation" place="interline" hand="#original_609">leprosus est</add>
+               <note type="not_public">Duvernoy read 'combustus est' for 'leprosus est'.</note> 
+               testis iuratus dixit quod 
+               <placeName type="event_loc" nymRef="#Oliver_MSP">in loco qui dicitur Oliver</placeName> 
+               vidit <persName nymRef="#Raimund_de_Na_Riqua_MSP-AU" role="her">R<supplied reason="expname">aimundum</supplied> de Narrica</persName>
+               <lb break="yes" n="10"/>et 
+               <persName nymRef="#Bernard_Cap-de-Porc_MSP-AU" role="her">B<supplied reason="expname">ernardum</supplied> de Sancto Andrea</persName>, 
+               hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Bernard_Aichart_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied> Aychart</persName>;  
+               <persName nymRef="#Pons_Gran_MSP-AU" ana="#pAdo" role="par">Poncium Gran</persName>; et 
+               <persName nymRef="#Companh_Gaufred_MSP-AU" ana="#pAdo" role="par">Campanh</persName>. Et omnes et<lb break="yes" n="11"/>
+               <persName nymRef="#Paul_Vidal_MSP-AU" ana="#pAdo" role="par"/>
+                  ipse testis adoraverunt ibi dictos hereticos. 
+               <date type="event_date" when="1243">Et sunt duo anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0012-2">Item. Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">in domo 
+               <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">Petri de Sancto Andrea</persName>
+               </placeName>
+               <lb break="yes" n="12"/>
+               <persName nymRef="#Bernard_Cap-de-Porc_MSP-AU" role="her">B<supplied reason="expname">ernardum</supplied> de Sancto Andrea</persName>, 
+                  fratrem ipsius Petri, et socium eius, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vitalis</persName>,  
+               <persName nymRef="#Pons_de_Lamanz_MSP-AU" ana="#pAdo" role="par">Poncium de Lamanz</persName>. 
+               <lb break="yes" n="13"/>Et omnes et 
+               <persName nymRef="#Paul_Vidal_MSP-AU" ana="#pAdo" role="par"/>
+               ipse testis adoraverunt ibi dictos hereticos. 
+               <date type="event_date" when="1943">Et hoc fuit prope dicto tempore.</date> 
+               Alibi non vidit hereticos quod recolat.</seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0012-3">Item<lb break="yes" n="14"/>dixit quod 
+               <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_bonam_fidem #pos_veraces #pos_amicos_dei">
+                  credidit hereticos esse bonos et habere bonam fidem et esse veraces et amicos Dei</seg>. Et 
+               <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia #pos_err_baptismo #pos_err_hostia #pos_err_matrimonio #pos_err_resurrectione">audivit hereticos<lb break="yes" n="15"/>dicentes quod Diabolus fecerat visibilia, et 
+                  quod baptismus aque nichil valet, et quod <supplied reason="added">hostia</supplied> sacrata 
+                  non est corpus Christi,<lb break="yes" n="16"/>et quod in matrimonio non est salus, et quod corpora mortuorum non resurgent.  
+                  Et ipse credidit sicut hereticos dice<lb break="no" n="17"/>bant</seg>. Et <seg type="hist_bel">
+                     <date type="prev_bel_start" when="1243">sunt duo anni quod primo credidit</date> et 
+                     <date type="prev_bel_end" when="1244">est annus quod ultimo dimisit</date>.</seg>
+                </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0012-4">
+               <seg type="inq_int" subtype="specific_question">Dixit etiam quod 
+               <persName nymRef="#Bernard_Aichart_MSP-AU" ana="#pDux" role="par">B<supplied reason="expname">ernardus</supplied> Aychart</persName> 
+                  <lb break="yes" n="18"/>predictus <del type="notary" rend="expunctus">dix</del>duxit ipse testis ad 
+               dictos hereticos ut dictum est</seg>. Et abiuravit heresim et iuravit. 
+               <seg type="witnesses" sameAs="#MS609-0001.xml" cert="medium">Testes: predicti.</seg>
+                </seg>
+               <lb n="19"/>
+                <seg type="notary_info">Omnes predicti in hoc quaterno quorum confessiones sunt negationes. Abiuraverunt heresim et iuraverunt et cetera. 
+               Testes: predicti.</seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0012-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0012-1">
+               <add type="margin_gloss" subtype="observation" place="left" hand="#original_609">
+               given crosses</add>Item. Year and day as above. The witness Paul Vidal <add type="margin_gloss" subtype="observation" place="interline" hand="#original_609">
+                  He is a leper.</add> said that in a place called Oliver 
+               he saw Raimund de Nariqua and Bernard de Sancto Andrea, heretics, and he saw there with them Bernard Aichart, 
+               Pons Gran, and Companh Gaufred and the witness and everyone there adored aforesaid heretics. This was about 2 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0012-2">Item. The witness saw in the house of Peire de Sancto Andrea, the brother of the aforesaid 
+               Peire B. de Sancto Andrea and his companion, heretics, and he saw there with them Guilhem Vidal, Pons de Lamanz.  
+               And the others and the witness adored said heretics there. This was the same time as stated above. The witness did 
+               not otherwise see heretics that he recalled.</seg>
+            <seg type="trans" corresp="#MS609-0012-3">Item. The witness said he believed the heretics to be good men, and to have good faith, 
+               and were friends of God. He heard the heretics say that the Devil made visible things, and that baptism by water 
+               has no effect, and that the holy host is not the body of Christ, and that there is no salvation in marriage, and that 
+               dead bodies do not rise again, and he believed at that time what the heretics said. It was 2 years ago that he 
+               first believed [the heretics] and one year ago that he stopped believing.</seg>
+            <seg type="trans" corresp="#MS609-0012-4">The witness said that the aforesaid Bernard Aichart led him to the heretics mentioned above. 
+               He abjured heresy and swore, etc. Witnesses: as stated before.<lb/>All those above in their four confessions are 
+               negative. They abjured heresy and swore. Witnesses: as stated before.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

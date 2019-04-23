@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns="http://www.tei-c.org/ns/1.0" xml:id="codes_folio_images">
+   <item>
+      <!-- the first line is the path for the original pics at archive/library/etc-->
+      <!-- @target = depricated -->
+      <!-- @facs = local image name-->
+      <!-- @xml:id = TEI file lookup reference -->
+      <!-- @corresp = source for pics -->
+      <!-- @n manuscript folio reference -->
+      <listRef xml:id="MS609_img_list">
+         <ptr type="source" target="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=620" xml:id="source_MS609_1"/>
+         <!-- size = original -->
+         <ptr target="MS0609_0001_N2.jpg" facs="MS0609_0001.jpeg" xml:id="img_609_0001" corresp="#source_MS609_1" n="F° i"/>
+         <ptr target="MS0609_0002_N2.jpg" facs="MS0609_0002.jpeg" xml:id="img_609_0002" corresp="#source_MS609_1" n="F° ii"/>
+         <ptr target="MS0609_0003_N2.jpg" facs="MS0609_0003.jpeg" xml:id="img_609_0003" corresp="#source_MS609_1" n="F° iii"/>
+         <ptr target="MS0609_0004_N2.jpg" facs="MS0609_0004.jpeg" xml:id="img_609_0004" corresp="#source_MS609_1" n="F° iv"/>
+         <ptr target="MS0609_0005_N2.jpg" facs="MS0609_0005.jpeg" xml:id="img_609_0005" corresp="#source_MS609_1" n="F° v"/>
+         <ptr target="MS0609_0006_N2.jpg" facs="MS0609_0006.jpeg" xml:id="img_609_0006" corresp="#source_MS609_1" n="F° vi"/>
+         <ptr target="MS0609_0007_N2.jpg" facs="MS0609_0007.jpeg" xml:id="img_609_0007" corresp="#source_MS609_1" n="F° vii"/>
+         <ptr target="MS0609_0008_N2.jpg" facs="MS0609_0008.jpeg" xml:id="img_609_0008" corresp="#source_MS609_1" n="F° vii"/>
+         <ptr target="MS0609_0009_N2.jpg" facs="MS0609_0009.jpeg" xml:id="img_609_0009" corresp="#source_MS609_1" n="F° 1r"/>
+         <ptr target="MS0609_0010_N2.jpg" facs="MS0609_0010.jpeg" xml:id="img_609_0010" corresp="#source_MS609_1" n="F° 1v-2r"/>
+         <ptr target="MS0609_0011_N2.jpg" facs="MS0609_0011.jpeg" xml:id="img_609_0011" corresp="#source_MS609_1" n="F° 2v-3r"/>
+         <ptr target="MS0609_0012_N2.jpg" facs="MS0609_0012.jpeg" xml:id="img_609_0012" corresp="#source_MS609_1" n="F° 3v-4r"/>
+         <ptr target="MS0609_0013_N2.jpg" facs="MS0609_0013.jpeg" xml:id="img_609_0013" corresp="#source_MS609_1" n="F° 4v-5r"/>
+         <ptr target="MS0609_0014_N2.jpg" facs="MS0609_0014.jpeg" xml:id="img_609_0014" corresp="#source_MS609_1" n="F° 5v-6r"/>
+         <ptr target="MS0609_0015_N2.jpg" facs="MS0609_0015.jpeg" xml:id="img_609_0015" corresp="#source_MS609_1" n="F° 6v-7r"/>
+         <ptr target="MS0609_0016_N2.jpg" facs="MS0609_0016.jpeg" xml:id="img_609_0016" corresp="#source_MS609_1" n="F° 7v-8r"/>
+         <ptr target="MS0609_0017_N2.jpg" facs="MS0609_0017.jpeg" xml:id="img_609_0017" corresp="#source_MS609_1" n="F° 8v-9r"/>
+         <ptr target="MS0609_0018_N2.jpg" facs="MS0609_0018.jpeg" xml:id="img_609_0018" corresp="#source_MS609_1" n="F° 9v-10r"/>
+         <ptr target="MS0609_0019_N2.jpg" facs="MS0609_0019.jpeg" xml:id="img_609_0019" corresp="#source_MS609_1" n="F° 10v-11r"/>
+         <ptr target="MS0609_0020_N2.jpg" facs="MS0609_0020.jpeg" xml:id="img_609_0020" corresp="#source_MS609_1" n="F° 11v-12r"/>
+         <ptr target="MS0609_0021_N2.jpg" facs="MS0609_0021.jpeg" xml:id="img_609_0021" corresp="#source_MS609_1" n="F° 12v-13r"/>
+         <ptr target="MS0609_0022_N2.jpg" facs="MS0609_0022.jpeg" xml:id="img_609_0022" corresp="#source_MS609_1" n="F° 13v-14r"/>
+         <ptr target="MS0609_0023_N2.jpg" facs="MS0609_0023.jpeg" xml:id="img_609_0023" corresp="#source_MS609_1" n="F° 14v-15r"/>
+         <ptr target="MS0609_0024_N2.jpg" facs="MS0609_0024.jpeg" xml:id="img_609_0024" corresp="#source_MS609_1" n="F° 15v-16r"/>
+         <ptr target="MS0609_0025_N2.jpg" facs="MS0609_0025.jpeg" xml:id="img_609_0025" corresp="#source_MS609_1" n="F° 16v-17r"/>
+         <ptr target="MS0609_0026_N2.jpg" facs="MS0609_0026.jpeg" xml:id="img_609_0026" corresp="#source_MS609_1" n="F° 17v-18r"/>
+         <ptr target="MS0609_0027_N2.jpg" facs="MS0609_0027.jpeg" xml:id="img_609_0027" corresp="#source_MS609_1" n="F° 18v-19r"/>
+         <ptr target="MS0609_0028_N2.jpg" facs="MS0609_0028.jpeg" xml:id="img_609_0028" corresp="#source_MS609_1" n="F° 19v-20r"/>
+         <ptr target="MS0609_0029_N2.jpg" facs="MS0609_0029.jpeg" xml:id="img_609_0029" corresp="#source_MS609_1" n="F° 20v-21r"/>
+         <ptr target="MS0609_0030_N2.jpg" facs="MS0609_0030.jpeg" xml:id="img_609_0030" corresp="#source_MS609_1" n="F° 21v-22r"/>
+         <ptr target="MS0609_0031_N2.jpg" facs="MS0609_0031.jpeg" xml:id="img_609_0031" corresp="#source_MS609_1" n="F° 22v-23r"/>
+         <ptr target="MS0609_0032_N2.jpg" facs="MS0609_0032.jpeg" xml:id="img_609_0032" corresp="#source_MS609_1" n="F° 23v-24r"/>
+         <ptr target="MS0609_0033_N2.jpg" facs="MS0609_0033.jpeg" xml:id="img_609_0033" corresp="#source_MS609_1" n="F° 24v-25r"/>
+         <ptr target="MS0609_0034_N2.jpg" facs="MS0609_0034.jpeg" xml:id="img_609_0034" corresp="#source_MS609_1" n="F° 25v-26r"/>
+         <ptr target="MS0609_0035_N2.jpg" facs="MS0609_0035.jpeg" xml:id="img_609_0035" corresp="#source_MS609_1" n="F° 26v-27r"/>
+         <ptr target="MS0609_0036_N2.jpg" facs="MS0609_0036.jpeg" xml:id="img_609_0036" corresp="#source_MS609_1" n="F° 27v-28r"/>
+         <ptr target="MS0609_0037_N2.jpg" facs="MS0609_0037.jpeg" xml:id="img_609_0037" corresp="#source_MS609_1" n="F° 28v-29r"/>
+         <ptr target="MS0609_0038_N2.jpg" facs="MS0609_0038.jpeg" xml:id="img_609_0038" corresp="#source_MS609_1" n="F° 29v-30r"/>
+         <ptr target="MS0609_0039_N2.jpg" facs="MS0609_0039.jpeg" xml:id="img_609_0039" corresp="#source_MS609_1" n="F° 30v-31r"/> 
+         <ptr target="MS0609_0040_N2.jpg" facs="MS0609_0040.jpeg" xml:id="img_609_0040" corresp="#source_MS609_1" n="F° 31v-32r"/>
+         <ptr target="MS0609_0041_N2.jpg" facs="MS0609_0041.jpeg" xml:id="img_609_0041" corresp="#source_MS609_1" n="F° 32v-33r"/>
+         <ptr target="MS0609_0042_N2.jpg" facs="MS0609_0042.jpeg" xml:id="img_609_0042" corresp="#source_MS609_1" n="F° 33v-34r"/>
+         <ptr target="MS0609_0043_N2.jpg" facs="MS0609_0043.jpeg" xml:id="img_609_0043" corresp="#source_MS609_1" n="F° 34v-35r"/>
+         <ptr target="MS0609_0044_N2.jpg" facs="MS0609_0044.jpeg" xml:id="img_609_0044" corresp="#source_MS609_1" n="F° 35v-36r"/>
+         <ptr target="MS0609_0045_N2.jpg" facs="MS0609_0045.jpeg" xml:id="img_609_0045" corresp="#source_MS609_1" n="F° 36v-37r"/>
+         <ptr target="MS0609_0046_N2.jpg" facs="MS0609_0046.jpeg" xml:id="img_609_0046" corresp="#source_MS609_1" n="F° 37v-38r"/>
+         <ptr target="MS0609_0047_N2.jpg" facs="MS0609_0047.jpeg" xml:id="img_609_0047" corresp="#source_MS609_1" n="F° 38v-39r"/>
+         <ptr target="MS0609_0048_N2.jpg" facs="MS0609_0048.jpeg" xml:id="img_609_0048" corresp="#source_MS609_1" n="F° 39v-40r"/>
+         <ptr target="MS0609_0049_N2.jpg" facs="MS0609_0049.jpeg" xml:id="img_609_0049" corresp="#source_MS609_1" n="F° 40v-41r"/>
+         <ptr target="MS0609_0050_N2.jpg" facs="MS0609_0050.jpeg" xml:id="img_609_0050" corresp="#source_MS609_1" n="F° 41v-42r"/>
+         <ptr target="MS0609_0051_N2.jpg" facs="MS0609_0051.jpeg" xml:id="img_609_0051" corresp="#source_MS609_1" n="F° 42v-43r"/>
+         <ptr target="MS0609_0052_N2.jpg" facs="MS0609_0052.jpeg" xml:id="img_609_0052" corresp="#source_MS609_1" n="F° 43v-44r"/>
+         <ptr target="MS0609_0053_N2.jpg" facs="MS0609_0053.jpeg" xml:id="img_609_0053" corresp="#source_MS609_1" n="F° 44v-45r"/>
+         <ptr target="MS0609_0054_N2.jpg" facs="MS0609_0054.jpeg" xml:id="img_609_0054" corresp="#source_MS609_1" n="F° 45v-46r"/>
+         <ptr target="MS0609_0055_N2.jpg" facs="MS0609_0055.jpeg" xml:id="img_609_0055" corresp="#source_MS609_1" n="F° 46v-47r"/>
+         <ptr target="MS0609_0056_N2.jpg" facs="MS0609_0056.jpeg" xml:id="img_609_0056" corresp="#source_MS609_1" n="F° 47v-48r"/>
+         <ptr target="MS0609_0057_N2.jpg" facs="MS0609_0057.jpeg" xml:id="img_609_0057" corresp="#source_MS609_1" n="F° 48v-49r"/>
+         <ptr target="MS0609_0058_N2.jpg" facs="MS0609_0058.jpeg" xml:id="img_609_0058" corresp="#source_MS609_1" n="F° 49v-50r"/>
+         <ptr target="MS0609_0059_N2.jpg" facs="MS0609_0059.jpeg" xml:id="img_609_0059" corresp="#source_MS609_1" n="F° 50v-51r"/>
+         <ptr target="MS0609_0060_N2.jpg" facs="MS0609_0060.jpeg" xml:id="img_609_0060" corresp="#source_MS609_1" n="F° 51v-52r"/>
+         <ptr target="MS0609_0061_N2.jpg" facs="MS0609_0061.jpeg" xml:id="img_609_0061" corresp="#source_MS609_1" n="F° 52v-53r"/>
+         <ptr target="MS0609_0062_N2.jpg" facs="MS0609_0062.jpeg" xml:id="img_609_0062" corresp="#source_MS609_1" n="F° 53v-54r"/>
+         <ptr target="MS0609_0063_N2.jpg" facs="MS0609_0063.jpeg" xml:id="img_609_0063" corresp="#source_MS609_1" n="F° 54v-55r"/>
+         <ptr target="MS0609_0064_N2.jpg" facs="MS0609_0064.jpeg" xml:id="img_609_0064" corresp="#source_MS609_1" n="F° 55v-56r"/>
+         <ptr target="MS0609_0065_N2.jpg" facs="MS0609_0065.jpeg" xml:id="img_609_0065" corresp="#source_MS609_1" n="F° 56v-57r"/>
+         <ptr target="MS0609_0066_N2.jpg" facs="MS0609_0066.jpeg" xml:id="img_609_0066" corresp="#source_MS609_1" n="F° 57v-58r"/>
+         <ptr target="MS0609_0067_N2.jpg" facs="MS0609_0067.jpeg" xml:id="img_609_0067" corresp="#source_MS609_1" n="F° 58v-59r"/>
+         <ptr target="MS0609_0068_N2.jpg" facs="MS0609_0068.jpeg" xml:id="img_609_0068" corresp="#source_MS609_1" n="F° 59v-60r"/>
+         <ptr target="MS0609_0069_N2.jpg" facs="MS0609_0069.jpeg" xml:id="img_609_0069" corresp="#source_MS609_1" n="F° 60v-61r"/>
+         <ptr target="MS0609_0070_N2.jpg" facs="MS0609_0070.jpeg" xml:id="img_609_0070" corresp="#source_MS609_1" n="F° 61v-62r"/>
+         <ptr target="MS0609_0071_N2.jpg" facs="MS0609_0071.jpeg" xml:id="img_609_0071" corresp="#source_MS609_1" n="F° 62v-63r"/>
+         <ptr target="MS0609_0072_N2.jpg" facs="MS0609_0072.jpeg" xml:id="img_609_0072" corresp="#source_MS609_1" n="F° 63v-64r"/>
+         <ptr target="MS0609_0073_N2.jpg" facs="MS0609_0073.jpeg" xml:id="img_609_0073" corresp="#source_MS609_1" n="F° 64v-65r"/>
+         <ptr target="MS0609_0074_N2.jpg" facs="MS0609_0074.jpeg" xml:id="img_609_0074" corresp="#source_MS609_1" n="F° 65v-66r"/>
+         <ptr target="MS0609_0075_N2.jpg" facs="MS0609_0075.jpeg" xml:id="img_609_0075" corresp="#source_MS609_1" n="F° 66v-67r"/>
+         <ptr target="MS0609_0076_N2.jpg" facs="MS0609_0076.jpeg" xml:id="img_609_0076" corresp="#source_MS609_1" n="F° 67v-68r"/>
+         <ptr target="MS0609_0077_N2.jpg" facs="MS0609_0077.jpeg" xml:id="img_609_0077" corresp="#source_MS609_1" n="F° 68v-69r"/>
+         <ptr target="MS0609_0078_N2.jpg" facs="MS0609_0078.jpeg" xml:id="img_609_0078" corresp="#source_MS609_1" n="F° 69v-70r"/>
+         <ptr target="MS0609_0079_N2.jpg" facs="MS0609_0079.jpeg" xml:id="img_609_0079" corresp="#source_MS609_1" n="F° 70v-71r"/>
+         <ptr target="MS0609_0080_N2.jpg" facs="MS0609_0080.jpeg" xml:id="img_609_0080" corresp="#source_MS609_1" n="F° 71v-72r"/>
+         <ptr target="MS0609_0081_N2.jpg" facs="MS0609_0081.jpeg" xml:id="img_609_0081" corresp="#source_MS609_1" n="F° 72v-73r"/>
+         <ptr target="MS0609_0082_N2.jpg" facs="MS0609_0082.jpeg" xml:id="img_609_0082" corresp="#source_MS609_1" n="F° 73v-74r"/>
+         <ptr target="MS0609_0083_N2.jpg" facs="MS0609_0083.jpeg" xml:id="img_609_0083" corresp="#source_MS609_1" n="F° 74v-75r"/>
+         <ptr target="MS0609_0084_N2.jpg" facs="MS0609_0084.jpeg" xml:id="img_609_0084" corresp="#source_MS609_1" n="F° 75v-76r"/>
+         <ptr target="MS0609_0085_N2.jpg" facs="MS0609_0085.jpeg" xml:id="img_609_0085" corresp="#source_MS609_1" n="F° 76v-77r"/>
+         <ptr target="MS0609_0086_N2.jpg" facs="MS0609_0086.jpeg" xml:id="img_609_0086" corresp="#source_MS609_1" n="F° 77v-78r"/>
+         <ptr target="MS0609_0087_N2.jpg" facs="MS0609_0087.jpeg" xml:id="img_609_0087" corresp="#source_MS609_1" n="F° 78v-79r"/>
+         <ptr target="MS0609_0088_N2.jpg" facs="MS0609_0088.jpeg" xml:id="img_609_0088" corresp="#source_MS609_1" n="F° 79v-80r"/>
+         <ptr target="MS0609_0089_N2.jpg" facs="MS0609_0089.jpeg" xml:id="img_609_0089" corresp="#source_MS609_1" n="F° 80v-81r"/>
+         <ptr target="MS0609_0090_N2.jpg" facs="MS0609_0090.jpeg" xml:id="img_609_0090" corresp="#source_MS609_1" n="F° 81v-82r"/>
+         <ptr target="MS0609_0091_N2.jpg" facs="MS0609_0091.jpeg" xml:id="img_609_0091" corresp="#source_MS609_1" n="F° 82v-83r"/>
+         <ptr target="MS0609_0092_N2.jpg" facs="MS0609_0092.jpeg" xml:id="img_609_0092" corresp="#source_MS609_1" n="F° 83v-84r"/>
+         <ptr target="MS0609_0093_N2.jpg" facs="MS0609_0093.jpeg" xml:id="img_609_0093" corresp="#source_MS609_1" n="F° 84v-85r"/>
+         <ptr target="MS0609_0094_N2.jpg" facs="MS0609_0094.jpeg" xml:id="img_609_0094" corresp="#source_MS609_1" n="F° 85v-86r"/>
+         <ptr target="MS0609_0095_N2.jpg" facs="MS0609_0095.jpeg" xml:id="img_609_0095" corresp="#source_MS609_1" n="F° 86v-87r"/>
+         <ptr target="MS0609_0096_N2.jpg" facs="MS0609_0096.jpeg" xml:id="img_609_0096" corresp="#source_MS609_1" n="F° 87v-88r"/>
+         <ptr target="MS0609_0097_N2.jpg" facs="MS0609_0097.jpeg" xml:id="img_609_0097" corresp="#source_MS609_1" n="F° 88v-89r"/>
+         <ptr target="MS0609_0098_N2.jpg" facs="MS0609_0098.jpeg" xml:id="img_609_0098" corresp="#source_MS609_1" n="F° 89v-90r"/>
+         <ptr target="MS0609_0099_N2.jpg" facs="MS0609_0099.jpeg" xml:id="img_609_0099" corresp="#source_MS609_1" n="F° 90v-91r"/>
+         <ptr target="MS0609_0100_N2.jpg" facs="MS0609_0100.jpeg" xml:id="img_609_0100" corresp="#source_MS609_1" n="F° 91v-92r"/>
+         <ptr target="MS0609_0101_N2.jpg" facs="MS0609_0101.jpeg" xml:id="img_609_0101" corresp="#source_MS609_1" n="F° 92v-93r"/>
+         <ptr target="MS0609_0102_N2.jpg" facs="MS0609_0102.jpeg" xml:id="img_609_0102" corresp="#source_MS609_1" n="F° 93v-94r"/>
+         <ptr target="MS0609_0103_N2.jpg" facs="MS0609_0103.jpeg" xml:id="img_609_0103" corresp="#source_MS609_1" n="F° 94v-95r"/>
+         <ptr target="MS0609_0104_N2.jpg" facs="MS0609_0104.jpeg" xml:id="img_609_0104" corresp="#source_MS609_1" n="F° 95v-96r"/>
+         <ptr target="MS0609_0105_N2.jpg" facs="MS0609_0105.jpeg" xml:id="img_609_0105" corresp="#source_MS609_1" n="F° 96v-97r"/>
+         <ptr target="MS0609_0106_N2.jpg" facs="MS0609_0106.jpeg" xml:id="img_609_0106" corresp="#source_MS609_1" n="F° 97v-98r"/>
+         <ptr target="MS0609_0107_N2.jpg" facs="MS0609_0107.jpeg" xml:id="img_609_0107" corresp="#source_MS609_1" n="F° 98v-99r"/>
+         <ptr target="MS0609_0108_N2.jpg" facs="MS0609_0108.jpeg" xml:id="img_609_0108" corresp="#source_MS609_1" n="F° 99v-100r"/>
+         <ptr target="MS0609_0109_N2.jpg" facs="MS0609_0109.jpeg" xml:id="img_609_0109" corresp="#source_MS609_1" n="F° 100v-101r"/>
+         <ptr target="MS0609_0110_N2.jpg" facs="MS0609_0110.jpeg" xml:id="img_609_0110" corresp="#source_MS609_1" n="F° 101v-102r"/>
+         <ptr target="MS0609_0111_N2.jpg" facs="MS0609_0111.jpeg" xml:id="img_609_0111" corresp="#source_MS609_1" n="F° 102v-103r"/>
+         <ptr target="MS0609_0112_N2.jpg" facs="MS0609_0112.jpeg" xml:id="img_609_0112" corresp="#source_MS609_1" n="F° 103v-104r"/>
+         <ptr target="MS0609_0113_N2.jpg" facs="MS0609_0113.jpeg" xml:id="img_609_0113" corresp="#source_MS609_1" n="F° 104v-105r"/>
+         <ptr target="MS0609_0114_N2.jpg" facs="MS0609_0114.jpeg" xml:id="img_609_0114" corresp="#source_MS609_1" n="F° 105v-106r"/>
+         <ptr target="MS0609_0115_N2.jpg" facs="MS0609_0115.jpeg" xml:id="img_609_0115" corresp="#source_MS609_1" n="F° 106v-107r"/>
+         <ptr target="MS0609_0116_N2.jpg" facs="MS0609_0116.jpeg" xml:id="img_609_0116" corresp="#source_MS609_1" n="F° 107v-108r"/>
+         <ptr target="MS0609_0117_N2.jpg" facs="MS0609_0117.jpeg" xml:id="img_609_0117" corresp="#source_MS609_1" n="F° 108v-109r"/>
+         <ptr target="MS0609_0118_N2.jpg" facs="MS0609_0118.jpeg" xml:id="img_609_0118" corresp="#source_MS609_1" n="F° 109v-110r"/>
+         <ptr target="MS0609_0119_N2.jpg" facs="MS0609_0119.jpeg" xml:id="img_609_0119" corresp="#source_MS609_1" n="F° 110v-111r"/>
+         <ptr target="MS0609_0120_N2.jpg" facs="MS0609_0120.jpeg" xml:id="img_609_0120" corresp="#source_MS609_1" n="F° 111v-112r"/>
+         <ptr target="MS0609_0121_N2.jpg" facs="MS0609_0121.jpeg" xml:id="img_609_0121" corresp="#source_MS609_1" n="F° 112v-113r"/>
+         <ptr target="MS0609_0122_N2.jpg" facs="MS0609_0122.jpeg" xml:id="img_609_0122" corresp="#source_MS609_1" n="F° 113v-114r"/>
+         <ptr target="MS0609_0123_N2.jpg" facs="MS0609_0123.jpeg" xml:id="img_609_0123" corresp="#source_MS609_1" n="F° 114v-115r"/>
+         <ptr target="MS0609_0124_N2.jpg" facs="MS0609_0124.jpeg" xml:id="img_609_0124" corresp="#source_MS609_1" n="F° 115v-116r"/>
+         <ptr target="MS0609_0125_N2.jpg" facs="MS0609_0125.jpeg" xml:id="img_609_0125" corresp="#source_MS609_1" n="F° 116v-117r"/>
+         <ptr target="MS0609_0126_N2.jpg" facs="MS0609_0126.jpeg" xml:id="img_609_0126" corresp="#source_MS609_1" n="F° 117v-118r"/>
+         <ptr target="MS0609_0127_N2.jpg" facs="MS0609_0127.jpeg" xml:id="img_609_0127" corresp="#source_MS609_1" n="F° 118v-119r"/>
+         <ptr target="MS0609_0128_N2.jpg" facs="MS0609_0128.jpeg" xml:id="img_609_0128" corresp="#source_MS609_1" n="F° 119v-120r"/>
+         <ptr target="MS0609_0129_N2.jpg" facs="MS0609_0129.jpeg" xml:id="img_609_0129" corresp="#source_MS609_1" n="F° 120v-121r"/>
+         <ptr target="MS0609_0130_N2.jpg" facs="MS0609_0130.jpeg" xml:id="img_609_0130" corresp="#source_MS609_1" n="F° 121v-122r"/>
+         <ptr target="MS0609_0131_N2.jpg" facs="MS0609_0131.jpeg" xml:id="img_609_0131" corresp="#source_MS609_1" n="F° 122v-123r"/>
+         <ptr target="MS0609_0132_N2.jpg" facs="MS0609_0132.jpeg" xml:id="img_609_0132" corresp="#source_MS609_1" n="F° 123v-124r"/>
+         <ptr target="MS0609_0133_N2.jpg" facs="MS0609_0133.jpeg" xml:id="img_609_0133" corresp="#source_MS609_1" n="F° 124v-125r"/>
+         <ptr target="MS0609_0134_N2.jpg" facs="MS0609_0134.jpeg" xml:id="img_609_0134" corresp="#source_MS609_1" n="F° 125v-126r"/>
+         <ptr target="MS0609_0135_N2.jpg" facs="MS0609_0135.jpeg" xml:id="img_609_0135" corresp="#source_MS609_1" n="F° 126v-127r"/>
+         <ptr target="MS0609_0136_N2.jpg" facs="MS0609_0136.jpeg" xml:id="img_609_0136" corresp="#source_MS609_1" n="F° 127v-128r"/>
+         <ptr target="MS0609_0137_N2.jpg" facs="MS0609_0137.jpeg" xml:id="img_609_0137" corresp="#source_MS609_1" n="F° 128v-129r"/>
+         <ptr target="MS0609_0138_N2.jpg" facs="MS0609_0138.jpeg" xml:id="img_609_0138" corresp="#source_MS609_1" n="F° 129v-130r"/>
+         <ptr target="MS0609_0139_N2.jpg" facs="MS0609_0139.jpeg" xml:id="img_609_0139" corresp="#source_MS609_1" n="F° 130v-131r"/> 
+         <ptr target="MS0609_0140_N2.jpg" facs="MS0609_0140.jpeg" xml:id="img_609_0140" corresp="#source_MS609_1" n="F° 131v-132r"/>
+         <ptr target="MS0609_0141_N2.jpg" facs="MS0609_0141.jpeg" xml:id="img_609_0141" corresp="#source_MS609_1" n="F° 132v-133r"/>
+         <ptr target="MS0609_0142_N2.jpg" facs="MS0609_0142.jpeg" xml:id="img_609_0142" corresp="#source_MS609_1" n="F° 133v-134r"/>
+         <ptr target="MS0609_0143_N2.jpg" facs="MS0609_0143.jpeg" xml:id="img_609_0143" corresp="#source_MS609_1" n="F° 134v-135r"/>
+         <ptr target="MS0609_0144_N2.jpg" facs="MS0609_0144.jpeg" xml:id="img_609_0144" corresp="#source_MS609_1" n="F° 135v-136r"/>
+         <ptr target="MS0609_0145_N2.jpg" facs="MS0609_0145.jpeg" xml:id="img_609_0145" corresp="#source_MS609_1" n="F° 136v-137r"/>
+         <ptr target="MS0609_0146_N2.jpg" facs="MS0609_0146.jpeg" xml:id="img_609_0146" corresp="#source_MS609_1" n="F° 137v-138r"/>
+         <ptr target="MS0609_0147_N2.jpg" facs="MS0609_0147.jpeg" xml:id="img_609_0147" corresp="#source_MS609_1" n="F° 138v-139r"/>
+         <ptr target="MS0609_0148_N2.jpg" facs="MS0609_0148.jpeg" xml:id="img_609_0148" corresp="#source_MS609_1" n="F° 139v-140r"/>
+         <ptr target="MS0609_0149_N2.jpg" facs="MS0609_0149.jpeg" xml:id="img_609_0149" corresp="#source_MS609_1" n="F° 140v-141r"/>
+         <ptr target="MS0609_0150_N2.jpg" facs="MS0609_0150.jpeg" xml:id="img_609_0150" corresp="#source_MS609_1" n="F° 141v-142r"/>
+         <ptr target="MS0609_0151_N2.jpg" facs="MS0609_0151.jpeg" xml:id="img_609_0151" corresp="#source_MS609_1" n="F° 142v-143r"/>
+         <ptr target="MS0609_0152_N2.jpg" facs="MS0609_0152.jpeg" xml:id="img_609_0152" corresp="#source_MS609_1" n="F° 143v-144r"/>
+         <ptr target="MS0609_0153_N2.jpg" facs="MS0609_0153.jpeg" xml:id="img_609_0153" corresp="#source_MS609_1" n="F° 144v-145r"/>
+         <ptr target="MS0609_0154_N2.jpg" facs="MS0609_0154.jpeg" xml:id="img_609_0154" corresp="#source_MS609_1" n="F° 145v-146r"/>
+         <ptr target="MS0609_0155_N2.jpg" facs="MS0609_0155.jpeg" xml:id="img_609_0155" corresp="#source_MS609_1" n="F° 146v-147r"/>
+         <ptr target="MS0609_0156_N2.jpg" facs="MS0609_0156.jpeg" xml:id="img_609_0156" corresp="#source_MS609_1" n="F° 147v-148r"/>
+         <ptr target="MS0609_0157_N2.jpg" facs="MS0609_0157.jpeg" xml:id="img_609_0157" corresp="#source_MS609_1" n="F° 148v-149r"/>
+         <ptr target="MS0609_0158_N2.jpg" facs="MS0609_0158.jpeg" xml:id="img_609_0158" corresp="#source_MS609_1" n="F° 149v-150r"/>
+         <ptr target="MS0609_0159_N2.jpg" facs="MS0609_0159.jpeg" xml:id="img_609_0159" corresp="#source_MS609_1" n="F° 150v-151r"/>
+         <ptr target="MS0609_0160_N2.jpg" facs="MS0609_0160.jpeg" xml:id="img_609_0160" corresp="#source_MS609_1" n="F° 151v-152r"/>
+         <ptr target="MS0609_0161_N2.jpg" facs="MS0609_0161.jpeg" xml:id="img_609_0161" corresp="#source_MS609_1" n="F° 152v-153r"/>
+         <ptr target="MS0609_0162_N2.jpg" facs="MS0609_0162.jpeg" xml:id="img_609_0162" corresp="#source_MS609_1" n="F° 153v-154r"/>
+         <ptr target="MS0609_0163_N2.jpg" facs="MS0609_0163.jpeg" xml:id="img_609_0163" corresp="#source_MS609_1" n="F° 154v-155r"/>
+         <ptr target="MS0609_0164_N2.jpg" facs="MS0609_0164.jpeg" xml:id="img_609_0164" corresp="#source_MS609_1" n="F° 155v-156r"/>
+         <ptr target="MS0609_0165_N2.jpg" facs="MS0609_0165.jpeg" xml:id="img_609_0165" corresp="#source_MS609_1" n="F° 156v-157r"/>
+         <ptr target="MS0609_0166_N2.jpg" facs="MS0609_0166.jpeg" xml:id="img_609_0166" corresp="#source_MS609_1" n="F° 157v-158r"/>
+         <ptr target="MS0609_0167_N2.jpg" facs="MS0609_0167.jpeg" xml:id="img_609_0167" corresp="#source_MS609_1" n="F° 158v-159r"/>
+         <ptr target="MS0609_0168_N2.jpg" facs="MS0609_0168.jpeg" xml:id="img_609_0168" corresp="#source_MS609_1" n="F° 159v-160r"/>
+         <ptr target="MS0609_0169_N2.jpg" facs="MS0609_0169.jpeg" xml:id="img_609_0169" corresp="#source_MS609_1" n="F° 160v-161r"/>
+         <ptr target="MS0609_0170_N2.jpg" facs="MS0609_0170.jpeg" xml:id="img_609_0170" corresp="#source_MS609_1" n="F° 161v-162r"/>
+         <ptr target="MS0609_0171_N2.jpg" facs="MS0609_0171.jpeg" xml:id="img_609_0171" corresp="#source_MS609_1" n="F° 162v-163r"/>
+         <ptr target="MS0609_0172_N2.jpg" facs="MS0609_0172.jpeg" xml:id="img_609_0172" corresp="#source_MS609_1" n="F° 163v-164r"/>
+         <ptr target="MS0609_0173_N2.jpg" facs="MS0609_0173.jpeg" xml:id="img_609_0173" corresp="#source_MS609_1" n="F° 164v-165r"/>
+         <ptr target="MS0609_0174_N2.jpg" facs="MS0609_0174.jpeg" xml:id="img_609_0174" corresp="#source_MS609_1" n="F° 165v-166r"/>
+         <ptr target="MS0609_0175_N2.jpg" facs="MS0609_0175.jpeg" xml:id="img_609_0175" corresp="#source_MS609_1" n="F° 166v-167r"/>
+         <ptr target="MS0609_0176_N2.jpg" facs="MS0609_0176.jpeg" xml:id="img_609_0176" corresp="#source_MS609_1" n="F° 167v-168r"/>
+         <ptr target="MS0609_0177_N2.jpg" facs="MS0609_0177.jpeg" xml:id="img_609_0177" corresp="#source_MS609_1" n="F° 168v-169r"/>
+         <ptr target="MS0609_0178_N2.jpg" facs="MS0609_0178.jpeg" xml:id="img_609_0178" corresp="#source_MS609_1" n="F° 169v-170r"/>
+         <ptr target="MS0609_0179_N2.jpg" facs="MS0609_0179.jpeg" xml:id="img_609_0179" corresp="#source_MS609_1" n="F° 170v-171r"/>
+         <ptr target="MS0609_0180_N2.jpg" facs="MS0609_0180.jpeg" xml:id="img_609_0180" corresp="#source_MS609_1" n="F° 171v-172r"/>
+         <ptr target="MS0609_0181_N2.jpg" facs="MS0609_0181.jpeg" xml:id="img_609_0181" corresp="#source_MS609_1" n="F° 172v-173r"/>
+         <ptr target="MS0609_0182_N2.jpg" facs="MS0609_0182.jpeg" xml:id="img_609_0182" corresp="#source_MS609_1" n="F° 173v-174r"/>
+         <ptr target="MS0609_0183_N2.jpg" facs="MS0609_0183.jpeg" xml:id="img_609_0183" corresp="#source_MS609_1" n="F° 174v-175r"/>
+         <ptr target="MS0609_0184_N2.jpg" facs="MS0609_0184.jpeg" xml:id="img_609_0184" corresp="#source_MS609_1" n="F° 175v-176r"/>
+         <ptr target="MS0609_0185_N2.jpg" facs="MS0609_0185.jpeg" xml:id="img_609_0185" corresp="#source_MS609_1" n="F° 176v-177r"/>
+         <ptr target="MS0609_0186_N2.jpg" facs="MS0609_0186.jpeg" xml:id="img_609_0186" corresp="#source_MS609_1" n="F° 177v-178r"/>
+         <ptr target="MS0609_0187_N2.jpg" facs="MS0609_0187.jpeg" xml:id="img_609_0187" corresp="#source_MS609_1" n="F° 178v-179r"/>
+         <ptr target="MS0609_0188_N2.jpg" facs="MS0609_0188.jpeg" xml:id="img_609_0188" corresp="#source_MS609_1" n="F° 179v-180r"/>
+         <ptr target="MS0609_0189_N2.jpg" facs="MS0609_0189.jpeg" xml:id="img_609_0189" corresp="#source_MS609_1" n="F° 180v-181r"/>
+         <ptr target="MS0609_0190_N2.jpg" facs="MS0609_0190.jpeg" xml:id="img_609_0190" corresp="#source_MS609_1" n="F° 181v-182r"/>
+         <ptr target="MS0609_0191_N2.jpg" facs="MS0609_0191.jpeg" xml:id="img_609_0191" corresp="#source_MS609_1" n="F° 182v-183r"/>
+         <ptr target="MS0609_0192_N2.jpg" facs="MS0609_0192.jpeg" xml:id="img_609_0192" corresp="#source_MS609_1" n="F° 183v-184r"/>
+         <ptr target="MS0609_0193_N2.jpg" facs="MS0609_0193.jpeg" xml:id="img_609_0193" corresp="#source_MS609_1" n="F° 184v-185r"/>
+         <ptr target="MS0609_0194_N2.jpg" facs="MS0609_0194.jpeg" xml:id="img_609_0194" corresp="#source_MS609_1" n="F° 185v-186r"/>
+         <ptr target="MS0609_0195_N2.jpg" facs="MS0609_0195.jpeg" xml:id="img_609_0195" corresp="#source_MS609_1" n="F° 186v-187r"/>
+         <ptr target="MS0609_0196_N2.jpg" facs="MS0609_0196.jpeg" xml:id="img_609_0196" corresp="#source_MS609_1" n="F° 187v-188r"/>
+         <ptr target="MS0609_0197_N2.jpg" facs="MS0609_0197.jpeg" xml:id="img_609_0197" corresp="#source_MS609_1" n="F° 188v-189r"/>
+         <ptr target="MS0609_0198_N2.jpg" facs="MS0609_0198.jpeg" xml:id="img_609_0198" corresp="#source_MS609_1" n="F° 189v-190r"/>
+         <ptr target="MS0609_0199_N2.jpg" facs="MS0609_0199.jpeg" xml:id="img_609_0199" corresp="#source_MS609_1" n="F° 190v-191r"/>
+         <ptr target="MS0609_0200_N2.jpg" facs="MS0609_0200.jpeg" xml:id="img_609_0200" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0201_N2.jpg" facs="MS0609_0201.jpeg" xml:id="img_609_0201" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0202_N2.jpg" facs="MS0609_0202.jpeg" xml:id="img_609_0202" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0203_N2.jpg" facs="MS0609_0203.jpeg" xml:id="img_609_0203" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0204_N2.jpg" facs="MS0609_0204.jpeg" xml:id="img_609_0204" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0205_N2.jpg" facs="MS0609_0205.jpeg" xml:id="img_609_0205" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0206_N2.jpg" facs="MS0609_0206.jpeg" xml:id="img_609_0206" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0207_N2.jpg" facs="MS0609_0207.jpeg" xml:id="img_609_0207" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0208_N2.jpg" facs="MS0609_0208.jpeg" xml:id="img_609_0208" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0209_N2.jpg" facs="MS0609_0209.jpeg" xml:id="img_609_0209" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0210_N2.jpg" facs="MS0609_0210.jpeg" xml:id="img_609_0210" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0211_N2.jpg" facs="MS0609_0211.jpeg" xml:id="img_609_0211" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0212_N2.jpg" facs="MS0609_0212.jpeg" xml:id="img_609_0212" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0213_N2.jpg" facs="MS0609_0213.jpeg" xml:id="img_609_0213" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0214_N2.jpg" facs="MS0609_0214.jpeg" xml:id="img_609_0214" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0215_N2.jpg" facs="MS0609_0215.jpeg" xml:id="img_609_0215" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0216_N2.jpg" facs="MS0609_0216.jpeg" xml:id="img_609_0216" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0217_N2.jpg" facs="MS0609_0217.jpeg" xml:id="img_609_0217" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0218_N2.jpg" facs="MS0609_0218.jpeg" xml:id="img_609_0218" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0219_N2.jpg" facs="MS0609_0219.jpeg" xml:id="img_609_0219" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0220_N2.jpg" facs="MS0609_0220.jpeg" xml:id="img_609_0220" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0221_N2.jpg" facs="MS0609_0221.jpeg" xml:id="img_609_0221" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0222_N2.jpg" facs="MS0609_0222.jpeg" xml:id="img_609_0222" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0223_N2.jpg" facs="MS0609_0223.jpeg" xml:id="img_609_0223" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0224_N2.jpg" facs="MS0609_0224.jpeg" xml:id="img_609_0224" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0225_N2.jpg" facs="MS0609_0225.jpeg" xml:id="img_609_0225" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0226_N2.jpg" facs="MS0609_0226.jpeg" xml:id="img_609_0226" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0227_N2.jpg" facs="MS0609_0227.jpeg" xml:id="img_609_0227" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0228_N2.jpg" facs="MS0609_0228.jpeg" xml:id="img_609_0228" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0229_N2.jpg" facs="MS0609_0229.jpeg" xml:id="img_609_0229" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0230_N2.jpg" facs="MS0609_0230.jpeg" xml:id="img_609_0230" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0231_N2.jpg" facs="MS0609_0231.jpeg" xml:id="img_609_0231" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0232_N2.jpg" facs="MS0609_0232.jpeg" xml:id="img_609_0232" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0233_N2.jpg" facs="MS0609_0233.jpeg" xml:id="img_609_0233" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0234_N2.jpg" facs="MS0609_0234.jpeg" xml:id="img_609_0234" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0235_N2.jpg" facs="MS0609_0235.jpeg" xml:id="img_609_0235" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0236_N2.jpg" facs="MS0609_0236.jpeg" xml:id="img_609_0236" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0237_N2.jpg" facs="MS0609_0237.jpeg" xml:id="img_609_0237" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0238_N2.jpg" facs="MS0609_0238.jpeg" xml:id="img_609_0238" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0239_N2.jpg" facs="MS0609_0239.jpeg" xml:id="img_609_0239" corresp="#source_MS609_1"/> 
+         <ptr target="MS0609_0240_N2.jpg" facs="MS0609_0240.jpeg" xml:id="img_609_0240" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0241_N2.jpg" facs="MS0609_0241.jpeg" xml:id="img_609_0241" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0242_N2.jpg" facs="MS0609_0242.jpeg" xml:id="img_609_0242" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0243_N2.jpg" facs="MS0609_0243.jpeg" xml:id="img_609_0243" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0244_N2.jpg" facs="MS0609_0244.jpeg" xml:id="img_609_0244" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0245_N2.jpg" facs="MS0609_0245.jpeg" xml:id="img_609_0245" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0246_N2.jpg" facs="MS0609_0246.jpeg" xml:id="img_609_0246" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0247_N2.jpg" facs="MS0609_0247.jpeg" xml:id="img_609_0247" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0248_N2.jpg" facs="MS0609_0248.jpeg" xml:id="img_609_0248" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0249_N2.jpg" facs="MS0609_0249.jpeg" xml:id="img_609_0249" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0250_N2.jpg" facs="MS0609_0250.jpeg" xml:id="img_609_0250" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0251_N2.jpg" facs="MS0609_0251.jpeg" xml:id="img_609_0251" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0252_N2.jpg" facs="MS0609_0252.jpeg" xml:id="img_609_0252" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0253_N2.jpg" facs="MS0609_0253.jpeg" xml:id="img_609_0253" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0254_N2.jpg" facs="MS0609_0254.jpeg" xml:id="img_609_0254" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0255_N2.jpg" facs="MS0609_0255.jpeg" xml:id="img_609_0255" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0256_N2.jpg" facs="MS0609_0256.jpeg" xml:id="img_609_0256" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0257_N2.jpg" facs="MS0609_0257.jpeg" xml:id="img_609_0257" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0258_N2.jpg" facs="MS0609_0258.jpeg" xml:id="img_609_0258" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0259_N2.jpg" facs="MS0609_0259.jpeg" xml:id="img_609_0259" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0260_N2.jpg" facs="MS0609_0260.jpeg" xml:id="img_609_0260" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0261_N2.jpg" facs="MS0609_0261.jpeg" xml:id="img_609_0261" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0262_N2.jpg" facs="MS0609_0262.jpeg" xml:id="img_609_0262" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0263_N2.jpg" facs="MS0609_0263.jpeg" xml:id="img_609_0263" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0264_N2.jpg" facs="MS0609_0264.jpeg" xml:id="img_609_0264" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0265_N2.jpg" facs="MS0609_0265.jpeg" xml:id="img_609_0265" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0266_N2.jpg" facs="MS0609_0266.jpeg" xml:id="img_609_0266" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0267_N2.jpg" facs="MS0609_0267.jpeg" xml:id="img_609_0267" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0268_N2.jpg" facs="MS0609_0268.jpeg" xml:id="img_609_0268" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0269_N2.jpg" facs="MS0609_0269.jpeg" xml:id="img_609_0269" corresp="#source_MS609_1"/>
+         <ptr target="MS0609_0270_N2.jpg" facs="MS0609_0270.jpeg" xml:id="img_609_0270" corresp="#source_MS609_1"/>
+         <!-- size = small -->
+         <ptr target="MS0609_0001_N2.jpg" facs="MS0609_0001_sm.jpeg" xml:id="img_609_0001_sm" n="F° i"/>
+         <ptr target="MS0609_0002_N2.jpg" facs="MS0609_0002_sm.jpeg" xml:id="img_609_0002_sm" n="F° ii"/>
+         <ptr target="MS0609_0003_N2.jpg" facs="MS0609_0003_sm.jpeg" xml:id="img_609_0003_sm" n="F° iii"/>
+         <ptr target="MS0609_0004_N2.jpg" facs="MS0609_0004_sm.jpeg" xml:id="img_609_0004_sm" n="F° iv"/>
+         <ptr target="MS0609_0005_N2.jpg" facs="MS0609_0005_sm.jpeg" xml:id="img_609_0005_sm" n="F° v"/>
+         <ptr target="MS0609_0006_N2.jpg" facs="MS0609_0006_sm.jpeg" xml:id="img_609_0006_sm" n="F° vi"/>
+         <ptr target="MS0609_0007_N2.jpg" facs="MS0609_0007_sm.jpeg" xml:id="img_609_0007_sm" n="F° vii"/>
+         <ptr target="MS0609_0008_N2.jpg" facs="MS0609_0008_sm.jpeg" xml:id="img_609_0008_sm" n="F° vii"/>
+         <ptr target="MS0609_0009_N2.jpg" facs="MS0609_0009_sm.jpeg" xml:id="img_609_0009_sm" n="F° 1r"/>
+         <ptr target="MS0609_0010_N2.jpg" facs="MS0609_0010_sm.jpeg" xml:id="img_609_0010_sm" n="F° 1v-2r"/>
+         <ptr target="MS0609_0011_N2.jpg" facs="MS0609_0011_sm.jpeg" xml:id="img_609_0011_sm" n="F° 2v-3r"/>
+         <ptr target="MS0609_0012_N2.jpg" facs="MS0609_0012_sm.jpeg" xml:id="img_609_0012_sm" n="F° 3v-4r"/>
+         <ptr target="MS0609_0013_N2.jpg" facs="MS0609_0013_sm.jpeg" xml:id="img_609_0013_sm" n="F° 4v-5r"/>
+         <ptr target="MS0609_0014_N2.jpg" facs="MS0609_0014_sm.jpeg" xml:id="img_609_0014_sm" n="F° 5v-6r"/>
+         <ptr target="MS0609_0015_N2.jpg" facs="MS0609_0015_sm.jpeg" xml:id="img_609_0015_sm" n="F° 6v-7r"/>
+         <ptr target="MS0609_0016_N2.jpg" facs="MS0609_0016_sm.jpeg" xml:id="img_609_0016_sm" n="F° 7v-8r"/>
+         <ptr target="MS0609_0017_N2.jpg" facs="MS0609_0017_sm.jpeg" xml:id="img_609_0017_sm" n="F° 8v-9r"/>
+         <ptr target="MS0609_0018_N2.jpg" facs="MS0609_0018_sm.jpeg" xml:id="img_609_0018_sm" n="F° 9v-10r"/>
+         <ptr target="MS0609_0019_N2.jpg" facs="MS0609_0019_sm.jpeg" xml:id="img_609_0019_sm" n="F° 10v-11r"/>
+         <ptr target="MS0609_0020_N2.jpg" facs="MS0609_0020_sm.jpeg" xml:id="img_609_0020_sm" n="F° 11v-12r"/>
+         <ptr target="MS0609_0021_N2.jpg" facs="MS0609_0021_sm.jpeg" xml:id="img_609_0021_sm" n="F° 12v-13r"/>
+         <ptr target="MS0609_0022_N2.jpg" facs="MS0609_0022_sm.jpeg" xml:id="img_609_0022_sm" n="F° 13v-14r"/>
+         <ptr target="MS0609_0023_N2.jpg" facs="MS0609_0023_sm.jpeg" xml:id="img_609_0023_sm" n="F° 14v-15r"/>
+         <ptr target="MS0609_0024_N2.jpg" facs="MS0609_0024_sm.jpeg" xml:id="img_609_0024_sm" n="F° 15v-16r"/>
+         <ptr target="MS0609_0025_N2.jpg" facs="MS0609_0025_sm.jpeg" xml:id="img_609_0025_sm" n="F° 16v-17r"/>
+         <ptr target="MS0609_0026_N2.jpg" facs="MS0609_0026_sm.jpeg" xml:id="img_609_0026_sm" n="F° 17v-18r"/>
+         <ptr target="MS0609_0027_N2.jpg" facs="MS0609_0027_sm.jpeg" xml:id="img_609_0027_sm" n="F° 18v-19r"/>
+         <ptr target="MS0609_0028_N2.jpg" facs="MS0609_0028_sm.jpeg" xml:id="img_609_0028_sm" n="F° 19v-20r"/>
+         <ptr target="MS0609_0029_N2.jpg" facs="MS0609_0029_sm.jpeg" xml:id="img_609_0029_sm" n="F° 20v-21r"/>
+         <ptr target="MS0609_0030_N2.jpg" facs="MS0609_0030_sm.jpeg" xml:id="img_609_0030_sm" n="F° 21v-22r"/>
+         <ptr target="MS0609_0031_N2.jpg" facs="MS0609_0031_sm.jpeg" xml:id="img_609_0031_sm" n="F° 22v-23r"/>
+         <ptr target="MS0609_0032_N2.jpg" facs="MS0609_0032_sm.jpeg" xml:id="img_609_0032_sm" n="F° 23v-24r"/>
+         <ptr target="MS0609_0033_N2.jpg" facs="MS0609_0033_sm.jpeg" xml:id="img_609_0033_sm" n="F° 24v-25r"/>
+         <ptr target="MS0609_0034_N2.jpg" facs="MS0609_0034_sm.jpeg" xml:id="img_609_0034_sm" n="F° 25v-26r"/>
+         <ptr target="MS0609_0035_N2.jpg" facs="MS0609_0035_sm.jpeg" xml:id="img_609_0035_sm" n="F° 26v-27r"/>
+         <ptr target="MS0609_0036_N2.jpg" facs="MS0609_0036_sm.jpeg" xml:id="img_609_0036_sm" n="F° 27v-28r"/>
+         <ptr target="MS0609_0037_N2.jpg" facs="MS0609_0037_sm.jpeg" xml:id="img_609_0037_sm" n="F° 28v-29r"/>
+         <ptr target="MS0609_0038_N2.jpg" facs="MS0609_0038_sm.jpeg" xml:id="img_609_0038_sm" n="F° 29v-30r"/>
+         <ptr target="MS0609_0039_N2.jpg" facs="MS0609_0039_sm.jpeg" xml:id="img_609_0039_sm" n="F° 30v-31r"/> 
+         <ptr target="MS0609_0040_N2.jpg" facs="MS0609_0040_sm.jpeg" xml:id="img_609_0040_sm" n="F° 31v-32r"/>
+         <ptr target="MS0609_0041_N2.jpg" facs="MS0609_0041_sm.jpeg" xml:id="img_609_0041_sm" n="F° 32v-33r"/>
+         <ptr target="MS0609_0042_N2.jpg" facs="MS0609_0042_sm.jpeg" xml:id="img_609_0042_sm" n="F° 33v-34r"/>
+         <ptr target="MS0609_0043_N2.jpg" facs="MS0609_0043_sm.jpeg" xml:id="img_609_0043_sm" n="F° 34v-35r"/>
+         <ptr target="MS0609_0044_N2.jpg" facs="MS0609_0044_sm.jpeg" xml:id="img_609_0044_sm" n="F° 35v-36r"/>
+         <ptr target="MS0609_0045_N2.jpg" facs="MS0609_0045_sm.jpeg" xml:id="img_609_0045_sm" n="F° 36v-37r"/>
+         <ptr target="MS0609_0046_N2.jpg" facs="MS0609_0046_sm.jpeg" xml:id="img_609_0046_sm" n="F° 37v-38r"/>
+         <ptr target="MS0609_0047_N2.jpg" facs="MS0609_0047_sm.jpeg" xml:id="img_609_0047_sm" n="F° 38v-39r"/>
+         <ptr target="MS0609_0048_N2.jpg" facs="MS0609_0048_sm.jpeg" xml:id="img_609_0048_sm" n="F° 39v-40r"/>
+         <ptr target="MS0609_0049_N2.jpg" facs="MS0609_0049_sm.jpeg" xml:id="img_609_0049_sm" n="F° 40v-41r"/>
+         <ptr target="MS0609_0050_N2.jpg" facs="MS0609_0050_sm.jpeg" xml:id="img_609_0050_sm" n="F° 41v-42r"/>
+         <ptr target="MS0609_0051_N2.jpg" facs="MS0609_0051_sm.jpeg" xml:id="img_609_0051_sm" n="F° 42v-43r"/>
+         <ptr target="MS0609_0052_N2.jpg" facs="MS0609_0052_sm.jpeg" xml:id="img_609_0052_sm" n="F° 43v-44r"/>
+         <ptr target="MS0609_0053_N2.jpg" facs="MS0609_0053_sm.jpeg" xml:id="img_609_0053_sm" n="F° 44v-45r"/>
+         <ptr target="MS0609_0054_N2.jpg" facs="MS0609_0054_sm.jpeg" xml:id="img_609_0054_sm" n="F° 45v-46r"/>
+         <ptr target="MS0609_0055_N2.jpg" facs="MS0609_0055_sm.jpeg" xml:id="img_609_0055_sm" n="F° 46v-47r"/>
+         <ptr target="MS0609_0056_N2.jpg" facs="MS0609_0056_sm.jpeg" xml:id="img_609_0056_sm" n="F° 47v-48r"/>
+         <ptr target="MS0609_0057_N2.jpg" facs="MS0609_0057_sm.jpeg" xml:id="img_609_0057_sm" n="F° 48v-49r"/>
+         <ptr target="MS0609_0058_N2.jpg" facs="MS0609_0058_sm.jpeg" xml:id="img_609_0058_sm" n="F° 49v-50r"/>
+         <ptr target="MS0609_0059_N2.jpg" facs="MS0609_0059_sm.jpeg" xml:id="img_609_0059_sm" n="F° 50v-51r"/>
+         <ptr target="MS0609_0060_N2.jpg" facs="MS0609_0060_sm.jpeg" xml:id="img_609_0060_sm" n="F° 51v-52r"/>
+         <ptr target="MS0609_0061_N2.jpg" facs="MS0609_0061_sm.jpeg" xml:id="img_609_0061_sm" n="F° 52v-53r"/>
+         <ptr target="MS0609_0062_N2.jpg" facs="MS0609_0062_sm.jpeg" xml:id="img_609_0062_sm" n="F° 53v-54r"/>
+         <ptr target="MS0609_0063_N2.jpg" facs="MS0609_0063_sm.jpeg" xml:id="img_609_0063_sm" n="F° 54v-55r"/>
+         <ptr target="MS0609_0064_N2.jpg" facs="MS0609_0064_sm.jpeg" xml:id="img_609_0064_sm" n="F° 55v-56r"/>
+         <ptr target="MS0609_0065_N2.jpg" facs="MS0609_0065_sm.jpeg" xml:id="img_609_0065_sm" n="F° 56v-57r"/>
+         <ptr target="MS0609_0066_N2.jpg" facs="MS0609_0066_sm.jpeg" xml:id="img_609_0066_sm" n="F° 57v-58r"/>
+         <ptr target="MS0609_0067_N2.jpg" facs="MS0609_0067_sm.jpeg" xml:id="img_609_0067_sm" n="F° 58v-59r"/>
+         <ptr target="MS0609_0068_N2.jpg" facs="MS0609_0068_sm.jpeg" xml:id="img_609_0068_sm" n="F° 59v-60r"/>
+         <ptr target="MS0609_0069_N2.jpg" facs="MS0609_0069_sm.jpeg" xml:id="img_609_0069_sm" n="F° 60v-61r"/>
+         <ptr target="MS0609_0070_N2.jpg" facs="MS0609_0070_sm.jpeg" xml:id="img_609_0070_sm" n="F° 61v-62r"/>
+         <ptr target="MS0609_0071_N2.jpg" facs="MS0609_0071_sm.jpeg" xml:id="img_609_0071_sm" n="F° 62v-63r"/>
+         <ptr target="MS0609_0072_N2.jpg" facs="MS0609_0072_sm.jpeg" xml:id="img_609_0072_sm" n="F° 63v-64r"/>
+         <ptr target="MS0609_0073_N2.jpg" facs="MS0609_0073_sm.jpeg" xml:id="img_609_0073_sm" n="F° 64v-65r"/>
+         <ptr target="MS0609_0074_N2.jpg" facs="MS0609_0074_sm.jpeg" xml:id="img_609_0074_sm" n="F° 65v-66r"/>
+         <ptr target="MS0609_0075_N2.jpg" facs="MS0609_0075_sm.jpeg" xml:id="img_609_0075_sm" n="F° 66v-67r"/>
+         <ptr target="MS0609_0076_N2.jpg" facs="MS0609_0076_sm.jpeg" xml:id="img_609_0076_sm" n="F° 67v-68r"/>
+         <ptr target="MS0609_0077_N2.jpg" facs="MS0609_0077_sm.jpeg" xml:id="img_609_0077_sm" n="F° 68v-69r"/>
+         <ptr target="MS0609_0078_N2.jpg" facs="MS0609_0078_sm.jpeg" xml:id="img_609_0078_sm" n="F° 69v-70r"/>
+         <ptr target="MS0609_0079_N2.jpg" facs="MS0609_0079_sm.jpeg" xml:id="img_609_0079_sm" n="F° 70v-71r"/>
+         <ptr target="MS0609_0080_N2.jpg" facs="MS0609_0080_sm.jpeg" xml:id="img_609_0080_sm" n="F° 71v-72r"/>
+         <ptr target="MS0609_0081_N2.jpg" facs="MS0609_0081_sm.jpeg" xml:id="img_609_0081_sm" n="F° 72v-73r"/>
+         <ptr target="MS0609_0082_N2.jpg" facs="MS0609_0082_sm.jpeg" xml:id="img_609_0082_sm" n="F° 73v-74r"/>
+         <ptr target="MS0609_0083_N2.jpg" facs="MS0609_0083_sm.jpeg" xml:id="img_609_0083_sm" n="F° 74v-75r"/>
+         <ptr target="MS0609_0084_N2.jpg" facs="MS0609_0084_sm.jpeg" xml:id="img_609_0084_sm" n="F° 75v-76r"/>
+         <ptr target="MS0609_0085_N2.jpg" facs="MS0609_0085_sm.jpeg" xml:id="img_609_0085_sm" n="F° 76v-77r"/>
+         <ptr target="MS0609_0086_N2.jpg" facs="MS0609_0086_sm.jpeg" xml:id="img_609_0086_sm" n="F° 77v-78r"/>
+         <ptr target="MS0609_0087_N2.jpg" facs="MS0609_0087_sm.jpeg" xml:id="img_609_0087_sm" n="F° 78v-79r"/>
+         <ptr target="MS0609_0088_N2.jpg" facs="MS0609_0088_sm.jpeg" xml:id="img_609_0088_sm" n="F° 79v-80r"/>
+         <ptr target="MS0609_0089_N2.jpg" facs="MS0609_0089_sm.jpeg" xml:id="img_609_0089_sm" n="F° 80v-81r"/>
+         <ptr target="MS0609_0090_N2.jpg" facs="MS0609_0090_sm.jpeg" xml:id="img_609_0090_sm" n="F° 81v-82r"/>
+         <ptr target="MS0609_0091_N2.jpg" facs="MS0609_0091_sm.jpeg" xml:id="img_609_0091_sm" n="F° 82v-83r"/>
+         <ptr target="MS0609_0092_N2.jpg" facs="MS0609_0092_sm.jpeg" xml:id="img_609_0092_sm" n="F° 83v-84r"/>
+         <ptr target="MS0609_0093_N2.jpg" facs="MS0609_0093_sm.jpeg" xml:id="img_609_0093_sm" n="F° 84v-85r"/>
+         <ptr target="MS0609_0094_N2.jpg" facs="MS0609_0094_sm.jpeg" xml:id="img_609_0094_sm" n="F° 85v-86r"/>
+         <ptr target="MS0609_0095_N2.jpg" facs="MS0609_0095_sm.jpeg" xml:id="img_609_0095_sm" n="F° 86v-87r"/>
+         <ptr target="MS0609_0096_N2.jpg" facs="MS0609_0096_sm.jpeg" xml:id="img_609_0096_sm" n="F° 87v-88r"/>
+         <ptr target="MS0609_0097_N2.jpg" facs="MS0609_0097_sm.jpeg" xml:id="img_609_0097_sm" n="F° 88v-89r"/>
+         <ptr target="MS0609_0098_N2.jpg" facs="MS0609_0098_sm.jpeg" xml:id="img_609_0098_sm" n="F° 89v-90r"/>
+         <ptr target="MS0609_0099_N2.jpg" facs="MS0609_0099_sm.jpeg" xml:id="img_609_0099_sm" n="F° 90v-91r"/>
+         <ptr target="MS0609_0100_N2.jpg" facs="MS0609_0100_sm.jpeg" xml:id="img_609_0100_sm" n="F° 91v-92r"/>
+         <ptr target="MS0609_0101_N2.jpg" facs="MS0609_0101_sm.jpeg" xml:id="img_609_0101_sm" n="F° 92v-93r"/>
+         <ptr target="MS0609_0102_N2.jpg" facs="MS0609_0102_sm.jpeg" xml:id="img_609_0102_sm" n="F° 93v-94r"/>
+         <ptr target="MS0609_0103_N2.jpg" facs="MS0609_0103_sm.jpeg" xml:id="img_609_0103_sm" n="F° 94v-95r"/>
+         <ptr target="MS0609_0104_N2.jpg" facs="MS0609_0104_sm.jpeg" xml:id="img_609_0104_sm" n="F° 95v-96r"/>
+         <ptr target="MS0609_0105_N2.jpg" facs="MS0609_0105_sm.jpeg" xml:id="img_609_0105_sm" n="F° 96v-97r"/>
+         <ptr target="MS0609_0106_N2.jpg" facs="MS0609_0106_sm.jpeg" xml:id="img_609_0106_sm" n="F° 97v-98r"/>
+         <ptr target="MS0609_0107_N2.jpg" facs="MS0609_0107_sm.jpeg" xml:id="img_609_0107_sm" n="F° 98v-99r"/>
+         <ptr target="MS0609_0108_N2.jpg" facs="MS0609_0108_sm.jpeg" xml:id="img_609_0108_sm" n="F° 99v-100r"/>
+         <ptr target="MS0609_0109_N2.jpg" facs="MS0609_0109_sm.jpeg" xml:id="img_609_0109_sm" n="F° 100v-101r"/>
+         <ptr target="MS0609_0110_N2.jpg" facs="MS0609_0110_sm.jpeg" xml:id="img_609_0110_sm" n="F° 101v-102r"/>
+         <ptr target="MS0609_0111_N2.jpg" facs="MS0609_0111_sm.jpeg" xml:id="img_609_0111_sm" n="F° 102v-103r"/>
+         <ptr target="MS0609_0112_N2.jpg" facs="MS0609_0112_sm.jpeg" xml:id="img_609_0112_sm" n="F° 103v-104r"/>
+         <ptr target="MS0609_0113_N2.jpg" facs="MS0609_0113_sm.jpeg" xml:id="img_609_0113_sm" n="F° 104v-105r"/>
+         <ptr target="MS0609_0114_N2.jpg" facs="MS0609_0114_sm.jpeg" xml:id="img_609_0114_sm" n="F° 105v-106r"/>
+         <ptr target="MS0609_0115_N2.jpg" facs="MS0609_0115_sm.jpeg" xml:id="img_609_0115_sm" n="F° 106v-107r"/>
+         <ptr target="MS0609_0116_N2.jpg" facs="MS0609_0116_sm.jpeg" xml:id="img_609_0116_sm" n="F° 107v-108r"/>
+         <ptr target="MS0609_0117_N2.jpg" facs="MS0609_0117_sm.jpeg" xml:id="img_609_0117_sm" n="F° 108v-109r"/>
+         <ptr target="MS0609_0118_N2.jpg" facs="MS0609_0118_sm.jpeg" xml:id="img_609_0118_sm" n="F° 109v-110r"/>
+         <ptr target="MS0609_0119_N2.jpg" facs="MS0609_0119_sm.jpeg" xml:id="img_609_0119_sm" n="F° 110v-111r"/>
+         <ptr target="MS0609_0120_N2.jpg" facs="MS0609_0120_sm.jpeg" xml:id="img_609_0120_sm" n="F° 111v-112r"/>
+         <ptr target="MS0609_0121_N2.jpg" facs="MS0609_0121_sm.jpeg" xml:id="img_609_0121_sm" n="F° 112v-113r"/>
+         <ptr target="MS0609_0122_N2.jpg" facs="MS0609_0122_sm.jpeg" xml:id="img_609_0122_sm" n="F° 113v-114r"/>
+         <ptr target="MS0609_0123_N2.jpg" facs="MS0609_0123_sm.jpeg" xml:id="img_609_0123_sm" n="F° 114v-115r"/>
+         <ptr target="MS0609_0124_N2.jpg" facs="MS0609_0124_sm.jpeg" xml:id="img_609_0124_sm" n="F° 115v-116r"/>
+         <ptr target="MS0609_0125_N2.jpg" facs="MS0609_0125_sm.jpeg" xml:id="img_609_0125_sm" n="F° 116v-117r"/>
+         <ptr target="MS0609_0126_N2.jpg" facs="MS0609_0126_sm.jpeg" xml:id="img_609_0126_sm" n="F° 117v-118r"/>
+         <ptr target="MS0609_0127_N2.jpg" facs="MS0609_0127_sm.jpeg" xml:id="img_609_0127_sm" n="F° 118v-119r"/>
+         <ptr target="MS0609_0128_N2.jpg" facs="MS0609_0128_sm.jpeg" xml:id="img_609_0128_sm" n="F° 119v-120r"/>
+         <ptr target="MS0609_0129_N2.jpg" facs="MS0609_0129_sm.jpeg" xml:id="img_609_0129_sm" n="F° 120v-121r"/>
+         <ptr target="MS0609_0130_N2.jpg" facs="MS0609_0130_sm.jpeg" xml:id="img_609_0130_sm" n="F° 121v-122r"/>
+         <ptr target="MS0609_0131_N2.jpg" facs="MS0609_0131_sm.jpeg" xml:id="img_609_0131_sm" n="F° 122v-123r"/>
+         <ptr target="MS0609_0132_N2.jpg" facs="MS0609_0132_sm.jpeg" xml:id="img_609_0132_sm" n="F° 123v-124r"/>
+         <ptr target="MS0609_0133_N2.jpg" facs="MS0609_0133_sm.jpeg" xml:id="img_609_0133_sm" n="F° 124v-125r"/>
+         <ptr target="MS0609_0134_N2.jpg" facs="MS0609_0134_sm.jpeg" xml:id="img_609_0134_sm" n="F° 125v-126r"/>
+         <ptr target="MS0609_0135_N2.jpg" facs="MS0609_0135_sm.jpeg" xml:id="img_609_0135_sm" n="F° 126v-127r"/>
+         <ptr target="MS0609_0136_N2.jpg" facs="MS0609_0136_sm.jpeg" xml:id="img_609_0136_sm" n="F° 127v-128r"/>
+         <ptr target="MS0609_0137_N2.jpg" facs="MS0609_0137_sm.jpeg" xml:id="img_609_0137_sm" n="F° 128v-129r"/>
+         <ptr target="MS0609_0138_N2.jpg" facs="MS0609_0138_sm.jpeg" xml:id="img_609_0138_sm" n="F° 129v-130r"/>
+         <ptr target="MS0609_0139_N2.jpg" facs="MS0609_0139_sm.jpeg" xml:id="img_609_0139_sm" n="F° 130v-131r"/> 
+         <ptr target="MS0609_0140_N2.jpg" facs="MS0609_0140_sm.jpeg" xml:id="img_609_0140_sm" n="F° 131v-132r"/>
+         <ptr target="MS0609_0141_N2.jpg" facs="MS0609_0141_sm.jpeg" xml:id="img_609_0141_sm" n="F° 132v-133r"/>
+         <ptr target="MS0609_0142_N2.jpg" facs="MS0609_0142_sm.jpeg" xml:id="img_609_0142_sm" n="F° 133v-134r"/>
+         <ptr target="MS0609_0143_N2.jpg" facs="MS0609_0143_sm.jpeg" xml:id="img_609_0143_sm" n="F° 134v-135r"/>
+         <ptr target="MS0609_0144_N2.jpg" facs="MS0609_0144_sm.jpeg" xml:id="img_609_0144_sm" n="F° 135v-136r"/>
+         <ptr target="MS0609_0145_N2.jpg" facs="MS0609_0145_sm.jpeg" xml:id="img_609_0145_sm" n="F° 136v-137r"/>
+         <ptr target="MS0609_0146_N2.jpg" facs="MS0609_0146_sm.jpeg" xml:id="img_609_0146_sm" n="F° 137v-138r"/>
+         <ptr target="MS0609_0147_N2.jpg" facs="MS0609_0147_sm.jpeg" xml:id="img_609_0147_sm" n="F° 138v-139r"/>
+         <ptr target="MS0609_0148_N2.jpg" facs="MS0609_0148_sm.jpeg" xml:id="img_609_0148_sm" n="F° 139v-140r"/>
+         <ptr target="MS0609_0149_N2.jpg" facs="MS0609_0149_sm.jpeg" xml:id="img_609_0149_sm" n="F° 140v-141r"/>
+         <ptr target="MS0609_0150_N2.jpg" facs="MS0609_0150_sm.jpeg" xml:id="img_609_0150_sm" n="F° 141v-142r"/>
+         <ptr target="MS0609_0151_N2.jpg" facs="MS0609_0151_sm.jpeg" xml:id="img_609_0151_sm" n="F° 142v-143r"/>
+         <ptr target="MS0609_0152_N2.jpg" facs="MS0609_0152_sm.jpeg" xml:id="img_609_0152_sm" n="F° 143v-144r"/>
+         <ptr target="MS0609_0153_N2.jpg" facs="MS0609_0153_sm.jpeg" xml:id="img_609_0153_sm" n="F° 144v-145r"/>
+         <ptr target="MS0609_0154_N2.jpg" facs="MS0609_0154_sm.jpeg" xml:id="img_609_0154_sm" n="F° 145v-146r"/>
+         <ptr target="MS0609_0155_N2.jpg" facs="MS0609_0155_sm.jpeg" xml:id="img_609_0155_sm" n="F° 146v-147r"/>
+         <ptr target="MS0609_0156_N2.jpg" facs="MS0609_0156_sm.jpeg" xml:id="img_609_0156_sm" n="F° 147v-148r"/>
+         <ptr target="MS0609_0157_N2.jpg" facs="MS0609_0157_sm.jpeg" xml:id="img_609_0157_sm" n="F° 148v-149r"/>
+         <ptr target="MS0609_0158_N2.jpg" facs="MS0609_0158_sm.jpeg" xml:id="img_609_0158_sm" n="F° 149v-150r"/>
+         <ptr target="MS0609_0159_N2.jpg" facs="MS0609_0159_sm.jpeg" xml:id="img_609_0159_sm" n="F° 150v-151r"/>
+         <ptr target="MS0609_0160_N2.jpg" facs="MS0609_0160_sm.jpeg" xml:id="img_609_0160_sm" n="F° 151v-152r"/>
+         <ptr target="MS0609_0161_N2.jpg" facs="MS0609_0161_sm.jpeg" xml:id="img_609_0161_sm" n="F° 152v-153r"/>
+         <ptr target="MS0609_0162_N2.jpg" facs="MS0609_0162_sm.jpeg" xml:id="img_609_0162_sm" n="F° 153v-154r"/>
+         <ptr target="MS0609_0163_N2.jpg" facs="MS0609_0163_sm.jpeg" xml:id="img_609_0163_sm" n="F° 154v-155r"/>
+         <ptr target="MS0609_0164_N2.jpg" facs="MS0609_0164_sm.jpeg" xml:id="img_609_0164_sm" n="F° 155v-156r"/>
+         <ptr target="MS0609_0165_N2.jpg" facs="MS0609_0165_sm.jpeg" xml:id="img_609_0165_sm" n="F° 156v-157r"/>
+         <ptr target="MS0609_0166_N2.jpg" facs="MS0609_0166_sm.jpeg" xml:id="img_609_0166_sm" n="F° 157v-158r"/>
+         <ptr target="MS0609_0167_N2.jpg" facs="MS0609_0167_sm.jpeg" xml:id="img_609_0167_sm" n="F° 158v-159r"/>
+         <ptr target="MS0609_0168_N2.jpg" facs="MS0609_0168_sm.jpeg" xml:id="img_609_0168_sm" n="F° 159v-160r"/>
+         <ptr target="MS0609_0169_N2.jpg" facs="MS0609_0169_sm.jpeg" xml:id="img_609_0169_sm" n="F° 160v-161r"/>
+         <ptr target="MS0609_0170_N2.jpg" facs="MS0609_0170_sm.jpeg" xml:id="img_609_0170_sm" n="F° 161v-162r"/>
+         <ptr target="MS0609_0171_N2.jpg" facs="MS0609_0171_sm.jpeg" xml:id="img_609_0171_sm" n="F° 162v-163r"/>
+         <ptr target="MS0609_0172_N2.jpg" facs="MS0609_0172_sm.jpeg" xml:id="img_609_0172_sm" n="F° 163v-164r"/>
+         <ptr target="MS0609_0173_N2.jpg" facs="MS0609_0173_sm.jpeg" xml:id="img_609_0173_sm" n="F° 164v-165r"/>
+         <ptr target="MS0609_0174_N2.jpg" facs="MS0609_0174_sm.jpeg" xml:id="img_609_0174_sm" n="F° 165v-166r"/>
+         <ptr target="MS0609_0175_N2.jpg" facs="MS0609_0175_sm.jpeg" xml:id="img_609_0175_sm" n="F° 166v-167r"/>
+         <ptr target="MS0609_0176_N2.jpg" facs="MS0609_0176_sm.jpeg" xml:id="img_609_0176_sm" n="F° 167v-168r"/>
+         <ptr target="MS0609_0177_N2.jpg" facs="MS0609_0177_sm.jpeg" xml:id="img_609_0177_sm" n="F° 168v-169r"/>
+         <ptr target="MS0609_0178_N2.jpg" facs="MS0609_0178_sm.jpeg" xml:id="img_609_0178_sm" n="F° 169v-170r"/>
+         <ptr target="MS0609_0179_N2.jpg" facs="MS0609_0179_sm.jpeg" xml:id="img_609_0179_sm" n="F° 170v-171r"/>
+         <ptr target="MS0609_0180_N2.jpg" facs="MS0609_0180_sm.jpeg" xml:id="img_609_0180_sm" n="F° 171v-172r"/>
+         <ptr target="MS0609_0181_N2.jpg" facs="MS0609_0181_sm.jpeg" xml:id="img_609_0181_sm" n="F° 172v-173r"/>
+         <ptr target="MS0609_0182_N2.jpg" facs="MS0609_0182_sm.jpeg" xml:id="img_609_0182_sm" n="F° 173v-174r"/>
+         <ptr target="MS0609_0183_N2.jpg" facs="MS0609_0183_sm.jpeg" xml:id="img_609_0183_sm" n="F° 174v-175r"/>
+         <ptr target="MS0609_0184_N2.jpg" facs="MS0609_0184_sm.jpeg" xml:id="img_609_0184_sm" n="F° 175v-176r"/>
+         <ptr target="MS0609_0185_N2.jpg" facs="MS0609_0185_sm.jpeg" xml:id="img_609_0185_sm" n="F° 176v-177r"/>
+         <ptr target="MS0609_0186_N2.jpg" facs="MS0609_0186_sm.jpeg" xml:id="img_609_0186_sm" n="F° 177v-178r"/>
+         <ptr target="MS0609_0187_N2.jpg" facs="MS0609_0187_sm.jpeg" xml:id="img_609_0187_sm" n="F° 178v-179r"/>
+         <ptr target="MS0609_0188_N2.jpg" facs="MS0609_0188_sm.jpeg" xml:id="img_609_0188_sm" n="F° 179v-180r"/>
+         <ptr target="MS0609_0189_N2.jpg" facs="MS0609_0189_sm.jpeg" xml:id="img_609_0189_sm" n="F° 180v-181r"/>
+         <ptr target="MS0609_0190_N2.jpg" facs="MS0609_0190_sm.jpeg" xml:id="img_609_0190_sm" n="F° 181v-182r"/>
+         <ptr target="MS0609_0191_N2.jpg" facs="MS0609_0191_sm.jpeg" xml:id="img_609_0191_sm" n="F° 182v-183r"/>
+         <ptr target="MS0609_0192_N2.jpg" facs="MS0609_0192_sm.jpeg" xml:id="img_609_0192_sm" n="F° 183v-184r"/>
+         <ptr target="MS0609_0193_N2.jpg" facs="MS0609_0193_sm.jpeg" xml:id="img_609_0193_sm" n="F° 184v-185r"/>
+         <ptr target="MS0609_0194_N2.jpg" facs="MS0609_0194_sm.jpeg" xml:id="img_609_0194_sm" n="F° 185v-186r"/>
+         <ptr target="MS0609_0195_N2.jpg" facs="MS0609_0195_sm.jpeg" xml:id="img_609_0195_sm" n="F° 186v-187r"/>
+         <ptr target="MS0609_0196_N2.jpg" facs="MS0609_0196_sm.jpeg" xml:id="img_609_0196_sm" n="F° 187v-188r"/>
+         <ptr target="MS0609_0197_N2.jpg" facs="MS0609_0197_sm.jpeg" xml:id="img_609_0197_sm" n="F° 188v-189r"/>
+         <ptr target="MS0609_0198_N2.jpg" facs="MS0609_0198_sm.jpeg" xml:id="img_609_0198_sm" n="F° 189v-190r"/>
+         <ptr target="MS0609_0199_N2.jpg" facs="MS0609_0199_sm.jpeg" xml:id="img_609_0199_sm" n="F° 190v-191r"/>
+         <ptr target="MS0609_0200_N2.jpg" facs="MS0609_0200_sm.jpeg" xml:id="img_609_0200_sm"/>
+         <ptr target="MS0609_0201_N2.jpg" facs="MS0609_0201_sm.jpeg" xml:id="img_609_0201_sm"/>
+         <ptr target="MS0609_0202_N2.jpg" facs="MS0609_0202_sm.jpeg" xml:id="img_609_0202_sm"/>
+         <ptr target="MS0609_0203_N2.jpg" facs="MS0609_0203_sm.jpeg" xml:id="img_609_0203_sm"/>
+         <ptr target="MS0609_0204_N2.jpg" facs="MS0609_0204_sm.jpeg" xml:id="img_609_0204_sm"/>
+         <ptr target="MS0609_0205_N2.jpg" facs="MS0609_0205_sm.jpeg" xml:id="img_609_0205_sm"/>
+         <ptr target="MS0609_0206_N2.jpg" facs="MS0609_0206_sm.jpeg" xml:id="img_609_0206_sm"/>
+         <ptr target="MS0609_0207_N2.jpg" facs="MS0609_0207_sm.jpeg" xml:id="img_609_0207_sm"/>
+         <ptr target="MS0609_0208_N2.jpg" facs="MS0609_0208_sm.jpeg" xml:id="img_609_0208_sm"/>
+         <ptr target="MS0609_0209_N2.jpg" facs="MS0609_0209_sm.jpeg" xml:id="img_609_0209_sm"/>
+         <ptr target="MS0609_0210_N2.jpg" facs="MS0609_0210_sm.jpeg" xml:id="img_609_0210_sm"/>
+         <ptr target="MS0609_0211_N2.jpg" facs="MS0609_0211_sm.jpeg" xml:id="img_609_0211_sm"/>
+         <ptr target="MS0609_0212_N2.jpg" facs="MS0609_0212_sm.jpeg" xml:id="img_609_0212_sm"/>
+         <ptr target="MS0609_0213_N2.jpg" facs="MS0609_0213_sm.jpeg" xml:id="img_609_0213_sm"/>
+         <ptr target="MS0609_0214_N2.jpg" facs="MS0609_0214_sm.jpeg" xml:id="img_609_0214_sm"/>
+         <ptr target="MS0609_0215_N2.jpg" facs="MS0609_0215_sm.jpeg" xml:id="img_609_0215_sm"/>
+         <ptr target="MS0609_0216_N2.jpg" facs="MS0609_0216_sm.jpeg" xml:id="img_609_0216_sm"/>
+         <ptr target="MS0609_0217_N2.jpg" facs="MS0609_0217_sm.jpeg" xml:id="img_609_0217_sm"/>
+         <ptr target="MS0609_0218_N2.jpg" facs="MS0609_0218_sm.jpeg" xml:id="img_609_0218_sm"/>
+         <ptr target="MS0609_0219_N2.jpg" facs="MS0609_0219_sm.jpeg" xml:id="img_609_0219_sm"/>
+         <ptr target="MS0609_0220_N2.jpg" facs="MS0609_0220_sm.jpeg" xml:id="img_609_0220_sm"/>
+         <ptr target="MS0609_0221_N2.jpg" facs="MS0609_0221_sm.jpeg" xml:id="img_609_0221_sm"/>
+         <ptr target="MS0609_0222_N2.jpg" facs="MS0609_0222_sm.jpeg" xml:id="img_609_0222_sm"/>
+         <ptr target="MS0609_0223_N2.jpg" facs="MS0609_0223_sm.jpeg" xml:id="img_609_0223_sm"/>
+         <ptr target="MS0609_0224_N2.jpg" facs="MS0609_0224_sm.jpeg" xml:id="img_609_0224_sm"/>
+         <ptr target="MS0609_0225_N2.jpg" facs="MS0609_0225_sm.jpeg" xml:id="img_609_0225_sm"/>
+         <ptr target="MS0609_0226_N2.jpg" facs="MS0609_0226_sm.jpeg" xml:id="img_609_0226_sm"/>
+         <ptr target="MS0609_0227_N2.jpg" facs="MS0609_0227_sm.jpeg" xml:id="img_609_0227_sm"/>
+         <ptr target="MS0609_0228_N2.jpg" facs="MS0609_0228_sm.jpeg" xml:id="img_609_0228_sm"/>
+         <ptr target="MS0609_0229_N2.jpg" facs="MS0609_0229_sm.jpeg" xml:id="img_609_0229_sm"/>
+         <ptr target="MS0609_0230_N2.jpg" facs="MS0609_0230_sm.jpeg" xml:id="img_609_0230_sm"/>
+         <ptr target="MS0609_0231_N2.jpg" facs="MS0609_0231_sm.jpeg" xml:id="img_609_0231_sm"/>
+         <ptr target="MS0609_0232_N2.jpg" facs="MS0609_0232_sm.jpeg" xml:id="img_609_0232_sm"/>
+         <ptr target="MS0609_0233_N2.jpg" facs="MS0609_0233_sm.jpeg" xml:id="img_609_0233_sm"/>
+         <ptr target="MS0609_0234_N2.jpg" facs="MS0609_0234_sm.jpeg" xml:id="img_609_0234_sm"/>
+         <ptr target="MS0609_0235_N2.jpg" facs="MS0609_0235_sm.jpeg" xml:id="img_609_0235_sm"/>
+         <ptr target="MS0609_0236_N2.jpg" facs="MS0609_0236_sm.jpeg" xml:id="img_609_0236_sm"/>
+         <ptr target="MS0609_0237_N2.jpg" facs="MS0609_0237_sm.jpeg" xml:id="img_609_0237_sm"/>
+         <ptr target="MS0609_0238_N2.jpg" facs="MS0609_0238_sm.jpeg" xml:id="img_609_0238_sm"/>
+         <ptr target="MS0609_0239_N2.jpg" facs="MS0609_0239_sm.jpeg" xml:id="img_609_0239_sm"/> 
+         <ptr target="MS0609_0240_N2.jpg" facs="MS0609_0240_sm.jpeg" xml:id="img_609_0240_sm"/>
+         <ptr target="MS0609_0241_N2.jpg" facs="MS0609_0241_sm.jpeg" xml:id="img_609_0241_sm"/>
+         <ptr target="MS0609_0242_N2.jpg" facs="MS0609_0242_sm.jpeg" xml:id="img_609_0242_sm"/>
+         <ptr target="MS0609_0243_N2.jpg" facs="MS0609_0243_sm.jpeg" xml:id="img_609_0243_sm"/>
+         <ptr target="MS0609_0244_N2.jpg" facs="MS0609_0244_sm.jpeg" xml:id="img_609_0244_sm"/>
+         <ptr target="MS0609_0245_N2.jpg" facs="MS0609_0245_sm.jpeg" xml:id="img_609_0245_sm"/>
+         <ptr target="MS0609_0246_N2.jpg" facs="MS0609_0246_sm.jpeg" xml:id="img_609_0246_sm"/>
+         <ptr target="MS0609_0247_N2.jpg" facs="MS0609_0247_sm.jpeg" xml:id="img_609_0247_sm"/>
+         <ptr target="MS0609_0248_N2.jpg" facs="MS0609_0248_sm.jpeg" xml:id="img_609_0248_sm"/>
+         <ptr target="MS0609_0249_N2.jpg" facs="MS0609_0249_sm.jpeg" xml:id="img_609_0249_sm"/>
+         <ptr target="MS0609_0250_N2.jpg" facs="MS0609_0250_sm.jpeg" xml:id="img_609_0250_sm"/>
+         <ptr target="MS0609_0251_N2.jpg" facs="MS0609_0251_sm.jpeg" xml:id="img_609_0251_sm"/>
+         <ptr target="MS0609_0252_N2.jpg" facs="MS0609_0252_sm.jpeg" xml:id="img_609_0252_sm"/>
+         <ptr target="MS0609_0253_N2.jpg" facs="MS0609_0253_sm.jpeg" xml:id="img_609_0253_sm"/>
+         <ptr target="MS0609_0254_N2.jpg" facs="MS0609_0254_sm.jpeg" xml:id="img_609_0254_sm"/>
+         <ptr target="MS0609_0255_N2.jpg" facs="MS0609_0255_sm.jpeg" xml:id="img_609_0255_sm"/>
+         <ptr target="MS0609_0256_N2.jpg" facs="MS0609_0256_sm.jpeg" xml:id="img_609_0256_sm"/>
+         <ptr target="MS0609_0257_N2.jpg" facs="MS0609_0257_sm.jpeg" xml:id="img_609_0257_sm"/>
+         <ptr target="MS0609_0258_N2.jpg" facs="MS0609_0258_sm.jpeg" xml:id="img_609_0258_sm"/>
+         <ptr target="MS0609_0259_N2.jpg" facs="MS0609_0259_sm.jpeg" xml:id="img_609_0259_sm"/>
+         <ptr target="MS0609_0260_N2.jpg" facs="MS0609_0260_sm.jpeg" xml:id="img_609_0260_sm"/>
+         <ptr target="MS0609_0261_N2.jpg" facs="MS0609_0261_sm.jpeg" xml:id="img_609_0261_sm"/>
+         <ptr target="MS0609_0262_N2.jpg" facs="MS0609_0262_sm.jpeg" xml:id="img_609_0262_sm"/>
+         <ptr target="MS0609_0263_N2.jpg" facs="MS0609_0263_sm.jpeg" xml:id="img_609_0263_sm"/>
+         <ptr target="MS0609_0264_N2.jpg" facs="MS0609_0264_sm.jpeg" xml:id="img_609_0264_sm"/>
+         <ptr target="MS0609_0265_N2.jpg" facs="MS0609_0265_sm.jpeg" xml:id="img_609_0265_sm"/>
+         <ptr target="MS0609_0266_N2.jpg" facs="MS0609_0266_sm.jpeg" xml:id="img_609_0266_sm"/>
+         <ptr target="MS0609_0267_N2.jpg" facs="MS0609_0267_sm.jpeg" xml:id="img_609_0267_sm"/>
+         <ptr target="MS0609_0268_N2.jpg" facs="MS0609_0268_sm.jpeg" xml:id="img_609_0268_sm"/>
+         <ptr target="MS0609_0269_N2.jpg" facs="MS0609_0269_sm.jpeg" xml:id="img_609_0269_sm"/>
+         <ptr target="MS0609_0270_N2.jpg" facs="MS0609_0270_sm.jpeg" xml:id="img_609_0270_sm"/>
+      </listRef>
+      <listRef xml:id="BnF-MS9992_img_list">
+      <!-- BnF Latin 9992 -->
+         <!-- size = original -->
+         <ptr type="source" target="http://gallica.bnf.fr/ark:/12148/btv1b9077722d" xml:id="source_MS9992_1"/>
+         <ptr target="f4.image" facs="BnF_Lat_9992_1v.jpg" xml:id="img_9992_03" corresp="#source_MS9992_1" n="F° 1v"/>
+         <ptr target="f4.image" facs="BnF_Lat_9992_2r.jpg" xml:id="img_9992_04" corresp="#source_MS9992_1" n="F° 2r"/>
+         <ptr target="f5.image" facs="BnF_Lat_9992_2v.jpg" xml:id="img_9992_05" corresp="#source_MS9992_1" n="F° 2v"/>
+         <ptr target="f5.image" facs="BnF_Lat_9992_3r.jpg" xml:id="img_9992_06" corresp="#source_MS9992_1" n="F° 3r"/>
+         <ptr target="f6.image" facs="BnF_Lat_9992_3v.jpg" xml:id="img_9992_07" corresp="#source_MS9992_1" n="F° 3v"/>
+         <ptr target="f6.image" facs="BnF_Lat_9992_4r.jpg" xml:id="img_9992_08" corresp="#source_MS9992_1" n="F° 4r"/>
+         <ptr target="f7.image" facs="BnF_Lat_9992_4v.jpg" xml:id="img_9992_09" corresp="#source_MS9992_1" n="F° 4v"/>
+         <ptr target="f7.image" facs="BnF_Lat_9992_5r.jpg" xml:id="img_9992_10" corresp="#source_MS9992_1" n="F° 5r"/>
+         <ptr target="f8.image" facs="BnF_Lat_9992_5v.jpg" xml:id="img_9992_11" corresp="#source_MS9992_1" n="F° 5v"/>
+         <ptr target="f8.image" facs="BnF_Lat_9992_6r.jpg" xml:id="img_9992_12" corresp="#source_MS9992_1" n="F° 6r"/>
+         <ptr target="f9.image" facs="BnF_Lat_9992_6v.jpg" xml:id="img_9992_13" corresp="#source_MS9992_1" n="F° 6v"/>
+         <ptr target="f9.image" facs="BnF_Lat_9992_7r.jpg" xml:id="img_9992_14" corresp="#source_MS9992_1" n="F° 7r"/>
+         <ptr target="f10.image" facs="BnF_Lat_9992_7v.jpg" xml:id="img_9992_15" corresp="#source_MS9992_1" n="F° 7v"/>
+         <ptr target="f10.image" facs="BnF_Lat_9992_8r.jpg" xml:id="img_9992_16" corresp="#source_MS9992_1" n="F° 8r"/>
+         <ptr target="f11.image" facs="BnF_Lat_9992_8v.jpg" xml:id="img_9992_17" corresp="#source_MS9992_1" n="F° 8v"/>
+         <ptr target="f11.image" facs="BnF_Lat_9992_9r.jpg" xml:id="img_9992_18" corresp="#source_MS9992_1" n="F° 9r"/>
+         <ptr target="f12.image" facs="BnF_Lat_9992_9v.jpg" xml:id="img_9992_19" corresp="#source_MS9992_1" n="F° 9v"/>
+         <ptr target="f12.image" facs="BnF_Lat_9992_10r.jpg" xml:id="img_9992_20" corresp="#source_MS9992_1" n="F° 10r"/>
+         <ptr target="f13.image" facs="BnF_Lat_9992_10v.jpg" xml:id="img_9992_21" corresp="#source_MS9992_1" n="F° 10v"/>
+         <ptr target="f13.image" facs="BnF_Lat_9992_11r.jpg" xml:id="img_9992_22" corresp="#source_MS9992_1" n="F° 11r"/>
+         <ptr target="f14.image" facs="BnF_Lat_9992_11v.jpg" xml:id="img_9992_23" corresp="#source_MS9992_1" n="F° 11v"/>
+         <ptr target="f14.image" facs="BnF_Lat_9992_12r.jpg" xml:id="img_9992_24" corresp="#source_MS9992_1" n="F° 12r"/>
+         <ptr target="f15.image" facs="BnF_Lat_9992_12v.jpg" xml:id="img_9992_25" corresp="#source_MS9992_1" n="F° 12v"/>
+         <ptr target="f15.image" facs="BnF_Lat_9992_13r.jpg" xml:id="img_9992_26" corresp="#source_MS9992_1" n="F° 13r"/>
+         <ptr target="f16.image" facs="BnF_Lat_9992_13v.jpg" xml:id="img_9992_27" corresp="#source_MS9992_1" n="F° 13v"/>
+         <ptr target="f16.image" facs="BnF_Lat_9992_14r.jpg" xml:id="img_9992_28" corresp="#source_MS9992_1" n="F° 14r"/>
+         <!-- size = small -->
+         <ptr target="f4.image" facs="BnF_Lat_9992_1v_sm.jpg" xml:id="img_9992_03_sm" n="F° 1v"/>
+         <ptr target="f4.image" facs="BnF_Lat_9992_2r_sm.jpg" xml:id="img_9992_04_sm" n="F° 2r"/>
+         <ptr target="f5.image" facs="BnF_Lat_9992_2v_sm.jpg" xml:id="img_9992_05_sm" n="F° 2v"/>
+         <ptr target="f5.image" facs="BnF_Lat_9992_3r_sm.jpg" xml:id="img_9992_06_sm" n="F° 3r"/>
+         <ptr target="f6.image" facs="BnF_Lat_9992_3v_sm.jpg" xml:id="img_9992_07_sm" n="F° 3v"/>
+         <ptr target="f6.image" facs="BnF_Lat_9992_4r_sm.jpg" xml:id="img_9992_08_sm" n="F° 4r"/>
+         <ptr target="f7.image" facs="BnF_Lat_9992_4v_sm.jpg" xml:id="img_9992_09_sm" n="F° 4v"/>
+         <ptr target="f7.image" facs="BnF_Lat_9992_5r_sm.jpg" xml:id="img_9992_10_sm" n="F° 5r"/>
+         <ptr target="f8.image" facs="BnF_Lat_9992_5v_sm.jpg" xml:id="img_9992_11_sm" n="F° 5v"/>
+         <ptr target="f8.image" facs="BnF_Lat_9992_6r_sm.jpg" xml:id="img_9992_12_sm" n="F° 6r"/>
+         <ptr target="f9.image" facs="BnF_Lat_9992_6v_sm.jpg" xml:id="img_9992_13_sm" n="F° 6v"/>
+         <ptr target="f9.image" facs="BnF_Lat_9992_7r_sm.jpg" xml:id="img_9992_14_sm" n="F° 7r"/>
+         <ptr target="f10.image" facs="BnF_Lat_9992_7v_sm.jpg" xml:id="img_9992_15_sm" n="F° 7v"/>
+         <ptr target="f10.image" facs="BnF_Lat_9992_8r_sm.jpg" xml:id="img_9992_16_sm" n="F° 8r"/>
+         <ptr target="f11.image" facs="BnF_Lat_9992_8v_sm.jpg" xml:id="img_9992_17_sm" n="F° 8v"/>
+         <ptr target="f11.image" facs="BnF_Lat_9992_9r_sm.jpg" xml:id="img_9992_18_sm" n="F° 9r"/>
+         <ptr target="f12.image" facs="BnF_Lat_9992_9v_sm.jpg" xml:id="img_9992_19_sm" n="F° 9v"/>
+         <ptr target="f12.image" facs="BnF_Lat_9992_10r_sm.jpg" xml:id="img_9992_20_sm" n="F° 10r"/>
+         <ptr target="f13.image" facs="BnF_Lat_9992_10v_sm.jpg" xml:id="img_9992_21_sm" n="F° 10v"/>
+         <ptr target="f13.image" facs="BnF_Lat_9992_11r_sm.jpg" xml:id="img_9992_22_sm" n="F° 11r"/>
+         <ptr target="f14.image" facs="BnF_Lat_9992_11v_sm.jpg" xml:id="img_9992_23_sm" n="F° 11v"/>
+         <ptr target="f14.image" facs="BnF_Lat_9992_12r_sm.jpg" xml:id="img_9992_24_sm" n="F° 12r"/>
+         <ptr target="f15.image" facs="BnF_Lat_9992_12v_sm.jpg" xml:id="img_9992_25_sm" n="F° 12v"/>
+         <ptr target="f15.image" facs="BnF_Lat_9992_13r_sm.jpg" xml:id="img_9992_26_sm" n="F° 13r"/>
+         <ptr target="f16.image" facs="BnF_Lat_9992_13v_sm.jpg" xml:id="img_9992_27_sm" n="F° 13v"/>
+         <ptr target="f16.image" facs="BnF_Lat_9992_14r_sm.jpg" xml:id="img_9992_28_sm" n="F° 14r"/>
+      </listRef> 
+      <listRef xml:id="BnF-Doat_img_list">
+         <ptr type="source" target="#" xml:id="source_Doat_1"/>
+         <ptr target="#" facs="D23-303v.jpg" xml:id="img_D23_303v" n="23, F° 303v-304r"/>
+         <ptr target="#" facs="D23-303v_sm.jpg" xml:id="img_D23_303v_sm" n="23, F° 303v-304r"/>
+         <ptr target="#" facs="D23-304v.jpg" xml:id="img_D23_304v" n="23, F° 304v-305r"/>
+         <ptr target="#" facs="D23-304v_sm.jpg" xml:id="img_D23_304v_sm" n="23, F° 304v-305r"/>
+         <ptr target="#" facs="D23-305v.jpg" xml:id="img_D23_305v" n="23, F° 305v-306r"/>
+         <ptr target="#" facs="D23-305v_sm.jpg" xml:id="img_D23_305v_sm" n="23, F° 305v-306r"/>
+         <ptr target="#" facs="D23-306v.jpg" xml:id="img_D23_306v" n="23, F° 306v-307r"/>
+         <ptr target="#" facs="D23-306v_sm.jpg" xml:id="img_D23_306v_sm" n="23, F° 306v-307r"/>
+         <ptr target="#" facs="D23-307v.jpg" xml:id="img_D23_307v" n="23, F° 307v-308r"/>
+         <ptr target="#" facs="D23-307v_sm.jpg" xml:id="img_D23_307v_sm" n="23, F° 307v-308r"/>
+         <ptr target="#" facs="D23-308v.jpg" xml:id="img_D23_308v" n="23, F° 308v-309r"/>
+         <ptr target="#" facs="D23-308v_sm.jpg" xml:id="img_D23_308v_sm" n="23, F° 308v-309r"/>
+      </listRef>
+      <listRef xml:id="TDC_img_list">
+         <ptr type="source" target="#" xml:id="source_TDC_1"/>
+         <ptr target="#" facs="J305-28-1.jpg" xml:id="img_J305_28_1" n="Recto"/>
+         <ptr target="#" facs="J305-28-1_sm.jpg" xml:id="img_J305_28_1_sm" n="Recto"/>
+         <ptr target="#" facs="J305-28-2.jpg" xml:id="img_J305_28_2" n="Verso"/>
+         <ptr target="#" facs="J305-28-2_sm.jpg" xml:id="img_J305_28_2_sm" n="Verso"/>
+         <ptr target="#" facs="J305-28-3.jpg" xml:id="img_J305_28_3" n="Seal"/>
+         <ptr target="#" facs="J305-28-3_sm.jpg" xml:id="img_J305_28_3_sm" n="Seal"/>
+         <ptr target="#" facs="J305-28-4.jpg" xml:id="img_J305_28_4" n="Seal"/>
+         <ptr target="#" facs="J305-28-4_sm.jpg" xml:id="img_J305_28_4_sm" n="Seal"/>
+      </listRef>
+      <listRef xml:id="AD11_img_list">
+         <ptr type="source" target="#" xml:id="source_AD11_1"/>
+         <ptr target="#" facs="AD11_003J596_001.jpg" xml:id="img_3J596_001" n="Recto"/>
+         <ptr target="#" facs="AD11_003J596_001_sm.jpg" xml:id="img_3J596_001_sm" n="Recto"/>
+         <ptr target="#" facs="AD11_003J596_002.jpg" xml:id="img_3J596_002" n="Verso"/>
+         <ptr target="#" facs="AD11_003J596_002_sm.jpg" xml:id="img_3J596_002_sm" n="Verso"/>
+      </listRef>
+   </item>
+</list>

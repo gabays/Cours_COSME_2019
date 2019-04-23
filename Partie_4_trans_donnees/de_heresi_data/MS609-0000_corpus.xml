@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns="http://www.tei-c.org/ns/1.0" 
+           xml:id="MS609-0000_corpus.xml">
+    
+    <teiHeader xml:id="0000-HD">
+        <fileDesc>
+            <titleStmt>
+                <title>Edition of Bibliothèque de Toulouse Ms. 0609</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Test</p>
+            </publicationStmt>
+            <xi:include href="includes_sourcedesc.xml"/>
+        </fileDesc>
+        <xi:include href="includes_encodingdesc.xml"/>
+        
+            </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+    
+    <!-- DEPOSITIONS -->
+    <!-- Folio 1r -->
+    <xi:include href="MS609-0001.xml"/>
+    <xi:include href="MS609-0002.xml"/>
+    <xi:include href="MS609-0003.xml"/>
+    <xi:include href="MS609-0004.xml"/>
+    <xi:include href="MS609-0005.xml"/>
+    <!-- Folio 1v -->
+    <xi:include href="MS609-0006.xml"/>
+    <xi:include href="MS609-0007.xml"/>
+    <xi:include href="MS609-0008.xml"/>
+    <xi:include href="MS609-0009.xml"/>
+    <xi:include href="MS609-0010.xml"/>
+    <xi:include href="MS609-0011.xml"/>
+    <!-- Folio 2r -->
+    <xi:include href="MS609-0012.xml"/>
+    <xi:include href="MS609-0013.xml"/>
+    <!-- Folio 2v -->
+    <xi:include href="MS609-0014.xml"/>
+    <xi:include href="MS609-0015.xml"/>
+    <!-- Folio 3r -->
+    <xi:include href="MS609-0016.xml"/>
+    <xi:include href="MS609-0017.xml"/>
+    <!-- Folio 3v -->
+    <xi:include href="MS609-0018.xml"/>
+    <xi:include href="MS609-0019.xml"/>
+    <xi:include href="MS609-0020.xml"/>
+    <xi:include href="MS609-0021.xml"/>
+    <xi:include href="MS609-0022.xml"/>
+    <xi:include href="MS609-0023.xml"/>
+    <xi:include href="MS609-0024.xml"/>
+    <xi:include href="MS609-0025.xml"/>
+    <xi:include href="MS609-0026.xml"/>
+    <xi:include href="MS609-0027.xml"/>
+    <xi:include href="MS609-0028.xml"/>
+    <xi:include href="MS609-0029.xml"/>
+    <xi:include href="MS609-0030.xml"/>
+
+
+</teiCorpus>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0019.xml">
+   
+   <teiHeader xml:id="MS609-0019-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0019">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0019"/>
+         <div type="folio" n="3v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="12"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0012"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0019-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="denial" xml:id="MS609-0019-1">
+               <lb n="10"/>Item. 
+               <date type="deposition_date" sameAs="#MS609-0013.xml" cert="medium">Anno et die quo supra.</date> 
+               <persName nymRef="#R_Barrau_MSP-AU" ana="#neg_declare_dep" role="dep">R. Barra</persName> 
+               testis iuratus dixit quod nunquam vidit hereticos nec credidit 
+               nec adoravit nec aliquid dedit nec misit nec 
+               eorum predicationem audivit<seg type="witnesses" sameAs="#MS609-0017.xml" cert="low"/>.
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0019-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0019-1">Item. Year and day as above.  The sworn witness R. Barrau 
+               said that he has never seen heretics, nor believed, nor adored, nor gave or sent them anything, 
+               nor listened to their preaching.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

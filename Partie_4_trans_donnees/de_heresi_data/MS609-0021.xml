@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0021.xml">
+   
+   <teiHeader xml:id="MS609-0021-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0021">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0021"/>
+         <div type="folio" n="3v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="12"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0012"/>
+            </list>
+         </div>
+      </front>
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0021-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0021-1">
+               <lb break="y" n="13"/>Item. 
+               <date type="deposition_date" when="1245-06-22" cert="high">Anno 
+                  <del type="notary" rend="expunctus">et de</del> 
+                  <surplus reason="surplus">et die</surplus> quo supra 
+               X° Kalendas Iulii. </date>
+               <persName nymRef="#Arnald_Jordan_MSP-AU" role="dep">Arnaldus Iordani</persName> testis iuratus dixit quod 
+               <persName nymRef="#Arnald_Jordan_MSP-AU" ana="#pWith" role="par"/>vidit 
+               <persName nymRef="#Alaisa_de_Cuguro_MSP-AU" role="her">Adelasiam de Cuguro</persName>,
+               <lb break="y" n="14"/>hereticam,  
+               <del type="notary" rend="expunctus">apud apud Mansum</del> 
+               apud Mansum Sanctarum Puellarum quam tenebat ibi publice 
+               <placeName type="event_loc" nymRef="#home_of_Alaisa_de_Cuguro_MSP-AU">in domo sua</placeName> 
+               <persName nymRef="#Bernard_del_Mas_Senior_MSP-AU" ana="#pWith" role="par">B<supplied reason="expname">ernardus</supplied>
+                  <lb break="y" n="15"/>de Manso 
+                  <del type="notary" rend="expunctus">mil miles</del> 
+                  <roleName type="occ">miles dominus eiusdem castri</roleName>
+                    </persName>. 
+               <date type="event_date" when="1226">Et sunt XIX anni.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0021-2">Item. Dixit quod cum ipse 
+               testis<lb break="y" n="16"/>staret in <sic style="sic">
+                  <orig>hostagiis</orig>
+                  <corr>hospitagiis</corr>
+               </sic> 
+               <placeName type="event_loc" nymRef="#home_of_W_Arnald_de_Ferran">apud 
+                  <placeName nymRef="#Ferran_Aude">Ferrant in Redesio</placeName> in domo 
+                  <persName nymRef="#W_Arnald_de_Ferran_FER-AU" role="own">W. Arnaldi de Ferrant</persName>
+                    </placeName>. 
+               Vidit ibi <persName nymRef="#heretic_unnamed_1f" role="her">quandam ancillam eiusdem<lb break="y" n="17"/>domus hereticam</persName> 
+               manentem ibi <del type="notary" rend="expunctus">f</del> publice. 
+               <date type="event_date" when="1218">Et sunt XXVII anni.</date>
+            </seg>
+            <seg type="dep_event" subtype="abjuration" xml:id="MS609-0021-3">Alibi nunquam vidit 
+               hereticos nec credidit nec adoravit<lb break="y" n="18"/>nec dedit nec misit eis aliquid nec 
+               duxit nec eorum predictionem audivit. Et abiuravit heresim et iuravit et cetera. 
+               <seg type="witnesses">Testes: infrascripti excepto<lb break="y" n="19"/>
+                  <persName nymRef="#Galhard_Prior_MasSaintesPuelles" role="wit"/>
+                  <persName nymRef="#Bernard_de_Caux_OP" role="inq"/>
+                  <persName nymRef="#Nepos_de_Dournia_NOT" role="none">Nepote, clerico</persName>
+                  <note type="public">Witnesses taken from deposition of 
+                  <ref target="#ms609_0077.xml">B. de Na Comdors</ref>, except Nepos.</note>
+                    </seg>.
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0021-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0021-1">Item. Year as above, 10th Kalends of July. The sworn witness 
+               Arnald Jordan said that he saw Alaisa de Cuguro, heretic, have in her house at Mas-Saintes-Puelles 
+               Bernard del Mas, knight and lord of the <foreign xml:lang="LA">castra</foreign>. This was 19 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0021-2">Item. The witness said when he was staying in a guest house of W. Arnald de Ferran, 
+               at Ferran in the Razès, the witness saw a servant-girl of a house kept publicly by heretics there. 
+               This was 27 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0021-3">Nowhere else has the witness seen heretics, nor believed, nor adored, nor gave or 
+               sent them anything, nor lead, nor heard their preaching. The witness abjured heresy and swore, etc. 
+               Witness: as written below except Nepos, cleric.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

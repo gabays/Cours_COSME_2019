@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:id="people_eccl">
+
+   
+   <!-- NOTARIES/SCRIBES -->
+   <person xml:id="B_de_Atilha_NOT">
+      <persName>
+         <forename>B.</forename>
+         <nameLink>de</nameLink>
+         <surname>Atilha</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="B_Petrabuffera_NOT">
+      <persName>
+         <forename>B.</forename>
+         <surname>Petrabuffera</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="B_Pons_NOT">
+      <persName>
+         <forename>B.</forename>
+         <surname>Pons</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Bartholomie_NOT">
+      <persName>
+         <forename>Bartholomie</forename>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Guilhem_Baster_NOT">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Baster</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Johan_de_Cambalolhs_NOT">
+      <persName>
+         <forename>Johan</forename>
+         <nameLink>de</nameLink>
+         <surname>Cambalolhs</surname>
+         <roleName>notary for bishop of Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Bernard_de_Gaus_NOT">
+      <persName>
+         <forename>Bernard</forename>
+         <nameLink>de</nameLink>
+         <surname>Gaus</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="P_de_Montbiza_NOT">
+      <persName>
+         <forename>P</forename>
+         <nameLink>de</nameLink>
+         <surname>Montbiza</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Hugo_Muro_NOT">
+      <persName>
+         <forename>Hugo</forename>
+         <surname>Muro</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Nepos_de_Dournia_NOT">
+      <persName>
+         <forename>Nepos</forename>
+         <nameLink>de</nameLink>
+         <surname>Dournia</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Peire_Aribert_NOT">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Aribert</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Peire_Fresapa_NOT">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Fresapa</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Johan_de_Saint-Gaudens_SCR">
+      <persName>
+         <forename>Johan</forename>
+         <nameLink>de</nameLink>
+         <surname>Saint-Gaudens</surname>
+         <roleName>scribe</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Rotger_Verneto_NOT">
+      <persName>
+         <forename>Rotger</forename>
+         <forename>Berengar</forename>
+         <surname>Verneto</surname>
+         <roleName>notary</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   
+   
+   <!-- ECCLESIASTICS -->
+   <!-- NO TITLE -->
+   <person xml:id="Arnald_Cerda">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Cerda</surname>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="A_Magister_Chancellor">
+      <persName>
+         <forename>A.</forename>
+         <roleName>magister and chancellor, church of Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="P_Rector_de_Dreuilhe">
+      <persName>
+         <forename>P.</forename>
+         <roleName>rector of Dreuilhe</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Dominic_de_Guzman_Beatus">
+      <persName>
+         <forename>Dominic</forename>
+         <nameLink>de</nameLink>
+         <surname>Guzman</surname>
+      </persName>
+      <sex value="male"/>
+   </person>
+
+   <!-- OP (DOMINICANS) -->
+   <person xml:id="Guilhem_Arnald_OP">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Arnald</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at diocese of Cahors, 1233-35; diocese of Toulouse 1235-43.</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Albaret_2001a" n="pp 59-65"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="Arnald_Gasc_OP">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Gasc</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Bernard_de_Caux_OP">
+      <persName>
+         <forename>Bernard</forename>
+         <nameLink>de</nameLink>
+         <surname>Caux</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at Toulouse, 1243-48; Carcassonne, 1248-1249. Founded a Dominican convent at Agen in 1249.</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Dossat_1951a"/>
+               <bibl corresp="#Albaret_2001a" n="pp 165"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="Johan_de_Saint-Peire_OP">
+      <persName>
+         <forename>Johan</forename>
+         <nameLink>de</nameLink>
+         <surname>Saint-Peire</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at Toulouse and Carcassonne, 1245-1249; Toulouse, 1255. Was prior at Bordeaux in 1250.</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Albaret_2001a" n="pp 165"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="F_Boziga_OP">
+      <persName>
+         <forename>F.</forename>
+         <surname>Boziga</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Peire_de_Caussa_OP">
+      <persName>
+         <forename>Peire</forename>
+         <nameLink>de</nameLink>
+         <surname>Caussa</surname>
+         <roleName>prior, OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>See Douais' note on Peire's identity in his footnote to <ref target="#ms9992_14">ms. 9992 F°7r</ref> </p>
+      </note>
+   </person>
+   <person xml:id="Ferrier_OP">
+      <persName>
+         <forename>Ferrier</forename>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at Narbonne and Carcassonne, 1235-1244</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="Douais_1893a"/>
+               <bibl corresp="Douais_1894a"/>
+               <bibl corresp="#Wakefield_1972a"/>
+               <bibl corresp="#Albaret_2001a" n="pp 33-42"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="Guilhem_Pelhisson_OP">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Pelhisson</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Odo_OP">
+      <persName>
+         <forename>Odo</forename>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Peire_Barrau_OP">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Barrau</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Pons_Gary_OP">
+      <persName>
+         <forename>Pons</forename>
+         <surname>Gary</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>        
+         <p>Inquisitor at Montpellier, 1237; Toulouse, 1243; Nimes, 1244.</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Albaret_2001a" n="pp 165"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>   
+   <person xml:id="Peire_Durand_OP">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Durand</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>        
+         <p>Inquisitor at Toulouse, 1243-44.</p>
+      </note>
+   </person> 
+   <person xml:id="R_de_Paonac_OP">
+      <persName>
+         <forename>R.</forename>
+         <surname>de</surname>
+         <surname>Paonac</surname>
+         <roleName>OP</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Peire_Sellan_OP">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Sellan</surname>
+         <orgName>OP</orgName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at diocese of Toulouse (Montauban), 1234-42</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Albaret_2001a" n="pp 43-54"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="Pellegrin_OP">
+      <persName>
+         <forename>Pellegrin</forename>
+         <orgName>OP</orgName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Raimund_de_Fuxo_OP">
+      <persName>
+         <forename>Raimund</forename>
+         <nameLink>de</nameLink>
+         <surname>Fuxo</surname>
+         <orgName>OP</orgName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <!-- FRANCISCANS -->
+   <person xml:id="Esteve_de_Saint-Thibery_Fransciscan">
+      <persName>
+         <forename>Esteve</forename>
+         <nameLink>de</nameLink>
+         <roleName>Franciscan brother, Saint-Thibéry</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>
+         <p>Inquisitor at diocese of Toulouse, 1236-43.</p>
+         <p>Bibliography:
+            <listBibl>
+               <bibl corresp="#Albaret_2001a" n="pp 59-65"/>
+            </listBibl>
+         </p>
+      </note>
+   </person>
+   <person xml:id="P_Cristofor_de_Saint-Thibery_Fransciscan">
+      <persName>
+         <forename>P.</forename>
+         <surname>Cristofor</surname>
+         <roleName>Franciscan brother, Saint-Thibéry</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Johan_Ricaud_de_Saint-Thibery_Fransciscan">
+      <persName>
+         <forename>Johan</forename>
+         <surname>Ricaud</surname>
+         <roleName>Franciscan brother, Saint-Thibéry</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   
+   <!-- OTHER ORDERS -->
+   <person xml:id="Bertran_Rainald_monk_Ste-Marie_la_Daurade">
+      <persName>
+         <forename>Bertran</forename>
+         <surname>Rainald</surname>
+         <roleName>monk of Sainte-Marie la Daurade</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Guilhem_Sancii_Cistercian">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Sancii</surname>
+         <roleName>Cistercian brother</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Pamiers_Ariege"/>
+   </person>
+   <person xml:id="Pons_de_Saint-Guilhem_StTH-HE">
+      <persName>
+         <forename>Pons</forename>
+         <nameLink>de</nameLink>
+         <surname>Saint-Guilhem</surname>
+         <roleName>monk of Saint-Thibéry</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Thibery_Hérault"/>
+   </person>
+   <person xml:id="W_de_Saint-Paul_monk_Ste-Marie_la_Daurade">
+      <persName>
+         <forename>W</forename>
+         <nameLink>de</nameLink>
+         <surname>Saint-Paul</surname>
+         <roleName>monk of Sainte-Marie la Daurade</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   
+   <!-- ABBOTS -->
+   <person xml:id="abbot_of_Saint_Papoul">
+      <persName>
+         <name>abbot of Saint Papoul</name>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint_Papoul_Aude"/>
+      <note>name unknown</note>
+   </person>
+   <person xml:id="abbot_StSernin">
+      <persName>
+         <name>unnamed</name>
+         <roleName>abbot of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+      <note>name unknown</note>
+   </person>
+   <person xml:id="Abbot_of_Soreze">
+      <persName>
+         <roleName>abbot of Sorèze</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Soreze_Tarn"/>
+   </person>
+   <person xml:id="Raimund_abbot_of_Saint_Papoul">
+      <persName>
+         <forename>Raimund</forename>
+         <roleName>abbot of Saint Papoul</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint_Papoul_Aude"/>
+   </person>
+   <person xml:id="Aldofossi_abbot_Montauban">
+      <persName>
+         <forename>Aldofossi</forename>
+         <roleName>abbot of Montauban</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Montauban_Tarn-et-Garonne"/>
+   </person>
+   <person xml:id="W_Bernard_abbot_Idrac_IDR-GE">
+      <persName>
+         <forename>W.</forename>
+         <surname>Bernard</surname>
+         <roleName>abbot of Idrac</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Idrac_Gers"/>
+   </person>
+   <!-- BISHOPS/ARCHBISHOPS -->
+   <person xml:id="Folc_de_Marseille_Bishop_Toulouse">
+      <persName>
+         <forename>Folc</forename>
+         <nameLink>de</nameLink>
+         <surname>Marseille</surname>
+         <roleName>bishop of Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+      <note>Bishop of Toulouse 1205 - 1231</note>
+   </person>
+   <person xml:id="Peire_Amelh_Archbishop_Narbonne">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Amelh</surname>
+         <roleName>archbishop of Narbonne</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Narbonne_Aude"/>
+   </person>
+   <person xml:id="Raimund_de_Fauga_Bishop_Toulouse">
+      <persName>
+         <forename>Raimund</forename>
+         <nameLink>de</nameLink>
+         <surname>Fauga</surname>
+         <roleName>bishop of Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+      <note>Bishop of Toulouse 1232 - 1270</note>
+   </person>
+   <person xml:id="Guilhem_II_bishop_Agen">
+      <persName>
+         <forename>Guilhem II</forename>
+         <roleName>bishop of Agen</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Agen_Lot-et-Garonne"/>
+   </person>
+   <!-- CANONS -->
+   <person xml:id="Atonis_de_Urban_canon_StSernin">
+      <persName>
+         <forename>Atonis</forename>
+         <nameLink>de</nameLink>
+         <surname>Urban</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+    <person xml:id="Arnald_Bego_canon_StSernin">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Bego</surname>
+         <roleName>canon of Saint-Sernin, prior of Grisolles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="Grisolles_Haute-Garonne"/>
+   </person>
+   <person xml:id="B_Guilhem_canon_StSernin">
+      <persName>
+         <forename>B</forename>
+         <surname>Guilhem</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Bonet_magister_canon_Agen">
+      <persName>
+         <forename>Bonet</forename>
+         <roleName>magister, canon of Agen</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="Agen_Lot-et-Garonne"/>
+   </person>
+   <person xml:id="Guilhem_Raimund_canon_StSernin">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Raimund</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   
+   
+   <person xml:id="P_Navar_canon_StSernin">
+      <persName>
+         <forename>P.</forename>
+         <surname>Navar</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Peire_de_Drudas_canon_StSernin">
+      <persName>
+         <forename>Peire</forename>
+         <nameLink>de</nameLink>
+         <surname>Drudas</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Pons_magister_canon_StSernin">
+      <persName>
+         <forename>Pons</forename>
+         <roleName>magister, canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Pons_chamberlain_canon_StSernin">
+      <persName>
+         <forename>Pons</forename>
+         <roleName>chamberlain, canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Pons_de_Albione_canon_StSernin">
+      <persName>
+         <forename>Pons</forename>
+         <nameLink>de</nameLink>
+         <surname>Albione</surname>
+         <roleName>canon of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Pons_de_Avignon_canon">
+      <persName>
+         <forename>Pons</forename>
+         <nameLink>de</nameLink>
+         <surname>Avignon</surname>
+         <roleName>canon</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="R_de_Vernaus_canon_StSernin">
+      <persName>
+         <forename>R</forename>
+         <nameLink>de</nameLink>
+         <surname>Vernaus</surname>
+         <roleName>canon</roleName>
+      </persName>
+      <occupation>canon</occupation>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   
+  
+      
+   <!-- CHAPLAINS/PRIESTS/ARCHPRIESTS -->
+   <person xml:id="chaplain_of_loubens">
+      <persName>
+         <roleName>chaplain of Loubens</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Alegre_chap">
+      <persName>
+         <forename>Alegre</forename>
+         <roleName>chaplain</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Alegre_Chap_Rocavidal">
+      <persName>
+         <forename>Alegre</forename>
+         <roleName>chaplain of Rocavidal</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Roquevidal_Tarn"/>
+   </person>
+   <person xml:id="Arnald_chaplain_Bastida">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Bastida</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Amelh_Chap_StEtienne">
+      <persName>
+         <forename>Amelh</forename>
+         <roleName>chaplain of Saint-Etienne</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Arnald_de_Astarac_ChapPuylaurens">
+      <persName>
+         <forename>Arnald</forename>
+         <nameLink>de</nameLink>
+         <surname>Astarac</surname>
+         <roleName>chaplain of Puylaurens</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Puylaurens_Tarn"/>
+   </person>
+   <person xml:id="Arnald_de_Astinhac_Chap">
+      <persName>
+         <forename>Arnald</forename>
+         <nameLink>de</nameLink>
+         <surname>Astinhac</surname>
+         <roleName>chaplain</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Arnald_Chap_Avignonet">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Avignonet</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Avignonet-Lauragais_Haute-Garonne"/>
+   </person>
+   <person xml:id="Arnald_Chap_Labecede">
+      <persName>
+         <forename>Arnald</forename>
+         <nameLink>de</nameLink>
+         <surname>Brassac</surname>
+         <roleName>chaplain of Labécède</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Labecede_Aude"/>
+   </person>
+   <person xml:id="Arnald_Chap_LesCasses">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Les Cassès</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Les_Casses_Aude"/>
+   </person>  
+   <person xml:id="Arnald_Chap_MasSaintesPuelles">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Mas-Saintes-Puelles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Boulbonne_??"/>
+      <note>Arnald came from the Cistercian abbey at Boulbonne.</note>   
+   </person>
+   <person xml:id="Arnald_Chap_Puylaurens">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Puylaurens</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Puylaurens_Tarn"/>
+   </person>
+   <person xml:id="Arnald_Chap_StPaulet">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain of Saint-Paulet</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Paulet_Aude"/>
+   </person>
+   <person xml:id="Arnald_Chap_ecclesie_Toulouse">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>chaplain Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Arnald_Raines_Chap_Pechaudier">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Raines</surname>
+         <roleName>chaplain</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Pechaudier_Tarn"/>
+   </person>
+   <person xml:id="Artaud_Archpriest_Lavaur">
+      <persName>
+         <forename>Artaud</forename>
+         <roleName>archpriest of Lavaur</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Lavaur_Aude"/>
+   </person>
+   <person xml:id="Bernard_Archpriest_Lacroisille">
+      <persName>
+         <forename>Bernard</forename>
+         <roleName>archpriest of Lacroisille</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Lacroisille_Tarn"/>
+   </person>
+   <person xml:id="Bernard_Chap_Ladinhac">
+      <persName>
+         <forename>Bernard</forename>
+         <roleName>magister, chaplain of Ladinhac</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Ladignac_Aveyron"/>
+   </person>
+   <person xml:id="Bernard_Ysarn_Chap_Salvenx">
+      <persName>
+         <forename>Bernard</forename>
+         <roleName>chaplain of Salvenx</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Salvagnac_Tarn"/>
+      <note>Salvagnac, Tarn = Salvenx is a hypothesis.</note>
+   </person>
+   
+   <person xml:id="Bertrand_de_Melgor_Chap_Avignonet">
+      <persName>
+         <forename>Bertrand</forename>
+         <nameLink>de</nameLink>
+         <surname>Melgor</surname>
+         <roleName>chaplain of Avignonet</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Avignonet-Lauragais_Haute-Garonne"/>
+   </person>
+   <person xml:id="W_B_chap_Lager">
+      <persName>
+         <forename>W.</forename>
+         <surname>B.</surname>
+         <roleName>chaplain of Lager at Auriac</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Auriac_Haute-Garonne"/>
+   </person>
+   <person xml:id="Esteve_Archpriest_Laurac">
+      <persName>
+         <forename>Esteve</forename>
+         <surname>Clavelli</surname>
+         <roleName>archpriest of Laurac</roleName>
+      </persName>
+      <note>capellanus ecclesie Lauriaci 1227</note>
+      <sex value="male"/>
+      <residence nymRef="#Laurac_Aude"/>
+   </person>
+   <person xml:id="W_de_Concoutz_chap_Cahors">
+      <persName>
+         <forename>W.</forename>
+         <nameLink>de</nameLink>
+         <surname>Concoutz</surname>
+         <roleName>chaplain of Cahors</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Cahors_Lot"/>
+   </person>
+   <person xml:id="Cristofor_Chap_Lamasquere">
+      <persName>
+         <forename>Cristofor</forename>
+         <roleName>chaplain of Lamasquere</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Lamasquere_Haute-Garonne"/>
+   </person>
+   <person xml:id="Elias_chaplain_Airoux">
+      <persName>
+         <forename>Elias</forename>
+         <roleName>chaplain of Airoux</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Airoux_AuAiroude"/>
+   </person>
+   <person xml:id="F_chap_Rupe">
+      <persName>
+         <forename>F.</forename>
+         <roleName>chaplain of Rupe</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Fortz_chap_StSernin">
+      <persName>
+         <forename>Fortz</forename>
+         <roleName>chaplain of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Galhard_Chap_MasSaintesPuelles">
+      <persName>
+         <forename>Galhard</forename>
+         <roleName>chaplain of Mas-Saintes-Puelles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Thibery_Hérault"/>
+      <note>According to Duvernoy, Galhard served after Guilhem del Mas from about 1236 onwards.</note>
+   </person>
+   <person xml:id="Guilhem_del_Mas_Chap_MasSaintesPuelles">
+   <persName>
+      <forename>Guilhem Palaisin</forename>
+      <nameLink>del</nameLink>
+      <surname>Mas</surname>
+      <roleName>chaplain of Mas-Saintes-Puelles</roleName>
+   </persName>
+      <sex value="male"/>
+      <residence nymRef="#Mas-Saintes-Puelles_Aude"/>
+      <note>Guilhem was one of the brother lords of Mas-Saintes-Puelles. Duvernoy says he served as prieur until about 1236.</note>   
+   </person>
+   <person xml:id="Guilhem_P_Chap_StGermier">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Peire</surname>
+         <roleName>chaplain of Saint-Germier</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Germier_Haute-Garonne"/>
+   </person>
+   <person xml:id="Pages_Chap_StMartinLalande">
+      <persName>
+         <forename>Pages</forename>
+         <roleName>chaplain of Saint-Martin-Lalande</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Martin-Lalande_Aude"/>
+   </person>
+   <person xml:id="Peire_de_Caraman_Magister">
+      <persName>
+         <forename>Peire</forename>
+         <nameLink>de</nameLink>
+         <surname>Caraman</surname>
+         <roleName>magister, archpresbyter, chaplain of Caraman</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Caraman_Haute-Garonne"/>
+   </person>
+   <person xml:id="Peire_Chap_Dreuilhe">
+      <persName>
+         <forename>Peire</forename>
+         <roleName>chaplain of Dreuilhe</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Dreuilhe_Haute-Garonne"/>
+   </person>
+   <person xml:id="Peire_Boer_Chap_Montgaillard">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Boer</surname>
+         <roleName>chaplain of Montgaillard</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Montgaillard-Lauragais_Haute-Garonne"/>
+   </person>
+   <person xml:id="Peire_Chap_Cazalrenoux">
+      <persName>
+         <forename>Peire</forename>
+         <roleName>chaplain of Casalrenoux</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Cazalrenoux_Aude"/>
+   </person>
+   <person xml:id="Peire_Johan_Chap_Villepinte">
+      <persName>
+         <forename>Peire</forename>
+         <surname>Johan</surname>
+         <roleName>chaplain of Villepinte</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Villepinte_Aude"/>
+   </person>
+   <person xml:id="R_Blanchart_archpresbyter_Gardouch">
+      <persName>
+         <forename>R.</forename>
+         <surname>Blanchart</surname>
+         <roleName>archpresbyter of Gardouch</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Gardouch_Haute-Garonne"/>
+   </person>
+   <person xml:id="R_chap_Fanjeaux">
+      <persName>
+         <forename>Raimund</forename>
+         <roleName>chaplain of Fanjeaux</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Fanjeaux_Aude"/>
+   </person>
+   <person xml:id="R_chap_Villeneuve">
+      <persName>
+         <forename>R.</forename>
+         <roleName>chaplain of Villeneuve</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Villeneuve-la-Comptal_Aude"/>
+   </person>
+   <person xml:id="R_Ferriol_Chap_StJulia">
+      <persName>
+         <forename>R.</forename>
+         <surname>Ferriol</surname>
+         <roleName>chaplain of Saint-Julia</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Julia_Haute-Garonne"/>
+   </person>
+   <person xml:id="Raimund_Ferrier_chap_Ste-Marie_la_Daurade">
+      <persName>
+         <forename>Raimund</forename>
+         <surname>Ferrier</surname>
+         <roleName>chaplain of Sainte-Marie la Daurade</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Raimund_Chap_StMartinLalande">
+      <persName>
+         <forename>Raimund</forename>
+         <roleName>chaplain of Saint-Martin-Lalande</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saint-Martin-Lalande_Aude"/>
+   </person>
+   <person xml:id="Raimund_Dautezac_Chap_Delbade">
+      <persName>
+         <forename>Raimund</forename>
+         <surname>Dautezac</surname>
+         <roleName>chaplain of Saint-Marie Delbade</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Bracas_Robert_Chap_Montesquieu">
+      <persName>
+         <forename>Bracas</forename>
+         <surname>Robert</surname>
+         <roleName>chaplain of Montesquieu</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Montesquieu-Lauragais_Haute-Garonne"/>
+   </person>
+   <person xml:id="W_de_Samata_chap_Escalquens">
+      <persName>
+         <forename>W</forename>
+         <name>de</name>
+         <surname>Samata</surname>
+         <roleName>chaplain of Escalquens</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Escalquens_Haute-Garonne"/>
+   </person>
+   <person xml:id="Sylvestre_Chap_Verfeil">
+      <persName>
+         <forename>Sylvestre</forename>
+         <roleName>chaplain of Verfeil</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Verfeil_Haute-Garonne"/>
+   </person>
+   <person xml:id="W_Chap_MasSaintesPuelles">
+      <persName>
+         <forename>W.</forename>
+         <roleName>chaplain of Mas-Saintes-Puelles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Mas-Saintes-Puelles_Aude"/>
+   </person>
+   <person xml:id="W_chap_Montauban">
+      <persName>
+         <forename>W</forename>
+         <roleName>chaplain of Montauban</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Montauban_Tarn-et-Garonne"/>
+   </person>
+   
+   <person xml:id="W_chap_StPierreCuisines">
+      <persName>
+         <forename>W.</forename>
+         <roleName>chaplain of Saint-Pierre de Cuisines</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <!-- DEACONS, ARCHDEACONS -->
+   <person xml:id="Guilhem_Ado_archdeacon_Villelongue">
+      <persName>
+         <forename>Guilhem</forename>
+         <surname>Ado</surname>
+         <roleName>archdeacon of Villelongue</roleName>
+      </persName>
+      <sex value="male"/>
+      <note>Assumed Villelongue-d'Aude, Aude</note>
+      <residence nymRef="#Villelongue-dAude_Aude"/>
+   </person>
+   <person xml:id="Fornier_archdeacon_Cornes">
+      <persName>
+         <forename>Fornier</forename>
+         <roleName>archdeacon of Cornes</roleName>
+      </persName>
+      <occupation>archdeacon</occupation>
+      <sex value="male"/>
+   </person>
+   <!-- MAGISTERS -->
+   <person xml:id="Arnald_Pelisson_magister">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Pelisson</surname>
+         <roleName>magister of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Ado_Pamiers_magister">
+      <persName>
+         <forename>Ado</forename>
+         <surname>Pamiers</surname>
+         <roleName>magister</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Benet_magister" corresp="#Bonet_magister_canon_Agen">
+      <persName>
+         <forename>Benet</forename>
+         <roleName>magister</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <person xml:id="W_de_Punt_magister">
+      <persName>
+         <forename>W.</forename>
+         <nameLink>de</nameLink>
+         <surname>Punt</surname>
+         <roleName>magister</roleName>
+      </persName>
+      <sex value="male"/>
+   </person>
+   <!-- PRIORS -->
+   <person xml:id="Arnald_de_Arago_prior_Ste-Marie_la_Daurade">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>d'Arago</surname>
+         <roleName>prior of Sainte-Marie la Daurade</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Arnald_Prior_Saverdun">
+      <persName>
+         <forename>Arnald</forename>
+         <roleName>prior of Saverdun</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Saverdun_Ariege"/>
+   </person>
+   <person xml:id="Arnald_Prior_StSernin">
+      <persName>
+         <forename>Arnald</forename>
+         <surname>Auriol</surname>
+         <roleName>prior of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="B_Prior_MasSaintesPuelles">
+      <persName>
+         <forename>B.</forename>
+         <roleName>prior of Mas-Saintes-Puelles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Mas-Saintes-Puelles_Aude"/>
+   </person>
+   <person xml:id="Bernard_Prior_Lavaur">
+      <persName>
+         <forename>Bernard</forename>
+         <roleName>prior of Lavaur</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Lavaur_Aude"/>
+   </person>
+   
+   <person xml:id="Elias_prior_StPierreCuisines">
+      <persName>
+         <forename>Elias</forename>
+         <roleName>prior of Saint-Pierre de Cuisines</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="G_de_Gordo_prior_St-Etienne">
+      <persName>
+         <forename>G</forename>
+         <nameLink>de</nameLink>
+         <surname>Gordo</surname>
+         <roleName>prior of Saint-Etienne</roleName>
+      </persName>
+      <occupation>prior</occupation>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Galhard_Prior_MasSaintesPuelles">
+      <persName>
+         <forename>Galhard</forename>
+         <roleName>prior of Mas-Saintes-Puelles</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Mas-Saintes-Puelles_Aude"/>
+   </person>
+   
+   <person xml:id="Peire_prior_Caylus">
+      <persName>
+         <forename>Peire</forename>
+         <roleName>prior of Caylus</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Caylus_Tarn-et-Garonne"/>
+   </person>
+   <person xml:id="R_prior_Castelsarrasin">
+      <persName>
+         <forename>R</forename>
+         <roleName>prior of Castelsarrasin</roleName>
+      </persName>
+      <occupation>prior</occupation>
+      <sex value="male"/>
+      <residence nymRef="#Castelsarrasin_Tarn-et-Garonne"/>
+   </person>
+   <person xml:id="R_prior_OP">
+      <persName>
+         <forename>R</forename>
+         <roleName>prior of the Order of Preachers</roleName>
+      </persName>
+      <occupation>prior</occupation>
+      <sex value="male"/>
+   </person>
+   <person xml:id="Simon_prior_Blangac">
+      <persName>
+         <forename>Simon</forename>
+         <roleName>prior of Blagnac</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Blagnac_Haute_Garonne"/>
+   </person>
+   <person xml:id="Vidal_Auriol_Prior_StEtienne">
+      <persName>
+         <forename>Vidal</forename>
+         <surname>Auriol</surname>
+         <roleName>prior of Saint-Etienne</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <!-- PROVOSTS -->
+   <person xml:id="B_de_Combret_provost_SainteCecile">
+      <persName>
+         <forename>B.</forename>
+         <nameLink>de</nameLink>
+         <surname>Combret</surname>
+         <roleName>provost of Sainte-Cécile</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Albi_Tarn"/>
+   </person>
+   <person xml:id="Mascharo_Provost">
+      <persName>
+         <forename>Mascharo</forename>
+         <roleName>provost of the Church of Toulouse</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="provost_StEtienne">
+      <persName>
+         <name>unnamed</name>
+         <roleName>provost of Sainte-Etienne</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Raimund_provost_Saint-Sernin">
+      <persName>
+         <forename>Raimund</forename>
+         <roleName>provost</roleName>
+      </persName>
+      <occupation>provost</occupation>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <!-- SACRISTANS -->
+   <person xml:id="Ber_W_sacristan_StSernin">
+      <persName>
+         <forename>Ber.</forename>
+         <surname>W.</surname>
+         <roleName>sacristan of Saint-Sernin</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>  
+   <person xml:id="Hoctor_sacristan_St-Etienne">
+      <persName>
+         <forename>Hoctor</forename>
+         <roleName>sacristan of Saint-Etienne</roleName>
+      </persName>
+      <occupation>sacristan</occupation>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   <person xml:id="Raimund_Carriger_sacristan_StEtienne">
+      <persName>
+         <forename>Raimund</forename>
+         <surname>Carriger</surname>
+         <roleName>sacristan of Saint-Etienne</roleName>
+      </persName>
+      <sex value="male"/>
+      <residence nymRef="#Toulouse_Haute-Garonne"/>
+   </person>
+   
+</listPerson>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0009.xml">
+
+   <teiHeader xml:id="MS609-0009-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0009">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0009"/>
+         <div type="folio" n="1v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="translation" corresp="#Arnold-Biller_2016" n="383"/>
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="7"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0009-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0009-1" corresp="#MS609-0009-1">
+               <lb break="y" n="27"/>Item.
+               <date type="deposition_date" sameAs="#MS609-0001.xml" cert="medium">Anno et die quo supra.</date> 
+               <persName nymRef="#Pons_Lobeira_MSP-AU" role="dep">Poncius del Mas vel de Lobeira</persName> testis iuratus dixit quod 
+               <persName nymRef="#Pons_Lobeira_MSP-AU" ana="#pStayUnknown #pCaptAccident" role="par"/>tenuit per mensem in 
+               <placeName type="event_loc" nymRef="#home_of_Pons_Lobeira"/>domo ipsius testis<lb break="y" n="28"/>
+               <persName nymRef="#Rixen_Bru_MSP-AU" ana="#pConvChurch" role="her">Rixenz Bruna</persName>.  
+               Sed ipse testis nesciebat ipsam esse hereticam quom usque 
+               <persName nymRef="#Raimund_de_Fauga_Bishop_Toulouse" role="npar">dominus episcopus Tholosanus</persName> 
+               cepit eam in hospitio<lb break="y" n="29"/>ipsius testis, et ipse qui loquitur similiter fuit captus propter hoc. Dixit 
+               etiam quod postmodum fuit reconciliata dicta heretica<lb break="y" n="30"/>per dictum 
+               <persName nymRef="#Raimund_de_Fauga_Bishop_Toulouse" role="npar">episcopum Tholosanum</persName>. 
+               <date type="event_date" when="1233">Et sunt XII anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="sighting_and_denial" xml:id="MS609-0009-2">
+               <persName nymRef="#Pons_Lobeira_MSP-AU" ana="#pVidPub #neg_declare-exconf_dep" role="par"/>Item.  
+               Dixit quod vidit hereticos publice stantes in terra, et <date type="event_date" when="1215">sunt<lb break="y" n="31"/>
+                  XXX anni vel circa</date>. Alibi non vidit hereticos nec credidit nec adoravit nec dedit nec misit nec 
+               <del type="notary" rend="expunctus">dix</del> duxit <supplied reason="added">nec</supplied> 
+               eorum predicationem audivit. Et abiuravit<lb break="y" n="32"/>heresim et iuravit et cetera. 
+               <seg type="witnesses" sameAs="#MS609-0001.xml" cert="medium">Testes: predicti.</seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0009-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0009-1">Item. Year and day as above. The sworn witness Pons del Mas or Lobère said that 
+               he had Rixen Bru in his, the witness', house for a month, but the witness did not know that she was a heretic until the 
+               lord Bishop of Toulouse seized her while at his place, and the witness himself was seized at the same time. 
+               The witness said as well that afterwards the aforesaid heretic was reconciled by the aforesaid Bishop of Toulouse. 
+               This was about 12 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0009-2">Item. The witness said that he saw heretics living openly in public, and it was 
+               about 30 years ago. The witness did has not seen heretics elsewhere nor believed, nor adored, nor gave 
+               or sent [them anything], nor led them, nor heard their preaching. He abjured heresy and swore, et cetera. 
+               Witnesses: as stated before.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

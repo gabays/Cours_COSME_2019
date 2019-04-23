@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0010.xml">
+   
+   <teiHeader xml:id="MS609-0010-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0010">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0010"/>
+         <div type="folio" n="1v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro">
+            <p/>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0010-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0010-1">
+               <lb break="y" n="33"/>Item. 
+               <date type="deposition_date" sameAs="#MS609-0001.xml" cert="medium">Anno et die quo supra.</date> 
+               <persName nymRef="#Pons_Godalh_MSP-AU" role="dep">Poncius Godalh</persName> testis ipse dixit quod erat puer vidit 
+               <persName nymRef="#Raimund_de_Na_Riqua_MSP-AU" role="her">R<supplied reason="expname">aimundum</supplied> de Na Riqua</persName> 
+               et socium eius,<lb break="y" n="34"/>hereticos,   
+               <placeName type="event_loc" nymRef="#home_of_Arnald_Godalh_MSP-AU">in quandam palarga ubi iacebat 
+                  <persName nymRef="#Pons_Godalh_MSP-AU" ana="#pStayChild #nAdo #neg_declare-exconf_dep" role="npar"/>ipse testis</placeName>. 
+               Et duxit eos ibi 
+               <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pDux" role="par">Arnald Godalh</persName>. 
+               Et fuerunt ibi dicti heretici<lb break="y" n="35"/>per noctem, sed ipse testis non adoravit ibi dictos 
+               hereticos nec vidit adorare. <date type="event_date" when="1233">Et sunt XII anni vel circa.</date> 
+               Alibi non vidit hereticos<lb break="y" n="36"/>nec credidit nec adoravit nec dedit nec misit nec eorum predicationem audivit.
+               <seg type="witnesses" sameAs="#MS609-0001.xml" cert="medium"/>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0010-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0010-1">Item. Year and day as above. The sworn witness Pons Godalh said that 
+               when he was a boy he saw Raimund de Na Riqua and his companions, heretics, laying in his bed, 
+               and Arnald Godalh brought them there, and the aforesaid heretics went there by night, but the 
+               witness did not adore the said heretics nor did he see them adore. This was about 12 years ago. 
+               He did has not seen heretics elsewhere nor adored, nor gave or sent [them anything], nor heard their preaching.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

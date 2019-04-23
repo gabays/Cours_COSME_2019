@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0030.xml">
+   
+   <teiHeader xml:id="MS609-0030-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0030">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0030"/>
+         <div type="folio" n="3v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="13"/>
+               <bibl type="translation" corresp="#Arnold-Biller_2016" n="384"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0012"/>
+            </list>
+         </div>
+      </front>
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0030-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="sighting_and_denial" xml:id="MS609-0030-1">
+               <lb break="y" n="35"/>Item. 
+               <date type="deposition_date" sameAs="#MS609-0021.xml" cert="medium">Anno et die predictis.</date> 
+               <persName nymRef="#Arnald_Lapassa_MSP-AU" role="dep">Arnaldus Lapassa</persName> 
+               testis iuratus dixit idem per omnia quod dictus 
+               <persName nymRef="#B_Garriga_MSP-AU" role="none">B. Garriga</persName>.<seg type="witnesses" sameAs="#MS609-0077.xml" cert="low"/>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0030-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0030-1">Item. Year and day as above. The sworn witness Arnald Lapassa said the same 
+               for everything as the aforesaid B. Garrigue.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

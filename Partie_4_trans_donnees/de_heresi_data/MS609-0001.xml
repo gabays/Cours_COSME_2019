@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0001.xml">
+
+   <teiHeader xml:id="MS609-0001-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!-- sourceDesc -->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+
+   <text xml:id="MS609-0001">
+      <front>
+         <!-- entry metadata -->
+         
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0001"/>
+         <div type="folio" n="1r"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro">
+         </div>
+         <div type="bibl">
+            <listBibl>
+               <bibl type="translation" corresp="#Arnold-Biller_2016" n="21-23"/>
+               <bibl type="transcription" corresp="#Dusan_1868" n="1"/>
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="4"/>
+            </listBibl>
+         </div>
+         <div type="image">
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0009"/>
+            </list>
+         </div>
+      </front>
+
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0001-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0001-1">
+               <pb n="1r"/>
+               <lb break="n" n="1"/>
+               <date type="deposition_date" when="1245-05-27" cert="high">Anno
+                  Domini M° CC° XL° quinto VI Kalendas Iunii.</date>  
+               <persName nymRef="#Arnald_Garnier_MSP-AU" role="dep">Arnaldus Garnerii</persName> 
+               testis iuratus dixit quod vidit in 
+               <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">domo 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">Petri de Sancto Andrea</persName>
+               </placeName>
+               <lb break="y" n="2"/>
+               <persName nymRef="#Bernard_Cap-de-Porc_MSP-AU" role="her">B<supplied reason="expname">ernardum</supplied> de Sancto Andrea</persName>, 
+               fratrem dicti Petri, et socium eius, hereticos. Et<note type="public">This is a test note to check output of a book (<bibl corresp="#Biller_2010a"/>) cited inside a note.</note> vidit ibi cum eis dictum
+               <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" ana="#uAdo" role="par">P<supplied reason="expname">etrum</supplied> de Sancto Andrea</persName> et 
+               <persName nymRef="#Susanna_Cap-de-Porc_MSP-AU" ana="#uAdo" role="par">uxor dicti<lb break="y" n="3"/>Petri</persName>. Et 
+               <persName nymRef="#Arnald_Garnier_MSP-AU" ana="#pAdo" role="par"/>ipse
+               testis adoravit ibi dictos hereticos, sed non vidit alios adorare. Et 
+               <date type="event_date" when="1239">sunt VI anni vel circa</date>. 
+               <seg type="inq_int" subtype="specific_question">Et quando ipse testis exivit<lb break="y" n="4"/>domum invenit
+                     <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" key="inqint" ana="#pIntra" role="ref">Willelmus de Rozergue</persName> intrantem ad dictos hereticos.</seg>
+            </seg>
+            <!-- event 2 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0001-2">Item. Vidit in <placeName type="event_loc" nymRef="#Oliver_MSP">loco qui dicitur <foreign xml:lang="OC">Oliver</foreign>
+                    </placeName> 
+               <persName nymRef="#Bernard_de_Mairevilla_H" role="her">B<supplied reason="expname">ernardum</supplied> de Marre<lb break="y" n="5"/>Villa</persName> 
+               et socium eius, hereticos. Et vidit ibi cum dictis hereticis 
+               <persName nymRef="#Garnier_Senior_MSP-AU" ana="#pAdo" role="par">Guarnerium, patrem</persName> ipsius testis;  
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vitalis</persName>; 
+               <persName nymRef="#Guilhem_Barbas_Junior_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Barbas</persName>; et<lb break="y" n="6"/>
+               <persName nymRef="#Jordanet_del_Mas_MSP-AU" ana="#pAdo" role="par">Jordanetum del Mas</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">alios de quibus non recolit</persName>. 
+               Et omnes et ipse testis adoraverunt ibi dictos
+               hereticos. <date type="event_date" when="1238">Et sunt VII anni<lb break="y" n="7"/>vel
+                  circa.</date>
+            </seg>
+            <!-- event 3 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0001-3">Item. Vidit in 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Vidal">domo 
+                  <persName nymRef="#Guilhem_Vidal_MSP-AU" role="own">Willelmi Vitalis</persName>
+               </placeName> 
+               <persName nymRef="#Arnald_Prader_MSP-AU" role="her">Ar<supplied reason="expname">naldum</supplied> Prader</persName> 
+               et socium eius, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Pons_Barrau_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">oncium</supplied> Barrau</persName>;  
+               <persName nymRef="#Jordanet_del_Mas_MSP-AU" ana="#pAdo" role="par">Jordanetum<lb break="y" n="8"/>del Mas</persName>;  
+               <persName nymRef="#Jordan_de_Quiders_MSP-AU" ana="#pAdo" role="par">Jordanum de Quiders</persName>; et 
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vitalis
+               </persName> predictum; et 
+               <persName nymRef="#Segura_Vidal_MSP-AU" ana="#pAdo" role="par">uxor dicti W<supplied reason="expname">illelmi</supplied> Vitalis</persName>. 
+               Et omnes et ipse testis adoraverunt ibi dictos hereticos.<lb break="y" n="9"/>
+               <date type="event_date" when="1239">Et sunt VI anni vel circa.</date>
+            </seg>
+            <!-- event 4 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0001-4">Item. Vidit in 
+               <placeName type="event_loc" nymRef="#home_of_Bernard_Faure_de_Castilho_MSP-AU">domo 
+                  <persName nymRef="#Bernard_Faure_de_Castilho_MSP-AU" role="own">Bernardi +<add type="margin_gloss" subtype="addition" place="right" hand="#original_609">Fabri +</add>, 
+                     <roleName type="fam">filii</roleName> de 
+                  <persName nymRef="#na_Mateus_Faure_MSP-AU" role="ref">na Matheuz</persName>
+                        </persName>, 
+               </placeName>
+               <persName nymRef="#Arnald_Prader_MSP-AU" role="her">Ar<supplied reason="expname">naldum</supplied> Pradier</persName> 
+               et socium eius, hereticos.<lb break="y" n="10"/>Et vidit ibi cum eis 
+               <persName nymRef="#Pons_Barrau_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">oncium</supplied> Barrau</persName>;  
+               <persName nymRef="#Jordan_de_Quiders_MSP-AU" ana="#pAdo" role="par">Jordanum de Quiders</persName>;  
+               <persName nymRef="#Jordanet_del_Mas_MSP-AU" ana="#pAdo" role="par">Jordanetum del Mas</persName>;  
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vitalis</persName>;  
+               <persName nymRef="#Bernard_Faure_de_Castilho_MSP-AU" ana="#pAdo" role="par">Bernardum Fabri</persName> 
+               et<lb break="y" n="11"/>
+               <persName nymRef="#na_Mateus_Faure_MSP-AU" ana="#pAdo" role="par">matrem dicti Bernardi</persName>. 
+               Et omnes et ipse testis adoraverunt ibi dictos hereticos. <date type="event_date" when="1239">Et sunt VI anni vel circa.</date>
+            </seg>
+            <!-- event 5 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0001-5" corresp="#MS609-0001-5">Item. Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Canast-Brus">in domo 
+                  <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" role="own">Willelmi<lb break="y" n="12"/>de Canast-Brus</persName>
+               </placeName>  
+               <persName nymRef="#Donat_H" role="her">Donatum</persName> et 
+               <persName nymRef="#Peire_Guilhem_de_Montauriol_MTA-AU" role="her">P<supplied reason="expname">etrum</supplied> Willelmi</persName> et 
+               <persName nymRef="#heretics_not_recalled_2m" role="her">alios duos hereticos quorum nomina non recolit</persName>.  
+               Et vidit ibi cum eis dictum
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied>
+                  <lb break="y" n="13"/>de Canast</persName>;   
+               et <persName nymRef="#Bernard_Ademar_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied> Ademari</persName>; 
+               <persName nymRef="#Pons_Barrau_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">oncium</supplied> Barrau</persName>. Et omnes et 
+               <persName nymRef="#Arnald_Garnier_MSP-AU" ana="#pAdo" role="par"/> ipse testis adoraverunt ibi dicto hereticos. 
+               <date type="event_date" when="1239">Et sunt VI anni vel circa.</date>
+            </seg>
+            <!-- event 6 -->
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0001-6">Et <seg type="prev_conf" ana="#neg_penance">omnia predicta<lb break="y" n="14"/>fuit confessus 
+               <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrario inquisitori</persName>, 
+               et post dictum confessionem non vidit hereticos vel hereticas</seg>. Item. 
+                  <seg type="conf" ana="#pos_bonos_homines #pos_bonam_fidem #pos_veraces #pos_amicos_dei">Dixit quod
+                     credebat hereticos esse bonos<lb break="y" n="15"/>homines et habere bonam fidem et esse
+                  veraces et amicos Dei</seg>. Et <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia  #neg_err_matrimonio #neg_err_baptismo #neg_err_resurrectione #neg_err_hostia">audivit hereticos dicentes quod Deus non fecerat visibilia, sed ipse<lb break="y" n="16"/>
+                     testis non credidit predicto errori. De baptismo, de hostia sacrata, de
+                     matrimonio, de resurrectione carnis, non audivit hereticos loquentes</seg>. Et <lb break="y" n="17"/>
+               <seg type="hist_bel">
+                  <date type="prev_bel_start" when="1238">sunt VII anni quod primo credidit
+                     hereticos esse bonos</date>, et <date type="prev_bel_end" when="1240">sunt V
+                     anni quod ultimo dimisit ipsam credulitatem</date>
+                    </seg>. Et non habuit<lb break="y" n="18"/>penitentiam ab  
+               <persName nymRef="#Ferrier_OP" role="ref">fratre Ferrario</persName> et abiuravit heresim et iuravit et cetera. Testes:  
+               <seg type="witnesses" xml:id="MS609-0001-WIT"> 
+                  <persName nymRef="#Arnald_Prior_StSernin" role="wit">Ar<supplied reason="expname">naldus</supplied>, prior Sancti Saturnini</persName>;  
+                  <persName nymRef="#Arnald_Cerda" role="wit">Ar<supplied reason="expname">naldus</supplied> Cerda</persName>; et 
+                  <persName nymRef="#Guilhem_Pelhisson_OP" role="wit">frater W<supplied reason="expname">illelmus</supplied> Pelisso Ordo<lb break="y" n="19"/>Predicatorum</persName>; et 
+                  <persName nymRef="#Bernard_de_Caux_OP" role="inq">frater B<supplied reason="expname">ernardus</supplied> de Caucio, inquisitor</persName>.</seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0001-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0001-1">The year of our Lord 1245, 6th Kalends of
+               June. The sworn witness Arnald Garnier said that he saw in the house of Peire de
+               Saint-Andrea Bernard de Saint-Andrea - brother of the aforesaid Peire - and his
+               companion, heretics, and he saw there the aforesaid Peire and his wife. The
+               witness adored the aforementioned heretics, but he did not see others adore. This was
+               about 6 years ago. And when the witness left the house he encountered Guilhem de
+               Rosengue coming toward the aforesaid heretics.</seg>
+            <seg type="trans" corresp="#MS609-0001-2">Item. The witness saw Bernard de Mairevilla
+               and his companion, heretics, in a place called Oliver, and he saw there with said
+               heretics Garnier the father of the witness, Guilhem Vidal, Guilhem Barbas Junior,
+               Jordanet del Mas, and others that he cannot recall. The witness and all adored the
+               aforementioned heretics there. This was about 7 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-3">Item. The witness saw Arnald Prader and his
+               companion, heretics, in the house of Guilhem Vidal, and he saw with them Pons Barrau,
+               Jordanet del Mas, Jordan de Quiders, and the aforementioned Guilhem Vidal and the
+               wife of said Guilhem Vidal. The witness and everyone adored said heretics. This was
+               about 7 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-4">Item. The witness saw Arnald Prader and his companion,
+               heretics, in the house of Bernard, the son of Na Matheus, and he saw there with them
+               Pons Barrau, Jordan de Quiders, Jordanet del Mas, Guilhem Vidal, Bernard Faure, and
+               the mother of said Bernard. The witness and everyone adored the aforementioned
+               heretics there. This was about 7 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-5">Item. The witness saw Donat and Peire Guilhem
+               and two other heretics whose names he did not remember in the house of Guilhem
+               Canast-Bru, and he saw with them the aforesaid Guilhem Canast-Bru, Bernard Ademar and
+               Peire Barrau. The witness and everyone adored the aforesaid heretics there. This was
+               about 6 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-6">All of the aforesaid was confessed to
+               brother Ferrier, inquisitor, and since then the witness has not seen male heretics
+               nor female heretics.<lb/>Item. The witness said that he believed the heretics to be
+               good men and to have good faith and were truthful and friends of God, and he heard
+               the heretics say that God did not create visible things, but the witness did not
+               believe the said error. He did not hear the heretics speak of baptism, of the sacred
+               host, of marriage, of the bodily resurrection. It has been 7 years since he first
+               believed the heretics, and 5 years since he last put faith in them. And brother
+               Ferrier did not assign penance. He abjured heresy and swore, etc. Witnesses: Arnald,
+               Prior of Saint-Sernin; Arnald Cerda, brother Guilhem Pelhisson of the Order of
+               Preachers; and brother Bernard de Caux, inquisitor. </seg>
+         </p>
+      </back>
+   </text>
+</TEI>
