@@ -34,9 +34,11 @@
                 <div id="header">
                     <h1>Edition numérique d'Andromaque (1668)</h1>
                 </div>
+                <!--Appliquer les règles sur les person ici-->
                 <div class="notices_personnages">
                     <h3>Notices: personnages</h3>
                     <xsl:apply-templates select="//person"/>
+                    <!--Appliquer les règles sur les person ici-->
                 </div>
                 <div id="main">
                     <div id="play">
@@ -75,7 +77,7 @@
 
     <xsl:template match="speaker">
         <div class="speaker">
-            <xsl:value-of select="concat(substring(.,1,1), lower-case(substring(., 2)))"/>
+            <xsl:value-of select="concat(substring(., 1, 1), lower-case(substring(., 2)))"/>
         </div>
     </xsl:template>
 
