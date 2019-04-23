@@ -26,11 +26,18 @@ Un Makefile a été ajouté pour faciliter la transformation des fichiers: une f
 
 ## Crédits institutionnels
 
-Cette formation est financée par le **Consortium COSME**, membre de la TGIR (Très Grande Infrastructure de Recherche) **Huma-Num**, et bénéficie du soutien du **CIHAM UMR 5648**. 
+Cette formation est financée par le **Consortium COSME**, membre de la TGIR (Très Grande Infrastructure de Recherche) **Huma-Num**, et bénéficie du soutien du **CIHAM UMR 5648**.
 
 ![alt text](img/cosme.png)
 ![alt text](img/huma-num.png)
 ![alt text](img/ciham.png)
+
+## Schéma
+Si vous avez besoin du schéma de la dernière version de la TEI, ajoutez en haut de votre document
+
+```XML
+<?xml-model href="votre/chemin/tei_all.rnc" type="application/relax-ng-compact-syntax"?>
+```
 
 ## Licence de diffusion
 
