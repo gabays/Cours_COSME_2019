@@ -1,0 +1,3547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPlace xmlns="http://www.tei-c.org/ns/1.0" xml:id="code_place">
+      <head> <!-- taxonomy for place/@type -->
+         <list>
+            <item xml:id="abbey">
+               <desc xml:lang="EN">abbey</desc>
+               <desc xml:lang="FR">abbaye</desc>
+            </item>
+            <item xml:id="barn">
+               <desc xml:lang="EN">barn</desc>
+               <desc xml:lang="FR">grange</desc>
+            </item>
+            <item xml:id="bridge">
+               <desc xml:lang="EN">bridge</desc>
+               <desc xml:lang="FR">pont</desc>
+            </item>
+            <item xml:id="cabin">
+               <desc xml:lang="EN">cabin</desc>
+               <desc xml:lang="FR">cabane</desc>
+            </item>
+            <item xml:id="casali">
+               <desc xml:lang="EN">casali</desc>
+               <desc xml:lang="FR">casali</desc>
+            </item>
+            <item xml:id="castle">
+               <desc xml:lang="EN">castle</desc>
+               <desc xml:lang="FR">château</desc>
+            </item>
+            <item xml:id="chapel-church">
+               <desc xml:lang="EN">chapel/church</desc>
+               <desc xml:lang="FR">chapelle/église</desc>
+            </item>
+            <item xml:id="city-gate">
+               <desc xml:lang="EN">gate</desc>
+               <desc xml:lang="FR">porte</desc>
+            </item>
+            <item xml:id="farm">
+               <desc xml:lang="EN">farm</desc>
+               <desc xml:lang="FR">ferme</desc>
+            </item>
+            <item xml:id="field">
+               <desc xml:lang="EN">field</desc>
+               <desc xml:lang="FR">champ</desc>
+            </item>
+            <item xml:id="home">
+               <desc xml:lang="EN">home</desc>
+               <desc xml:lang="FR">maison</desc>
+            </item>
+            <item xml:id="journey">
+               <desc xml:lang="EN">journey</desc>
+               <desc xml:lang="FR">trajet</desc>
+            </item>
+            <item xml:id="market">
+               <desc xml:lang="EN">market</desc>
+               <desc xml:lang="FR">marché</desc>
+            </item>
+            <item xml:id="open-public">
+               <desc xml:lang="EN">open public</desc>
+               <desc xml:lang="FR">en public</desc>
+            </item>
+            <item xml:id="orchard">
+               <desc xml:lang="EN">orchard</desc>
+               <desc xml:lang="FR">verger</desc>
+            </item>
+            <item xml:id="region">
+               <desc xml:lang="EN">region</desc>
+               <desc xml:lang="FR">région</desc>
+            </item>
+            <item xml:id="spring">
+               <desc xml:lang="EN">spring</desc>
+               <desc xml:lang="FR">source</desc>
+            </item>
+            <item xml:id="unknown">
+               <desc xml:lang="EN">unknown</desc>
+               <desc xml:lang="FR">inconnu</desc>
+            </item>
+            <item xml:id="village">
+               <desc xml:lang="EN">village</desc>
+               <desc xml:lang="FR">village</desc>
+            </item>
+            <item xml:id="water">
+               <desc xml:lang="EN">waters</desc>
+               <desc xml:lang="FR">eaux</desc>
+            </item>
+            <item xml:id="woods">
+               <desc xml:lang="EN">woods</desc>
+               <desc xml:lang="FR">forêt</desc>
+            </item>
+            <item xml:id="workshop">
+               <desc xml:lang="EN">workshop</desc>
+               <desc xml:lang="FR">atelier</desc>
+            </item>
+         </list>
+      </head>
+   <!-- open public -->
+   
+   <place exclude="print" type="village" xml:id="unknown_village">
+      <desc>
+         <placeName xml:lang="EN">unknown village</placeName>
+         <placeName xml:lang="FR">village inconnu</placeName>
+      </desc>
+   </place>
+   
+   <place exclude="print" type="open_public" xml:id="open_public_Burac">
+      <desc>
+         <placeName xml:lang="EN">open public at Burac</placeName>
+         <placeName xml:lang="FR">en public à Burac</placeName>
+      </desc>
+      <note>Unknown Burac, possibly Bugnac at Tarabel.</note>
+   </place>
+   
+   <place exclude="print" type="open_public" xml:id="open_public_LSB">
+      <desc>
+         <placeName xml:lang="EN">open public at Lasbordes</placeName>
+         <placeName xml:lang="FR">en public à Lasbordes</placeName>
+         <settlement ana="#Lasbordes_Aude"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_SML">
+      <desc>
+         <placeName xml:lang="EN">open public at Saint-Martin-Lalande</placeName>
+         <placeName xml:lang="FR">en public à Saint-Martin-Lalande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_MSP">
+      <desc>
+         <placeName xml:lang="EN">open public at Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">en public à Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_MTA">
+      <desc>
+         <placeName xml:lang="EN">open public at Montauriol</placeName>
+         <placeName xml:lang="FR">en public à Montauriol</placeName>
+         <settlement ana="#Montauriol_Aude"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_MTG">
+      <desc>
+         <placeName xml:lang="EN">open public at Montgaillard</placeName>
+         <placeName xml:lang="FR">en public à Montgaillard</placeName>
+         <settlement ana="#Montgaillard_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_MTQ">
+      <desc>
+         <placeName xml:lang="EN">open public at Montesquieu</placeName>
+         <placeName xml:lang="FR">en public à Montesquieu</placeName>
+         <settlement ana="#Montesquieu-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_BRL">
+      <desc>
+         <placeName xml:lang="EN">open public at Bereilles</placeName>
+         <placeName xml:lang="FR">en public à Bereilles</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place exclude="print" type="open_public" xml:id="open_public_LRC">
+      <desc>
+         <placeName xml:lang="EN">open public at Laurac</placeName>
+         <placeName xml:lang="FR">en public à Laurac</placeName>
+         <settlement ana="#Laurac_Aude"/>
+      </desc>
+   </place>
+   
+   <place exclude="print" type="journey" xml:id="travel">
+      <desc>
+         <placeName xml:lang="EN">journey between two places</placeName>
+         <placeName xml:lang="FR">trajet entre deux lieux</placeName>
+      </desc>
+      <note>This XML ID is used for descriptions of journeys, 
+         usually with 'associare' or 'ducere'. The element will 
+         contain placenames to compose 'the journey'.</note>
+   </place>
+   <place exclude="print" type="journey" xml:id="between">
+      <desc>
+         <placeName xml:lang="EN">journey between two places</placeName>
+         <placeName xml:lang="FR">trajet entre deux lieux</placeName>
+      </desc>
+      <note>This XML ID is used for descriptions of unnamed 
+         places between other names places. The element will 
+         contain placenames.</note>
+   </place>
+   <!-- FRANCE BY VILLAGE -->
+   <!--Agassac, HG-->
+   <place type="village" xml:id="Agassac_Haute-Garonne">
+      <desc>
+         <placeName>Agassac</placeName>
+         <settlement>Agassac</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.37109 0.88904</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="hill_above_Agassac-HG">
+      <desc>
+         <placeName xml:lang="EN">hill above Agassac</placeName>
+         <placeName xml:lang="FR">colline au-dessus d'Agassac</placeName>
+         <settlement ana="#Agassac_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Agen_Lot-et-Garonne">
+      <desc>
+         <placeName>Agen</placeName>
+         <settlement>Agen</settlement>
+         <geo>44.17615 0.61691</geo>
+         <region>Lot-et-Garonne</region>
+      </desc>
+   </place>
+   <place type="village" xml:id="Airoux_Aude">
+      <desc>
+         <placeName>Airoux</placeName>
+         <settlement>Airoux</settlement>
+         <region>Aude</region>
+         <geo>43.3633 1.86617</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Auriac_Aude">
+      <desc>
+         <placeName>Auriac</placeName>
+         <settlement>Auriac</settlement>
+         <region>Aude</region>
+         <geo>42.93019 2.49134</geo>
+      </desc>
+   </place>
+   <!-- Auterive, HG -->
+   <place type="village" xml:id="Auterive_Haute-Garonne">
+      <desc>
+         <placeName>Auterive</placeName>
+         <abbr xml:id="ATV-HG">ATV-HG</abbr>
+         <settlement>Auterive</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.35103 1.47797</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_de_Ors_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard de Ors</placeName>
+         <placeName xml:lang="FR">domus de Bernard de Ors</placeName>
+         <settlement ana="#Auterive_Haute-Garonne"/>
+         <trait type="owner" ana="#Bernard_de_Ors_MTG-HG"/>
+      </desc>
+   </place>
+   
+   
+   <place type="village" xml:id="Avignonet-Lauragais_Haute-Garonne">
+      <desc>
+         <placeName>Avignonet-Lauragais</placeName>
+         <abbr xml:id="AVG-HG">AVG-HG</abbr>
+         <settlement>Avignonet-Lauragais</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.36667 1.8</geo>
+      </desc>
+   </place>
+     
+   <!-- Baziege -->
+   <place type="village" xml:id="Baziege_Haute-Garonne">
+      <desc>
+         <placeName>Baziège</placeName>
+         <abbr xml:id="BAZ-HG">BAZ-HG</abbr>
+         <settlement>Baziège</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.45454 1.61399</geo>
+      </desc>
+   </place>
+   <!-- Belpech -->
+   <place type="village" xml:id="Belpech_Aude">
+      <desc>
+         <placeName>Belpech</placeName>
+         <abbr xml:id="BPC-AU">BPC-AU</abbr>
+         <settlement>Belpech</settlement>
+         <region>Aude</region>
+         <geo>43.19957 1.75157</geo>
+      </desc>
+   </place> 
+   <place type="unknown" xml:id="La_Peira">
+      <desc>
+         <placeName>La Peira</placeName>
+         <settlement ana="#Belpech_Aude"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimunda_mother_of_Flor_del_Mas_BPC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimunda, mother of Flor del Mas</placeName>
+         <placeName xml:lang="FR">domus de Raimunda, mère de Flor del Mas</placeName>
+         <settlement ana="#Belpech_Aude"/>
+         <trait type="owner" ana="#Raimunda_mother_of_Flor_del_Mas_BPC-AU"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Belfort-sur-Rebenty_Aude">
+      <desc>
+         <placeName>Belfort-sur-Rebenty</placeName>
+         <settlement>Belfort-sur-Rebenty</settlement>
+         <region>Aude</region>
+         <geo>42.83333 2.05</geo>
+      </desc>
+   </place>
+   <!-- Bereilles -->
+   <place type="village" xml:id="Bereilles_Haute-Garonne">
+      <desc>
+         <placeName>Bereilles</placeName>
+         <abbr xml:id="BRL-HG">BRL-HG</abbr>
+         <settlement>Bereilles</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.41523 1.75417</geo>
+      </desc>
+      <note>No longer extant - location is estimated based on ms. 609 reference 'de Berellas iuxta Monte Galhardum'</note>
+   </place>
+   <place type="farm" xml:id="farm_of_Raimund_Fornier_BRL-HG">
+      <desc>
+         <placeName xml:lang="EN">farm of Raimund Fornier</placeName>
+         <placeName xml:lang="FR">ferme de Raimund Fornier</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+         <trait type="owner" ana="#Raimund_Fornier_BRL-HG"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="farm" xml:id="farm_of_Raimund_Fornier_2_BRL-HG">
+      <desc>
+         <placeName xml:lang="EN">farm of Raimund Fornier</placeName>
+         <placeName xml:lang="FR">ferme de Raimund Fornier</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+         <trait type="owner" ana="#Raimund_Fornier_2_BRL-HG"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <place type="farm" xml:id="farm_of_Tolosa_Fornier_H">
+      <desc>
+         <placeName xml:lang="EN">farm of Tolosa Fornier</placeName>
+         <placeName xml:lang="FR">ferme de Tolosa Fornier</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+         <trait type="owner" ana="#Tolosa_Fornier_H"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Tolosa_Fornier_H">
+      <desc>
+         <placeName xml:lang="EN">domus of Tolosa Fornier</placeName>
+         <placeName xml:lang="FR">domus de Tolosa FOrnier</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+         <trait type="owner" ana="#Tolosa_Fornier_H"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="woods" xml:id="woods_of_la_Galanha_BRL-HG">
+      <desc>
+         <placeName xml:lang="EN">woods of la Galanha next to Bereilles</placeName>
+         <placeName xml:lang="FR">bois de la Galanha proche de Bereilles</placeName>
+         <settlement ana="#Bereilles_Haute-Garonne"/>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Cabannes_Tarn">
+      <desc>
+         <placeName>Cabannes</placeName>
+         <abbr xml:id="CBN-TA">CBN-TA</abbr>
+         <settlement>Cabannes</settlement>
+         <region>Tarn</region>
+         <geo>43.72852 2.76891</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Cabaret_Aude">
+      <desc>
+         <placeName>Cabaret</placeName>
+         <abbr xml:id="CAB-AU">CAB-AU</abbr>
+         <settlement>Cabaret</settlement>
+         <region>Aude</region>
+         <geo>43.3377669 2.3602705</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Cahors_Lot">
+      <desc>
+         <placeName>Cahors</placeName>
+         <abbr xml:id="CAH-LO">CAH-LO</abbr>
+         <settlement>Cahors</settlement>
+         <region>Lot</region>
+         <geo>44.4566231 1.3688012</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Cambiac_Haute-Garonne">
+      <desc>
+         <placeName>Cambiac</placeName>
+         <abbr xml:id="CAM-HG">CAM-HG</abbr>
+         <settlement>Cambiac</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.48875 1.79246</geo>
+      </desc>
+   </place>
+   <!-- Caragoudes, HG -->
+   <place type="village" xml:id="Caragoudes_Haute-Garonne">
+      <desc>
+         <placeName>Caragoudes</placeName>
+         <abbr xml:id="CAR-HG">CAR-HG</abbr>
+         <settlement>Caragoudes</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.49954 1.70031</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bertrand_Alaman_CAR">
+      <desc>
+         <placeName xml:lang="EN">domus of Bertrand Alaman</placeName>
+         <placeName xml:lang="FR">domus de Bertrand Alaman</placeName>
+         <settlement ana="#Caragoudes_Haute-Garonne"/>
+         <trait type="owner" ana="#Bertrand_Alaman_CAR-HG"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="village" xml:id="Caraman_Haute-Garonne">
+      <desc>
+         <placeName>Caraman</placeName>
+         <settlement>Caraman</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.53271 1.76002</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Carcassonne_Aude">
+      <desc>
+         <placeName>Carcassonne</placeName>
+         <abbr xml:id="CAR-AU">CAR-AU</abbr>
+         <settlement>Carcassonne</settlement>
+         <region>Aude</region>
+         <geo>43.21667 2.35</geo>
+      </desc>
+   </place>
+   <!-- Castelnaudary, AU -->
+   <place type="village" xml:id="Castelnaudary_Aude">
+      <desc>
+         <placeName>Castelnaudary</placeName>
+         <abbr xml:id="CNY-AU">CNY-AU</abbr>
+         <settlement>Castelnaudary</settlement>
+         <region>Aude</region>
+         <geo>43.31829 1.95449</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_heretics_CNY-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of heretics at Castelnaudary</placeName>
+         <placeName xml:lang="FR">domus des hérétiques à Castelnaudary</placeName>
+         <settlement ana="#Castelnaudary_Aude"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Castelsarrasin_Tarn-et-Garonne">
+      <desc>
+         <placeName>Castelsarrasin</placeName>
+         <abbr xml:id="CSR-TG">CSR-TG</abbr>
+         <settlement>Castelsarrasin</settlement>
+         <region>Tarn-et-Garonne</region>
+         <geo>44.03333 1.1</geo>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Castilho">
+      <desc>
+         <placeName>Castilho</placeName>
+         <settlement ana="#Cintegabelle_Haute-Garonne"/>
+      </desc>
+      <note>locum qui dicitur Castilho prope Sanctam Gavelham</note>
+   </place>
+   
+   <place type="village" xml:id="Castres_Tarn">
+      <desc>
+         <placeName>Castres</placeName>
+         <settlement>Castres</settlement>
+         <abbr>CAS</abbr>
+         <region>Tarn</region>
+         <geo>43.6 2.25</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Cazalrenoux_Aude">
+      <desc>
+         <placeName>Cazalrenoux</placeName>
+         <abbr xml:id="CAZ-AU">CAZ-AU</abbr>
+         <settlement>Cazalrenoux</settlement>
+         <region>Aude</region>
+         <geo>43.19734 1.94929</geo>
+      </desc>
+   </place>
+   <!-- Cintegabelle, HB -->
+   <place type="village" xml:id="Cintegabelle_Haute-Garonne">
+      <desc>
+         <placeName>Cintegabelle</placeName>
+         <abbr xml:id="CIN-HG">CIN-HG</abbr>
+         <settlement>Cintegabelle</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.31316 1.53333</geo>
+      </desc>
+   </place>
+   <place type="field" xml:id="field_at_Cintegabelle_CIN-HG">
+      <desc>
+         <placeName xml:lang="EN">field at Cintegabelle</placeName>
+         <placeName xml:lang="FR">champ à Cintegabelle</placeName>
+      </desc>
+   </place>
+   <place type="abbey" xml:id="abbey_of_Boulbonne">
+      <desc>
+         <placeName xml:lang="EN">abbey of Boulbonne</placeName>
+         <placeName xml:lang="FR">abbaye de Boulbonne</placeName>
+         <settlement ana="#Cintegabelle_Haute-Garonne"/>
+         <geo>43.2986 1.5837</geo>
+      </desc>
+      <note>The coordinates are for the early modern location of the abbey. The medieval abbey is
+         gone but was about 10kms south of Cintegabelle.</note>
+   </place>
+   <place type="home" xml:id="home_of_Na_Ticborx_CIN-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Ticborx</placeName>
+         <placeName xml:lang="FR">domus de Na Tiborx</placeName>
+         <settlement ana="#Cintegabelle_Haute-Garonne"/>
+         <trait type="owner" ana="#Na_Ticborx_CIN-HG"/>
+      </desc>
+   </place>
+   
+   
+   
+   <place type="village" xml:id="Conques-sur-Orbiel_Aude">
+      <desc>
+         <placeName>Conques-sur-Orbiel</placeName>
+         <settlement>Conques-sur-Orbiel</settlement>
+         <region>Aude</region>
+         <geo>43.26667 2.41667</geo>
+      </desc>
+   </place>
+   <!-- Cumiés, AU -->
+   <place type="village" xml:id="Cumies_Aude">
+      <desc>
+         <placeName>Cumiés</placeName>
+         <abbr xml:id="CMS-AU">CMS-AU</abbr>
+         <settlement>Cumiés</settlement>
+         <region>Aude</region>
+         <geo>43.29563 1.84151</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Saramunda_del_Mas_CMS-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Saramunda del Mas (ancestral?)</placeName>
+         <placeName xml:lang="FR">domus de Saramunda del Mas (ancestral?)</placeName>
+         <settlement ana="#Cumies_Aude"/>
+         <trait type="owner" ana="#Saramunda_del_Mas_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_poor_women_CMS-AU">
+      <desc>
+         <placeName xml:lang="EN">home for poor women at Cumiers</placeName>
+         <placeName xml:lang="FR">maison des femmes pauvres à Cumiers</placeName>
+         <settlement ana="#Cumies_Aude"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_na_Gauzi_de_Cumies_CMS-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Gauzi de Cumies</placeName>
+         <placeName xml:lang="FR">domus de Na Gauzi de Cumies</placeName>
+         <settlement ana="#Cumies_Aude"/>
+         <trait type="owner" ana="#na_Gauzi_de_Cumies_CMS-AU"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Dreuilhe_Haute-Garonne">
+      <desc>
+         <placeName>Dreuilhe</placeName>
+         <abbr xml:id="DRL-HG">DRL-HG</abbr>
+         <settlement>Dreuilhe</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.4327624 1.9676945</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Escalquens_Haute-Garonne">
+      <desc>
+         <placeName>Escalquens</placeName>
+         <abbr xml:id="ESC-HG">ESC-HG</abbr>
+         <settlement>Escalquens</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.51744 1.55893</geo>
+      </desc>
+   </place>
+   <!-- Falgayrac, HG -->
+   <place type="village" xml:id="Falgayrac_Haute-Garonne">
+      <desc>
+         <placeName>Falgayrac</placeName>
+         <abbr xml:id="FGY-HG">FGY-HG</abbr>
+         <settlement>Falgayrac</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.4944499 1.7036485</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Falgayrac_HG">
+      <desc>
+         <placeName xml:lang="EN">woods of Falgayrac</placeName>
+         <placeName xml:lang="FR">bois de Falgayrac</placeName>
+         <settlement ana="#Falgayrac_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="cabin" xml:id="cabin_near_springs_of_Falgayrac">
+      <desc>
+         <placeName xml:lang="EN">some cabin next to the springs at Falgayrac</placeName>
+         <placeName xml:lang="FR">une cabine près des sources à Falgayrac</placeName>
+         <settlement ana="#Falgayrac_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Pages_FGY-HG">
+     <desc>
+        <placeName xml:lang="EN">domus of Bernard Pages</placeName>
+        <placeName xml:lang="FR">domus de Bernard Pages</placeName>
+        <settlement ana="#Falgayrac_Haute-Garonne"/>
+        <trait type="owner" ana="#Bernard_Pages_FGY-HG"/>
+     </desc>
+     <note/>
+  </place>
+   <place type="orchard" xml:id="orchard_of_Bernard_Pages_FGY-HG">
+      <desc>
+         <placeName xml:lang="EN">orchard of Bernard Pages</placeName>
+         <placeName xml:lang="FR">verger de Bernard Pages</placeName>
+         <settlement ana="#Falgayrac_HG"/>
+         <trait type="owner" ana="#Falgayrac_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+    <!-- Fanjeaux -->
+   <place type="village" xml:id="Fanjeaux_Aude">
+      <desc>
+         <placeName xml:lang="EN">Fanjeaux</placeName>
+         <abbr xml:id="FJX-AU">FJX-AU</abbr>
+         <settlement>Fanjeaux</settlement>
+         <region>Aude</region>
+         <geo>43.18672 2.03384</geo>
+      </desc>
+   </place>
+  
+   <!-- Fendeille, AU -->
+   <place type="village" xml:id="Fendeille_Aude">
+      <desc>
+         <placeName xml:lang="EN">Fendeille</placeName>
+         <settlement>Fendeille</settlement>
+         <abbr xml:id="FDL-AU">FDL-AU</abbr>
+         <region>Aude</region>
+         <geo>43.26883 1.94268</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Esteve_Fendelha_FDL-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Esteve Fendelha</placeName>
+         <placeName xml:lang="FR">domus d'Esteve Fendelha</placeName>
+         <settlement ana="#Fendeille_Aude"/>
+         <trait type="owner" ana="#Esteve_Fendelha_FDL-AU"/>
+      </desc>
+   </place>
+   <!-- Ferran, AU -->
+   <place type="village" xml:id="Ferran_Aude">
+      <desc>
+         <placeName xml:lang="EN">Ferran</placeName>
+         <abbr xml:id="FER-AU">FER-AU</abbr>
+         <settlement>Ferran</settlement>
+         <region>Aude</region>
+         <geo>43.15279 2.08972</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_W_Arnald_de_Ferran">
+      <desc>
+         <placeName xml:lang="EN">domus of W. Arnald Ferran</placeName>
+         <placeName xml:lang="FR">domus de W. Arnald Ferran</placeName>
+         <settlement ana="#Ferran_Aude"/>
+         <trait type="owner" ana="#W_Arnald_de_Ferran_FER-AU"/>
+      </desc>
+   </place>
+   <!-- Foix, AR -->
+   <place type="village" xml:id="Foix_Ariege">
+      <desc>
+         <placeName xml:lang="EN">Foix</placeName>
+         <abbr xml:id="FOI-AR">FOI-AR</abbr>
+         <settlement>Foix</settlement>
+         <region>Ariège</region>
+         <geo>42.96667 1.6</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="unnamed_home_in_Foix">
+      <desc>
+         <placeName xml:lang="EN">unnamed domus in Foix</placeName>
+         <placeName xml:lang="FR">domus inconnu à Foix</placeName>
+         <settlement ana="#Foix_Ariege"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_in_Foix">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald at Foix</placeName>
+         <placeName xml:lang="FR">domus de Arnald à Foix</placeName>
+         <settlement ana="#Foix_Ariege"/>
+      </desc>
+   </place>
+   <!-- Fonters-du-Razes, AU --> 
+   <place type="village" xml:id="Fonters-du-Razes_Aude">
+      <desc>
+         <placeName>Fonters-du-Razès</placeName>
+         <abbr xml:id="FDR-AU">FDR-AU</abbr>
+         <settlement>Fonters-du-Razès</settlement>
+         <region>Aude</region>
+         <geo>43.22834 1.934</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Hugo_de_Montferrand_FDR-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Hugo de Montferrand</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Hugo de Montferrand</placeName>
+         <settlement ana="#Fonters-du-Razes_Aude"/>
+      </desc>
+   </place>
+   <!-- Gaja-la-Selve, Aude --> 
+   <place type="village" xml:id="Gaja-la-Selve_Aude">
+      <desc>
+         <placeName>Gaja-la-Selve</placeName>
+         <abbr xml:id="GAJ-AU">GAJ-AU</abbr>
+         <settlement>Gaja-la-Selve</settlement>
+         <region>Aude</region>
+         <geo>43.1953 1.89555</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_de_Mazerol_GAJ-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire de Mazerol</placeName>
+         <placeName xml:lang="FR">domus de Peire de Mazerol</placeName>
+         <settlement ana="#Gaja-la-Selve_Aude"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_near_Gaja-la-Selve">
+      <desc>
+         <placeName xml:lang="EN">woods near Gaja-la-Selve</placeName>
+         <placeName xml:lang="FR">bois proche de Gaja-la-Selve</placeName>
+         <settlement ana="#Gaja-la-Selve_Aude"/>
+      </desc>
+   </place>
+   <!-- Gardouch, HG -->
+   <place type="village" xml:id="Gardouch_Haute-Garonne">
+      <desc>
+         <placeName>Gardouch</placeName>
+         <abbr xml:base="GAR-HG">GAR-HG</abbr>
+         <settlement>Gardouch</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.39096 1.68313</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_den_Vesia_GAR-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Vesia</placeName>
+         <placeName xml:lang="FR">domus de Vesia</placeName>
+         <settlement ana="#Gardouch_Haute-Garonne"/>
+         <trait type="owner" ana="#den_Vesia_GAR-HG"/>
+      </desc>
+   </place>
+   
+   
+   <!-- Garrevaques -->
+   <place type="village" xml:id="Garrevaques_Tarn">
+      <desc>
+         <placeName>Garrevaques</placeName>
+         <settlement>Garrevaques</settlement>
+         <region>Tarn</region>
+         <geo>43.48958 1.9809</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_between_Garrevaques_Las_Toellas">
+      <desc>
+         <placeName xml:lang="EN">woods between Garrevaques and Las Toellas</placeName>
+         <placeName xml:lang="EN">bois entre Garrevaques et Las Toellas</placeName>
+      </desc>
+      <note/>
+   </place>
+    <!-- Gauré -->
+   <place type="village" xml:id="Gaure_Haute-Garonne">
+      <desc>
+         <placeName>Gauré</placeName>
+         <abbr xml:id="GAU-HG">GAU-HG</abbr>
+         <settlement>Gauré</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.61427 1.63151</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Gibel_Haute-Garonne">
+      <desc>
+         <placeName>Gibel</placeName>
+         <abbr xml:id="GIB-HG">GIB-HG</abbr>
+         <settlement>Gibel</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.29368 1.67794</geo>
+      </desc>
+   </place>
+   
+   <!-- Gomervillle (Gourvieille?) -->
+   <place type="village" xml:id="Gomerville_Haute-Garonne">
+      <desc>
+         <placeName>Gomerville</placeName>
+         <abbr xml:id="GMR-HG">GMR-HG</abbr>
+         <settlement>Gomerville</settlement>
+         <region>Haute-Garonne</region>
+      </desc>
+      <note>Possibly Gourvielle, HG</note>
+   </place>
+   
+   <place type="home" xml:id="home_of_Guilhem_de_Gomerville_GMR-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem de Gomerville</placeName>
+         <placeName xml:lang="FR">domus de Guilhem de Gomerville</placeName>
+         <settlement ana="#Gomerville_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_de_Gomerville_GMR-HG"/>
+      </desc>
+   </place>
+   
+   <place type="home" xml:id="home_of_Pons_de_Gomerville_GMR-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons de Gomerville</placeName>
+         <placeName xml:lang="FR">domus de Pons de Gomerville</placeName>
+         <settlement ana="#Gomerville_Haute-Garonne"/>
+         <trait type="owner" ana="#Pons_de_Gomerville_GMR-HG"/>
+      </desc>
+   </place>
+   <place type="fields" xml:id="fields_near_Gomerville">
+      <desc>
+         <placeName xml:lang="EN">fields near Gourvieille</placeName>
+         <placeName xml:lang="FR">champs proche de Gourvieille</placeName>
+         <settlement ana="#Gomerville_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="woods" xml:id="woods_at_Gomerville_GMR-HG">
+      <desc>
+         <placeName xml:lang="EN">woods at Gourvieille</placeName>
+         <placeName xml:lang="FR">bois de Gourvieille</placeName>
+         <settlement ana="#Gomerville_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <!-- Gourvieille -->
+   <place type="village" xml:id="Gourvieille_Aude">
+      <desc>
+         <placeName>Gourvieille</placeName>
+         <abbr xml:id="GOU-AU">GOU-AU</abbr>
+         <settlement>Gourvieille</settlement>
+         <region>Aude</region>
+         <geo>43.33952 1.78168</geo>
+      </desc>
+   </place>
+   
+   
+   
+   
+   <place type="village" xml:id="Hautpoul_Tarn">
+      <desc>
+         <placeName>Hautpoul</placeName>
+         <abbr xml:id="HPL-TA">HPL-TA</abbr>
+         <settlement>Hautpoul</settlement>
+         <region>Tarn</region>
+         <geo>43.46968 2.39124</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Issel_Aude">
+      <desc>
+         <placeName>Issel</placeName>
+         <abbr xml:id="ISL-AU">ISL</abbr>
+         <settlement>Issel</settlement>
+         <region>Aude</region>
+         <geo>43.36692 1.99057</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="La_Pomarede_Aude">
+      <desc>
+         <placeName>La Pomarède</placeName>
+         <abbr xml:id="LPM-AU"/>
+         <settlement>La Pomarède</settlement>
+         <region>Aude</region>
+         <geo>43.40487 1.95025</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Labecede_Aude">
+      <desc>
+         <placeName>Labécède</placeName>
+         <abbr xml:id="LBC-AU">LBC-AU</abbr>
+         <settlement>Labécède</settlement>
+         <region>Aude</region>
+         <geo>43.39079 2.00578</geo>
+      </desc>
+   </place>
+   <!-- Labruyère, HG -->
+   <place type="village" xml:id="Labruyere-Dorsa_Haute-Garonne">
+      <desc>
+         <placeName>Labruyère-Dorsa</placeName>
+         <abbr xml:id="LBY-HG">LBY-HG</abbr>
+         <settlement>Labruyère-Dorsa</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.40715 1.47041</geo>
+      </desc>
+   </place>
+   <place type="field" xml:id="field_at_Labruyere_LBY-HG">
+      <desc>
+         <placeName xml:lang="EN">field at Labruyère</placeName>
+         <placeName xml:lang="FR">champ à Labruyère</placeName>
+         <settlement ana="#Labruyere-Dorsa_Haute-Garonne"/>
+      </desc>
+   </place>
+   
+   
+   <place type="village" xml:id="Lafage_Aude">
+      <desc>
+         <placeName>Lafage</placeName>
+         <abbr xml:id="LFG-AU">LFG-AU</abbr>
+         <settlement>Lafage</settlement>
+         <region>Aude</region>
+         <geo>43.17432 1.86323</geo>
+      </desc>
+   </place>
+   
+   
+   <!-- Lanta -->
+   <place type="village" xml:id="Lanta_Haute-Garonne">
+      <desc>
+         <placeName>Lanta</placeName>
+         <abbr xml:id="LAN-HG">LAN-HG</abbr>
+         <settlement>Lanta</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.56667 1.66667</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_near_Lanta">
+      <desc>
+         <placeName xml:lang="EN">woods near Lanta</placeName>
+         <placeName xml:lang="FR">bois près de Lanta</placeName>
+         <settlement ana="Lanta_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Hugo_de_Cavelha_LAN-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Hugo de Cavelha</placeName>
+         <placeName xml:lang="FR">domus de Hugo de Cavelha</placeName>
+         <settlement ana="#Lanta_Haute-Garonne"/>
+         <trait type="owner" ana="#Hugo_de_Cavelha_LAN-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Jordan_de_Lanta_TLS-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan de Lanta (at Toulouse)</placeName>
+         <placeName xml:lang="FR">domus de Jordan de Lanta (à Toulouse)</placeName>
+         <settlement ana="#Toulouse_Haute-Garonne"/>
+         <trait type="owner" ana="#Jordan_de_Lanta_TLS-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Jordan_de_Lanta_LAN-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan de Lanta (at Lanta)</placeName>
+         <placeName xml:lang="FR">domus de Jordan de Lanta (à Lanta)</placeName>
+         <settlement ana="#Lanta_Haute-Garonne"/>
+         <trait type="owner" ana="#Jordan_de_Lanta_TLS-HG"/>
+      </desc>
+   </place>
+   
+   <!-- Lasbordes, AU -->
+   <place type="village" xml:id="Lasbordes_Aude">
+      <desc>
+         <placeName>Lasbordes</placeName>
+         <abbr xml:id="LSB-AU">LSB-AU</abbr>
+         <settlement>Lasbordes</settlement>
+         <region>Aude</region>
+         <geo>43.29494 2.04513</geo>
+      </desc>
+   </place>
+   
+   
+   <!-- Lastours -->
+   <place type="village" xml:id="Lastours_Aude">
+      <desc>
+         <placeName>Lastours</placeName>
+         <abbr xml:id="LST-AU">LST-AU</abbr>
+         <settlement>Lastours</settlement>
+         <region>Aude</region>
+         <geo>43.33283 2.38147</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhelma_Audena_LST">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Audena</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Audena</placeName>
+         <settlement ana="#Lastours_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Audena_LST-AU"/>
+      </desc>
+      <note>Guilhelma is mentioned having homes in two villages by different nieces.</note>
+   </place>
+   <!-- Laurac --> 
+   <place type="village" xml:id="Laurac_Aude">
+      <desc>
+         <placeName>Laurac</placeName>
+         <abbr xml:id="LRC-AU">LRC-AU</abbr>
+         <settlement>Laurac</settlement>
+         <region>Aude</region>
+         <geo>43.22917 1.97518</geo>
+      </desc>
+   </place>
+   <place type="castle" xml:id="castle_of_Laurac">
+      <desc>
+         <placeName xml:lang="EN">castle of Laurac</placeName>
+         <placeName xml:lang="FR">château de Laurac</placeName>
+         <settlement ana="#Laurac_Aude"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="unknown_home_in_Laurac">
+      <desc>
+         <placeName xml:lang="EN">unknown domus in Laurac</placeName>
+         <placeName xml:lang="FR">domus inconnu à Laurac</placeName>
+         <settlement ana="#Laurac_Aude"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_Arnald_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund Arnald</placeName>
+         <placeName xml:lang="FR">domus de Raimund Arnald</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Raimund_Arnald_LRC-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhelma_Audena_LRC">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Audena</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Audena</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Audena_LST-AU"/>
+      </desc>
+      <note>Guilhelma is mentioned having homes in two villages by different nieces.</note>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Bertrand_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Bertrand</placeName>
+         <placeName xml:lang="FR">domus de Peire Bertrand</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Peire_Bertrand_LRC-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Insula_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem of Insula</placeName>
+         <placeName xml:lang="FR">domus de Guilhem d'Insula</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Guilhem_de_Insula_LRC-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Laura_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Laura, heretic</placeName>
+         <placeName xml:lang="FR">domus de Laura, hérétique</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Laura_LRC-AU"/>
+      </desc>
+      <note>Mentioned as having a wall built in her home.</note>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_Mir_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund Mir</placeName>
+         <placeName xml:lang="FR">domus de Raimund Mir</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Raimund_Mir_LRC-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pel_de_Samel_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pel de Semel</placeName>
+         <placeName xml:lang="FR">domus de Pel de Semel</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Pel_de_Samel_LRC-AU"/>
+      </desc>
+      <note>Guilhelma is mentioned having homes in two villages by different nieces.</note>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_de_Saint-Martin_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard de Saint Martin</placeName>
+         <placeName xml:lang="FR">domus de Bernard de Saint Martin</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Bernard_de_Saint-Martin_LRC-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Ysarn_de_Castres">
+      <desc>
+         <placeName xml:lang="EN">domus of Ysarn de Castres</placeName>
+         <placeName xml:lang="FR">domus d'Ysarn de Castres</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Ysarn_de_Castres_CAS-TA"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guirald_de_Costa_LRC-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guirald de Costa</placeName>
+         <placeName xml:lang="FR">domus de Guirald de Costa</placeName>
+         <settlement ana="#Laurac_Aude"/>
+         <trait type="owner" ana="#Guirald_de_Costa_LRC-AU"/>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Laure-Minervois_Aude">
+      <desc>
+         <placeName>Laure-Minervois</placeName>
+         <abbr xml:id="LAM-AU">LAM-AU</abbr>
+         <settlement>Laure-Minervois</settlement>
+         <region>Aude</region>
+         <geo>43.27106 2.52031</geo>
+      </desc>
+   </place>
+   <!-- Lavaur -->
+   <place type="village" xml:id="Lavaur_Tarn">
+      <desc>
+         <placeName>Lavaur</placeName>
+         <abbr xml:id="LVR-TA">LVR-TA</abbr>
+         <settlement>Lavaur</settlement>
+         <region>Tarn</region>
+         <geo>43.69847 1.81858</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Lavelanet_Ariege">
+      <desc>
+         <placeName>Lavelanet</placeName>
+         <abbr xml:id="LAV-AR">LAV-AR</abbr>
+         <settlement>Lavelanet</settlement>
+         <region>Ariège</region>
+         <geo>42.93127 1.84656</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Lescure-dAlbigeois_Tarn">
+      <desc>
+         <placeName>Lescure-d’Albigeois</placeName>
+         <abbr xml:id="LSC-TA"/>
+         <settlement>Lescure-d’Albigeois</settlement>
+         <region>Tarn</region>
+         <geo>43.95363 2.17393</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Les_Casses_Aude">
+      <desc>
+         <placeName>Les Cassés</placeName>
+         <abbr xml:id="LCA-AU">LCA-AU</abbr>
+         <settlement>Les Cassés</settlement>
+         <region>Aude</region>
+         <geo>43.42622 1.86717</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Lespinasse_Haute-Garonne">
+      <desc>
+         <placeName>Lespinasse</placeName>
+         <settlement>Lespinasse</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.71206 1.38462</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Limoux_Aude">
+      <desc>
+         <placeName>Limoux</placeName>
+         <abbr xml:id="LMX-AU">LMX-AU</abbr>
+         <settlement>Limoux</settlement>
+         <region>Aude</region>
+         <geo>43.05487 2.22173</geo>
+      </desc>
+   </place>
+   <place type="region" xml:id="Lombardy_Italy">
+      <desc>
+         <placeName>Lombardia</placeName>
+         <region>Lombardia</region>
+         <geo>45.6538549 8.8416802</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Loubens-Lauragais_Haute-Garonne">
+      <desc>
+         <placeName>Loubens-Lauragais</placeName>
+         <abbr xml:id="LOU-HG">LOU-HG</abbr>
+         <settlement>Loubens-Lauragais</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.5734 1.78425</geo>
+      </desc>
+   </place>
+   <!-- Lux, HG -->
+   <place type="village" xml:id="Lux_Haute-Garonne">
+      <desc>
+         <placeName>Lux</placeName>
+         <abbr xml:id="LUX-HG">LUX-HG</abbr>
+         <settlement>Lux</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.43705 1.78318</geo>
+      </desc>
+   </place>
+   
+   
+   <!-- Mas-Saintes-Puelles -->
+   <place type="village" xml:id="Mas-Saintes-Puelles_Aude">
+      <desc>
+         <placeName>Mas-Saintes-Puelles</placeName>
+         <abbr xml:id="MSP-AU">MSP-AU</abbr>
+         <settlement>Mas-Saintes-Puelles</settlement>
+         <region>Aude</region>
+         <geo>43.31292 1.87772</geo>
+      </desc>
+   </place>
+   <!-- Homes/Property -->  
+   <place type="home" xml:id="home_of_heretics">
+      <desc>
+         <placeName xml:lang="EN">domus of unnamed heretics at Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">domus des hérétiques anonymes au Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#heretics_not_named"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimunda_dels_Amaniels">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimunda dels Amaniels</placeName>
+         <placeName xml:lang="FR">domus de Raimunda dels Amaniels</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Raimunda_dels_Amaniels_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Johan_Auric_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Johan Auric</placeName>
+         <placeName xml:lang="FR">domus de Johan Auric</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Johan_Auric_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Ayner_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Ayner</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Ayner</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Ayner_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Na_Barona">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Barona</placeName>
+         <placeName xml:lang="FR">domus de Na Barona</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Na_Barona_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Barrau_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard Barrau</placeName>
+         <placeName xml:lang="FR">domus de Bernard Barrau</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_Barrau_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Ermengarde_Boer_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Ermengarde and Peire Boer</placeName>
+         <placeName xml:lang="FR">domus d'Ermengarde et Peire Boer</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Ermengarde_Boer_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Bru">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard and Peire Bru</placeName>
+         <placeName xml:lang="FR">domus de Bernard et Peire Bru</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_Bru_MSP-AU #Peire_Bru_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Na_Camona_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Camona</placeName>
+         <placeName xml:lang="FR">domus de Na Camona</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="Na_Camona_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Canast_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard Canast</placeName>
+         <placeName xml:lang="FR">domus de Bernard Canast</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_Canast_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_Canast_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Canast</placeName>
+         <placeName xml:lang="FR">domus d'Arnald Canast</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Arnald_Canast_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Canast_Jr">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Canast junior</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Canast junior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_de_Canast_Junior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhelma_Canast_de_Paracol_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Canast de Paracol</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Canast de Paracol</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Canast_de_Paracol_MSP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Guilhem_Canast-Brus">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Canast-Brus</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Canast-Brus</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Canast-Brus_MSP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Raimund_Canast_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard and Raimund Canast</placeName>
+         <placeName xml:lang="FR">domus de Bernard et Raimund Canast</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Raimund_Canast_SMP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Cap-de-Porc">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard and Peire de Saint-André (Cap-de-Porc)</placeName>
+         <placeName xml:lang="FR">domus de Bernard et Peire de Saint-André (Cap-de-Porc)</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Peire_Cap-de-Porc_MSP-AU #Bernard_Cap-de-Porc_MSP-AU"/>
+      </desc>
+      <note>Home was shared between the brothers; sometimes referred to as the house of one or the
+         other, or just by last name.</note>
+   </place> 
+   <place type="home" xml:id="vineyard_of_Johan_Carabula">
+      <desc>
+         <placeName xml:lang="EN">vineyards of Johan Carabula (outside Mas-Saintes-Puelles)</placeName>
+         <placeName xml:lang="FR">vignobles de Johan Carabula (dehor le Mas-Saintes-Puelles)</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Johan_Carabula_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Guilhelma_Maiestre_nee_Companh_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Maiestre née Companh</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Maiestre née Companh</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Maiestre_nee_Companh_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Alaisa_de_Cuguro_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Alaisa de Cuguro</placeName>
+         <placeName xml:lang="FR">domus de Alaisa de Cuguro</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Alaisa_de_Cuguro_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Durand_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Durand</placeName>
+         <placeName xml:lang="FR">domus de Pons Durand</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Durand_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="vineyard_of_den_Ferrat">
+      <desc>
+         <placeName xml:lang="EN">vineyards of den Ferrat</placeName>
+         <placeName xml:lang="FR">vignobles de den Ferrat</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#den_Ferrat_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Faure_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Faure</placeName>
+         <placeName xml:lang="FR">domus de Peire Faure</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Peire_Faure_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_Faure_de_Milhas_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Faure de Milhas</placeName>
+         <placeName xml:lang="FR">domus d'Arnald Faure de Milhas</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Arnald_Faure_de_Milhas_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Faure_de_Castilho_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard Faure de Castilho</placeName>
+         <placeName xml:lang="FR">domus de Bernard Faure de Castilho</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_Faure_de_Castilho_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_na_Mateus_Faure_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Matheus Faure</placeName>
+         <placeName xml:lang="FR">domus de Na Matheus Faure</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#na_Mateus_Faure_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Florence_de_Forners_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Florence de Forners</placeName>
+         <placeName xml:lang="FR">domus de Florence de Forners</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Florence_de_Forners_MSP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Na_Garsen">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Garsen</placeName>
+         <placeName xml:lang="FR">domus de Na Garsen</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Na_Garsen_MSP-AU"/>
+      </desc>
+   </place>  
+   <place type="home" xml:id="home_of_Guilhelma_Gaufred_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Companh</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Companh</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Gaufred_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Companh_Gaufred">
+      <desc>
+         <placeName xml:lang="EN">domus of Companh Gaufred</placeName>
+         <placeName xml:lang="FR">domus de Companh Gaufred</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Companh_Gaufred_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>  
+   <place type="home" xml:id="home_of_Garnier_Sr">
+      <desc>
+         <placeName xml:lang="EN">domus of Garnier senior</placeName>
+         <placeName xml:lang="FR">domus de Garnier senior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Garnier_Senior_MSP-AU #Bernarda_Garnier_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Garnier_patris_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of the father of Garnier</placeName>
+         <placeName xml:lang="FR">domus du père de Garnier</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Garnier_patris_MSP-AU"/>
+      </desc>
+   </place>
+   
+   <place type="home" xml:id="home_of_Arnald_Godalh_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Godalh</placeName>
+         <placeName xml:lang="FR">domus d'Arnald Godalh</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Arnald_Godalh_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Gran_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Gran</placeName>
+         <placeName xml:lang="FR">domus de Pons Gran</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Gran_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="workshop" xml:id="workshop_of_peire_gauta_sr">
+      <desc>
+         <placeName xml:lang="EN">workshop of Peire Gauta</placeName>
+         <placeName xml:lang="FR">telier de Peire Gauta</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Peire_Gauta_Senior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Gauta_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Gauta</placeName>
+         <placeName xml:lang="FR">domus de Pons Gauta</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Gauta_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Magrefort_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Magrefort</placeName>
+         <placeName xml:lang="FR">domus de Pons Magrefort</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Magrefort_MSP-AU"/>
+      </desc>
+   </place>
+   
+   <place type="home" xml:id="home_of_Guilhem_Malhorga_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Malhorga</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Malhorga</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Malhorga_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_del_Mas_Sr_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard del Mas senior</placeName>
+         <placeName xml:lang="FR">domus de Bernard del Mas senior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_del_Mas_Senior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_del_Mas_Jr_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem del Mas junior</placeName>
+         <placeName xml:lang="FR">domus de Guilhem del Mas junior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_del_Mas_Junior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_del_Mas_Sr_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem del Mas senior</placeName>
+         <placeName xml:lang="FR">domus de Guilhem del Mas senior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_del_Mas_Senior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Jordan_del_Mas_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan del Mas</placeName>
+         <placeName xml:lang="FR">domus de Jordan del Mas</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Jordan_del_Mas_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Fauressa_del_Mas_at_Laurac">
+      <desc>
+         <placeName xml:lang="EN">domus of Fauressa and Guilhem del Mas senior at Laurac</placeName>
+         <placeName xml:lang="FR">domus de Fauressa et Guilhem del Mas senior à Laurac</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_del_Mas_Senior_MSP-AU"/>
+         <trait type="owner" ana="#Fauressa_del_Mas_Senior_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Lobeira">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Lobeira</placeName>
+         <placeName xml:lang="FR">domus de Pons Lobeira</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Lobeira_MSP-AU"/>
+      </desc>
+   </place>
+   
+   <place type="home" xml:id="home_of_Pons_Maiestre_Senior_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Maiestre senior</placeName>
+         <placeName xml:lang="FR">domus de Pons Maiestre senior</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Pons_Maiestre_Senior_MSP-AU"/>
+      </desc>
+   </place>         
+   <place type="home" xml:id="home_of_Guilhelma_Meta">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhelma Meta</placeName>
+         <placeName xml:lang="FR">domus de Guilhelma Meta</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhelma_Meta_nee_del_Mas_MSP-AU"/>
+      </desc>
+      <note>Same as home of Bertrand de Quiders</note>
+   </place>   
+   <place type="home" xml:id="home_of_Ysarn_Matfre">
+      <desc>
+         <placeName xml:lang="EN">domus of Alaisa and Ysarn Matfre</placeName>
+         <placeName xml:lang="FR">domus d'Alaisa et Ysarn Matfre</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Ysarn_Matfre_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_Maiestre_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Maiestre</placeName>
+         <placeName xml:lang="FR">domus d'Arnald Maiestre</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Arnald_Maiestre_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Moreta_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Moreta de Montmerle</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Moreta de Montmerle</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Moreta_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Rixen_Petit_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Rixen Petit</placeName>
+         <placeName xml:lang="FR">domus de Rixen Petit</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Rixen_Petit_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Estolt_de_Rochavila_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">home of Estolt de Rochavila</placeName>
+         <placeName xml:lang="FR">domus d'Estolt de Rochavila</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Estolt_de_Rochavila_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_B_Roger_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of B. Roger</placeName>
+         <placeName xml:lang="FR">domus de B. Roger</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#B_Roger_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>  
+   <place type="home" xml:id="home_of_Austorga_de_Rosengue_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Austorga de Rosengue</placeName>
+         <placeName xml:lang="FR">domus d'Austorga de Rosengue</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Austorga_de_Rosengue_MSP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Bernard_de_Quiders">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard de Quiders</placeName>
+         <placeName xml:lang="FR">domus de Bernard de Quiders</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_de_Quiders_MSP-AU"/>
+      </desc>
+      <note>Same as home of Guilhelma Meta</note>
+   </place>   
+   <place type="field" xml:id="field_of_Bernard_de_Quiders">
+      <desc>
+         <placeName xml:lang="EN">field owned by Bernard de Quiders</placeName>
+         <placeName xml:lang="FR">champ de Bernard de Quiders</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bernard_de_Quiders_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bertrand_de_Quiders">
+      <desc>
+         <placeName xml:lang="EN">domus of Bertrand de Quiders</placeName>
+         <placeName xml:lang="FR">domus de Bertrand de Quiders</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Bertrand_de_Quiders_MSP-AU"/>
+      </desc>
+   </place>   
+   <place type="home" xml:id="home_of_Raimund_de_Quiders">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund de Quiders</placeName>
+         <placeName xml:lang="FR">domus de Raimund de Quiders</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Raimund_de_Quiders_MSP-AU"/>
+      </desc>
+   </place>   
+   <place type="home" xml:id="home_of_Jordan_de_Quiders">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan de Quiders</placeName>
+         <placeName xml:lang="FR">domus de Jordan de Quiders</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Jordan_de_Quiders_MSP-AU"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_Peirona_Na_Riqua_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peirona Na Riqua</placeName>
+         <placeName xml:lang="FR">domus de Peirona Na Riqua</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Peirona_Na_Riqua_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Esteve_de_Rosengue">
+      <desc>
+         <placeName xml:lang="EN">domus of Esteve de Rosengue</placeName>
+         <placeName xml:lang="FR">domus d'Esteve de Rosengue</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Esteve_de_Rosengue_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_de_Rosengue">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald de Rosengue</placeName>
+         <placeName xml:lang="FR">domus d'Arnald de Rosengue</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Arnald_de_Rosengue_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_na_Gauza_Tersola_MSP">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Gauza Tersola</placeName>
+         <placeName xml:lang="FR">domus de Na Gauza Tersola</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#na_Gauza_Tersola_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Na_Vierna_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem de Na Vierna</placeName>
+         <placeName xml:lang="FR">domus de Guilhem de Na Vierna</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_de_Na_Vierna_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Vidal">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem and Segura Vidal</placeName>
+         <placeName xml:lang="FR">domus de Guilhem et Segura Vidal</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Vidal_MSP-AU #Segura_Vidal_MSP-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="casali" xml:id="casali_of_Guilhem_Vidal">
+      <desc>
+         <placeName xml:lang="EN">farm stead/house/yard of Guilhem and Segura Vidal</placeName>
+         <placeName xml:lang="FR">ferme/champ de Guilhem et Segura Vidal</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+         <trait type="owner" ana="#Guilhem_Vidal_MSP-AU #Segura_Vidal_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_prior_Mas-Saintes-Puelles">
+      <desc>
+         <placeName xml:lang="EN">domus of the prior of Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">domus du prieur du Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+      <note/>
+   </place>
+   <!-- Non-homes -->
+   <place type="unknown" xml:id="Aredel">
+      <desc>
+         <placeName xml:lang="EN">Aredel</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Botaric_MSP">
+      <desc>
+         <placeName xml:lang="EN">Botaric</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Colomier_outside_MSP">
+      <desc>
+         <placeName xml:lang="EN">Colomier</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="spring" xml:id="Ebrart_Spring_MSP">
+      <desc>
+         <placeName xml:lang="EN">Ebrart Spring outside Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">source d'Ebrart dehors le Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="field" xml:id="field_near_the_Elm_of_Mas-Saintes-Puelles">
+      <desc>
+         <placeName xml:lang="EN">field near the Elm of Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">champ près de l'Orme du Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Lo_Plemol_MSP">
+      <desc>
+         <placeName>Lo Plemol</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Lo_Radel_MSP">
+      <desc>
+         <placeName>Lo Radel</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Oliver_MSP">
+      <desc>
+         <placeName>Oliver</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="outside_Mas-Saintes-Puelles">
+      <desc>
+         <placeName xml:lang="EN">outside of Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">dehors du Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+      <note>Often 'extra villam'</note>
+   </place>
+   <place type="casali" xml:id="casali_outside_Mas-Saintes-Puelles">
+      <desc>
+         <placeName xml:lang="EN">farm stead/house/yard of 'Capela' outside Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">ferme/champ de la 'Capela' dehors du Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+      <note>In latin 'quodam casali de la Capela extra villam de Manso'.</note>
+   </place>
+   <place type="city_gate" xml:id="Mal_Cosseil_gates">
+      <desc>
+         <placeName xml:lang="EN">Mal Cosseil gates</placeName>
+         <placeName xml:lang="FR">porte de Mal</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="city_gate" xml:id="Casteilho_gates">
+      <desc>
+         <placeName xml:lang="EN">Casteilho gates</placeName>
+         <placeName xml:lang="FR">porte de Casteilho</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="market" xml:id="market_MSP">
+      <desc>
+         <placeName xml:lang="EN">market at Mas-Saintes-Puelles</placeName>
+         <placeName xml:lang="FR">marché au Mas-Saintes-Puelles</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="chapel-church" xml:id="chapel_of_Blessed_Michael">
+      <desc>
+         <placeName xml:lang="EN">chapel of Blessed Michael</placeName>
+         <placeName xml:lang="FR">chapelle de Saint Michel</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="planam_bandonem_MSP">
+      <desc>
+         <placeName>Planam Bandonem</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="Pontilhol">
+      <desc>
+         <placeName>del Pontilho</placeName>
+         <settlement ana="#Mas-Saintes-Puelles_Aude"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="village" xml:id="Massac-Seran_Tarn">
+      <desc>
+         <placeName>Massac-Séran</placeName>
+         <settlement>Massac-Séran</settlement>
+         <region>Tarn</region>
+         <geo>43.66237 1.8614</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Mauremont_Haute-Garonne">
+      <desc>
+         <placeName>Mauremont</placeName>
+         <settlement>Mauremont</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.45 1.68333</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_between_Mauremont_and_Goderville">
+      <desc>
+         <placeName>woods between Mauremont and Goderville</placeName>
+         <settlement>bois entre Mauremont et Goderville</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.45 1.68333</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Mayreville_Aude">
+      <desc>
+         <placeName>Mayreville</placeName>
+         <settlement>Mayreville</settlement>
+         <region>Aude</region>
+         <abbr xml:id="MVL-AU">MVL</abbr>
+         <geo>43.23808 1.83877</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Mazerac_Tarn-et-Garonne">
+      <desc>
+         <placeName>Mazerac</placeName>
+         <abbr xml:id="MAZ-TG">MAZ-TG</abbr>
+         <settlement>Mazerac</settlement>
+         <region>Tarn-et-Garonne</region>
+         <geo>44.2605158 1.6343719</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Milan_Italy">
+      <desc>
+         <placeName>Milan</placeName>
+         <settlement>Milan</settlement>
+         <region>Lombardy</region>
+         <geo>45.4627124 9.1076924</geo>
+      </desc>
+   </place>
+   
+   
+   <!-- Mirapoix -->
+   <place type="village" xml:id="Mirepoix_Ariege">
+      <desc>
+         <placeName>Mirepoix</placeName>
+         <abbr xml:id="MPX-AR">MPX-AR</abbr>
+         <settlement>Mirepoix</settlement>
+         <region>Ariège</region>
+         <geo>43.08773 1.8735</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilabert_de_Castre">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilabert de Castre</placeName>
+         <placeName xml:lang="FR">domus de Guilabert de Castre</placeName>
+         <settlement ana="#Mirepoix_Ariege"/>
+         <trait type="owner" ana="#Guilabert_de_Castre_H"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Na_Laureta">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Laureta</placeName>
+         <placeName xml:lang="FR">domus de Na Laureta</placeName>
+         <settlement ana="#Mirepoix_Ariege"/>
+         <trait type="owner" ana="#Na_Laureta_MPX-AR"/>
+      </desc>
+   </place> 
+   <place type="woods" xml:id="woods_near_Mirepoix">
+      <desc>
+         <placeName xml:lang="EN">woods near Mirepoix</placeName>
+         <placeName xml:lang="FR">bois près de Mirepoix</placeName>
+         <settlement ana="#Mirepoix_Ariege"/>
+      </desc>
+      <note/>
+   </place>
+   <!-- Montauriol (AU) -->
+   <place type="village" xml:id="Montauriol_Aude">
+      <desc>
+         <placeName>Montauriol</placeName>
+         <abbr xml:id="MTA-AU">MTA-AU</abbr>
+         <settlement>Montauriol</settlement>
+         <region>Aude</region>
+         <geo>43.27996 1.83333</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_called_den_Gauter">
+      <desc>
+         <placeName xml:lang="EN">woods called den Gauter</placeName>
+         <placeName xml:lang="FR">bois dit den Gauter</placeName>
+         <settlement ana="#Montauriol_Aude"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montcabrier_Tarn">
+      <desc>
+         <placeName>Montcabrier</placeName>
+         <abbr xml:lang="MCB-TN">MCB-TN</abbr>
+         <settlement>Montcabrier</settlement>
+         <region>Tarn</region>
+         <geo>43.62581 1.72909</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Montferrand_Aude">
+      <desc>
+         <placeName>Montferrand</placeName>
+         <abbr xml:id="MTF-AU">MTF-AU</abbr>
+         <settlement>Montferrand</settlement>
+         <region>Aude</region>
+         <geo>43.3643 1.81979</geo>
+      </desc>
+   </place>
+   <!-- Montesquieu-Lauragais, HG -->
+   <place type="village" xml:id="Montesquieu-Lauragais_Haute-Garonne">
+      <desc>
+         <placeName>Montesquieu-Lauragais</placeName>
+         <abbr xml:id="MTQ-HG">MTQ-HG</abbr>
+         <settlement>Montesquieu-Lauragais</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.41667 1.62942</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="some_home_in_Montesquieu-HG">
+      <desc>
+         <placeName xml:lang="EN">domus unnamed in Montesquieu</placeName>
+         <placeName xml:lang="FR">domus inconnu à Montesquieu</placeName>
+         <settlement ana="#Montesquieu-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Peire_LUX-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Peire</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Peire</placeName>
+         <settlement ana="#Montesquieu-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_Peire_LUX-HG"/>
+      </desc>
+   </place>
+   
+   
+   
+   <place type="village" xml:id="Montastruc-la-Conseillere_Haute-Garonne">
+      <desc>
+         <placeName>Montastruc-la-Conseillère</placeName>
+         <abbr xml:id="MAL-HG">MAL</abbr>
+         <settlement>Montastruc-la-Conseillère</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.71982 1.59019</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montauban_Tarn-et-Garonne">
+      <desc>
+         <placeName>Montauban</placeName>
+         <abbr xml:id="MTB-TG">MTB-TG</abbr>
+         <settlement>Montauban</settlement>
+         <region>Tarn-et-Garonne</region>
+         <geo>44.01667 1.35</geo>
+      </desc>
+   </place>
+   
+   <!-- Montgaillard-Lauragais, HG -->
+   <place type="village" xml:id="Montgaillard-Lauragais_Haute-Garonne">
+      <desc>
+         <placeName>Montgaillard-Lauragais</placeName>
+         <abbr xml:id="MTG-HG">MTG-HG</abbr>
+         <settlement>Montgaillard-Lauragais</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.43107 1.69794</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="cabin_on_land_of_Rochavila_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">cabin on the land of Rochavila</placeName>
+         <placeName xml:lang="FR">cabine sur le terrain de Rochavila</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <place type="home" xml:id="home_of_Beguon_de_Rochavila_MSP-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Beguon de Rochavila</placeName>
+         <placeName xml:lang="FR">domus de Beguon de Rochavila</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <place type="farm" xml:id="farm_of_Ber_Beradc_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">farm of Ber. Beradc</placeName>
+         <placeName xml:lang="FR">ferme de Ber. Beradc</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Ber_Beradc_MTG-HG"/>
+      </desc>
+   </place>   
+   <place type="farm" xml:id="farm_of_Donadeu">
+      <desc>
+         <placeName xml:lang="EN">farm of Donadieu</placeName>
+         <placeName xml:lang="FR">ferme de Donadieu</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>  
+   <place type="farm" xml:id="farm_of_Guilhem_de_Toulouse_GMR-HG">
+      <desc>
+         <placeName xml:lang="EN">farm of Donadieu</placeName>
+         <placeName xml:lang="FR">ferme de Donadieu</placeName>
+         <settlement ana="#Gourvieille_Aude"/>
+      </desc>
+   </place>  
+   <place type="field" xml:id="field_at_Montgaillard_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">field at Montgaillard</placeName>
+         <placeName xml:lang="FR">champ à Montgaillard</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Ber_Beradc_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Ber. Beradc</placeName>
+         <placeName xml:lang="FR">domus de Ber. Beradc</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Ber_Beradc_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_and_Guilhem_de_Mossos_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard et Guilhem de Mossos</placeName>
+         <placeName xml:lang="FR">domus de Bernard et Guilhem de Mossos</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_de_Mossos_MTG-HG #Bernard_de_Mossos_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Gardog_de_Montgaillard_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Gardog</placeName>
+         <placeName xml:lang="FR">domus de Gardog</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Gardog_de_Montgaillard_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilabert_de_Bota_BAZ-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilabert de Bota</placeName>
+         <placeName xml:lang="FR">domus de Guilabert de Bota</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilabert_de_Bota_BAZ-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Issus_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem de Issus</placeName>
+         <placeName xml:lang="FR">domus de Guilhem de Issus</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_de_Issus_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Recaut_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem and Rixen de Recaut</placeName>
+         <placeName xml:lang="FR">domus de Guilhem et Rixen de Recaut</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_de_Recaut_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Vilela_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem and Rixen de Vilela</placeName>
+         <placeName xml:lang="FR">domus de Guilhem et Rixen de Vilela</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_de_Vilela_GAR-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Mateuz_mother_of_Gardog_de_Montgaillard_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Mateuz, mother of Gardog</placeName>
+         <placeName xml:lang="FR">domus de Mateuz, mère de Gardog</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Mateuz_mother_of_Gardog_de_Montgaillard_MTG-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_P_de_Rochavila_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire de Rochavila</placeName>
+         <placeName xml:lang="FR">domus de Peire de Rochavila</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Peire_de_Rochavila_MTG-HG"/>
+      </desc>
+   </place>
+   
+   <place type="vineyard" xml:id="vineyard_of_Pons_de_Gomerville_GMR-HG">
+      <desc>
+         <placeName xml:lang="EN">vineyard of Pons de Gomerville</placeName>
+         <placeName xml:lang="FR">vignobles de Pons de Gomerville</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+         <trait type="owner" ana="#Pons_de_Gomerville_GMR-HG"/>
+      </desc>
+   </place>
+   <place type="orchard" xml:id="orchard_at_Montgaillard_MTG-HG">
+      <desc>
+         <placeName xml:lang="EN">orchard at Montgaillard</placeName>
+         <placeName xml:lang="FR">verger à Montgaillard</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Martyrencs">
+      <desc>
+         <placeName xml:lang="EN">woods of Martyrencs between Montgaillard and Goderville</placeName>
+         <placeName xml:lang="FR">bois de Martyrencs entre Montgaillard et Goderville</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note>cf. a creek west of Montgaillard called Ruisseau de Merderic.</note>
+   </place>
+   <place type="woods" xml:id="woods_of_Rival">
+      <desc>
+         <placeName xml:lang="EN">woods of Rival</placeName>
+         <placeName xml:lang="FR">bois de Rival</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note>cf. a creek southwest of Montgaillard called Ruisseau de Rival.</note>
+   </place>
+   <place type="woods" xml:id="woods_of_Gomervila">
+      <desc>
+         <placeName xml:lang="EN">woods of Gomervila</placeName>
+         <placeName xml:lang="FR">bois de Gomervila</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Galanha">
+      <desc>
+         <placeName xml:lang="EN">woods of Galanha</placeName>
+         <placeName xml:lang="FR">bois de Galanha</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_near_Montgaillard">
+      <desc>
+         <placeName xml:lang="EN">woods near Montgaillard</placeName>
+         <placeName xml:lang="FR">bois proche de Montgaillard</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   
+   <place type="woods" xml:id="woods_between_Varenne_and_Gomerville">
+      <desc>
+         <placeName xml:lang="EN">woods between Varenne and Gomerville</placeName>
+         <placeName xml:lang="FR">bois entre Varenne et Gomerville</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note>Likely north of Montgaillard towards Saint Germier</note>
+   </place>
+   <place type="woods" xml:id="road_between_Montgaillard_and_Lanta">
+      <desc>
+         <placeName xml:lang="EN">road between Montgaillard and Lanta</placeName>
+         <placeName xml:lang="FR">route de Montgaillard à Lanta</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+   </place>
+   
+   
+   
+   <place type="cabin" xml:id="cabin_at_Castlar">
+      <desc>
+         <placeName xml:lang="EN">cabin at Castlar</placeName>
+         <placeName xml:lang="FR">une cabine à Castlar</placeName>
+         <settlement ana="#Montgaillard-Lauragais_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <place type="village" xml:id="Montgiscard_Haute-Garonne">
+      <desc>
+         <placeName>Montgiscard</placeName>
+         <abbr xml:id="MGC-HG">MGC-HG</abbr>
+         <settlement>Montgiscard</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.46072 1.56739</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montjoi_Aude">
+      <desc>
+         <placeName>Montjoi</placeName>
+         <abbr xml:id="MJO-AU">MJO-AU</abbr>
+         <settlement>Montjoi</settlement>
+         <region>Aude</region>
+         <geo>42.99213 2.48117</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montlaur_Aude">
+      <desc>
+         <placeName>Montlaur</placeName>
+         <abbr xml:id="MTL-AU">MTL-AU</abbr>
+         <settlement>Montlaur</settlement>
+         <region>Aude</region>
+         <geo>43.12962 2.55831</geo>
+      </desc>
+   </place>
+   <!-- Montmaur, Aude -->
+   <place type="village" xml:id="Montmaur_Aude">
+      <desc>
+         <placeName>Montmaur</placeName>
+         <abbr xml:id="MTM-AU">MTM-AU</abbr>
+         <settlement>Montmaur</settlement>
+         <region>Aude</region>
+         <geo>43.39339 1.84363</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Rixen_Calveta_MTM-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Rixen Calveta</placeName>
+         <placeName xml:lang="FR">domus de Rixen Calveta</placeName>
+         <settlement ana="#Montmaur_Aude"/>
+         <trait type="owner" ana="#Rixen_Calveta_MTM-AU"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montmaurin_Haute-Garonne">
+      <desc>
+         <placeName>Montmaurin</placeName>
+         <settlement>Montmaurin</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.22465 0.63712</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montpellier_Hérault">
+      <desc>
+         <placeName>Montpellier</placeName>
+         <settlement>Montpellier</settlement>
+         <region>Hérault</region>
+         <geo>43.61092 3.87723</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Montreal_Aude">
+      <desc>
+         <placeName>Montréal</placeName>
+         <abbr xml:id="MTR-AU">MTR-AU</abbr>
+         <settlement>Montréal</settlement>
+         <region>Aude</region>
+         <geo>43.1998 2.14122</geo>
+      </desc>
+   </place>
+   <!-- Montségur -->
+   <place type="village" xml:id="Montsegur_Ariege">
+      <desc>
+         <placeName>Montségur</placeName>
+         <settlement>Montségur</settlement>
+         <region>Ariège</region>
+         <geo>42.87021 1.83234</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_de_Pereille_PER-AR">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund de Pereille</placeName>
+         <placeName xml:lang="FR">domus de Raimund de Pereille</placeName>
+         <settlement ana="#Montsegur_Ariege"/>
+         <trait type="owner" ana="#Raimund_de_Pereille_PER-AR"/>
+      </desc>
+   </place>
+   <!-- Narbonne -->
+   <place type="village" xml:id="Narbonne_Aude">
+      <desc>
+         <placeName>Narbonne</placeName>
+         <abbr xml:id="NBN-AU">NBN-AU</abbr>
+         <settlement>Narbonne</settlement>
+         <region>Aude</region>
+         <geo>43.18396 3.00141</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimunda_Gondaubou">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimunda Gondaubou and Florence de Forners</placeName>
+         <placeName xml:lang="FR">domus de Raimunda Gondaubou et Florence de Forners</placeName>
+         <settlement ana="#Narbonne_Aude"/>
+         <trait type="owner" ana="#Raimunda_Gondaubou_MSP-AU"/>
+         <trait type="owner" ana="#Florence_de_Forners_MSP-AU"/>
+      </desc>
+      <note>Home in Narbonne was shared between sisters/sisters in law</note>
+   </place>
+   <place type="village" xml:id="Nogaret_Haute-Garonne">
+      <desc>
+         <placeName>Nogaret</placeName>
+         <abbr xml:id="NOG-HG">NOG-HG</abbr>
+         <settlement>Nogaret</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.49338 1.92934</geo>
+      </desc>
+   </place>
+   
+   
+   <place type="village" xml:id="Odars_Haute-Garonne">
+      <desc>
+         <placeName>Odars</placeName>
+         <abbr xml:id="ODR-HG">ODR-HG</abbr>
+         <settlement>Odars</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.52285 1.58907</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Pamiers_Ariege">
+      <desc>
+         <placeName>Pamiers</placeName>
+         <abbr xml:id="PAM-AR">PAM-AR</abbr>
+         <settlement>Pamiers</settlement>
+         <region>Ariège</region>
+         <geo>43.11667 1.6</geo>
+      </desc>
+   </place>
+   <!-- Pechbusque -->
+   <place type="village" xml:id="Pechbusque_Haute-Garonne">
+      <desc>
+         <placeName>Pechbusque</placeName>
+         <abbr xml:id="PBU-HG">PBU-HG</abbr>
+         <settlement>Pechbusque</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.52932 1.45627</geo>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="La_Fontanela_MSP">
+      <desc>
+         <placeName>Lo Fontanela</placeName>
+         <settlement ana="#Pechbusque_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="unknown" xml:id="tile_factory_at_Pechbusque-HG">
+      <desc>
+         <placeName xml:lang="EN">tile factory at Pechbusque</placeName>
+         <placeName xml:lang="FR">tuilerie à Pechbusque</placeName>
+         <settlement ana="#Pechbusque_Haute-Garonne"/>
+      </desc>
+   </place>
+   <!-- Pennautier, Aude -->
+   <place type="village" xml:id="Pennautier_Aude">
+      <desc>
+         <placeName>Pennautier</placeName>
+         <settlement>Pennautier</settlement>
+         <region>Aude</region>
+         <geo>43.24513 2.31892</geo>
+      </desc>
+   </place>
+   <place type="inn" xml:id="inn_of_Johan_de_Saissac_SAI-AU">
+      <desc>
+         <placeName xml:lang="EN">inn of Johan de Saissac</placeName>
+         <placeName xml:lang="FR">auberge de Johan de Saissac</placeName>
+         <settlement ana="#Pennautier_Aude"/>
+         <trait type="owner" ana="#Johan_de_Saissac_SAI-AU"/>
+      </desc>
+   </place>
+   
+   
+   
+   
+   <!-- Pereille -->
+   <place type="village" xml:id="Pereille_Ariege">
+      <desc>
+         <placeName>Péreille</placeName>
+         <abbr xml:id="PER-AR">PER-AR</abbr>
+         <settlement>Péreille</settlement>
+         <region>Ariège</region>
+         <geo>42.93333 1.8</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Na_Fornier_de_Pereille">
+      <desc>
+         <placeName xml:lang="EN">domus of Na Fornier de Pereille</placeName>
+         <placeName xml:lang="FR">domus de Na Fornier de Pereille</placeName>
+         <settlement ana="#Pereille_Ariege"/>
+         <trait type="owner" ana="#Na_Fornier_de_Pereille_PER-AR"/>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Podium_de_Roserz_unknown">
+      <desc>
+         <placeName>Podium de Roserz</placeName>
+      </desc>
+      <note>unknown village</note>
+   </place>
+   
+   <!-- Puylaurens, Tarn -->
+   <place type="village" xml:id="Puylaurens_Tarn">
+      <desc>
+         <placeName>Puylaurens</placeName>
+         <abbr xml:id="PUY-TA">PUY-TA</abbr>
+         <settlement>Puylaurens</settlement>
+         <region>Tarn</region>
+         <geo>43.57202 2.01227</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_in_Puylaurens">
+      <desc>
+         <placeName xml:lang="EN">domus at Puylaurens</placeName>
+         <placeName xml:lang="FR">domus à Puylaurens</placeName>
+         <settlement ana="#Puylaurens_Tarn"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_den_Romenx_PUY-TA">
+      <desc>
+         <placeName xml:lang="EN">domus den Romenx</placeName>
+         <placeName xml:lang="FR">domus den Romenx</placeName>
+         <settlement ana="#Puylaurens_Tarn"/>
+         <trait type="owner" ana="#den_Romenx_PUY-TA"/>
+      </desc>
+   </place>
+   <!-- Queille -->
+   <place type="village" xml:id="Queille_Ariege">
+      <desc>
+         <placeName>Queillé</placeName>
+         <abbr xml:id="QLE-AR">QLE-AR</abbr>
+         <settlement>Queillé</settlement>
+         <region>Ariège</region>
+         <geo>43.0223349 1.9043253</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_in_Queille">
+      <desc>
+         <placeName xml:lang="EN">domus in Queillé</placeName>
+         <placeName xml:lang="FR">domus à Queillé</placeName>
+         <settlement ana="#Queille_Ariege"/>
+      </desc>
+   </place> 
+   <place type="home" xml:id="home_of_P_de_las_Combas">
+      <desc>
+         <placeName xml:lang="EN">domus of P. de las Comabas</placeName>
+         <placeName xml:lang="FR">domus de P. de las Comabas</placeName>
+         <settlement ana="#Queille_Ariege"/>
+         <trait type="owner" ana="#P_de_las_Combas_QLE-AR"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Dominic_de_Catalonia">
+      <desc>
+         <placeName xml:lang="EN">domus of Dominic de Catalonia</placeName>
+         <placeName xml:lang="FR">domus de Dominic de Catalonia</placeName>
+         <settlement ana="#Queille_Ariege"/>
+         <trait type="owner" ana="#Dominic_de_Catalonia"/>
+      </desc>
+   </place>  
+   <!-- Quiries -->
+   <place type="village" xml:id="Quiries_Aude">
+      <desc>
+         <placeName>Quiriès</placeName>
+         <settlement>Quiriès</settlement>
+         <region>Aude</region>
+         <geo>43.2997066 1.881427</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Quiries">
+      <desc>
+         <placeName xml:lang="EN">woods of Quiries</placeName>
+         <placeName xml:lang="FR">bois de Quiries</placeName>
+         <settlement ana="Quiries_Aude"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Rabat-les-Trois-Seigneurs_Ariege">
+      <desc>
+         <placeName>Rabat-les-Trois-Seigneurs</placeName>
+         <abbr xml:id="RAB-AR">RAB-AR</abbr>
+         <settlement>Rabat-les-Trois-Seigneurs</settlement>
+         <region>Ariège</region>
+         <geo>42.85557 1.55197</geo>
+      </desc>
+   </place>
+   <!-- Renneville-->
+   <place type="village" xml:id="Renneville_Haute-Garonne">
+      <desc>
+         <placeName>Renneville</placeName>
+         <abbr xml:id="REN-HG"/>
+         <settlement>Renneville</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.38106 1.72327</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Ferrates_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">woods of Ferrates</placeName>
+         <placeName xml:lang="FR">bois de Ferrates</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="bridge" xml:id="bridge_of_Maresc_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">bridge of Maresc</placeName>
+         <placeName xml:lang="FR">bois de Maresc</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="vineyard" xml:id="vineyard_of_Bernard_Mosset_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">vineyard of Bernard Mosset</placeName>
+         <placeName xml:lang="FR">vignoble de Bernard Mosset</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+         <trait type="owner" ana="#Bernard_Mosset_REN-HG"/>
+      </desc>
+   </place>
+   <place type="farm" xml:id="farm_of_Raimunda_Rusquiere_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">farm (area) of Raimunda Rusquiere</placeName>
+         <placeName xml:lang="FR">ferme (area) de Raimunda Rusquiere</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+         <trait type="owner" ana="#Raimunda_Rusquiere_REN-HG"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Vezan_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">woods of Vezan</placeName>
+         <placeName xml:lang="FR">bois de Vezan</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Vinal_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">woods of Vinal</placeName>
+         <placeName xml:lang="FR">bois de Vinal</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+      </desc>
+   </place>
+   <place type="farm" xml:id="farm_of_Guilhem_Padet_REN-HG">
+      <desc>
+         <placeName xml:lang="EN">farm (area) of Guilhem Padet</placeName>
+         <placeName xml:lang="FR">ferme (area) de Guilhem Padet</placeName>
+         <settlement ana="#Renneville_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_Padet_REN-HG"/>
+      </desc>
+   </place>
+   
+   <!-- Rieux -->
+   <place type="village" xml:id="Rieux-Minervois_Aude">
+      <desc>
+         <placeName>Rieux-Minervois</placeName>
+         <abbr xml:id="RXM-AU">RXM-AU</abbr>
+         <settlement>Rieux-Minervois</settlement>
+         <region>Aude</region>
+         <geo>43.28194 2.58687</geo>
+      </desc>
+   </place>
+   <!-- Roquesérière -->
+   <place type="village" xml:id="Roqueseriere_Haute-Garonne">
+      <desc>
+         <placeName>Roquesérière</placeName>
+         <abbr xml:id="ROQS-HG">ROQS-HG</abbr>
+         <settlement>Roquesérière</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.73458 1.63748</geo>
+      </desc>
+   </place>
+ 
+   
+   <place type="village" xml:id="Roumengoux_Ariege">
+      <desc>
+         <placeName>Roumengoux</placeName>
+         <abbr xml:id="RMG-AR">RMG-AR</abbr>
+         <settlement>Roumengoux</settlement>
+         <region>Ariège</region>
+         <geo>43.07203 1.93365</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Roumens_Haute-Garonne">
+      <desc>
+         <placeName>Roumens</placeName>
+         <abbr xml:id="ROU-HG">ROU-HG</abbr>
+         <settlement>Roumens</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.46292 1.92884</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Agnan_Tarn">
+      <desc>
+         <placeName>Saint-Agnan</placeName>
+         <abbr xml:id="StAG-TA">StAG-TA</abbr>
+         <settlement>Saint-Agnan</settlement>
+         <region>Tarn</region>
+         <geo>43.69574 1.73335</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Anatoly_Haute-Garonne">
+      <desc>
+         <placeName>Saint-Anatoly</placeName>
+         <abbr xml:id="StAN-HG">StAN-HG</abbr>
+         <settlement>Saint-Anatoly</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.5787277 1.6842248</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Sainte-Apollonie_Haute-Garonne">
+      <desc>
+         <placeName>Sainte-Apollonie</placeName>
+         <settlement>Sainte-Apollonie</settlement>
+         <abbr xml:id="SAP-AU">SAP-AU</abbr>
+         <region>Haute-Garonne</region>
+         <geo>43.5351935 1.5275202</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Couat-du-Razes_Aude">
+      <desc>
+         <placeName>Saint-Couat-du-Razès</placeName>
+         <settlement>Saint-Couat-du-Razès</settlement>
+         <abbr xml:id="SCR-AU">SCR-AU</abbr>
+         <region>Aude</region>
+         <geo>43 2.10877</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Estephe_Aude">
+      <desc>
+         <placeName>Saint-Estèphe</placeName>
+         <abbr xml:id="StES-AU">StES-AU</abbr>
+         <settlement>Saint-Estèphe</settlement>
+         <region>Aude</region>
+         <geo>43.1897686 1.9134495</geo>
+      </desc>
+      <note>Saint-Estèphe is in the commune of Cazalrenoux, but rarely found on new maps.</note>
+   </place>
+   <place type="village" xml:id="Saint-Felix-Lauragais_Haute-Garonne">
+      <desc>
+         <placeName>Saint-Félix-Lauragais</placeName>
+         <settlement>Saint-Félix-Lauragais</settlement>
+         <abbr xml:id="SFL-HG">SFL-HG</abbr>
+         <region>Haute-Garonne</region>
+         <geo>43.44863 1.88814</geo>
+      </desc>
+   </place>
+     <!-- Saint Germier -->
+   <place type="village" xml:id="Saint-Germier_Haute-Garonne">
+      <desc>
+         <placeName>Saint-Germier</placeName>
+         <abbr xml:id="StGR-HG">StGR-HG</abbr>
+         <settlement>Saint-Germier</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.47131 1.73179</geo>
+      </desc>
+   </place>
+   <place type="farm" xml:id="farm_at_Saint-Germier">
+      <desc>
+         <placeName xml:lang="EN">farm at Saint-Germier</placeName>
+         <placeName xml:lang="FR">ferme à Saint-Germier</placeName>
+         <settlement ana="#Saint-Germier_Haute-Garonne"/>
+      </desc>
+      <note>area</note>
+   </place>
+   <place type="village" xml:id="Saint-Jean-Lherm_Haute-Garonne">
+      <desc>
+         <placeName>Saint-Jean-Lherm</placeName>
+         <abbr xml:id="StJH-HG">StJH-HG</abbr>
+         <settlement>Saint-Jean-Lherm</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.6976581 1.6017479</geo>
+      </desc>
+   </place>
+   <!-- Saint-Julia -->
+   <place type="village" xml:id="Saint-Julia_Haute-Garonne">
+      <desc>
+         <placeName>Saint-Julia</placeName>
+         <abbr xml:id="StJU-HG">StJU-HG</abbr>
+         <settlement>Saint-Julia</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.2928 1.5354</geo>
+      </desc>
+   </place>
+   
+   <!-- Saint-Martin-Lalande -->
+   <place type="village" xml:id="Saint-Martin-Lalande_Aude">
+      <desc>
+         <placeName>Saint-Martin-Lalande</placeName>
+         <abbr xml:id="SML-AU">SML-AU</abbr>
+         <settlement>Saint-Martin-Lalande</settlement>
+         <region>Aude</region>
+         <geo>43.29928 2.02004</geo>
+      </desc>
+   </place>
+   <!-- Homes --> 
+   <place type="home" xml:id="home_of_heretics_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of unnamed heretics at Saint-Martin-Lalande</placeName>
+         <placeName xml:lang="FR">domus des hérétiques à Saint-Martin-Lalande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#heretics_not_named"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Ademar_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Ademar</placeName>
+         <placeName xml:lang="FR">domus de Peire Ademar</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Peire_Ademar_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Alzeu_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Alzeu</placeName>
+         <placeName xml:lang="FR">domus d'Alzeu</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_Alzeu_SML-AU #Alazais_Alzeu_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Arnald_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Arnald</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Arnald</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="Guilhem_Arnald_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Canast_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem de Canast</placeName>
+         <placeName xml:lang="FR">domus de Guilhem de Canast</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Guilhem_de_Canast_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_P_Clavel_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of P. Clavel</placeName>
+         <placeName xml:lang="FR">domus de P. Clavel</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#P_Clavel_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_de_Comas_senior_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire de Comas senior</placeName>
+         <placeName xml:lang="FR">domus de Peire de Comas senior</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Peire_de_Comas_senior_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Engale_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan and Raimunda Engale</placeName>
+         <placeName xml:lang="FR">domus de Jordan et Raimunda Engale</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Jordan_Engale_SML-AU #Raimunda_Engale_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Esteve_Faure_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Esteve Faure</placeName>
+         <placeName xml:lang="FR">domus d'Esteve Faure</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Esteve_Faure_SML-AU"/>
+      </desc>
+   </place>
+   <place type="farm" xml:id="farm_of_Guilhem_Faure_SML">
+      <desc>
+         <placeName xml:lang="EN">farm (area) of Guilhem Faure</placeName>
+         <placeName xml:lang="FR">ferme (area) de Guilhem Faure</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Guilhem_Faure_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Faure_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Faure</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Faure</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Guilhem_Faure_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Faure_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Faure</placeName>
+         <placeName xml:lang="FR">domus de Peire Faure</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Peire_Faure_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Amada_Fendelha_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Amada and Esteve Fendelha</placeName>
+         <placeName xml:lang="FR">domus d'Amada et Esteve Fendelha</placeName>
+         <settlement ana="#Fendeille_Aude"/>
+         <trait type="owner" ana="#Amada_Fendelha_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Jordan_Hugole_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Jordan Hugole</placeName>
+         <placeName xml:lang="FR">domus de Jordan Hugole</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Jordan_Hugole_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Amada_de_Garic_Dog_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Amada de Garic Doyt</placeName>
+         <placeName xml:lang="FR">domus d'Amada de Garic Doyt</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Amada_de_Garic_Dog_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Ysarn_Gibel_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Ysarn Gibel</placeName>
+         <placeName xml:lang="FR">domus de Ysarn Gibel</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Ysarn_Gibel_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Ysarn_de_Gibel_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Ysarn and Andrea de Gibel</placeName>
+         <placeName xml:lang="FR">domus d'Ysarn et Andrea de Gibel</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Ysarn_de_Gibel_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_de_Gozens_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem and Ermengarde de Gozens</placeName>
+         <placeName xml:lang="FR">domus de Guilhem et Ermengarde de Gozens</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="Guilhem_de_Gozens_SML-AU #Ermengarde_de_Gozens_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Dulcia_de_Gozens_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Dulcia de Gozens</placeName>
+         <placeName xml:lang="FR">domus de Dulcia de Gozens</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="Dulcia_de_Gozens_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Peire_de_Gozens_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire de Gozens</placeName>
+         <placeName xml:lang="FR">domus de Peire de Gozens</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="Peire_de_Gozens_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Pons_de_Gozens_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons de Gozens</placeName>
+         <placeName xml:lang="FR">domus de Pons de Gozens</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="Pons_de_Gozens_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="farm" xml:id="farm_of_Arnald_Gras_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Gras</placeName>
+         <placeName xml:lang="FR">domus de Arnald Gras</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Arnald_Gras_SML-AU"/>
+      </desc>
+   </place>
+   <place type="field" xml:id="field_of_Bernard_Guilhem_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">field of Bernard Guilhem</placeName>
+         <placeName xml:lang="FR">field de Bernard Guilhem</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_Guilhem_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Fina_Guiraldina_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Fina Guiraldina</placeName>
+         <placeName xml:lang="FR">domus de Fina Guiraldina</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Fina_Guiraldina_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Martina_Guiraldina_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Martina Guiraldina</placeName>
+         <placeName xml:lang="FR">domus de Martina Guiraldina</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Martina_Guiraldina_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Esteve_Johan_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Esteve Johan</placeName>
+         <placeName xml:lang="FR">domus d'Esteve Johan</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Esteve_Johan_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guillaberta_Johan_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Guillaberta Joglar</placeName>
+         <placeName xml:lang="FR">domus de Guillaberta Joglar</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Guillaberta_Johan_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Melia_and_Peire_Johan_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Melia and Peire Johan</placeName>
+         <placeName xml:lang="FR">domus de Melia et Peire Johan</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Melia_Johan_SML-AU #Peire_Johan_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Johan_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Johan</placeName>
+         <placeName xml:lang="FR">domus de Pons Johan</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Pons_Johan_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_Joglar_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund Joglar</placeName>
+         <placeName xml:lang="FR">domus de Raimund Joglar</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Raimund_Joglar_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="farm" xml:id="farm_of_Pons_Martin_consul_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">farm (casale) of Pons Martin</placeName>
+         <placeName xml:lang="EN">ferme (casale) de Pons Martin</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Pons_Martin_consul_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Martin_consul_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Martin</placeName>
+         <placeName xml:lang="FR">domus de Pons Martin</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Pons_Martin_consul_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Martin_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard Martin senior</placeName>
+         <placeName xml:lang="FR">domus de Bernard Martin senior</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_Martin_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Martin_Pice_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard Martin Pice</placeName>
+         <placeName xml:lang="FR">domus de Bernard Martin Pice</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_Martin_Pice_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Mir_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Mir</placeName>
+         <placeName xml:lang="FR">domus de Pons Mir</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Pons_Mir_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Fauressa_Porquer_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Fauressa Porquer</placeName>
+         <placeName xml:lang="FR">domus de Fauressa Porquer</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Fauressa_Porquer_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_Saramunda_Peire_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard and Saramunda Peire</placeName>
+         <placeName xml:lang="FR">domus de Bernard et Saramunda Peire</placeName>
+         <settlement ana="#Saint_Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_Peire_SML-AU #Saramunda_Peire_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_de_Saint-Nazare_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard de Saint-Nazare</placeName>
+         <placeName xml:lang="FR">domus de Bernard de Saint-Nazare</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Bernard_de_Saint-Nazare_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_de_Saint-Nazare_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem de Saint-Nazare</placeName>
+         <placeName xml:lang="FR">domus de Guilhem de Saint-Nazare</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Guilhem_de_Saint-Nazare_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Martin_Terrazona_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Martin Terrazona</placeName>
+         <placeName xml:lang="FR">domus de Martin Terrazona</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Martin_Terrazona_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Martin_Traver_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Martin Traver</placeName>
+         <placeName xml:lang="FR">domus de Martin Traver</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Martin_Traver_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Traver_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Traver</placeName>
+         <placeName xml:lang="FR">domus de Pons Traver</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Pons_Traver_SML-AU"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_Vilandina_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund Vilandina</placeName>
+         <placeName xml:lang="FR">domus de Raimund Vilandina</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Raimund_Vilandina_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Raimund_Viliari_SML-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Raimund Viliari</placeName>
+         <placeName xml:lang="FR">domus de Raimund Viliari</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Raimund_Viliari_SML-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Arnald_Ysarn_Senior_SML">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald Ysarn senior</placeName>
+         <placeName xml:lang="FR">domus de Arnald Ysarn senior</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+         <trait type="owner" ana="#Arnald_Ysarn_Senior_SML"/>
+      </desc>
+      <note/>
+   </place>
+   
+   <!-- non-homes/no owner -->
+   <place type="barn" xml:id="barn_outside_Saint-Martin-Lalande">
+      <desc>
+         <placeName xml:lang="EN">outside of Saint-Martin-Lalande</placeName>
+         <placeName xml:lang="FR">outside de Saint-Martin-Lalande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+      <note>borda, bordam</note>
+   </place>
+   <place type="farm" xml:id="farm_beside_Saint-Martin-Lalande">
+      <desc>
+         <placeName xml:lang="EN">some farm beside Saint-Martin-Lalande</placeName>
+         <placeName xml:lang="FR">ferme près de Saint-Martin-Lalande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="field" xml:id="field_outside_Saint-Martin-Lalande">
+      <desc>
+         <placeName xml:lang="EN">some field outside Saint-Martin-Lalande</placeName>
+         <placeName xml:lang="FR">un champ dehors Saint-Martin-Lalande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="city_gate" xml:id="gate_of_Lalande">
+      <desc>
+         <placeName xml:lang="EN">gate of la Lande</placeName>
+         <placeName xml:lang="EN">porte de la Lande</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="water" xml:id="Fesquel">
+      <desc>
+         <placeName xml:lang="EN">Fesquel springs/waters</placeName>
+         <placeName xml:lang="FR">source de Fesquel</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="field" xml:id="Trebolh_meadow">
+      <desc>
+         <placeName xml:lang="EN">meadows at Trebolh</placeName>
+         <placeName xml:lang="FR">prairie de Trebolh</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Saint_Salvatore">
+      <desc>
+         <placeName xml:lang="EN">woods of Saint Salvatore</placeName>
+         <placeName xml:lang="FR">bois de Saint Salvatore</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_La_Selva">
+      <desc>
+         <placeName xml:lang="EN">woods of La Selva</placeName>
+         <placeName xml:lang="FR">bois de La Selva</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Granha">
+      <desc>
+         <placeName xml:lang="EN">woods of Granha</placeName>
+         <placeName xml:lang="FR">bois de Granha</placeName>
+         <settlement ana="#Saint-Martin-Lalande_Aude"/>
+      </desc>
+   </place>
+   <!-- Saint Papoul -->
+   <place type="village" xml:id="Saint-Papoul_Aude">
+      <desc>
+         <placeName>Saint-Papoul</placeName>
+         <settlement>Saint-Papoul</settlement>
+         <region>Aude</region>
+         <geo>43.33076 2.03638</geo>
+      </desc>
+   </place>
+   
+   <place type="abbey" xml:id="Saint-Papoul_Abbey">
+      <desc>
+         <placeName xml:lang="EN">Saint Papoul Abbey</placeName>
+         <placeName xml:lang="FR">Abbaye de Saint Papoul</placeName>
+         <settlement ana="#Saint-Papoul_Aude"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Paulet_Aude">
+      <desc>
+         <placeName>Saint-Paulet</placeName>
+         <abbr xml:id="StPT-AU">StPT-AU</abbr>
+         <settlement>Saint-Paulet</settlement>
+         <region>Aude</region>
+         <geo>43.40618 1.87647</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Paul-Cap-de-Joux_Tarn">
+      <desc>
+         <placeName>Saint-Paul-Cap-de-Joux</placeName>
+         <abbr xml:id="StPCJ-TA">StPCJ-TA</abbr>
+         <settlement>Saint-Paul-Cap-de-Joux</settlement>
+         <region>Tarn</region>
+         <geo>43.64791 1.97559</geo>
+      </desc>
+   </place>
+   <!-- Saint-Pons-de-Thomieres, Hérault --> 
+   <place type="village" xml:id="Saint-Pons-de-Thomieres_Herault">
+      <desc>
+         <placeName>Saint-Pons-de-Thomières</placeName>
+         <abbr xml:id="SPdT-HE">SPdT-HE</abbr>
+         <settlement>Saint-Pons-de-Thomières</settlement>
+         <region>Hérault</region>
+         <geo>43.48333 2.76667</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Capat_SPdT-HE">
+      <desc>
+         <placeName xml:lang="EN">domus of father of Guilhem Capat</placeName>
+         <placeName xml:lang="FR">domus du père de Guilhem Capat</placeName>
+         <settlement ana="#Saint-Pons-de-Thomieres_Herault"/>
+         <trait type="owner" ana="#Guilhem_Capat_SPdT-HE"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Espanhol_SPdT-HE">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Espanhol</placeName>
+         <placeName xml:lang="FR">domus de Peire Espanhol</placeName>
+         <settlement ana="#Saint-Pons-de-Thomieres_Herault"/>
+         <trait type="owner" ana="#Peire_Espanhol_SPdT-HE"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Gari_SPdT-HE">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Gari</placeName>
+         <placeName xml:lang="FR">domus de Peire Gari</placeName>
+         <settlement ana="#Saint-Pons-de-Thomieres_Herault"/>
+         <trait type="owner" ana="#Peire_Gari_SPdT-HE"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_father_of_P_Gaurant_SPdT-HE">
+      <desc>
+         <placeName xml:lang="EN">domus of father of P. Gaurant</placeName>
+         <placeName xml:lang="FR">domus du père de P. Gaurant</placeName>
+         <settlement ana="#Saint-Pons-de-Thomieres_Herault"/>
+         <trait type="owner" ana="#father_of_P_Gaurant_SPdT-HE"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Sere_SPdT-HE">
+      <desc>
+         <placeName xml:lang="EN">domus of father of Guilhem Sere</placeName>
+         <placeName xml:lang="FR">domus du père de Guilhem Sere</placeName>
+         <settlement ana="#Saint-Pons-de-Thomieres_Herault"/>
+         <trait type="owner" ana="#Guilhem_Sere_SPdT-HE"/>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saint-Sauveur_Aude">
+      <desc>
+         <placeName>Saint-Sauveur</placeName>
+         <abbr xml:id="StSAV-AU">StSAV-AU</abbr>
+         <settlement>Gaja-la-Selve</settlement>
+         <region>Aude</region>
+         <geo>43.196 1.902</geo>
+      </desc>
+      <note>Theoretical location/endroit hypothétique</note>
+   </place>
+   <!-- Saissac, Aude -->
+   <place type="village" xml:id="Saissac_Aude">
+      <desc>
+         <placeName>Saissac</placeName>
+         <abbr xml:id="SAI-AU">SAI-AU</abbr>
+         <settlement>Saissac</settlement>
+         <region>Aude</region>
+         <geo>43.36055 2.16871</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_heretics_SAI-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of heretics at Saissac</placeName>
+         <placeName xml:lang="FR">domus des hérétique à Saissac</placeName>
+         <settlement ana="#Saissac_Aude"/>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Santiago_de_Compostela">
+      <desc>
+         <placeName>Santiago de Compostela</placeName>
+         <settlement>Santiago de Compostela</settlement>
+         <region>Aveyron</region>
+         <geo>42.8833369 -8.5420931</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Saune_Haute-Garonne">
+      <desc>
+         <placeName>Saune (no longer extant)</placeName>
+         <abbr xml:id="SAN-HG">SAN-HG</abbr>
+         <settlement>Caragoudes</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.49954 1.70031</geo>
+      </desc>
+      <note>was SAU-HG - search for old use and update</note>
+   </place>
+   <!-- Saussens, HG -->
+   <place type="village" xml:id="Saussens_Haute-Garonne">
+      <desc>
+         <placeName>Saussens</placeName>
+         <abbr xml:id="SAU-HG">SAU-HG</abbr>
+         <settlement>Saussens</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.58724 1.72118</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_del_Thoron_SAU-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard del Thoron</placeName>
+         <placeName xml:lang="FR">domus de Bernard del Thoron</placeName>
+         <settlement ana="#Saussens_Haute-Garonne"/>
+         <trait type="owner" ana="#Bernard_del_Thoron_SAU-HG"/>
+      </desc>
+   </place>
+   <place type="farm" xml:id="farm_of_Peire_del_Rossencs_SAU-HG">
+      <desc>
+         <placeName xml:lang="EN">farm of Peire del Rossencs</placeName>
+         <placeName xml:lang="FR">ferme de Peire del Rossencs</placeName>
+         <settlement ana="#Saussens_Haute-Garonne"/>
+         <trait type="owner" ana="#Peire_del_Rossencs_SAU-HG"/>
+      </desc>
+   </place>
+   <place type="barn" xml:id="barn_near_Saussens-HG">
+      <desc>
+         <placeName xml:lang="EN">barn near Saussens</placeName>
+         <placeName xml:lang="FR">grange près de Saussens</placeName>
+         <settlement ana="#Saussens_Haute-Garonne"/>
+      </desc>
+   </place>
+   <!-- Scopont, TA -->
+   <place type="village" xml:id="Maurens-Scopont_Tarn">
+      <desc>
+         <placeName>Maurens-Scopont</placeName>
+         <abbr xml:id="SCO-TA">SCO-TA</abbr>
+         <settlement>Maurens-Scopont</settlement>
+         <region>Tarn</region>
+         <geo>43.59554 1.81177</geo>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Bernard_de_Scopont_SCO-TA">
+      <desc>
+         <placeName xml:lang="EN">domus of Bernard de Scopont</placeName>
+         <placeName xml:lang="FR">domus de Bernard de Scopont</placeName>
+         <settlement ana="#Maurens-Scopont_Tarn"/>
+         <trait type="owner" ana="#Bernard_de_Scopont_SCO-TA"/>
+      </desc>
+   </place>
+   
+   
+   <place type="village" xml:id="Segreville_Haute-Garonne">
+      <desc>
+         <placeName>Ségreville</placeName>
+         <settlement>Ségreville</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.5 1.73333</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Soreze_Tarn">
+      <desc>
+         <placeName>Sorèze</placeName>
+         <settlement>Sorèze</settlement>
+         <abbr xml:id="SRZ-TA">SRZ-TA</abbr>
+         <region>Tarn</region>
+         <geo>43.45241 2.06799</geo>
+      </desc>
+   </place>
+   
+   <place type="village" xml:id="Tarabel_Haute-Garonne">
+      <desc>
+         <placeName>Tarabel</placeName>
+         <abbr xml:id="TRB-HG">TRB-HG</abbr>
+         <settlement>Tarabel</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.51218 1.67641</geo>
+      </desc>
+   </place>
+   <!-- Toulouse -->
+   <place type="village" xml:id="Toulouse_Haute-Garonne">
+      <desc>
+         <placeName>Toulouse</placeName>
+         <abbr xml:id="TLS-HG">TLS-HG</abbr>
+         <settlement>Toulouse</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.60426 1.44367</geo>
+      </desc>
+   </place>
+   <place type="castle" xml:id="Chateau_Narbonne_Toulouse">
+      <desc>
+         <placeName>Chateau Narbonne, Toulouse</placeName>
+         <settlement ana="#Toulouse_Haute-Garonne"/>
+      </desc>
+   </place>
+    <place type="home" xml:id="home_of_Arnald_de_Murel_TLS-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Arnald de Murel</placeName>
+         <placeName xml:lang="FR">domus d'Arnald de Murel</placeName>
+         <settlement ana="#Toulouse_Haute-Garonne"/>
+         <trait type="owner" ana="#Arnald_de_Murel_TLS-HG"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Rochavila_family_TLS-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Rochavila family at Toulouse</placeName>
+         <placeName xml:lang="FR">domus de la famille de Rochavila à Toulouse</placeName>
+         <settlement ana="#Toulouse_Haute-Garonne"/>
+         <trait type="owner" ana="#Estolt_de_Rochavila_MSP-AU #Beguon_de_Rochavila_MSP-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Guilhem_Raimund_de_Lanta_TLS-HG">
+      <desc>
+         <placeName xml:lang="EN">domus of Guilhem Raimund de Lanta</placeName>
+         <placeName xml:lang="FR">domus de Guilhem Raimund de Lanta</placeName>
+         <settlement ana="#Toulouse_Haute-Garonne"/>
+         <trait type="owner" ana="#Guilhem_Raimund_de_Lanta_TLS-HG"/>
+      </desc>
+   </place>
+   
+   <!-- Trèbons, HG -->
+   <place type="village" xml:id="Trebons-sur-la-Grasse_Haute-Garonne">
+      <desc>
+         <placeName>Trébons-sur-la-Grasse</placeName>
+         <abbr xml:id="TBN-HG">TRB-HG</abbr>
+         <settlement>Trébons-sur-la-Grasse</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.45 1.72364</geo>
+      </desc>
+   </place>
+   <place type="woods" xml:id="woods_of_Trebons">
+      <desc>
+         <placeName xml:lang="EN">woods of Trèbons</placeName>
+         <placeName xml:lang="FR">les bois de Trèbons</placeName>
+         <settlement ana="#Trebons-sur-la-Grasse_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   <place type="woods" xml:id="woods_called_de_Esquelha">
+      <desc>
+         <placeName xml:lang="EN">woods called Esquelha</placeName>
+         <placeName xml:lang="FR">bois appelé Esquelha</placeName>
+         <settlement ana="#Trebons-sur-la-Grasse_Haute-Garonne"/>
+      </desc>
+      <note>cf. a road at Trèbons called Vierge d'Esquilles</note>
+   </place>
+   
+   <place type="cabin" xml:id="cabin_in_woods_of_Trebons">
+      <desc>
+         <placeName xml:lang="EN">cabin in the woods at Trèbons</placeName>
+         <placeName xml:lang="FR">une cabine dans les bois à Trèbons</placeName>
+         <settlement ana="#Trebons-sur-la-Grasse_Haute-Garonne"/>
+      </desc>
+      <note/>
+   </place>
+   
+   
+   <place type="village" xml:id="Treville_Aude">
+      <desc>
+         <placeName>Tréville</placeName>
+         <abbr xml:id="TRV-AU">TRV-AU</abbr>
+         <settlement>Tréville</settlement>
+         <region>Aude</region>
+         <geo>43.38483 1.953</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Varennes_Haute-Garonne">
+      <desc>
+         <placeName>Varennes</placeName>
+         <settlement>Varennes</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.47653 1.68875</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Vaux_Haute-Garonne">
+      <desc>
+         <placeName>Vaux</placeName>
+         <abbr xml:id="VAX-GH">VAX-HG</abbr>
+         <settlement>Vaux</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.45599 1.83695</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Verfeil_Haute-Garonne">
+      <desc>
+         <placeName>Verfeil</placeName>
+         <abbr xml:id="VFL-HG">VFL-HG</abbr>
+         <settlement>Verfeil</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.65781 1.6634</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Villelongue-dAude_Aude">
+      <desc>
+         <placeName>Villelongue-d’Aude</placeName>
+         <settlement>Villelongue-d’Aude</settlement>
+         <region>Aude</region>
+         <geo>43.0538 2.09568</geo>
+      </desc>
+   </place>
+   <place type="village" xml:id="Villemur-sur-Tarn_Haute-Garonne">
+      <desc>
+         <placeName>Villemur-sur-Tarn</placeName>
+         <settlement>Villemur-sur-Tarn</settlement>
+         <region>Haute-Garonne</region>
+         <geo>43.86708 1.50281</geo>
+      </desc>
+   </place>
+   <!-- Villeneuve (la Comptal), AU -->
+   <place type="village" xml:id="Villeneuve-la-Comptal_Aude">
+      <desc>
+         <placeName>Villeneuve-la-Comptal</placeName>
+         <abbr xml:id="VLN-AU">VLN-AU</abbr>
+         <settlement>Villeneuve-la-Comptal</settlement>
+         <region>Aude</region>
+         <geo>43.28833 1.91773</geo>
+      </desc>
+   </place>
+   <place type="castle" xml:id="castle_of_Villeneuve">
+      <desc>
+         <placeName xml:lang="EN">castle of Villeneuve</placeName>
+         <placeName xml:lang="FR">château de Villeneuve</placeName>
+         <settlement ana="#Villeneuve-la-Comptal_Aude"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Peire_Galhard_VLN-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Peire Galhard</placeName>
+         <placeName xml:lang="FR">domus de Peire Galhard</placeName>
+         <settlement ana="#Villeneuve-la-Comptal_Aude"/>
+         <trait type="owner" ana="#Peire_Galhard_VLN-AU"/>
+      </desc>
+   </place>
+   <place type="home" xml:id="home_of_Pons_Faure_VLN-AU">
+      <desc>
+         <placeName xml:lang="EN">domus of Pons Faure</placeName>
+         <placeName xml:lang="FR">domus de Pons Faure</placeName>
+         <settlement ana="#Villeneuve-la-Comptal_Aude"/>
+         <trait type="owner" ana="#Pons_Faure_VLN-AU"/>
+      </desc>
+   </place>
+
+</listPlace>

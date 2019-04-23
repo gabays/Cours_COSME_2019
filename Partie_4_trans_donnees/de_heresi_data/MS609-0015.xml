@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0015.xml">
+   
+   <teiHeader xml:id="MS609-0015-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0015">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0015"/>
+         <div type="folio" n="2v-3r"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="10-12"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0011"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0015-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-1">
+                    <lb break="y" n="18"/>Item. 
+               <date type="deposition_date" sameAs="#MS609-0013.xml" cert="medium">Anno die quo supra</date> 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" role="dep">Pelegrina - <roleName type="fam">uxor</roleName> 
+                  <persName nymRef="#Ysarn_de_Fanjeaux_FJX-AU" role="ref">quondam Ysarni de Mont Server</persName>, 
+                  <roleName type="fam">filia</roleName> 
+                  <persName nymRef="#Guilhem_del_Mas_Senior_MSP-AU" role="ref">Wilhelmi, dicti domini del Mas</persName> - 
+               </persName>
+               <add type="margin_gloss" subtype="observation" place="left" hand="#original_609">Haec manet apud Cuellham</add>
+                testis iurata<lb break="y" n="19"/>dixit quod vidit 
+               <persName nymRef="#Galharda_del_Mas_MSP-AU" role="her">Gallardam, amitam suam</persName>, et sociam suam, hereticas, 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_del_Mas_Sr_MSP">in domo 
+                  <persName nymRef="#Guilhem_del_Mas_Senior_MSP-AU" role="own">Willelmi del Mas, 
+                     <roleName type="fam">patris ipsius testis</roleName>
+                        </persName>
+                    </placeName> et 
+               <persName nymRef="#Guilhem_del_Mas_Junior_MSP-AU" role="own">W<supplied reason="expname">illelmi</supplied> del Mas</persName>. 
+               Vidit<lb break="y" n="20"/>ibi cum eis <persName nymRef="#Guilhem_del_Mas_Senior_MSP-AU" ana="#uAdo" role="par"/>patrem ipsius testis, et 
+               <persName nymRef="#Fauressa_del_Mas_MSP-AU" ana="#pAdo" role="par">Fabrissam, matrem</persName> ipsius testis. Et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>
+                  ipsa testis et dicta mater ipsius testis adoraverunt dictas hereticas ter<lb break="y" n="21"/>
+               flexis genibus dicendo, <quote>Benedicite bone mulieres, orate Deum pro nobis</quote>. 
+               <date type="event_date" when="1220">Et sunt XXV anni vel circa</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-2">Item. Dixit quod vidit<lb break="y" n="22"/>
+               <persName nymRef="#heretics_not_named" role="her">plures hereticos 
+               </persName> 
+               <placeName type="event_loc" nymRef="#home_of_Raimund_Canast_MSP-AU">in domo 
+                  <persName nymRef="#Raimund_Canast_MSP-AU" ana="#pAdo" role="par">Ramundi de Canast</persName>
+               </placeName> ubi morabatur tunc 
+               <persName nymRef="#Estolt_de_Rochavila_MSP-AU" role="inf">Nestolt de Rocha Vila</persName>
+               <note type="public">ie. Na Estolt</note>, 
+               et vidit ibi similiter 
+               <persName nymRef="#heretics_unknown_m" role="her">hereticos quos non novit</persName>,<lb break="y" n="23"/>
+               sed nullum vidit ibi exceptis dictis hereticos. Et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>
+               ipsa testis adoravit ibi dictos hereticos.  
+               <date type="event_date" when="1220">Et fuit eodem tempore.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-3" corresp="#MS609-0015-3">Item. Dixit quod vidit 
+               <placeName type="event_loc" nymRef="home_of_Peire_Faure_MSP">in<lb break="y" n="24"/>domo 
+                  <persName nymRef="#Peire_Faure_MSP-AU" role="own">Petri Fabri</persName>
+               </placeName> 
+               <persName nymRef="#heretics_unknown_m" role="her">hereticos quos non novit</persName>. 
+               Et vidit ibi cum eis 
+               <persName nymRef="#Fauressa_del_Mas_MSP-AU" ana="#pAdo" role="par">Fabrissam, matrem ipsius testis</persName>; et 
+               <persName nymRef="#Guilhelma_Meta_nee_del_Mas_MSP-AU" ana="#pAdo" role="par">Wilhelmam Meta</persName>, <sic style="sic">
+                        <orig>uxor</orig>
+                        <corr>matrem</corr>
+                    </sic>
+               <persName nymRef="#Bernard_de_Quiders_senior_MSP-AU" role="ref">Bernardi de<lb break="y" n="25"/>Quiders, sororem 
+               <persName nymRef="#Guilhem_del_Mas_Senior_MSP-AU" role="ref">Willelmi del Mas</persName>
+                    </persName>; et 
+               <persName nymRef="#Geralda_de_Rochafort_SRZ-TA" ana="#pAdo" role="par">Guirandam, uxor 
+               <persName nymRef="#Guilhem_de_Rochafort_SRZ-TA" role="ref">Willelmi de Rocha Fort</persName>
+                    </persName>; et 
+               <persName nymRef="#Marquesa_de_Rochafort_SRZ-TA" ana="#pAdo" role="par">Marquesiam uxor 
+               <persName nymRef="#B_de_Rochafort_SRZ-TA" role="ref">B. de Rocha<lb break="y" n="26"/>fort</persName>
+                    </persName>; et 
+               <persName nymRef="#Ermengarde_de_Caucer_MSP-AU" ana="#pAdo" role="par">Aymengardam de Causser</persName>; 
+               et ipsum <persName nymRef="#Peire_Faure_MSP-AU" ana="#pAdo" role="par">Petrum Fabri</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>. Et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>
+               ipsa testis et omnes alii<lb break="y" n="27"/>adoraverunt ipsos dictos hereticos. 
+               <date type="event_date" when="1225">Et sunt XX duo anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-4">Item. Dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Canast-Brus">in domo 
+                  <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" role="own">Willelmi de Canast</persName>
+               </placeName> 
+               <persName nymRef="#Bertrand_Marti_H" role="her">Bertrandum Marti</persName>
+               <lb break="y" n="28"/>et socium suum, hereticos, et vidit ibi cum eis 
+               <persName nymRef="#Fauressa_del_Mas_MSP-AU" ana="#pAdo" role="par">Fabrissam, matrem ipsius testis</persName>; et 
+               <persName nymRef="#Guilhelma_Meta_nee_del_Mas_MSP-AU" ana="#pAdo" role="par">Willelmam Meta</persName>; et 
+               <persName nymRef="#Maria_de_Quiders_MSP-AU" ana="#nAdo" role="par">Mariam, uxorem 
+               <persName nymRef="#Bertrand_de_Quiders_MSP-AU" role="ref">Bertrandi de Qui<lb break="n" n="30"/>ders</persName>
+                    </persName>; et 
+               <persName nymRef="#P_Bernard_MSP-AU" ana="#pAdo" role="par">P. B<supplied reason="expname">ernardum</supplied>, 
+                  <roleName type="occ">carnificem</roleName>
+                    </persName>; et ipsum 
+               <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> de Canast</persName>; et 
+               <persName nymRef="#Guilhelma_Canast_de_Paracol_MSP-AU" ana="#pAdo" role="par">
+                  <roleName type="fam">matrem ipsius</roleName> 
+                  <persName nymRef="#Guilhem_Canast-Brus_MSP-AU" role="ref">Willelmi de Canast</persName>
+                    </persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non<lb break="y" n="31"/>recolit</persName>. Et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>ipsa testis et 
+               omnes alii, excepta 
+               <persName nymRef="#Maria_de_Quiders_MSP-AU" role="ref">Maria 
+                  <roleName type="fam">uxorem</roleName> 
+                  <persName nymRef="#Bertrand_de_Quiders_MSP-AU" role="ref">Bertrandi de Quiders</persName>
+                    </persName>, adoraverunt ibi dictos hereticos.  
+               <date type="event_date" when="1231">Et sunt XIIII anni<lb break="y" n="32"/>vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-5">Item. Dixit quod vidit 
+               <persName nymRef="#Guilabert_de_Castres_H" ana="#pAdo" role="her">Guillabertum de Castras</persName> et socium suum, hereticos, apud 
+               <placeName nymRef="#Mirepoix_Ariege">Mirapeis</placeName> 
+               <placeName type="event_loc" nymRef="#home_of_Guilabert_de_Castre">in domibus 
+                  propriis ipsorum heret<lb break="n" n="33"/>icorum</placeName> et vidit ibi 
+               <persName nymRef="#Braida_de_Mont_Server_SRZ-TA" ana="#pAdo #pFoodBring" role="par">Braidam, 
+                  <roleName type="fam">socrum suam</roleName>
+                    </persName>; et 
+               <persName nymRef="#Cecilia_Roger_nee_de_Mont_Server_PER-AR" ana="#pAdo" role="par">Ceseliam, 
+                  <roleName type="fam">filiam dicte</roleName> 
+                  <persName nymRef="#Braida_de_Mont_Server_SRZ-TA" role="ref">Braide</persName>
+                    </persName>; et 
+               <persName nymRef="#Ava_Sanci_MPX-AR" ana="#pAdo" role="par">Avam, 
+                  <roleName type="fam">uxor</roleName> 
+                  <persName nymRef="#Raimund_Sanci_MPX-AR" role="ref">Ramundi Sancii</persName>
+                    </persName>; et 
+               <persName nymRef="#P_Audoys_MPX-AR" ana="#pAdo" role="par">P.<lb break="y" n="34"/>Audoys</persName>; 
+               <persName nymRef="#P_Raimund_Roi_MPX-AR" ana="#pAdo" role="par">P. Raimundi Roi</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>. 
+               Et tunc dicta Braida et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="pAdo #pFoodBring" role="par"/>
+               ipsa testis miserunt tunc dictis<lb break="y" n="35"/>hereticis 
+               <foreign xml:lang="OC">fogassas</foreign> et vinum. Et ipsa testis et omnes alii adoraverunt 
+               ibi dictos hereticos. Et 
+               <date type="event_date" when="1227">sunt XVIII anni vel circa</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-6">Item. Dixit<lb break="y" n="36"/>quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Na_Laureta">in domo de 
+                  <persName nymRef="#Na_Laureta_MPX-AR" role="own">Na Laureta</persName> apud 
+                  <placeName nymRef="#Mirepoix_Ariege">Mirapeis</placeName>
+               </placeName> 
+               <persName nymRef="#Francesca_de_la_Ylha_MPX-AR" ana="#pAdo" role="par">Franciscam, <roleName type="fam">matrem  
+               <persName nymRef="#Guilhem_de_la_Ylha_MPX-AR" role="ref">Willelmi de la Ylha</persName>
+                        </roleName>
+                    </persName>, 
+               et sociam suam, hereticas. Et vidit<pb n="3r"/>
+               <lb break="y" n="1"/>ibi cum eis 
+               <persName nymRef="#Ransana_de_Fanjeaux_FJX-AU" ana="#pAdo" role="par">Ransanam, <roleName type="fam">uxor
+               <persName nymRef="#Ysarn_de_Fanjeaux_FJX-AU" role="ref">Ysarni de Fano Iovis</persName>
+                        </roleName>
+                    </persName>. Et ipsa 
+               <persName nymRef="#Na_Laureta_MPX-AR" ana="uAdo" role="par">Laureta</persName> et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>
+               ipsa testis et dicta 
+               <persName nymRef="#Ransana_de_Fanjeaux_FJX-AU" role="ref">Ransana</persName> 
+               adoraverunt<lb break="y" n="2"/>ibi dictas hereticas.  
+               <date type="event_date" when="1227">Et fuit eodem tempore.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-7"> 
+               Item. Dixit quod 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo #pStayedKnow" role="par"/>
+               stetit apud <placeName nymRef="#Pereille_Ariege">Perrelham</placeName> cum 
+               <persName nymRef="#Ysarn_de_Fanjeaux_FJX-AU" ana="#pAdo #pStayedKnow" role="par">Hysarno de Mont Server</persName>,
+               <lb break="y" n="3"/>viro suo, et vidit ibi 
+               <placeName type="event_loc" nymRef="#home_of_Na_Fornier_de_Pereille">in domo de 
+                  <persName nymRef="#Na_Fornier_de_Pereille_PER-AR" role="own">Na Forneira - 
+                <roleName type="fam">matris 
+               <persName nymRef="#Raimund_de_Pereille_PER-AR" role="ref">Ramundi de Perrelha</persName>
+                            </roleName>, <roleName type="occ">heretice</roleName>
+                        </persName> -
+               </placeName>
+               <persName nymRef="#Johan_Cambiaire_MSP-AU" role="her">Iohannem Cam<lb break="n" n="4"/>biaire</persName> 
+               et socium suum, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Corba_de_Pereille_PER-AR" ana="#pAdo" role="par">Corbam, <roleName type="fam">uxorem</roleName> 
+                  <persName nymRef="#Raimund_de_Pereille_PER-AR" role="ref">Ramundi de Peirelha</persName>
+               </persName>; et 
+               <persName nymRef="#Cecilia_Roger_nee_de_Mont_Server_PER-AR" ana="#pAdo #pConvHrsy" role="par">Ceciliam, sororiam<lb break="y" n="5"/>ipsius testis</persName>,   
+               que erat tunc heretica. Et ipsa et omnes alii adoraverunt ibi dictos hereticos.  
+               <date type="event_date" when="1229">Et sunt XVI anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-8">
+               <lb break="y" n="6"/>Item. Dixit quod 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>
+               stetit apud 
+               <placeName type="event_loc" nymRef="#Montsegur_Ariege">Montem Securum</placeName> et vidit ibi 
+               <persName nymRef="#Johan_Cambiaire_MSP-AU" role="her">Iohannem Cambiaire</persName> et 
+               <persName nymRef="#heretics_not_named" role="her">plures alios hereticos et hereticas
+               </persName>.
+               <lb break="y" n="7"/>Et audivit predicationem ipsius 
+               <persName nymRef="#Johan_Cambiaire_MSP-AU" role="ref">Iohannis Cambiaire</persName>. 
+               Et vidit ibi in illa predicatione 
+               <persName nymRef="#Arnald_Roger_PER-AR" ana="#pAdo" role="par">Arnaldum Rogger</persName>;  
+               <persName nymRef="#Raimund_de_Pereille_PER-AR" ana="#pAdo" role="par">Ramundum de Peirelha</persName>;  
+               et<lb break="y" n="8"/>
+               <persName nymRef="#Corba_de_Pereille_PER-AR" ana="#pAdo" role="par">Sorbam, <roleName type="fam">uxorem dicti 
+                  <persName nymRef="#Raimund_de_Pereille_PER-AR" role="ref">Ramundi de Peirelha</persName>
+                        </roleName>
+                    </persName>; et 
+               <persName nymRef="#Cecilia_Roger_nee_de_Mont_Server_PER-AR" ana="#pAdo" role="par">Gebiliam, <roleName type="fam">uxorem 
+                            <persName nymRef="#Arnald_Roger_PER-AR" role="ref">Arnaldi Rotgerii</persName>
+                        </roleName>
+                    </persName>; et 
+               <persName nymRef="#W_de_Mirepoix_PAM-AR" ana="#pAdo" role="par">W. de Mirapeis</persName>, qui est de<lb break="y" n="9"/>
+               <placeName nymRef="#Pamiers_Ariege">Pamias</placeName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit
+               </persName>. Et omnes, excepto dicto W. de Mirapeis qui non dili<lb break="n" n="10"/>gebat hereticos, 
+               adoraverunt ibi dictos hereticos. <date type="event_date" when="1230">Et sunt XV anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-9">
+               Item. Dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_in_Queille">apud Culham in quadam domo</placeName>
+               <lb break="y" n="11"/>ubi iacebat infirmus 
+               <persName nymRef="#Ysarn_de_Mont_Server_SRZ-TA" ana="nAdo nHereticated" role="inf">Hysarnus de Mont Server</persName>, maritus ipsius testis, 
+               <persName nymRef="#Bertrand_Marti_H" role="her">Bertrandum Marti</persName> 
+               et socium suum, hereticos.<lb break="y" n="12"/>Et vidit cum eis 
+               <persName nymRef="#Arnald_Roger_PER-AR" ana="#nAdo #pDux" role="par">Arnaldum Rogger</persName>, 
+               qui duxit ibi dictos hereticos; et 
+               <persName nymRef="#Ponca_de_Vilar_QLE-AR" ana="#nAdo" role="par">Ponciam de Vilar, <roleName type="fam">uxorem quondam 
+               <persName nymRef="#Ysarn_de_Vilar_QLE-AR" role="ref">Ysarni del Vilar</persName>
+                        </roleName>
+                    </persName>; et<lb break="y" n="13"/>
+               <del type="notary" rend="expunctus">O</del> 
+               <persName nymRef="#Cecilia_Roger_nee_de_Mont_Server_PER-AR" ana="#nAdo" role="par">Ceciliam, <roleName type="fam">uxorem  
+               <persName nymRef="#Arnald_Roger_PER-AR" role="ref">Arnaldi Rogar</persName>
+                        </roleName>
+                    </persName>; 
+               <persName nymRef="#Raimunda_de_Mont_Server_SRZ-TA" ana="#nAdo" role="par">Raimundam de Mont Server</persName>; et 
+               <persName nymRef="#Galharda_de_Romengos_RMG-AR" ana="#nAdo" role="par">Guallardam de Romengos</persName>. Sed 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#nAdo" role="par"/>
+               non adoravit<lb break="y" n="14"/>nec vidit adorare nec dictus maritus eius fuit hereticatus. 
+               <date type="event_date" when="1234">Et sunt XI anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-10">
+               Item. Dixit quod in eadem villa<lb break="y" n="15"/>
+               <placeName type="event_loc" nymRef="#home_of_P_de_las_Combas">in domo 
+                  <persName nymRef="#P_de_las_Combas_QLE-AR" role="own">P. de Las Combas</persName>
+               </placeName> vidit 
+               <persName nymRef="#Raimunda_de_Cuc_CMS-AU" role="her">Raimundam de Cuc</persName> et sociam suam, hereticas, et vidit ibi cum eis ipsum 
+               <persName nymRef="#P_de_las_Combas_QLE-AR" ana="#pAdo" role="par">P. de Las Combas</persName> 
+               <lb break="y" n="16"/>et 
+               <persName nymRef="#heretics_unknown_2f" ana="uAdo" role="par">duas feminas quas non novit</persName>; et 
+               <persName nymRef="#Ermengarde_de_Mazerol_GAJ-AU" ana="pAdo #pEat #pBlessPane" role="par">Aimengardam,  
+                  <roleName type="fam">uxorem 
+                  <persName nymRef="#Peire_de_Mazerol_GAJ-AU" role="ref">P<supplied reason="expname">etri</supplied> de Mazerolas</persName>
+                        </roleName>
+               </persName>. Et 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo #pEat #pBlessPane" role="par"/>
+               ipsa testis et dicta 
+               <persName nymRef="#Ermengarde_de_Mazerol_GAJ-AU" role="ref">Aymen<lb break="n" n="17"/>gart</persName> 
+               adoraverunt ibi dictas hereticas, et tunc comedebant dicte heretice, et ipsa testis et dicta 
+               <persName nymRef="#Ermengarde_de_Mazerol_GAJ-AU" role="ref">Aimengart</persName> 
+               de pane ab<lb break="y" n="18"/>ipsis benedicto. Et <date type="event_date" when="1240">sunt Vque anni vel circa</date>.
+            </seg>   
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-11">Item. Dixit quod vidit in eodem castro 
+               <placeName type="event_loc" nymRef="#home_of_Dominic_de_Catalonia">in domo 
+                  <persName nymRef="#Dominic_de_Catalonia" ana="#pAdo" role="par">Dominici, qui erat<lb break="y" n="19"/>de Cathalonia</persName>,
+               </placeName> 
+               <persName nymRef="#heretics_unknown_3f" role="her">tres hereticas de Fano Iovis quarum nomina ignorat</persName>. Et vidit ibi cum eis 
+               <persName nymRef="mother_of_Dominic_de_Catalonia" ana="#pAdo" role="par">
+                  matrem dicti<lb break="y" n="20"/>Dominici
+               </persName> et 
+               <persName nymRef="#Ermengarde_de_Mazerol_GAJ-AU" ana="#pAdo" role="par">Esmengardam,  
+                  <roleName type="fam">uxorem</roleName> 
+                  <persName nymRef="#Peire_de_Mazerol_GAJ-AU" role="ref">P. de Mazorolas</persName>
+               </persName>. Et tunc 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pAdo" role="par"/>ipsius testis et dicta 
+               <persName nymRef="#Ermengarde_de_Mazerol_GAJ-AU" role="ref">Esmengarda</persName> 
+               adoraverunt ibi dictas hereticas.<lb break="y" n="21"/>
+               <date type="event_date" when="1240">Et fuit eodem tempore.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-12">
+               Item. Dixit quod 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pFoodBring" role="par"/>misit, per dictum 
+               <persName nymRef="#Dominic_de_Catalonia" ana="#pFoodBring" role="par">Dominicum</persName>, <persName nymRef="#Braida_de_Mont_Server_SRZ-TA" role="her">Braide
+               <sic>
+                  <orig>marti</orig>
+                  <corr>mariti</corr>
+               </sic> 
+                  sui, <roleName type="fam">socrui ipsius testis, heretice,</roleName>
+                    </persName> duo<lb break="y" n="22"/>sextaria frumenti 
+               <placeName type="event_loc" nymRef="#Montsegur_Ariege">apud Montem Securum</placeName>.  
+               <date type="event_date" when="1240">Et fuit eodem tempore.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-13">
+               Item. Dixit quod alia vice 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#pMoneyGive" role="par"/>
+               misit dicte heretice<lb break="y" n="23"/>per 
+               <persName nymRef="#Peire_de_Fogars_LAV-AR" ana="#pMoneyGive" role="par">Petrum de Fogars</persName> qui erat de 
+               <placeName nymRef="#Lavelanet_Ariege">Lavebanet</placeName> 
+               tres solidos Tholosanos. Et <date type="event_date" when="1240">fuit eodem tempore</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-14">
+               Item. Dixit quod vidit 
+               <persName nymRef="#Arnald_de_Pencha_MSP-AU" role="her">Arnaldum<lb break="y" n="24"/>de Pencha</persName> et 
+               <persName nymRef="#Bernard_de_Saint-Esteve_CAZ-AU" role="her">B. S.</persName>, hereticos, stantes 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_del_Mas_Sr_MSP">in domo 
+                  <persName nymRef="#Guilhem_del_Mas_Senior_MSP-AU" ana="#pHarvest #nAdo" role="par">Willelmi del Mas</persName>
+               </placeName>. Et dicti heretici colligebant bladum dicti Willelmi<lb break="y" n="25"/>del 
+               Mas, patris ipsius testis, sed 
+               <persName nymRef="#Pelegrina_de_Mont_Server_nee_del_Mas_MSP-AU" ana="#nAdo" role="par"/>
+               non adoravit nec vidit adorare. Et <date type="event_date" when="1225">sunt XX anni vel circa</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0015-15">
+               Item. Dixit quod quando stabat 
+               <placeName type="event_loc" nymRef="#Pereille_Ariege">apud Pe<lb break="n" n="26"/>relham</placeName> misit 
+               <persName nymRef="#Na_Fornier_de_Pereille_PER-AR" role="her">Forneire heretice</persName> 
+               duas <foreign xml:lang="OC">fogassas</foreign> 
+               et unam plenam canam vini per quandam ancillam suam.  
+               <date type="event_date" when="1230">Et sunt<lb break="y" n="27"/>XV anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0015-16">
+               <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_bonam_fidem #pos_posse_salvari">
+                  Predictos hereticos credit esse bonos et habere bonam fidem et posse salvari per ipsos</seg>. Et 
+               <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia #pos_err_hostia #pos_err_matrimonio">
+                  audivit<lb break="y" n="28"/>eos dicentes errores de visibilibus quod deus non fecerat ea, et quod hostia sacrata 
+                  non est corpus domini, et quod in<lb break="y" n="29"/>matrimonio non est salus. Sed ipsa non credit 
+                  predictis erroribus</seg>. Et 
+               <seg type="hist_bel">
+                  <date type="prev_bel_start" when="1223">sunt 
+                     XXIII anni quod primo credit hereticos esse bonos,
+                  </date>
+                  <lb break="y" n="30"/>sed 
+                  <date type="prev_bel_end" when="1242" cert="low">non credit postquam fecit confessionem suam de heresi 
+                        <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrario</persName> 
+                     et socio suo, inquisitores, apud <placeName nymRef="#Saissac_Aude">Saysac</placeName>
+                  </date>
+               </seg>. Et fuit<lb break="y" n="31"/>confessa predicta et 
+               plura alia de quibus modo non recolit, sed omnia credit esse vera. 
+               <seg type="inq_int" subtype="specific_question">Dixit etiam quod 
+                  <persName nymRef="#Ysarn_de_Mont_Server_SRZ-TA" ana="#nHereticated" role="ref">Hysarnus<lb break="y" n="32"/>vir suus</persName> 
+                  mortuus sunt X anni et non fuit hereticatus.
+               </seg> Et abiuravit heresim et iuravit et cetera. 
+               <seg type="witnesses">Testes: 
+                  <persName nymRef="#Bernard_Chap_Ladinhac" role="wit">B<supplied reason="expname">ernardus</supplied> de Ladinhac</persName>;
+                  <lb break="y" n="33"/> 
+                  <persName nymRef="#Sylvestre_Chap_Verfeil" role="wit">Silvester, capellanus de Viridifolio</persName>; 
+                  <persName nymRef="#Peire_Fresapa_NOT" role="not">P<supplied reason="expname">etrus</supplied> Fresapa</persName>. Et 
+                  <persName nymRef="#Bernard_de_Caux_OP" role="inq">frater B<supplied reason="expname">ernardus</supplied>, inquisitor</persName>, legit.
+               </seg>
+            </seg>   
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0015-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0015-1">Item. Year and day as above, the witness Pelegrina<add type="margin_gloss" subtype="observation" place="left" hand="#original_609">She lives at Queille</add>, 
+               wife of Ysarn de Mont Server, daughter of the aforementioned Guilhem del Mas, 
+               lord of Mas-Saintes-Puelles, said that she saw her friend Geralda and her companions, 
+               heretics, in the house of Guilhem del Mas, her father, and saw with them her father, 
+               and her mother Fabrissa, and the witness and her mother adored said heretics with knees 
+               bent 3 times saying, "Bless us, good women, pray to God for us." And this was 25 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-2">Item. The witness said that she saw heretics in the 
+               house of Raimund Canast where Na Estolt de Rochavila was staying, and she saw there 
+               some who appeared to be heretics but who she did not know, but she saw no one else there 
+               except said heretics.</seg>
+            <seg type="trans" corresp="#MS609-0015-3">Item. The witness said that she saw heretics that she did not 
+               know in the house of Peire Faure and there with them her mother Fabrissa and Willelma Meta, 
+               the wife of Bernard de Quiders and sister of Guilhem del Mas, and Geralda wife of 
+               Guilhem de Rochafort, and Marquesa wife of B. de Rochafort, and Ermengarde de Caucer, 
+               and Peire Faure himself, and many others whom she did not recall. And the witness and 
+               all others adored the aforesaid heretics. This was about 22 years ago.</seg>   
+            <seg type="trans" corresp="#MS609-0015-4">Item. The witness said that she saw Bertrand Marti and his 
+               companions, heretics, in the house of Guilhem Canast and saw there with them her mother 
+               Fabrissa, and Willelma Meta, and Maria, wife of Bertrand de Quiders, and P. Bernard, macellator, 
+               and Guilhem de Canast himself and his mother, and many others that she did not recall, and the 
+               witness and all others - except Maria, wife of Bertrand de Quiders - adored said heretics. 
+               This was about 14 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-15">Item. The witness said that she saw Guilabert de Castre and her 
+               companions, heretics, at Mirepoix in the house owned by one of the heretics, and saw there her 
+               friend Braida de Mont Server and Cecilia, daughter of said Braida, and Ava, wife of Raimund Sanci 
+               and P. Audoys, P. Bernard Ros, and many others that she did not recall, and at that time said 
+               Braida and the witness sent the aforesaid heretics bread and wine, and the witness and all others 
+               adored the aforesaid heretics there. This was about 19 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-6">Item. The witness said that she saw Francesca, mother of Guilhem de la Ylha, 
+               and her companions, heretics, in the house of Na Laureta at Mirepoix, and she saw there with them 
+               Ransana, wife of Ysarn de Fanjeaux and Na Laureta herself, and the witness and Ransana adored said 
+               heretics there. This was in the same period.</seg>
+            <seg type="trans" corresp="#MS609-0015-7">Item. The witness said that she was standing in Péreille 
+               with her husband Ysarn de Mont Server and saw there in the house of Na Fornier, Raimund de 
+               Peirelha's mother, a heretic, Johan Cambiaire and his companions, heretics and she saw 
+               there with them Corba de Peirelha, wife of Raimund de Peirelha, and Cecilia, sister of the 
+               witness, and they were at that time heretics, and the witness and all others adored said heretics. 
+               This was about 16 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-8">Item. The witness said that she was standing in Montsegur and 
+               saw there Johan Cambiaire and many other men and women, heretics, and she heard Johan Cambiaire 
+               preach. And the witness saw preaching there Arnald Roger, Raimund de Peirelha and Corba, wife of 
+               said Raimund de Peirelha and Cecilia, wife of said Arnald Roger, and W. de Mirepoix who was from 
+               Pamiers, and many others who she could not recall. And all - except said W. de Mirapoix who did not 
+               esteem heretics - adored said heretics there. This was about 15 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-9">Item. The witness said that she saw in a certain house in 
+               Queille her husband Ysarn de Mont Server laying sick, and Bertrand Marti and companions, heretics. 
+               And she saw with them Arnald Roger who led the said heretics there, and Poncia de Vilar wife of 
+               Ysarn de Vilar, and Cecilia Roger, wife of Arnald Roger, Raimund de Mont Server, and Galharda de Romengos, 
+               but the witness did not adore nor saw them adore, nor was said husband of hers a heretic. 
+               This was about 11 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-10">Item. The witness said that in the same village in the house of P. de las 
+               Combas she saw Raimunda de Cuc and her companions, heretics, and saw there with them the said P. de las Combas 
+               and two women that she did not know, and Esmengarda, wife of Pons de Mazerol. And the witness and the 
+               aforesaid Esmengarda adored the heretics, and the heretics ate there, and the witness and Esmengarda 
+               had bread that was blessed by them. This was about 5 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-11">Item. The witness said that she saw there in the same 
+               <foreign xml:lang="LA">castrum</foreign>, in the house of Dominici who was from Catalan, three 
+               female heretics from Fanjeaux whose name she did not know, and she saw with them there the mother 
+               of the aforesaid Dominici, and Esmengarda, wife of Pons de Mazerol. And the witness and said Esmengarda 
+               adored the aforesaid heretics there. This was in the same period.</seg>
+            <seg type="trans" corresp="#MS609-0015-12">Item. The witness said that she sent Braida - her husband's mother, mother-in-law 
+               to the witness, heretic - a sextaria of corn at Montsegur. This was in the same period.</seg>
+            <seg type="trans" corresp="#MS609-0015-13">Item. The witness said that on another occasion she sent the aforesaid heretic 
+               three Tholosans via Peire de Fogars of Lavelanet. This was in the same period.</seg>
+            <seg type="trans" corresp="#MS609-0015-14">Item. The witness said that she saw the heretics Arnald de Pencha and 
+               Bernard de Saint-Esteve staying in the house of Guilhem del Mas, and said heretics received some 
+               grain from said Guilhem del Mas, father of the witness, but she did not adore them nor saw them adore. 
+               This was about 20 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-15">Item. The witness said that while in Pereilha she gave na Fornier, heretic, 
+               two fougasses and a full measure of wine via some maid of hers, and this was about 15 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0015-16">The witness believed the aforementioned heretics to be good and had good faith 
+               and one could be saved through them. She heard them say the errors of visible things, that God did not create it, 
+               and that the holy host is not the body of the Lord, and that marriage does not save, but she herself did not 
+               believe in these errors. It was about 23 years ago that she first believed the heretics to be good but 
+               did not believe them after confessing to Ferrier and his companion, inquisitors, at Saissac, where she 
+               confessed all the aforesaid and much more which she did not recall, but she believed it all to be the truth. 
+               The witness said as well that her husband Ysarn de Mont Server died about 10 years ago, and he was not 
+               hereticated. The witness abjured heresy and swore, etc. Witnesses: Magister Bernard of Ladinhac; 
+               Sylvester, Chaplain of Verfeil; Peire Fresapa, Notary. Brother Bernard, inquisitor, read this.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

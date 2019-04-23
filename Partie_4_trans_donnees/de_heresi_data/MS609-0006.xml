@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0006.xml">
+   
+   <teiHeader xml:id="MS609-0006-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0006">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0006"/>
+         <div type="folio" n="1v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro">
+            <p/>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0010"/>
+            </list>
+         </div>
+      </front>
+      
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0006-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-1">
+               <lb break="y" n="5"/>Item.  
+               <date type="deposition_date" sameAs="#MS609-0001.xml" cert="medium">Anno et die quo supra.</date> 
+               <persName nymRef="#Pons_Rainart_MSP-AU" role="dep">Poncius Rainardi</persName> testis iuratus dixit quod vidit 
+               <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">in domo 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">P<supplied reason="expname">eire</supplied> de Sancto Andrea</persName>
+               </placeName>
+               <persName nymRef="#Johan_Cambiaire_MSP-AU" ana="#pAdo" role="par">Iohannem Cambitorem</persName> 
+               et socium<lb break="y" n="6"/>eius, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vital</persName>; 
+               <persName nymRef="#Bernard_del_Mas_Senior_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied>, dominum del Mas</persName>; 
+               <persName nymRef="#Arnald_de_Rosengue_MSP-AU" ana="#pAdo" role="par">Arnaldum de Rozengue</persName>; 
+               <persName nymRef="#Raimund_de_Causit_MSP-AU" ana="#pAdo" role="par">R<supplied reason="expname">aimundum</supplied> de Causit</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus<lb break="y" n="7"/>non recolit</persName>. Et omnes et 
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par"/>ipse testis adoravit ibi dictos hereticos. Et 
+               <date type="event_date" when="1231">sunt XIIII anni vel circa</date>.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-2">Item. Vidit 
+               <persName nymRef="#Guilhem_Vidal_H_LBC-AU" role="her">Willelmum Vital de Gibel</persName> 
+               et socium<lb break="y" n="8"/>eius, hereticos, in loco qui dicitur 
+               <placeName type="event_loc" nymRef="#Lo_Radel_MSP">lo Radel</placeName>. Et vidit ibi cum eis 
+               <persName nymRef="#Pons_Garnier_MSP-AU" ana="#pAdo" role="par">Poncium Guarner</persName>;  
+               <persName nymRef="#Galhard_Amelh_MSP-AU" ana="#pAdo" role="par">Guallardum Amelh</persName>;  
+               <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pAdo" role="par">Arnaldum Godal</persName>; 
+               <persName nymRef="#Pons_Gran_MSP-AU" ana="#pAdo" role="par">Poncium<lb break="y" n="9"/>G<supplied reason="expname">ra</supplied>n</persName>; 
+               <persName nymRef="#Pons_Gauta_MSP-AU" ana="#pAdo" role="par">Poncium Gauta</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>. Et omnes et 
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par"/>ipse testis 
+               adoravit ibi dictos hereticos. 
+               <date type="event_date" when="1238">Et sunt VII anni<lb break="y" n="10"/>vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-3">Item. Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Vidal">in domo 
+                  <persName nymRef="#Guilhem_Vidal_MSP-AU" role="own">Willelmi Vital</persName>
+               </placeName> 
+                  <persName nymRef="#Bertrand_Marti_H" role="her">Bertrandum Marti</persName> et socium eius, hereticos. Et vidit ibi cum eis 
+                  <del type="notary" rend="expunctus">dictam Camonam</del> ipsum<lb break="y" n="11"/>
+                  <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">Willelmum Vital</persName> et 
+               <persName nymRef="#Segura_Vidal_MSP-AU" ana="#pAdo" role="par">uxor eius</persName>. Et 
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par"/>
+                  ipse testis adoravit ibi dictos hereticos et vidit alios adoraverunt. 
+                  <date type="event_date" when="1233">Et sunt XII anni vel circa.</date>
+            </seg>   
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-4">Item. Vidit<lb break="y" n="12"/>
+               <placeName type="event_loc" nymRef="#home_of_Guilhem_Vidal">in domo ipsius testis</placeName> 
+               <persName nymRef="#P_Bonet_MSP-AU" role="her">P. Bonet</persName>, sororium ipsius testis, et 
+               socium eius, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">Willelmum Vital</persName> et 
+               <persName nymRef="#Raimunda_Rainart_MSP-AU" ana="#pAdo" role="par">Raimundam,<lb n="13"/>uxor</persName> ipsius testis, sororem dicti 
+               <persName nymRef="#P_Bonet_MSP-AU" role="ref">P. Bonet</persName>, hereticam. Et <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par"/>
+               ipse testis et alii adoraverunt dictos hereticos. 
+               <date type="event_date" when="1237">Et sunt VIII anni vel circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-5">
+               <lb break="y" n="14"/>Item. 
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#nAdo" role="par"/>Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Na_Camona_MSP-AU">in domo de 
+                  <persName nymRef="#Na_Camona_MSP-AU" role="own">Na Camona</persName>
+               </placeName> 
+               <persName nymRef="#Rixen_H" role="her">Rixenz</persName> et sociam eius, hereticas, et vidit ibi cum eis dictam 
+               <persName nymRef="#Na_Camona_MSP-AU" ana="#nAdo" role="par">Camonam</persName> sed non<lb break="y" n="15"/>adoravit ibi 
+               <sic style="sic">
+                  <orig>dictos</orig>
+                  <corr>dictas</corr>
+               </sic> hereticas, nec vidit 
+               alios adorare. <date type="event_date" when="1238">Et sunt VII anni vel circa.</date>
+            </seg>   
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-6">Item. Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Bernard_de_Quiders">in domo 
+                  <persName nymRef="#Bernard_de_Quiders_MSP-AU" role="own">Bernardi de Quiders</persName>
+               </placeName> 
+               <persName nymRef="#Bertrand_Marti_H" role="her">Bertrandum<lb break="y" n="16"/>Marti</persName> 
+               et socium eius, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Raimund_de_Causit_MSP-AU" ana="#pAdo" role="par">R<supplied reason="expname">aimundum</supplied> de Causit</persName>;  
+               <persName nymRef="#Guilhem_Vidal_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> Vital</persName>; et 
+               <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pAdo" role="par">Arnaldum Godalh</persName>; et ipsum 
+               <persName nymRef="#Bernard_de_Quiders_MSP-AU" ana="#pAdo" role="par">B<supplied reason="expname">ernardum</supplied> de Quiders</persName>.
+               <lb break="y" n="17"/>Et omnes et 
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par"/>ipse testis adoraverunt ibi 
+               dictos hereticos. Alibi non vidit hereticos quod recolat.
+            </seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0006-7">Item. Dixit quod 
+               <seg type="conf" ana="#pos_bonos_homines #pos_bonam_fidem #pos_amicos_dei #pos_veraces">
+                  credidit hereticos esse bonos et habere<lb break="y" n="18"/>bonam fidem et esse veraces et amicos Dei.</seg> 
+               <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia #pos_err_baptismo #pos_err_hostia #pos_err_matrimonio">Et audivit hereticos dicentes quod Deus non fecerat visibilia, et 
+                  quod hostia<lb break="y" n="19"/>sacrata non est corpus Christi, et quod baptismus aqua nichil valet, et quod in 
+                  matrimonio non est salus.</seg> 
+               <seg type="hist_bel">Et ipse testis credidit sicut ipsi<lb break="y" n="20"/>
+                     dicebant. <date type="prev_bel_start" when="1232">Et sunt XIII anni quod primo credidit hereticos</date> 
+                        <date type="prev_bel_end" when="1239">et sunt VI anni ultimo dimisit</date>.</seg>
+               Et <seg type="prev_conf" ana="#neg_penance">fuit confessus<lb break="y" n="21"/>
+                  <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrario</persName> sed non habuit ab ipso penitentiam.</seg> 
+               Et postea non vidit hereticos vel hereticas.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0006-8" corresp="#MS609-0419-5">
+               <seg type="inq_int" subtype="specific_question">Item. Vidit <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">in domo 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">P<supplied reason="expname">etri</supplied> de Sancto Andrea</persName>
+                  </placeName>
+                  <lb break="y" n="22"/>
+                  <persName nymRef="#Donat_Tersola_MSP-AU" role="her">Donatum</persName> et socium eius, hereticos, et vidit cum 
+                  <sic style="sic">
+                     <orig>eo</orig>
+                     <corr>eis</corr>
+                  </sic> 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" ana="#nAdo" role="par">P<supplied reason="expname">etrum</supplied> de Sancto Andrea</persName>; et 
+                  <persName nymRef="#na_Mateus_Faure_MSP-AU" ana="#nAdo" role="par">Na Matenz</persName>; et 
+                  <persName nymRef="#Peire_Faure_de_Castilho_MSP-AU" ana="#nAdo" role="par">P<supplied reason="expname">etrum</supplied> Fabri, 
+                     <roleName type="fam">filium dicte Mateuz</roleName>
+                  </persName>.
+                  <lb break="y" n="23"/>Sed <persName nymRef="#Pons_Rainart_MSP-AU" ana="#nAdo" role="par"/>
+                  non adoravit nec vidit adorare.</seg> Et abiuravit heresim et iuravit et cetera. 
+               <seg type="witnesses" sameAs="#MS609-0001.xml" cert="medium">Testes: predicti.</seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0006-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0006-1">Item. Year and day as above, the sworn witness Pons Rainard 
+               said that he saw Johan Cambiaire and his companions, heretics, in the house of Peire de Sancto Andrea, 
+               and saw with them Guilhem Vidal, Bernard lord of Mas-Saintes-Puelles, Arnald de Rosengue, B. de Causit 
+               and many others he did not recall. And the witness and everyone else adored said heretics. 
+               This was about 14 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0006-2">Item. The witness saw Guilhem Vitalis de Gibel and his companions, 
+               heretics, in a place called Lo Radel, and he saw there with them Pons Garnier, Guallard Amelh, Arnald Godalh, 
+               Pons Gran, Pons Gauta and many others he did not recall, and the witness and everyone else adored said heretics
+               there. This was about 7 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0006-3">Item. The witness saw Bertrand Marti and his companions, heretics, in the house 
+               of Guilhem Vidal, and saw there with them the aforesaid Camona, and the aforesaid Guilhem Vidal and his wife. 
+               The witness adored said heretics and he saw the others adore. This was about 12 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0006-4">Item. The witness saw in his own house the witness' sister-in-law P. Bonet and her 
+               companions, heretics, and saw there with them Guilhem Vidal and the witness' wife Raimunda, sister of P. Bonet, 
+               heretic, and the witness and everyone else adored said heretics. This was about 8 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0006-5">Item. The witness saw Rixen and her companion, heretics, in the house of Na Camona, 
+               and he saw there with them aforesaid Na Camona but he did not adore them nor did he see the others adore. 
+               This was about 7 years ago.</seg>
+            <seg type="trans" corresp="#MS609-0006-6">Item. The witness saw Bertrand Marti and heretic companions in the house of 
+               Bernard de Quiders and saw there with them Raimund de Causit, Guilhem Vidal and Arnald Godalh and 
+               Bernard de Quiders himself, and the witness and everyone else adored said heretics. He did not see the 
+               heretics elsewhere that he recalled.</seg>
+            <seg type="trans" corresp="#MS609-0006-7">Item. The witness said that he believed the heretics to be good, had good faith, 
+               were true, and were friends of God. He heard heretics say that God did not make visible things and that the 
+               holy host is not the body of Christ and that baptism by water does nothing and that marriage does not save one 
+               and the witness believed what they said. It was 14 years ago that he first believed the heretics and 
+               it was 6 years ago that he left [the belief]. This was confessed to brother Ferrier but no penance was 
+               given and since then he has not seen heretics.</seg>
+            <seg type="trans" corresp="#MS609-0006-8">Item. The witness saw Donat and his companions, heretics, in the house of Peire 
+               de Saint Andrea and saw there with them Peire de Saint Andrea and Na Mateus and Pons Faure son of said Na Mateus, 
+               but he did not adore them nor did he see them adore. He abjured heresy and swore, etc. Witnesses: as 
+               stated before.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

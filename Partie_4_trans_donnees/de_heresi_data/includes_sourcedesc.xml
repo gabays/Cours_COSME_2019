@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sourceDesc xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sourcedesc">
+   <!-- sources -->
+   <!-- xml:id is used in the document div[@type="source"]/@corresp -->
+   <msDesc type="manuscript" xml:id="MS-TOULOUSE-MS609">
+      <msIdentifier>
+         <institution>Bibliothèque municipale de Toulouse</institution>
+         <msName type="short">MS 609</msName>
+         <msName type="medium">BM Toulouse MS 609</msName>
+         <msName type="long">Bibliothèque municipale de Toulouse MS 609</msName>
+         <altIdentifier type="url_group">
+            <idno>MS609</idno>
+         </altIdentifier>
+         <altIdentifier type="doc_prefix">
+            <idno>MS609</idno>
+         </altIdentifier>        
+      </msIdentifier>
+   </msDesc>
+   <msDesc type="manuscript" xml:id="MS-BNF-MS9992">
+      <msIdentifier>
+         <institution>Bibliothèque nationale de France</institution>
+         <msName type="short">MS Lat 9992</msName>
+         <msName type="medium">BnF MS Lat 9992</msName>
+         <msName type="long">Bibliothèque nationale de France, MS Latin 9992</msName>
+         <altIdentifier type="url_group">
+            <idno>MS9992</idno>
+         </altIdentifier>
+        <altIdentifier type="doc_prefix">
+            <idno>MS9992</idno>
+         </altIdentifier>
+      </msIdentifier>
+   </msDesc>
+   <msDesc type="collection" xml:id="BNF-DOAT">
+      <msIdentifier>
+         <institution>Bibliothèque nationale de France</institution>
+         <msName type="short">Doat</msName>
+         <msName type="medium">BnF Fonds Doat</msName>
+         <msName type="long">Bibliothèque nationale de France, Fonds Doat</msName>
+         <altIdentifier type="url_group">
+            <idno>Doat</idno>
+         </altIdentifier>
+         <altIdentifier type="doc_prefix">
+            <idno>DOAT</idno>
+         </altIdentifier>
+      </msIdentifier>
+   </msDesc>
+   <msDesc type="collection" xml:id="COLL-ANF-TRESOR">
+      <msIdentifier>
+         <institution>Archives nationales de France, Trésor des Chartes</institution>
+         <msName type="short">Trésor des Chartes</msName>
+         <msName type="medium">Arch. nat. Trésor des Chartes</msName>
+         <msName type="long">Archives nationales de France, Trésor des Chartes</msName>
+         <altIdentifier type="url_group">
+            <idno>Tresor_des_Chartes</idno>
+         </altIdentifier>
+        <altIdentifier type="doc_prefix">
+            <idno>TDC</idno>
+         </altIdentifier>
+      </msIdentifier>
+   </msDesc>
+   <msDesc type="collection" xml:id="COLL-ANHG-MALTEH">
+      <msIdentifier>
+         <institution>Archives de la Haute-Garonne</institution>
+         <msName type="short">AHG Malte H</msName>
+         <msName type="medium">Arch. Haute-Garonne Malte H</msName>
+         <msName type="long">Archives de la Haute-Garonne, Malte H</msName>
+         <altIdentifier type="url_group">
+            <idno>HG_Malte_H</idno>
+         </altIdentifier>
+         <altIdentifier type="doc_prefix">
+            <idno>HGMALTEH</idno>
+         </altIdentifier>         
+      </msIdentifier>
+   </msDesc>
+   
+   <!-- copyright and license descriptions, @xml:id = publicationStmt/ @corresp  -->
+   <list type="copyright_type">
+      <item xml:id="copyright-cc-by-4.0">
+         <desc/>
+         <ref type="license_url" target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
+            4.0 International License</ref>
+         <ref type="license_image" target="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+      </item>
+      <item xml:id="copyright-cc-by-nc-sa-4.0">
+         <desc xml:lang="en">This work is made available by the author under the 
+         <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 
+            4.0 International License</ref>.</desc>
+         <desc xml:lang="fr">Ce(tte) œuvre est mise à disposition par l'auteur selon les termes de la 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Licence publique Creative Commons Attribution - Pas d’Utilisation Commerciale - 
+               Partage dans les Mêmes Conditions 4.0 International</ref>.</desc>
+      </item>
+   </list>
+   
+   <!-- document types, @xml:id = front/div/@type=document_type/@sub_type -->
+   <list type="document_type">
+      <item xml:id="bull">
+         <desc xml:lang="EN">Bull</desc>
+         <desc xml:lang="FR">Bulle</desc>
+         <date type="bull_date"/>
+      </item>
+      <item xml:id="charter">
+         <desc xml:lang="EN">Charter</desc>
+         <desc xml:lang="FR">Charte</desc>
+         <date type="charter_date"/>
+      </item>
+      <item xml:id="deposition">
+         <desc xml:lang="EN">Deposition</desc>
+         <desc xml:lang="FR">Déposition</desc>
+         <date type="deposition_date"/>
+      </item>
+      <item xml:id="legislation">
+         <desc xml:lang="EN">Legislation</desc>
+         <desc xml:lang="FR">Législation</desc>
+         <date type="legislation_date"/>
+      </item>
+      <item xml:id="oath">
+         <desc xml:lang="EN">Oath</desc>
+         <desc xml:lang="FR">Serment</desc>
+         <date type="oath_date"/>
+      </item>
+      <item xml:id="recitation">
+         <desc xml:lang="EN">Recitation</desc>
+         <desc xml:lang="FR">Récitation</desc>
+         <date type="deposition_date"/>
+      </item>
+      <item xml:id="sentence">
+         <desc xml:lang="EN">Sentence</desc>
+         <desc xml:lang="FR">Sentence</desc>
+         <date type="sentence_date"/>
+      </item>
+      <item xml:id="will">
+         <desc xml:lang="EN">Will</desc>
+         <desc xml:lang="FR">Testament</desc>
+         <date type="will_date"/>
+      </item>
+   </list>
+   
+   <!-- people -->
+   <xi:include href="codes_people.xml"/>
+   <xi:include href="codes_people_eccl.xml"/>
+   <!-- places -->
+   <xi:include href="codes_places.xml"/>
+   <!-- bibliography -->
+   <xi:include href="bibliography.xml"/>
+   <!-- folio images -->
+   <xi:include href="codes_folio_images.xml" corresp="#baseimgURL_MS0609"/>
+</sourceDesc>

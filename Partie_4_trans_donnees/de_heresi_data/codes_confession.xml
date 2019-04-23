@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxoHeresy">
+   
+   <category n="role" xml:id="dep">
+      <desc type="short" xml:lang="EN">Deponent</desc>
+      <desc type="long" xml:lang="EN">Deponent</desc>
+      <desc type="short" xml:lang="FR">Deposant</desc>
+      <desc type="long" xml:lang="FR">Deposant/e</desc>
+    </category>
+   <category n="role" xml:id="par">
+      <desc type="short" xml:lang="EN">Participant</desc>
+      <desc type="long" xml:lang="EN">Participant in event</desc>
+      <desc type="short" xml:lang="FR">Participant</desc>
+      <desc type="long" xml:lang="FR">Participant/e à un evennement</desc>
+    </category>
+   <category n="role" xml:id="npar">
+      <desc type="short" xml:lang="EN">Non-participant</desc>
+      <desc type="long" xml:lang="EN">Mentioned at event, but not as participant</desc>
+      <desc type="short" xml:lang="FR">Non-participant</desc>
+      <desc type="long" xml:lang="FR">Mentionné, mais pas comme participant</desc>
+    </category>
+   <category n="role" xml:id="her">
+      <desc type="short" xml:lang="EN">Hereticus</desc>
+      <desc type="long" xml:lang="EN">Named as <foreign>heretica/hereticus</foreign>
+        </desc>
+      <desc type="short" xml:lang="FR">Hereticus</desc>
+      <desc type="long" xml:lang="FR">Appellé <foreign>heretica/hereticus</foreign>
+        </desc>
+    </category>   
+   <category n="role" xml:id="inq">
+      <desc type="short" xml:lang="EN">Inquisitor</desc>
+      <desc type="long" xml:lang="EN">Inquisitor at deposition</desc>
+      <desc type="short" xml:lang="FR">Inquisiteur</desc>
+      <desc type="long" xml:lang="FR">Inquisiteur au déposition</desc>
+    </category>  
+   <category n="role" xml:id="wit">
+      <desc type="short" xml:lang="EN">Witness</desc>
+      <desc type="long" xml:lang="EN">Witness</desc>
+      <desc type="short" xml:lang="FR">Witness at deposition</desc>
+      <desc type="long" xml:lang="FR">Witness à la déposition</desc>
+    </category>  
+   <category n="role" xml:id="inf">
+      <desc type="short" xml:lang="EN">Sick/infirm</desc>
+      <desc type="long" xml:lang="EN">Sick/infirm</desc>
+      <desc type="short" xml:lang="FR">Malade/infirme</desc>
+      <desc type="long" xml:lang="FR">Malade/infirme</desc>
+    </category> 
+   <category n="role" xml:id="own">
+      <desc type="short" xml:lang="EN">Owner</desc>
+      <desc type="long" xml:lang="EN">Owner</desc>
+      <desc type="short" xml:lang="FR">Propriétaire</desc>
+      <desc type="long" xml:lang="FR">Propriétaire</desc>
+    </category>  
+   <category n="role" xml:id="not">
+      <desc type="short" xml:lang="EN">Notary</desc>
+      <desc type="long" xml:lang="EN">Notary at deposition</desc>
+      <desc type="short" xml:lang="FR">Notaire</desc>
+      <desc type="long" xml:lang="FR">Notaire au déposition</desc>
+    </category> 
+   <category n="role" xml:id="pinq">
+      <desc type="short" xml:lang="EN">Inquisitor (prev)</desc>
+      <desc type="long" xml:lang="EN">Inquisitor when deponent refers to previous confession</desc>
+      <desc type="short" xml:lang="FR">Inquisiteur (ant)</desc>
+      <desc type="long" xml:lang="FR">Inquisiteur ...</desc>
+    </category> 
+   <category n="role" xml:id="ref">
+      <desc type="short" xml:lang="EN">Reference</desc>
+      <desc type="long" xml:lang="EN">Someone cited for information only (ie. <foreign>fratrem dicti Poncii Garner</foreign>)</desc>
+      <desc type="short" xml:lang="FR">Réfèrence</desc>
+      <desc type="long" xml:lang="FR">Quelqu'un nommé seulement comme une référence (ie. <foreign>fratrem dicti Poncii Garner</foreign>)</desc>
+    </category> 
+   <category n="role" xml:id="conv">
+      <desc type="short" xml:lang="EN">Sentenced</desc>
+      <desc type="long" xml:lang="EN">Condamné(e)</desc>
+      <desc type="short" xml:lang="FR">Sentenced</desc>
+      <desc type="long" xml:lang="FR">Condamné(e)</desc>
+    </category> 
+   <category n="role" xml:id="jur">
+      <desc type="short" xml:lang="EN">Oath</desc>
+      <desc type="long" xml:lang="EN">Swore an oath</desc>
+      <desc type="short" xml:lang="FR">Serment</desc>
+      <desc type="long" xml:lang="FR">Prêté(e) serment</desc>
+   </category> 
+   <category n="role" xml:id="none">
+      <desc type="short" xml:lang="EN">Reference</desc>
+      <desc type="long" xml:lang="EN">Someone cited as notarial reference (ie. <foreign>dixit idem quod dictus...</foreign>) </desc>
+      <desc type="short" xml:lang="FR">Référence</desc>
+      <desc type="long" xml:lang="FR">Quelqu'un nommé seulement comme une référence notariale (ie. <foreign>dixit idem quod dictus...</foreign>)</desc>
+   </category> 
+   
+   <!-- 
+      BELIEFS
+      <seg type="conf" subtype="beliefs" @ana >
+         for encoding beliefs about good men
+   -->
+   <category n="credidit" xml:id="pos_bonos_homines">
+      <desc xml:lang="EN">Believed heretics to be <foreign>bonos homines</foreign>
+        </desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="neg_bonos_homines">
+      <desc xml:lang="EN">Did not believe heretics to be <foreign>bonos homines</foreign>
+        </desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="pos_bonam_fidem">
+      <desc xml:lang="EN">Believed heretics to have good faith</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="neg_bonam_fidem">     
+      <desc xml:lang="EN">Did not believe heretics to have good faith</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="pos_amicos_dei">
+      <desc xml:lang="EN">Believed heretics to be friends of God</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="neg_amicos_dei">
+      <desc xml:lang="EN">Did not believe heretics to be friends of God</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="pos_veraces">
+      <desc xml:lang="EN">Believed heretics to be truthful</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="neg_veraces">     
+      <desc xml:lang="EN">Did not believe heretics to be truthful</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="pos_posse_salvari">
+      <desc xml:lang="EN">Believed one could be saved by the heretics</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="credidit" xml:id="neg_posse_salvari">
+      <desc xml:lang="EN">Did not believe one could be saved by the heretics</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   
+
+   <!-- 
+      ERRORS
+      <seg type="conf" subtype="heard_errors" @ana >
+         for encoding errors heard
+   -->
+   
+   <category n="audivit" xml:id="pos_err_matrimonio">
+      <desc xml:lang="EN">Heard heretics reject the sacrament of Catholic marriage</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_matrimonio">
+      <desc xml:lang="EN">Did not hear heretics reject the sacrament of Catholic marriage</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_hostia">
+      <desc xml:lang="EN">Heard heretics deny the sacrament of the body of Christ</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_hostia">
+      <desc xml:lang="EN">Did not hear heretics deny the sacrament of the body of Christ</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_visibilia">
+      <desc xml:lang="EN">Heard heretics deny that God created the material world</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_visibilia">
+      <desc xml:lang="EN">Did not hear heretics deny that God created the material world</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_baptismo">
+      <desc xml:lang="EN">Heard heretics reject the sacrament of Catholic baptism</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_baptismo">
+      <desc xml:lang="EN">Did not hear heretics reject the sacrament of Catholic baptism</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_resurrectione">
+      <desc xml:lang="EN">Heard heretics reject resurrection after death</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_resurrectione">
+      <desc xml:lang="EN">Did not hear heretics reject resurrection after death</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_errores">
+      <desc xml:lang="EN">Heard heretics state all errors</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_errores">
+      <desc xml:lang="EN">Did not heard heretics state any errors</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_sacrementis">
+      <desc xml:lang="EN">Heard heretics reject all Catholic sacraments</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="neg_err_sacrementis">
+      <desc xml:lang="EN">Did not hear heretics reject any Catholic sacraments</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   <category n="audivit" xml:id="pos_err_cleric_say">
+      <desc xml:lang="EN">Heard the heresies from clerics</desc>
+      <desc xml:lang="FR"/>
+    </category>
+   
+   <!-- 
+      PREVIOUS CONFESSIONS
+      <seg type="prev_conf">
+      may contain 
+         <persName ana="#inquisitorname" role="pinq"/>
+         <placeName type="prev_conf" ana="#Castelnaudary_Aude"/>
+      if they did not confesses previously   
+      <seg type="prev_conf" ana="#neg_prev_conf"/>
+   -->
+   
+   <category xml:id="neg_prev_conf"/>
+   
+   <category xml:id="pos_penance"/>
+   <category xml:id="neg_penance"/>
+   <category xml:id="pos_penance_cross"/>
+   <category xml:id="pos_penance_pilg"/>
+   
+   
+   <!-- NEGATIVE DECLARATIONS -->
+   
+   <category xml:id="neg_declare_dep">
+      <desc xml:lang="EN">deponent declares they have NEVER seen heretics, nor believed, nor adored,
+         nor gave or sent them anything, nor listened to their preaching</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="neg_declare-expub_dep">
+      <desc xml:lang="EN">deponent declares they have not seen heretics, nor believed, nor adored, no
+         gave or sent them anything, nor listened to their preaching (since seeing them standing in
+         public)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="neg_declare-exconf_dep">
+      <desc xml:lang="EN">deponent declares they have not seen heretics, nor believed, nor adored, no
+         gave or sent them anything, nor listened to their preaching (other than as
+         confessed)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- GENERIC SIGHTINGS-->
+   <category xml:id="pVidPub">
+      <desc xml:lang="EN">saw heretics in public</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pVidFlee">
+      <desc xml:lang="EN">saw heretics fleeing in public</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- ADORING -->
+   <category xml:id="pAdo">
+      <desc xml:lang="EN">adored heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nAdo">
+      <desc xml:lang="EN">explicitly did not adore heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="uAdo">
+      <desc xml:lang="EN">explicitly unknown if they adored heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="rAdo">
+      <desc xml:lang="EN">explicitly refused to adore heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>  
+   
+   <category xml:id="pAdoAsked">
+      <desc xml:lang="EN">heretics asked subject to adore them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAdoTaught">
+      <desc xml:lang="EN">heretics taught them how to adore</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAdoCompel">
+      <desc xml:lang="EN">compelled someone to adore heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAdoCompelled">
+      <desc xml:lang="EN">was compelled to adore heretics by others</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHon">
+      <desc xml:lang="EN">honoured the heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+
+   <!-- LISTENING -->
+   <category xml:id="pAud">
+      <desc xml:lang="EN">listened to heretics preach</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nAud">
+      <desc xml:lang="EN">explicitly did not listen to heretics preach</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="uAud">
+      <desc xml:lang="EN">unknown if listened to heretics preach</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- PREACHING, DISCUSSING, BLESSINGS -->
+   <category xml:id="pPred">
+      <desc xml:lang="EN">deponent states there was preaching</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nPred">
+      <desc xml:lang="EN">deponent denies there was preaching</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pDiscHer">
+      <desc xml:lang="EN">discussed heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSpeakHer">
+      <desc xml:lang="EN">spoke with heretics, not preaching</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAudPub">
+      <desc xml:lang="EN">heard heretics preach in public</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFlexGenuOnly">
+      <desc xml:lang="EN">flexis genibus (no bene)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBene">
+      <desc xml:lang="EN">asked for blessing</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nBene">
+      <desc xml:lang="EN">explicitly did not genuflect/ask for blessing</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBeneForce">
+      <desc xml:lang="EN">was forced to bow/ask for blessing</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pPax">
+      <desc xml:lang="EN">accepted peace from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pKiss">
+      <desc xml:lang="EN">accepted kiss from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pKissHer">
+      <desc xml:lang="EN">kissed the heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBook">
+      <desc xml:lang="EN">received book on/over head from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nBook">
+      <desc xml:lang="EN">explicitly did not receive book on/over head from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHandHead">
+      <desc xml:lang="EN">received heretic's hand on head</desc>
+      <desc xml:lang="LA"/>
+   </category>
+
+   <!-- HERETICATION OF THE ILL/DYING, HEATH/ILLNESS/DEATH -->
+   <category xml:id="pHereticated">
+      <desc xml:lang="EN">hereticated (deathbed or conversion)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereticated">
+      <desc xml:lang="EN">explicitly states NOT hereticated (usually on
+         deathbed)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHereSaw">
+      <desc xml:lang="EN">witnessed a heretication</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereSaw">
+      <desc xml:lang="EN">never witnessed a heretication</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHereTold">
+      <desc xml:lang="EN">was told of a heretication</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHereRep">
+      <desc xml:lang="EN">reports a heretication they heard of</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereNotAllow">
+      <desc xml:lang="EN">heretication was explicitly not allowed</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereRefuse">
+      <desc xml:lang="EN">heretication was refused (usually by someone sick)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHereWant">
+      <desc xml:lang="EN">heretics wanted to hereticate someone</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pDeathBed">
+      <desc xml:lang="EN">stayed with heretics while sick/on deathbed</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIllStayHer">
+      <desc xml:lang="EN">deponent reports someone stayed in a heretical home for
+         health/heretication</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIllConsHer">
+      <desc xml:lang="EN">consulted heretics about illness</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIllHelpHer">
+      <desc xml:lang="EN">provided medical help to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="rIllHelpHer">
+      <desc xml:lang="EN">someone refused to give medical help to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIllVisitHer">
+      <desc xml:lang="EN">heretics visited someone sick</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFleb">
+      <desc xml:lang="EN">let the blood of someone</desc>
+      <desc xml:lang="LA">flebotomavit</desc>
+   </category>
+   <category xml:id="pAttIll">
+      <desc xml:lang="EN">attended a (gravely) ill person where there were heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- APPARELHAMENTUM -->
+   <category xml:id="pApp">
+      <desc xml:lang="EN">received apparelhamentum</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nApp">
+      <desc xml:lang="EN">explicit no apparelhamentum</desc>
+      <desc xml:lang="LA"/>
+   </category>
+
+   <!-- LEAD/ACCOMPANY HERETICS -->
+   <category xml:id="pAskDux">
+   <desc xml:lang="EN">asked some one to lead heretics</desc>
+   <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pDux">
+      <desc xml:lang="EN">lead heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nDux">
+      <desc xml:lang="EN">explicitly did not lead heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="pAsso">
+      <desc xml:lang="EN">deponent accompanied heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nAsso">
+      <desc xml:lang="EN">explicitly did not accompany heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBring">
+      <desc xml:lang="EN">brought to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+
+   <!-- WITH HERETICS SOMEHOW -->
+   <category xml:id="pWith">
+      <desc xml:lang="EN">was with heretics in an undefined way (often 'vidit' but implying
+         presence)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nWith">
+      <desc xml:lang="EN">explicitly states they were not with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pGath">
+      <desc xml:lang="EN">was at a gathering with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pGathVid">
+      <desc xml:lang="EN">saw a gathering which included heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSeenMeet">
+      <desc xml:lang="EN">was seen meeting heretics</desc>
+      <desc xml:lang="LA">credente</desc>
+   </category>
+  
+
+   <!-- EATING/DRINKING -->
+   <category xml:id="pFoodBring">
+      <desc xml:lang="EN">brought/gave food/drink to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFoodSend">
+      <desc xml:lang="EN">sent food/drink to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFoodRec">
+      <desc xml:lang="EN">received food/drink from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFoodCour">
+      <desc xml:lang="EN">was courier for food/drink on behalf of another</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pEat">
+      <desc xml:lang="EN">ate/drank with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBlessPane">
+      <desc xml:lang="EN">ate bread blessed by heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+
+   <!-- ACCOMMODATION/STAY OVER -->
+   <category xml:id="pStayKnown">
+      <desc xml:lang="EN">let heretics stay with them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayUnknown">
+      <desc xml:lang="EN">let heretics stay with them, unknowingly</desc>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="nStay">
+      <desc xml:lang="EN">explicitly heretics did not stay with them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="rStay">
+      <desc xml:lang="EN">refused to let heretics stay with them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayedKnow">
+      <desc xml:lang="EN">knowingly stayed among heretics (not necessarily a home)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayedUnknown">
+      <desc xml:lang="EN">unknowningly stayed among heretics (not necessarily a
+         home)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayedLater">
+      <desc xml:lang="EN">stayed with people/relatives who were later called heretics (not
+         known as heretics at the time)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayedChild">
+      <desc xml:lang="EN">stayed with heretics as a child</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayChild">
+      <desc xml:lang="EN">heretics stayed with family when a child</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pStayRumour">
+      <desc xml:lang="EN">heretics were said to be in subject's home, although subject did not
+         know (was away, etc)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCel">
+      <desc xml:lang="EN">deponent hid heretics</desc>
+      <desc xml:lang="LA">celavit</desc>
+   </category>
+   <category xml:id="pUseHome">
+      <desc xml:lang="EN">used the home of another to meet (heretics), possibly without owner's knowledge</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAskStay">
+      <desc xml:lang="EN">asked someone to let heretics stay with them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- VISITING/ENCOUNTERING/CROSSING PATHS WITH HERETICS -->
+   <category xml:id="pVisitHerHome">
+      <desc xml:lang="EN">visited home of heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pMentHerHome">
+      <desc xml:lang="EN">mentions heretical home, but did not visit</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pVisitOther">
+      <desc xml:lang="EN">visited heretics staying at someone else's home</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pWithIncap">
+      <desc xml:lang="EN">deponent was with heretics while incapacitated</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nVisited">
+      <desc xml:lang="EN">they never had heretics in their home</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pExpelHeret">
+      <desc xml:lang="EN">expelled heretics from home</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pExpelForHrsy">
+      <desc xml:lang="EN">threw someone out for relation to heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pEncoun">
+      <desc xml:lang="EN">crossed paths with heretics, but did not interact with
+         heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pMistakeID">
+      <desc xml:lang="EN">mistaken for heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHerIntro">
+      <desc xml:lang="EN">introduced heretics to someone</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIntrod">
+      <desc xml:lang="EN">introduced to heretics by someone</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSuppFaid">
+      <desc xml:lang="EN">supports faidit</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIgnoreWHer">
+      <desc xml:lang="EN">with heretics, but didn't know</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <category xml:id="pSecretSee">
+      <desc xml:lang="EN">visited heretics deliberately in secret</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- MONEY/LOANS/PAYMENTS -->
+   <category xml:id="pBorrow">
+      <desc xml:lang="EN">borrowed money from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pRepay">
+      <desc xml:lang="EN">repaid a loan from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pRepayDemand">
+      <desc xml:lang="EN">demanded loan be repaid by heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pPaid">
+      <desc xml:lang="EN">paid by heretics (not loan)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSell">
+      <desc xml:lang="EN">sold something to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSellRumour">
+      <desc xml:lang="EN">rumoured to have sold something to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pMoneyRec">
+      <desc xml:lang="EN">received money from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pMoneyGive">
+      <desc xml:lang="EN">gave money to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pGiftGive">
+      <desc xml:lang="EN">gave gift to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pGiftRec">
+      <desc xml:lang="EN">received gift from heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pDebtArrange">
+      <desc xml:lang="EN">heretics involved in arranging some debt</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pAskSendMoney">
+      <desc xml:lang="EN">asked someone to bring money to heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="l">
+      <desc xml:lang="EN">acted as courier for heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- BECOMING HERETICS/RECONVERSION/LAPSING -->
+   <category xml:id="pHereIndAdult">
+      <desc xml:lang="EN">heretica/us induta/us as adult</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHereIndChild">
+      <desc xml:lang="EN">heretica/us induta/us as child</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereIndAdult">
+      <desc xml:lang="EN">not heretica/us induta/us as adult</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nHereIndChild">
+      <desc xml:lang="EN">not heretica/us induta/us as child</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <category xml:id="pSolicHrsy">
+      <desc xml:lang="EN">solicited by heretics to join them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pConvHrsy">
+      <desc xml:lang="EN">'converted' to heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pConvChurch">
+      <desc xml:lang="EN">converts back to the Church</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pLapseHrsy">
+      <desc xml:lang="EN">'lapsed' back to heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pConvChurchTry">
+      <desc xml:lang="EN">tried to convert heretic to church</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pTrainDisc">
+      <desc xml:lang="EN">discusses training as heretic</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pTaughtHrsy">
+      <desc xml:lang="EN">discusses being taught ways of heretics (how to adore, etc)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBecHere">
+      <desc xml:lang="EN">hereticated (becoming a heretic)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBecHereSaw">
+      <desc xml:lang="EN">witnessed a heretication (becoming a heretic)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nBecHereSaw">
+      <desc xml:lang="EN">did not witness a heretication (becoming a heretic)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   
+   <!-- ARGUMENTS -->
+   <category xml:id="pReconHer">
+      <desc xml:lang="EN">argument reconciled by heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pArguHer">
+      <desc xml:lang="EN">deponent argued with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pSplitHrsy">
+      <desc xml:lang="EN">family members divided by heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pIgnorHer">
+      <desc xml:lang="EN">pleads ignorance about heretical action</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pUnwillHer">
+      <desc xml:lang="EN">unwillingly 'in presence of heretics'</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pRetr">
+      <desc xml:lang="EN">pulled someone out of heretic home/situation</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCommentNeg">
+      <desc xml:lang="EN">made negative comment about heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCommentPos">
+      <desc xml:lang="EN">made positive comment about heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCommentChurch">
+      <desc xml:lang="EN">made negative comment about the church</desc>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="nSeeWHer">
+      <desc xml:lang="EN">expressly declares she did not see someone with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pTurnIn">
+      <desc xml:lang="EN">turned in heretic to authority</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="nNotHeretic">
+      <desc xml:lang="EN">explicitly states someone was NOT a heretic</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHelpHeretic">
+      <desc xml:lang="EN">helped heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="rHelpHeretic">
+      <desc xml:lang="EN">refused to help heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- LIES, CRIMES, ACCUSATIONS -->
+   <category xml:id="pCrime">
+      <desc xml:lang="EN">purportedly involved in a crime (not heresy)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCrimeDisc">
+      <desc xml:lang="EN">deponent reports hearing others discuss a crime/murder</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pLieInq">
+      <desc xml:lang="EN">deponent admits they lied/did not speak fully in previous testimony</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pLieInqAsk">
+      <desc xml:lang="EN">deponent reports they were asked/told to lie to inquisitors</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pLieInqReqest">
+      <desc xml:lang="EN">asked/told someone to lie to inquisitors</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <category xml:id="pLieInqConsp">
+      <desc xml:lang="EN">deponent was involved in a conspiracy to lie to inquisitors</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="rLieInq">
+      <desc xml:lang="EN">deponent reports refusing a request to lie to inquisitors</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pNonherAcc">
+      <desc xml:lang="EN">subject of accusation not directly related to heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBelHerAcc">
+      <desc xml:lang="EN">subject of accusation of believing in heresy/heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pReportHeretic">
+      <desc xml:lang="EN">reported heretic to an authority</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <!-- PUNISHMENTS -->
+   <category xml:id="pBurned">
+      <desc xml:lang="EN">burned (give date if possible)</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBurnSaw">
+      <desc xml:lang="EN">saw heretics burned</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBurnReport">
+      <desc xml:lang="EN">reports someone as burned</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pBurnedHeretic">
+      <desc xml:lang="EN">burned heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pPenRec">
+      <desc xml:lang="EN">deponent reports someone as receiving penance for heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCaptHerSaw">
+      <desc xml:lang="EN">deponent saw heretics being captured</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCaptpHerRep">
+      <desc xml:lang="EN">deponent reports (but did not see) heretics being captured</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCaptAccident">
+      <desc xml:lang="EN">deponent reports being accidentally captured with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pCaptHer">
+      <desc xml:lang="EN">captured with heretics</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   
+   <category xml:id="pFreeHer">
+      <desc xml:lang="EN">everyone involved in retrieving heretics from jail</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pInsChurch">
+      <desc xml:lang="EN">insulted the church</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pGenAccHrsy">
+      <desc xml:lang="EN">target of an accusation related to heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pRumourHrsy">
+      <desc xml:lang="EN">deponent tells a rumour about heresy</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pRumourHeretic">
+      <desc xml:lang="EN">deponent heard someone was a heretic</desc>
+      <desc xml:lang="LA">audivit dici quod...</desc>
+   </category>
+   <category xml:id="pThreat">
+      <desc xml:lang="EN">made a threat</desc>
+   </category>
+   
+   <!-- HERETICS WORKING -->
+   <category xml:id="pWeave">
+      <desc xml:lang="EN">heretics weaving/making linen</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pHarvest">
+      <desc xml:lang="EN">deponent reports heretics farming/harvesting</desc>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="pFarming">
+      <desc xml:lang="EN">deponent reports heretics harvesting/farming for them</desc>
+      <desc xml:lang="LA"/>
+   </category>
+</taxonomy>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listBibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="bibliography">
+   <!-- Bibliography 
+      @type 
+            primarysource-book (@subtype primary, secondary)
+            collection
+            chapter
+            monograph
+            journalarticle
+            thesis
+            dissertation
+            unpublisheddoc
+   
+   Citing references in xml file:
+            <div type="bibl">
+            <listBibl>
+               <!- @type = translation  transcription  citation  @n = page(s) ->
+               <bibl type="translation" sameAs="#Arnold-Biller_2016a" n="382-383"/>
+               <bibl type="transcription" sameAs="#Duvernoy_ms609" n="7"/>
+               <bibl type="citation" sameAs="#" n="68"/>
+            </listBibl>
+         </div>
+   -->
+   <!-- self reference digital editions -->
+   <biblStruct exclude="y" type="digital-edition" xml:id="Rehr_DOAT">
+      <monogr>
+         <title type="l">Edition and Translation of Selections from the Fond Doat at the Bibliothèque nationale, Paris</title>
+         <title type="s">Selections from Fonds Doat</title>
+         <editor role="ed" n="1">
+            <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+         </editor>
+         <imprint>
+            <distributor>
+               <link type="pub" target="https://www.huma-num.fr/"/>
+               <link type="source" target="http://medieval-inquisition.huma-num.fr/Doat/list"/>
+            </distributor>
+            <date type="pub_date">2019</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   
+   <biblStruct exclude="y" type="digital-edition" xml:id="Rehr_MS609">
+      <monogr>
+         <title type="l">The Registry of the Great Inquisition at Toulouse, 1245-46: Edition and Translation of Bibliothèque municipale de Toulouse MS 609</title>
+         <title type="s">The Registry of the Great Inquisition at Toulouse</title>
+         <editor role="ed" n="1">
+            <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+         </editor>
+         <imprint>
+            <distributor>
+               <link type="pub" target="https://www.huma-num.fr/"/>
+               <link type="source" target="http://medieval-inquisition.huma-num.fr/MS609/list"/>
+            </distributor>
+            <date type="pub_date">2018</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct exclude="y" type="digital-edition" xml:id="Rehr_MS9992">
+      <monogr>
+         <title type="l">Sentences from the Inquisition at Toulouse: Edition and Translation of Bibliothèque nationale de France MS Latin 9992</title>
+         <title type="s">Sentences from the Inquisition at Toulouse</title>
+         <editor role="ed" n="1">
+            <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+         </editor>
+         <imprint>
+            <distributor>
+               <link type="pub" target="https://www.huma-num.fr/"/>
+               <link type="source" target="http://medieval-inquisition.huma-num.fr/MS9992/list"/>
+            </distributor>
+            <date type="pub_date">2018</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct exclude="y" type="digital-edition" xml:id="Rehr_TDC">
+      <monogr>
+         <title type="l">Edition and Translation of Selections from the Trésor des Chartes, Paris, Concerning Heresy and Inquisition at Toulouse</title>
+         <title type="s">Selections from the Trésor des Chartes</title>
+         <editor role="ed" n="1">
+            <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+         </editor>
+         <imprint>
+            <distributor>
+               <link type="pub" target="https://www.huma-num.fr/"/>
+               <link type="source" target="http://medieval-inquisition.huma-num.fr/TDC/list"/>
+            </distributor>
+            <date type="pub_date">2019</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- A -->
+   <biblStruct type="collection" xml:id="Albaret_2001a">
+      <monogr>
+         <title type="l">Les Inquisiteurs. Portraits de défenseurs de la foi en Languedoc (XIIIe-XIVe siècles)</title>
+         <title type="s">Les Inquisiteurs</title>
+         <editor role="ed" n="1">
+            <forename>Laurent</forename>
+                <surname>Albaret</surname>
+         </editor>
+         <imprint>
+            <publisher>Éditions Privat</publisher>
+            <pubPlace>
+               <settlement>Toulouse</settlement>
+            </pubPlace>
+            <date type="pub_date">2010</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="primarysource-book" xml:id="Arnold-Biller_2016">
+      <monogr>
+         <title type="l">Heresy and Inquisition in France, 1200-1300</title>
+         <title type="s">Heresy and Inquisition</title>
+         <editor role="ed" n="1">
+            <forename>John</forename>
+                <surname>Arnold</surname>
+         </editor>
+         <editor role="ed" n="2">
+            <forename>Peter</forename>
+                <surname>Biller</surname>
+         </editor>
+         <imprint>
+            <publisher>Manchester University Press</publisher>
+            <pubPlace>
+               <settlement>Manchester</settlement>
+            </pubPlace>
+            <date type="pub_date">2016</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- B -->
+   <biblStruct type="chapter" xml:id="Biller_2010a">
+         <analytic>
+            <title type="l">Cathars and the Material World</title>
+            <title type="s">Cathars and the Material World</title>
+            <author n="1">
+               <forename>Peter</forename>
+                <surname>Biller</surname>
+            </author>
+         </analytic>
+         <monogr>
+            <title type="l">God’s Bounty? The Churches and the Natural World</title>
+            <title type="s">God’s Bounty? The Churches and the Natural World</title>
+            <editor role="ed" n="1">
+               <forename>Peter</forename>
+                <surname>Clarke</surname>
+            </editor>
+            <editor role="ed" n="2">
+               <forename>Tony</forename>
+                <surname>Claydon</surname>
+            </editor>
+            <imprint>
+               <publisher>Boydell Press</publisher>
+               <pubPlace>
+                  <settlement>Woodbridge</settlement>
+                  <country>UK</country>
+               </pubPlace>
+               <date type="pub_date">2010</date>
+               <biblScope unit="pp">89–110</biblScope>
+            </imprint>
+         </monogr>
+      </biblStruct>
+   <biblStruct type="primarysource-book" xml:id="Biller_2011a">
+         <monogr>
+            <title type="l">Inquisitors and Heretics in Thirteenth-Century Languedoc: Edition and Translation
+               of Toulouse Inquisition Depositions, 1273-1282</title>
+            <title type="s">Inquisitors and Heretics</title>
+            <editor role="ed" n="1">
+               <forename>Peter</forename>
+                <surname>Biller</surname>
+            </editor>
+            <editor role="ed" n="2">
+               <forename>Caterina</forename>
+                <surname>Bruschi</surname>
+            </editor>
+            <editor role="ed" n="3">
+               <forename>Shelagh</forename>
+                <surname>Sneddon</surname>
+            </editor>
+            <imprint>
+               <pubPlace>
+                  <settlement>Leiden</settlement>
+               </pubPlace>
+               <publisher>Brill</publisher>
+               <date type="pub_date">2011</date>
+            </imprint>
+         </monogr>
+      </biblStruct>
+   
+   <!-- C -->
+   <biblStruct type="thesis" xml:id="Cabirou_1995">
+      <monogr>
+         <title type="l">La société à Saint-Martin-Lalande au temps du catharisme</title>
+         <title type="s">La société à Saint-Martin-Lalande</title>
+         <author n="1">
+            <forename>Patrice</forename>
+                <surname>Cabirou</surname>
+         </author>
+         <imprint>
+            <distributor>Université Montpellier III - Paul Valery</distributor>
+            <pubPlace>
+               <settlement>Montpellier</settlement>
+            </pubPlace>
+            <date type="pub_date">1995</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- D -->
+   <biblStruct type="journalarticle" xml:id="Dossat_1951a">
+      <analytic>
+         <title type="l">L’inquisiteur Bernard de Caux et l’Agenais</title>
+         <title type="s">L’inquisiteur Bernard de Caux</title>
+         <author n="1">
+                <forename>Yves</forename>
+                <surname>Dossat</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Annales Du Midi</title>
+         <imprint>
+            <biblScope unit="volume">63</biblScope>
+            <biblScope unit="issue">13</biblScope>
+            <biblScope unit="pp">75–79</biblScope>
+            <date type="pub_date">1951</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="monograph" xml:id="Dossat_1959">
+      <monogr>
+         <title type="l">Les crises de l'Inquisition toulousaine au XIIIe siecle (1233-1273)</title>
+         <title type="s">Les crises</title>
+         <author n="1">
+                <forename>Yves</forename>
+                <surname>Dossat</surname>
+            </author>
+         <imprint>
+            <pubPlace>
+               <settlement>Bordeaux</settlement>
+            </pubPlace>
+            <publisher>Imprimerie Bière</publisher>
+            <date type="pub_date">1959</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="journalarticle" xml:id="Douais_1893a">
+      <analytic>
+         <title type="l">L’Albigéisme et les frères prêcheurs à Narbonne au XIIIe siècle</title>
+         <title type="s">L’Albigéisme et les frères prêcheurs</title>
+         <author n="1">
+                <forename>Célestin</forename>
+                <surname>Douais</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Bulletin de La Commission Archéologique de Narbonne</title>
+         <imprint>
+            <biblScope unit="volume">II</biblScope>
+            <biblScope unit="pp">???-???</biblScope>
+            <date type="pub_date">1893</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="journalarticle" xml:id="Douais_1894a">
+      <analytic>
+         <title type="l">L’Albigéisme et les frères prêcheurs à Narbonne au XIIIe siècle (suite et fin)</title>
+         <title type="s">L’Albigéisme et les frères prêcheurs (fin)</title>
+         <author n="1">
+                <forename>Célestin</forename>
+                <surname>Douais</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Bulletin de La Commission Archéologique de Narbonne</title>
+         <imprint>
+            <biblScope unit="volume">III</biblScope>
+            <biblScope unit="pp">287–382</biblScope>
+            <date type="pub_date">1894</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="monograph" xml:id="Douais_1900">
+      <monogr>
+         <title type="l">Documents pour servir à l'histoire de l'inquisition dans le Languedoc, 2 Vol.</title>
+         <title type="s">Documents</title>
+         <author n="1">
+                <forename>Célestin</forename>
+                <surname>Douais</surname>
+            </author>
+         <imprint>
+            <pubPlace>
+               <settlement>Paris</settlement>
+            </pubPlace>
+            <publisher>Librarie Renouard</publisher>
+            <date type="pub_date">1900</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="journalarticle" xml:id="Dusan_1868">
+      <analytic>
+         <title type="l">De Manso Sanctarum Puellarum</title>
+         <title type="s">De Manso</title>
+         <author n="1">
+                <forename>Bruno</forename>
+                <surname>Dusan</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Revue Archéologique du Midi de la France</title>
+         <imprint>
+            <biblScope unit="pp">annex i-xii</biblScope>
+            <date type="pub_date">1868-1869</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="webdoc" xml:id="Duvernoy_ms609">
+      <monogr>
+         <title type="l">Le manuscrit 609 de la bibliothèque municipale de Toulouse. Lauragais 1245-1246, 1253 (personal transcription)</title>
+         <title type="s">Le manuscrit 609</title>
+         <editor role="ed" n="1">
+                <forename>Jean</forename>
+                <surname>Duvernoy</surname>
+            </editor>
+         <imprint>
+            <distributor>
+               <link type="pub" target="http://jean.duvernoy.free.fr/text/listetexte.htm"/>
+               <date type="access_date">2017-08-01</date>
+            </distributor>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="primarysource-book" xml:id="Duvernoy_1998">
+      <monogr>
+         <title type="l">Dossier de Montségur : Interrogatoires d'inquisition 1242-1247</title>
+         <title type="s">Dossier de Montségur</title>
+         <editor role="ed" n="1">
+            <forename>Jean</forename>
+                <surname>Duvernoy</surname>
+         </editor>
+         <imprint>
+            <pubPlace>
+               <settlement>Toulouse</settlement>
+            </pubPlace>
+            <publisher>Perégrinator</publisher>
+            <date type="pub_date">1998</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- E -->
+   <biblStruct type="personal-archive" xml:id="Evans_ms609">
+      <monogr>
+         <title type="l">Interrogatoires subis par des hérétiques albigeois par-devant frère Bernard de Caux, inquisiteur, de 1245 à 1253 (transcription of MS609)</title>
+         <title type="s">Interrogatoires (MS 609)</title>
+         <editor role="ed" n="1">
+                <forename>Austin</forename>
+                <surname>Evans</surname>
+            </editor>
+         <imprint>
+            <biblScope>
+               <trait type="shelf_no">BX4890 B47 1255g</trait>
+               <orgName>Butler Library, Columbia University</orgName>
+               <settlement>New York</settlement>
+            </biblScope>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- F -->
+   <biblStruct type="collection" subtype="secondary" xml:id="Frassetto_2006a">
+      <monogr>
+         <title type="l">Heresy And the Persecuting Society in the Middle Ages: Essays on the
+            Work of R.I. Moore</title>
+         <title type="s">Heresy And the Persecuting Society</title>
+         <editor role="ed" n="1">
+                <forename>Michael</forename>
+                <surname>Frassetto</surname>
+            </editor>
+         <imprint>
+            <pubPlace>
+               <settlement>Leiden</settlement>
+            </pubPlace>
+            <publisher>Brill</publisher>
+            <date type="pub_date">2006</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- G -->
+   <biblStruct type="monograph" xml:id="Guiraud_1935">
+      <monogr>
+         <title type="l">Histoire de l'Inquisition au Moyen âge, 2 Vol.</title>
+         <title type="s">Histoire de l'Inquisition</title>
+         <author n="1">
+            <forename>Jean</forename>
+                <surname>Guiraud</surname>
+         </author>
+         <imprint>
+            <publisher>A. Picard</publisher>
+            <pubPlace>
+               <settlement>Paris</settlement>
+            </pubPlace>
+            <date type="pub_date">1935</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- H -->
+
+   <biblStruct type="journalarticle" xml:id="Hamilton_1998a">
+      <analytic>
+         <title type="l">The Legacy of Charles Schmidt to the Study of Christian Dualism</title>
+         <title type="s">The Legacy of Charles Schmidt</title>
+         <author n="1">
+                <forename>Bernard</forename>
+                <surname>Hamilton</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Journal of Medieval History</title>
+         <imprint>
+            <biblScope unit="volume">24</biblScope>
+            <biblScope unit="issue">2</biblScope>
+            <biblScope unit="pp">191-214</biblScope>
+            <date type="pub_date">1998</date>
+         </imprint> 
+      </monogr>
+   </biblStruct>
+   
+   <!-- I -->
+   <!-- J -->
+   <!-- K -->
+   <biblStruct type="journalarticle" xml:id="Kelly_1989a">
+      <analytic>
+         <title type="l">Inquisition and the Prosecution of Heresy: Misconceptions and Abuses</title>
+         <title type="s">Inquisition and the Prosecution of Heresy</title>
+         <author n="1">
+                <forename>Henry Ansgar</forename>
+                <surname>Kelly</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Church History</title>
+         <imprint>
+            <biblScope unit="volume">58</biblScope>
+            <biblScope unit="issue">4</biblScope>
+            <biblScope unit="pp">439-451</biblScope>
+            <date type="pub_date">1989</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- M -->
+   <biblStruct type="journalarticle" xml:id="Montgaillard_1869a">
+      <analytic>
+         <title type="l">Histoire authentique des Inquisiteurs tués à Avignonet en 1242</title>
+         <title type="s">Inquisiteurs tués à Avignonet</title>
+         <author n="1">
+                <forename>Marie-Louis</forename>
+                <surname>Desazars de Montgaillard</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Revue de Toulouse et Du Midi de La France</title>
+         <imprint>
+            <biblScope unit="issue">30</biblScope>
+            <biblScope unit="pp">117–35, 141–61, 273–85</biblScope>
+            <date type="pub_date">1869</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   
+   <biblStruct type="monograph" xml:id="Mundy_1990a">
+      <monogr>
+         <title type="l">Men and Women at Toulouse in the Age of the Cathars</title>
+         <title type="s">Men and Women at Toulouse</title>
+         <author n="1">
+                <forename>John Hine</forename>
+                <surname>Mundy</surname>
+            </author>
+         <imprint>
+            <pubPlace>
+               <settlement>Toronto</settlement>
+            </pubPlace>
+            <publisher>Pontifical Institute of Mediaeval Studies</publisher>
+            <date type="pub_date">1990</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="monograph" xml:id="Mundy_2006">
+      <monogr>
+         <title type="l">Studies in the Ecclesiastical and Social History of Toulouse in the Age
+            of the Cathars</title>
+         <title type="s">Studies in the Ecclesiastical and Social History of Toulouse</title>
+         <author n="1">
+                <forename>John Hine</forename>
+                <surname>Mundy</surname>
+            </author>
+         <imprint>
+            <pubPlace>
+               <settlement>Aldershot</settlement>
+               <country>UK</country>
+            </pubPlace>
+            <publisher>Ashgate Publishing, Ltd.</publisher>
+            <date type="pub_date">2006</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <!-- P -->
+      <biblStruct type="monograph" xml:id="Pegg_2001a">
+         <monogr>
+            <title type="l">The Corruption of Angels: The Great Inquisition of 1245-46</title>
+            <title type="s">Corruption of Angels</title>
+            <author n="1">
+               <forename>Mark Gregory</forename>
+                <surname>Pegg</surname>
+            </author>
+            <imprint>
+               <publisher>Princeton University Press</publisher>
+               <pubPlace>
+                  <settlement>Princeton</settlement>
+               </pubPlace>
+               <date type="pub_date">2001</date>
+            </imprint>
+         </monogr>
+      </biblStruct>
+   <biblStruct type="journalarticle" xml:id="Pegg_2001b">
+      <analytic>
+         <title type="l">On Cathars, Albigenses, and good men of Languedoc</title>
+         <title type="s">On Cathars</title>
+         <author n="1">
+                <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Journal of Medieval History</title>
+         <imprint>
+            <biblScope unit="volume">27</biblScope>
+            <biblScope unit="issue">2</biblScope>
+            <biblScope unit="pp">181–195</biblScope>
+            <date type="pub_date">2001</date>
+         </imprint>
+         
+      </monogr>
+   </biblStruct>
+   
+   <biblStruct type="chapter" xml:id="Pegg_2014a">
+         <analytic>
+            <title type="l">Historians and Inquisitors: Testimonies from the early inquisitions
+               into heretical depravity</title>
+            <title type="s">Historians and Inquisitors</title>
+            <author n="1">
+               <forename>Mark Gregory</forename>
+                <surname>Pegg</surname>
+            </author>
+         </analytic>
+         <monogr>
+            <title>Understanding Medieval Primary Sources: Using Historical Sources to
+               Discover Medieval Europe</title>
+            <editor role="ed">
+                <forename>Joel T.</forename>
+                <surname>Rosenthal</surname>
+            </editor>
+            <imprint>
+               <biblScope unit="pp">98-113</biblScope>
+               <publisher>Routledge</publisher>
+               <pubPlace>
+                  <settlement>London</settlement>
+               </pubPlace>
+               <date type="pub_date">2014</date>
+            </imprint>
+         </monogr>
+      </biblStruct>
+   <!-- R -->
+   <biblStruct type="journalarticle" xml:id="Rehr_2019a">
+      <analytic>
+         <title type="l">Remapping the "Great Inquisition" of 1245-46: The Case of Mas-Saintes-Puelles and Saint-Martin-Lalande</title>
+         <title type="s">Remapping the Great Inquisition</title>
+         <author n="1">
+                <forename>Jean-Paul</forename>
+                <surname>Rehr</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>Online Library of Humanities</title>
+         <imprint>
+            <biblScope unit="volume">5</biblScope>
+            <biblScope unit="issue">1</biblScope>
+            <biblScope unit="pp">1-53</biblScope>
+            <date type="pub_date">2019</date>
+            <link target="#https://doi.org/10.16995/olh.414"/>
+         </imprint>
+         
+      </monogr>
+   </biblStruct>
+   
+   <!-- T -->
+   <biblStruct type="primarysource-book" xml:id="Teulet_1866a">
+      <monogr>
+         <title type="l">Layettes du Trésor des chartes (Vol. 1, 755-1223)</title>
+         <title type="s">Layettes, Vol. 1</title>
+         <editor role="ed" n="1">
+            <forename>Alexandre</forename>
+                <surname>Teulet</surname>
+         </editor>
+         <imprint>
+            <pubPlace>
+               <settlement>Paris</settlement>
+            </pubPlace>
+            <publisher>Henri Plon</publisher>
+            <date type="pub_date">1866</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="primarysource-book" xml:id="Teulet_1866b">
+      <monogr>
+         <title type="l">Layettes du Trésor des chartes (Vol. 2, 1224-1246)</title>
+         <title type="s">Layettes, Vol. 2</title>
+         <editor role="ed" n="1">
+            <forename>Alexandre</forename>
+                <surname>Teulet</surname>
+         </editor>
+         <imprint>
+            <pubPlace>
+               <settlement>Paris</settlement>
+            </pubPlace>
+            <publisher>Henri Plon</publisher>
+            <date type="pub_date">1866</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="monograph" xml:id="Thouzellier_1969a">
+      <monogr>
+         <title type="l">Catharisme et valdéisme en Languedoc à la fin du XIIe et au début du XIIIe siècle: politique pontificale, controverses</title>
+         <title type="s">Catharisme et valdéisme en Languedoc</title>
+         <author n="1">
+                <forename>Christine</forename>
+                <surname>Thouzellier</surname>
+            </author>
+         <imprint>
+            <publisher>Nauwelaerts</publisher>
+            <pubPlace>
+               <settlement>Louvain, Paris</settlement>
+            </pubPlace>
+            <date type="pub_date">1969</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   
+   <!-- V-->
+   <biblStruct type="primarysource-book" xml:id="deVic_1870">
+      <monogr>
+         <title type="l">Histoire générale de Languedoc, avec des notes et les pièces justificatives, Vols. 1-16</title>
+         <title type="s">HGL</title>
+         <editor role="ed" n="1">
+            <forename>Claude</forename>
+                <surname>de Vic</surname>
+         </editor>
+         <editor role="ed" n="2">
+            <forename>Joseph</forename>
+                <surname>Vaissète</surname>
+         </editor>
+         <editor role="ed" n="3">
+            <forename>et</forename>
+                <surname>al</surname>
+         </editor>
+         <imprint>
+            <pubPlace>
+               <settlement>Toulouse</settlement>
+            </pubPlace>
+            <publisher>Privat</publisher>
+            <date type="pub_date">1870-1905</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+      
+   <!-- W -->
+   <biblStruct type="journalarticle" xml:id="Wakefield_1972a">
+      <analytic>
+         <title type="l">Friar Ferrier, Inquisition at Caunes, and Escapes from Prison at Carcassonne</title>
+         <title type="s">Friar Ferrier</title>
+         <author n="1">
+                <forename>Walter L.</forename>
+                <surname>Wakefield</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>The Catholic Historical Review</title>
+         <imprint>
+            <biblScope unit="volume">58</biblScope>
+            <biblScope unit="issue">2</biblScope>
+            <biblScope unit="pp">220-237</biblScope>
+            <date type="pub_date">1972</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="monograph" xml:id="Wakefield_1974a">
+      <monogr>
+         <title type="l">Heresy, Crusade and Inquisition in Southern France 1100-1250</title>
+         <title type="s">Heresy, Crusade and Inquisition</title>
+         <author n="1">
+                <forename>Walter L.</forename>
+                <surname>Wakefield</surname>
+            </author>
+         <imprint>
+            <publisher>G. Allen and Unwin</publisher>
+            <pubPlace>
+               <settlement>London</settlement>
+            </pubPlace>
+            <date type="pub_date">1974</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct type="journalarticle" xml:id="Wakefield_1983a">
+      <analytic>
+         <title type="l">Heretics and Inquisitors: The Case of Le Mas-Saintes-Puelles</title>
+         <title type="s">Heretics and Inquisitors: The Case of Le Mas-Saintes-Puelles</title>
+         <author n="1">
+                <forename>Walter L.</forename>
+                <surname>Wakefield</surname>
+            </author>
+      </analytic>
+      <monogr>
+         <title>The Catholic Historical Review</title>
+         <imprint>
+            <biblScope unit="volume">69</biblScope>
+            <biblScope unit="issue">2</biblScope>
+            <biblScope unit="pp">209-226</biblScope>
+            <date type="pub_date">1983</date>
+         </imprint>
+      </monogr>
+   </biblStruct>
+</listBibl>

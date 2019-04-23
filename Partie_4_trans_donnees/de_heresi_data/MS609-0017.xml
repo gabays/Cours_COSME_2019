@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0017.xml">
+
+   <teiHeader xml:id="MS609-0017-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+
+   <text xml:id="MS609-0017">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0017"/>
+         <div type="folio" n="3r-3v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="12"/>
+            </listBibl>
+         </div>
+         <div type="image">
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0011"/>
+               <item facs="#img_609_0012"/>
+            </list>
+         </div>
+      </front>
+
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0017-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0017-1" corresp="#MS609-0017-1">
+               <lb break="y" n="35"/>Item. <date type="deposition_date" sameAs="#MS609-0013.xml" cert="medium">Anno et die quo supra.</date>
+               <persName nymRef="#Pons_de_Rosengue_MSP-AU" role="dep">Poncius <del type="notary" rend="expunctus">de</del> de Rozengue</persName> testis iuratus dixit quod
+                vidit <persName nymRef="#Guilhem_Vidal_H_LBC-AU" role="her">W<supplied reason="expname">illelmum</supplied> Vital</persName> et socium suum, hereticos,
+                  <placeName type="event_loc" nymRef="#vineyard_of_Johan_Carabula">iuxta vineam den
+                     <persName nymRef="#Johan_Carabula_MSP-AU" role="ref">Johanni <pb n="3v"/>
+                     <lb break="y" n="1"/>
+                     <del type="notary" rend="expunctus">Carabula</del> Carabula</persName>
+               </placeName> et vidit tunc eis <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied> de
+                  Rezenge</persName> fratrem ipsius testis, <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pAdo" role="par">Arnaldum Godalh</persName>; <persName nymRef="#Pons_Garnier_MSP-AU" ana="#pAdo" role="par">Poncium Garner</persName>; 
+                  <persName nymRef="#Arnald_Garnier_MSP-AU" ana="#pAdo" role="par">Arnaldum<lb break="y" n="2"/>Garner, <roleName type="fam">fratrem dicti</roleName>
+                  <persName nymRef="#Pons_Garnier_MSP-AU" role="ref">Poncii Garner</persName>
+               </persName>; <persName nymRef="#Peire_Albaric_MSP-AU" ana="#pAdo" role="par">P<supplied reason="expname">etrum</supplied> Albaric</persName>; <persName nymRef="#Pons_Gauta_MSP-AU" ana="#pAdo" role="par">Poncium Gauta</persName>; 
+                  <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par">Poncium
+                  Raynaut</persName>; et <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">plures alios de quibus non recolit</persName>.
+               <lb break="y" n="3"/>Et omnes et <persName nymRef="#Pons_de_Rosengue_MSP-AU" ana="#pAdo" role="par"/>ipse testis adoraverunt ibi dictos hereticos ter flexis
+               genibus dicendo <quote>Benedicite boni homines, orate Deum pro nobis</quote>. <date type="event_date" when="1239">Et sunt<lb break="y" n="4"/>VI anni vel
+                  circa.</date>
+            </seg>
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0017-2">
+               <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_bonam_fidem">Predictos
+                  hereticos credidit tunc esse bonos homines et habere bonam fidem licet sciret quod
+                  Ecclesia persequeretur <lb break="y" n="5"/>eos</seg>, <seg type="conf" subtype="heard_error" ana="#neg_err_visibilia #neg_err_sacrementis"> sed non
+                  audivit eos dicentes errores de visibilibus nec de sacramentis nec ipse credidit
+                  predictis erroribus</seg>. Alibi<lb break="y" n="6"/>non vidit hereticos nec
+               credidit nec adoravit nec aliquid dedit nec misit. Et <seg type="prev_conf">hoc fuit
+                  confessus <persName nymRef="#Ferrier_OP" role="pinq">Ferrario
+                  </persName>inquisitori apud <placeName nymRef="#Saissac_Aude">Saysac</placeName>
+               </seg> et abiuravit<lb break="y" n="7"/>heresim et iuravit et cetera. <seg type="witnesses">Testis: <persName nymRef="#Arnald_Prior_StSernin" role="wit">Arnaldus, prior Sancti Saturnini</persName>; et <persName nymRef="#Peire_de_Caraman_Magister" role="wit">magister Petrus de
+                     Caramanh</persName>; et <persName nymRef="#Bernard_de_Caux_OP" role="inq">frater
+                        B<supplied reason="expname">ernardus</supplied>, inquisitor</persName>.
+               </seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0017-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0017-1">Item. Year and day as above. The sworn witness
+               Pons de Rozenge said that he saw Guilhem Vidal and his companion, heretics, next to
+               the vineyard of Carabula, and that he saw with them Guilhem de Rosenge, brother of the
+               witness; Arnald Godalh; Pons Garnier; Arnald Garnier, brother of the aforementioned
+               Pons Garnier; P. Albaric; Pons Gauta; Pons Rainart; and many others whom he did not
+               recall. The witness himself and everyone adored the aforementioned heretics three
+               times with bent knees saying, “Bless us good men, pray to God on behalf of us”. And
+               this was about six years ago.</seg>
+            <seg type="trans" corresp="#MS609-0017-2">He used to believe that the aforementioned
+               heretics were good men and had good faith even though he knew that the Church
+               persecuted them, but he had not heard them saying any errors regarding visible things
+               nor the sacraments, nor did he believe the aforementioned errors. He has not seen
+               heretics elsewhere nor believed them, nor adored them, nor gave or sent [them
+               anything]. This was confessed to inquisitor Ferrier at Saissac. He abjured heresy and
+               swore, et cetera. Witnesses: Arnald, Prior of Saint-Sernin; Master P. de Caramanh; and
+               brother Bernard, Inquisitor.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>

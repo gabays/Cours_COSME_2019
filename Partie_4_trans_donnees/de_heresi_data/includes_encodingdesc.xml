@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg">
+   
+   <projectDesc>
+      <!-- history -->
+      <p/>
+   </projectDesc>
+   <editorialDecl>
+        <p/>
+    </editorialDecl>
+   <classDecl>     
+      <!-- heresy codes -->
+      <xi:include href="codes_confession.xml"/>   
+      <xi:include href="codes_msgroups.xml"/>
+   </classDecl>
+</encodingDesc>

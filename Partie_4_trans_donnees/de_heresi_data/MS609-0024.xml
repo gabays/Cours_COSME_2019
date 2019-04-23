@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0024.xml">
+   
+   <teiHeader xml:id="MS609-0024-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+      
+   </teiHeader>
+   
+   <text xml:id="MS609-0024">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="inquisition">
+            <p>Toulouse 1245-46</p>
+         </div>
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0024"/>
+         <div type="folio" n="3v"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro"/>
+         <div type="bibl">
+            <listBibl>
+               <!-- @type = translation  transcription  citation  @n = page(s) -->
+               <bibl type="transcription" corresp="#Duvernoy_ms609" n="13"/>
+               <bibl type="citation" corresp="#Pegg_2001a" n="124-125"/>
+            </listBibl>
+         </div>
+         <div type="image"> 
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0012"/>
+            </list>
+         </div>
+      </front>
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0024-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="sighting_and_denial" xml:id="MS609-0024-1">
+               <lb break="y" n="22"/>Item. 
+               <date type="deposition_date" sameAs="#MS609-0021.xml" cert="medium">Anno et die predictis.</date> 
+               <persName nymRef="#Peire_Raimund_Prosat_MSP-AU" ana="#pVidPub" role="dep">Petrus Raimundi Prosat</persName> 
+               testis iuratus dixit quod vidit 
+               <persName nymRef="#Peire_Amelh_MSP-AU" role="her">P<supplied reason="expname">etrum</supplied> Amelii</persName> et
+               <persName nymRef="#Pons_German_MSP-AU" role="her">Poncium Germani</persName>, 
+               hereticos, <placeName type="event_loc" nymRef="#open_public_MSP">publice stantes<lb break="y" n="23"/>apud Mansum Sanctum Puellarum</placeName>.  
+               <date type="event_date" when="1210">Et sunt XXXV anni et amplius.</date> Alibi nunquam 
+               vidit hereticos nec credidit nec adoravit nec dedit nec misit<lb break="y" n="24"/>eis aliquid 
+               nec duxit nec eorum predicationem audivit.
+            </seg>
+            <seg type="dep_event" subtype="event" xml:id="MS609-0024-2" corresp="#MS609-0024-2">Item. Dixit quod cum ipse 
+               testis esset <placeName type="event_loc" nymRef="#workshop_of_peire_gauta_sr">apud Mansum in operatorio 
+                  <persName nymRef="#Peire_Gauta_Senior_MSP-AU" role="own">Petri Gauta</persName>
+                    </placeName>, 
+               simul<lb break="y" n="25"/>cum quibusdam aliis hominibus de Manso,  
+               <persName nymRef="#Bernard_de_Quiders_MSP-AU" ana="#pCommentChurch" role="par">Bernardus de Quiders</persName> 
+               indutus propria voluntate minxit super coronam  
+               <persName nymRef="#Peire_Raimund_Prosat_MSP-AU" role="npar"/>ipsius testis,<lb break="y" n="26"/>qui est 
+               acolitus, in opprobrium et vituperium tocius Ecclesie catholice, ut credit ipse testis firmiter. Et 
+               sunt XXVI anni. Testes<lb break="y" n="27"/>huius rei sunt 
+               <persName nymRef="#Bernard_Amelh_MSP-AU" role="npar">B<supplied>ernardus</supplied> Amelii</persName>; et 
+               <persName nymRef="#Arnald_Donat_MSP-AU" role="npar">Arnaldus Donat</persName>; et 
+               <persName nymRef="#Guilhem_Lapassa_Anhe_MSP-AU" role="npar">Willelmus Lapassa Anhe</persName>; et 
+               <persName nymRef="#B_Lapassa_MSP-AU" role="npar">B. Lapassa</persName>; et 
+               <persName nymRef="#Raimund_den_Dolz_MSP-AU" role="npar">Raimundus den Dolz</persName>; et 
+               <persName nymRef="#others_unrecalled" role="npar">plures alii</persName>.
+               <lb break="y" n="28"/>Et <date type="event_date" when="1219">sunt XXIX anni vel circa</date>. 
+               Et abiuravit heresim et iuravit et cetera. 
+               <seg type="witnesses" sameAs="#MS609-0077.xml" cert="medium">Testes: infra scripti.</seg>
+            </seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0024-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0024-1">Item. Year and date as above. The sworn witness Peire Raimund Prosat 
+               said that he saw the heretics Peire Amelh and Pons German standing in public at Mas-Saintes-Puelles, 
+               and this was was about 35 years ago or more. He did not see heretics elsewhere nor believed, 
+               nor adored, nor gave or sent them anything, nor lead, nor listened their preaching.</seg>
+            <seg type="trans" corresp="#MS609-0024-2">Item. The witness said that he was in the workshop of Peire Gauta at 
+               Mas-Saintes-Puelles with other men from the village when Bernard de Quiders of his own free will 
+               urinated on the head of the witness - who is an acolyte of the Church - in opprobrium and vituperation 
+               of the Catholic Church, the witness believed this firmly. This was about 26 years ago. Witnesses to this 
+               were Bernard Amelh, Arnald Donat, Guilhem Lapassa Anhe, B. Lapassa, Raimund den Dolz and many others and 
+               this was about 29 years ago. Witnesses as written below.
+            </seg>
+         </p>
+      </back>
+   </text>
+</TEI>

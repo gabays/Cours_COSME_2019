@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxomsgroups">
+
+   <category xml:id="De_Manso_Sanctarum_Puellarum" n="1" corresp="#Mas-Saintes-Puelles_Aude">
+      <desc xml:lang="EN">Mas-Saintes-Puelles</desc>
+      <desc xml:lang="FR">Mas-Saintes-Puelles</desc>
+      <desc xml:lang="LA">De Manso Sanctarum Puellarum</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Martino_La_Landa" n="2" corresp="#Saint-Martin-Lalande_Aude">
+      <desc xml:lang="EN">Saint-Martin-Lalande</desc>
+      <desc xml:lang="FR">Saint-Martin-Lalande</desc>
+      <desc xml:lang="LA">De Sancto Martino La Landa</desc>
+   </category>
+   
+   <category xml:id="De_Tholosa" n="5" corresp="#Toulouse_Haute-Garonne">
+      <desc xml:lang="EN">Toulouse</desc>
+      <desc xml:lang="FR">Toulouse</desc>
+      <desc xml:lang="LA">De Tholosa</desc>
+   </category>
+   
+   <category xml:id="De_Viridi_Folio" n="6" corresp="#Verfeil_Haute-Garonne">
+      <desc xml:lang="EN">Verfeil</desc>
+      <desc xml:lang="FR">Verfeil</desc>
+      <desc xml:lang="LA">De Viridi Folio</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Aniano" n="7" corresp="#Saint-Agnan_Tarn">
+      <desc xml:lang="EN">Saint-Agnan</desc>
+      <desc xml:lang="FR">Saint-Agnan</desc>
+      <desc xml:lang="LA">De Sancto Aniano</desc>
+   </category>
+   
+   <category xml:id="De_Ordario" n="8" corresp="#Odars_Haute-Garonne">
+      <desc xml:lang="EN">Odars</desc>
+      <desc xml:lang="FR">Odars</desc>
+      <desc xml:lang="LA">De Ordario</desc>
+   </category>
+   
+   <category xml:id="De_Lantario" n="9" corresp="#Lanta_Haute-Garonne">
+      <desc xml:lang="EN">Lanta</desc>
+      <desc xml:lang="FR">Lanta</desc>
+      <desc xml:lang="LA">De Lantario</desc>
+   </category>
+   
+   <category xml:id="De_Gaure" n="10" corresp="#Gaure_Haute-Garonne">
+      <desc xml:lang="EN">Gueré</desc>
+      <desc xml:lang="FR">Gueré</desc>
+      <desc xml:lang="LA">De Gaure</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Juliano" n="11" corresp="Saint-Julia_Haute-Garonne">
+      <desc xml:lang="EN">Saint-Julien</desc>
+      <desc xml:lang="FR">Saint-Julien</desc>
+      <desc xml:lang="LA">De Sancto Juliano</desc>
+   </category>
+   
+   <category xml:id="De_Vauro" n="13" corresp="#Lavaur_Tarn">
+      <desc xml:lang="EN">Lavaur</desc>
+      <desc xml:lang="FR">Lavour</desc>
+      <desc xml:lang="LA">De Vauro</desc>
+   </category>
+   
+   <category xml:id="De_Godervilla" n="14" corresp="#Gourvieille_Aude">
+      <desc xml:lang="EN">Gourvieille</desc>
+      <desc xml:lang="FR">Gourvieille</desc>
+      <desc xml:lang="LA">De Godervilla</desc>
+   </category>
+   
+   <category xml:id="De_Fano_Iovis" n="15" corresp="#Fanjeaux_Aude">
+      <desc xml:lang="EN">Fanjeaux</desc>
+      <desc xml:lang="FR">Fanjeaux</desc>
+      <desc xml:lang="LA">De Fano Iovis</desc>
+   </category>
+   
+   <category xml:id="De_Roca_Serera" n="15" corresp="#Roqueseriere_Haute-Garonne">
+      <desc xml:lang="EN">Roqueseriere</desc>
+      <desc xml:lang="FR">Roqueseriere</desc>
+      <desc xml:lang="LA">de Roca Serera</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Astruc" n="15" corresp="#Montastruc-la-Conseillere_Haute-Garonne">
+      <desc xml:lang="EN">Montastruc</desc>
+      <desc xml:lang="FR">Montastruc</desc>
+      <desc xml:lang="LA">de Monte Astruc</desc>
+   </category>
+
+   <category xml:id="De_Taravello" n="15" corresp="#Tarabel_Haute-Garonne">
+      <desc xml:lang="EN">Tarabel</desc>
+      <desc xml:lang="FR">Tarabel</desc>
+      <desc xml:lang="LA">de Taravello</desc>
+   </category>
+   
+   <category xml:id="De_Cargodanis" n="15" corresp="#Caragoudes_Haute-Garonne">
+      <desc xml:lang="EN">Caragoudes</desc>
+      <desc xml:lang="FR">Caragoudes</desc>
+      <desc xml:lang="LA">de Cargodanis</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Guiscardo" n="15" corresp="#Montgiscard_Haute-Garonne">
+      <desc xml:lang="EN">Montgiscard</desc>
+      <desc xml:lang="FR">Montgiscard</desc>
+      <desc xml:lang="LA">de Monte Guiscardo</desc>
+   </category>
+   
+   <category xml:id="De_Cassio" n="15" corresp="#Les_Casses_Aude">
+      <desc xml:lang="EN">Les Cassés</desc>
+      <desc xml:lang="FR">Les Cassés</desc>
+      <desc xml:lang="LA">de Cassio</desc>
+   </category>
+   
+   <category xml:id="De_Berrelis" n="15" corresp="#Bereilles_Haute-Garonne">
+      <desc xml:lang="EN">Bereilles</desc>
+      <desc xml:lang="FR">Bereilles</desc>
+      <desc xml:lang="LA">de Berrelis</desc>
+   </category>
+  
+   <category xml:id="De_Cabanil" n="15" corresp="#Cabannes_Tarn">
+      <desc xml:lang="EN">Cabannes</desc>
+      <desc xml:lang="FR">Cabannes</desc>
+      <desc xml:lang="LA">de Cabanil</desc>
+   </category>
+   
+   <category xml:id="De_Besseta" n="15" corresp="#Labecede_Aude">
+      <desc xml:lang="EN">Labécède</desc>
+      <desc xml:lang="FR">Labécède</desc>
+      <desc xml:lang="LA">de Besseta</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Paulo_de_Bretas" n="15" corresp="#Saint-Paulet_Aude">
+      <desc xml:lang="EN">Saint-Paulet</desc>
+      <desc xml:lang="FR">Saint-Paulet</desc>
+      <desc xml:lang="LA">de Sancto Paulo de Bretas</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Iovis" n="15" corresp="#Montjoi_Aude">
+      <desc xml:lang="EN">Montjoi</desc>
+      <desc xml:lang="FR">Montjoi</desc>
+      <desc xml:lang="LA">de Monte Iovis</desc>
+   </category>
+   
+   <category xml:id="De_Felgario" n="15" corresp="#Falgayrac_Haute-Garonne">
+      <desc xml:lang="EN">Falgayrac</desc>
+      <desc xml:lang="FR">Falgayrac</desc>
+      <desc xml:lang="LA">de Felgario</desc>
+   </category>
+   
+   <category xml:id="De_Lobenx" n="15" corresp="#Loubens-Lauragais_Haute-Garonne">
+      <desc xml:lang="EN">Loubens</desc>
+      <desc xml:lang="FR">Loubens</desc>
+      <desc xml:lang="LA">de Lobenx</desc>
+   </category>
+   
+   <category xml:id="De_Saona" n="15" corresp="#Saune_Haute-Garonne">
+      <desc xml:lang="EN">Saune</desc>
+      <desc xml:lang="FR">Saune</desc>
+      <desc xml:lang="LA">de Saona</desc>
+   </category>
+
+
+   <category xml:id="De_Podio_Laurencii" n="15" corresp="#Puylaurens_Tarn">
+      <desc xml:lang="EN">Puylaurens</desc>
+      <desc xml:lang="FR">Puylaurens</desc>
+      <desc xml:lang="LA">de Podio Laurencii</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Albano" n="15" corresp="#Montauban_Tarn-et-Garonne">
+      <desc xml:lang="EN">Montauban</desc>
+      <desc xml:lang="FR">Montauban</desc>
+      <desc xml:lang="LA">de Monte Albano</desc>
+   </category>
+   
+   <category xml:id="De_Mazeraco" n="15" corresp="#Mazerac_Tarn-et-Garonne">
+      <desc xml:lang="EN">Mazerac</desc>
+      <desc xml:lang="FR">Mazerac</desc>
+      <desc xml:lang="LA">de Mazeraco</desc>
+   </category>
+   
+   <category xml:id="De_Lauraco" n="15" corresp="#Laurac_Aude">
+      <desc xml:lang="EN">Laurac</desc>
+      <desc xml:lang="FR">Laurac</desc>
+      <desc xml:lang="LA">de Lauraco</desc>
+   </category>
+   
+   <category xml:id="De_Cambiaco" n="15" corresp="#Cambiac_Haute-Garonne">
+      <desc xml:lang="EN">Cambiac</desc>
+      <desc xml:lang="FR">Cambiac</desc>
+      <desc xml:lang="LA">de Cambiaco</desc>
+   </category>
+   
+   <category xml:id="De_Romenx" n="15" corresp="#Roumens_Haute-Garonne">
+      <desc xml:lang="EN">Roumens</desc>
+      <desc xml:lang="FR">Roumens</desc>
+      <desc xml:lang="LA">de Romenx</desc>
+   </category>
+   
+   <category xml:id="De_Castro_Sarracenico" n="15" corresp="#Castelsarrasin_Tarn-et-Garonne">
+      <desc xml:lang="EN">Castelsarrasin</desc>
+      <desc xml:lang="FR">Castelsarrasin</desc>
+      <desc xml:lang="LA">de Castro Sarracenico</desc>
+   </category>
+   
+   <category xml:id="De_Cucmerio" n="15" corresp="#Cumies_Aude">
+      <desc xml:lang="EN">Cumiés</desc>
+      <desc xml:lang="FR">Cumiés</desc>
+      <desc xml:lang="LA">de Cucmerio</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Johanne_de_Heremo" n="15" corresp="#Saint-Jean-l'Herm">
+      <desc xml:lang="EN">Saint-Jean-l'Herm</desc>
+      <desc xml:lang="FR">Saint-Jean-l'Herm</desc>
+      <desc xml:lang="LA">de Sancto Johanne de Heremo</desc>
+   </category>
+   
+   <category xml:id="De_Bello_Castro" n="15" corresp="#">
+      <desc xml:lang="EN">unknown Bello Castro</desc>
+      <desc xml:lang="FR">unknown Bello Castro</desc>
+      <desc xml:lang="LA">de Bello Castro</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Anatholio" n="15" corresp="#Saint-Anatoly_Haute-Garonne">
+      <desc xml:lang="EN">Saint-Anatoly</desc>
+      <desc xml:lang="FR">Saint-Anatoly</desc>
+      <desc xml:lang="LA">de Sancto Anatholio</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Caprerio" corresp="#Montcabrier_Tarn">
+      <desc xml:lang="EN">Montcabrier</desc>
+      <desc xml:lang="FR">Montcabrier</desc>
+      <desc xml:lang="LA">de Monte Caprerio</desc>
+   </category>
+   
+   <category xml:id="De_Alto_Pullo" corresp="#Hautpoul_Tarn">
+      <desc xml:lang="EN">Hautpoul</desc>
+      <desc xml:lang="FR">Hautpoul</desc>
+      <desc xml:lang="LA">de Alto Pullo</desc>
+   </category>
+   
+   <category xml:id="De_Villa_Nova_Comitali" corresp="#Villeneuve-la-Comptal_Aude">
+      <desc xml:lang="EN">Villeneuve-la-Comptal</desc>
+      <desc xml:lang="FR">Villeneuve-la-Comptal</desc>
+      <desc xml:lang="LA">de Villa Nova Comitali</desc>
+   </category>
+   
+   <category xml:id="De_Baucio" corresp="#Vaux_Haute-Garonne">
+      <desc xml:lang="EN">Vaux</desc>
+      <desc xml:lang="FR">Vaux</desc>
+      <desc xml:lang="LA">de Baucio</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Germerio" corresp="#Saint-Germier_Haute-Garonne">
+      <desc xml:lang="EN">Saint-Germier</desc>
+      <desc xml:lang="FR">Saint-Germier</desc>
+      <desc xml:lang="LA">de Sancto Germerio</desc>
+   </category>
+   
+   <category xml:id="De_Exilio" corresp="#Issel_Aude">
+      <desc xml:lang="EN">Issel</desc>
+      <desc xml:lang="FR">Issel</desc>
+      <desc xml:lang="LA">de Exilio</desc>
+   </category>
+   
+   <category xml:id="De_Ramevila" corresp="#Renneville_Haute-Garonne">
+      <desc xml:lang="EN">Renneville</desc>
+      <desc xml:lang="FR">Renneville</desc>
+      <desc xml:lang="LA">de Ramevila</desc>
+   </category>
+   
+   <category xml:id="De_Escura" corresp="#Lescure-dAlbigeois_Tarn">
+      <desc xml:lang="EN">Lescure</desc>
+      <desc xml:lang="FR">Lescure</desc>
+      <desc xml:lang="LA">de Escura</desc>
+   </category>
+   
+   <category xml:id="De_Sancta_Malonia" corresp="#Sainte-Apollonie_Haute-Garonne">
+      <desc xml:lang="EN">Sainte-Apollonie</desc>
+      <desc xml:lang="FR">Sainte-Apollonie</desc>
+      <desc xml:lang="LA">de Sancta Malonia</desc>
+   </category>
+   
+   
+   <category xml:id="De_Drulha" corresp="#Dreuilhe_Haute-Garonne">
+      <desc xml:lang="EN">Dreuilhe</desc>
+      <desc xml:lang="FR">Dreuilhe</desc>
+      <desc xml:lang="LA">de Drulha</desc>
+   </category>
+   
+   
+   <category xml:id="De_Pomereda" corresp="#La_Pomarede_Aude">
+      <desc xml:lang="EN">la Pomerède</desc>
+      <desc xml:lang="FR">la Pomerède</desc>
+      <desc xml:lang="LA">de Pomereda</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Paulo_de_Cadaiouis" corresp="#Saint-Paul-Cap-de-Joux_Tarn">
+      <desc xml:lang="EN">Saint-Paul-Cap-de-Joux</desc>
+      <desc xml:lang="FR">Saint-Paul-Cap-de-Joux</desc>
+      <desc xml:lang="LA">de Sancto Paulo de Cadaiouis</desc>
+   </category>
+   
+   <category xml:id="De_Sancto_Felice" corresp="#Saint-Felix-Lauragais_Haute-Garonne">
+      <desc xml:lang="EN">Saint-Felix</desc>
+      <desc xml:lang="FR">Saint-Felix</desc>
+      <desc xml:lang="LA">de Sancto Felice</desc>
+   </category>
+   
+   <category xml:id="De_Monte_Gualhardo" corresp="#Montgaillard-Lauragais_Haute-Garonne">
+      <desc xml:lang="EN">Montgaillard</desc>
+      <desc xml:lang="FR">Montgaillard</desc>
+      <desc xml:lang="LA">de Monte Gualhardo</desc>
+   </category>
+   
+</taxonomy>

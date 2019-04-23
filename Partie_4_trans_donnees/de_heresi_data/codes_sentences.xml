@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxoSent">
+   
+   <!-- CONVICTIONS -->
+   
+   <category xml:id="conv_relapse">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_inabsentia">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_manifcrime">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_adored">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_led">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_gave">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_belgood">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_belerror">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>   
+   <category xml:id="conv_attheretication">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_eat">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_bringfood">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_deceiveinq">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_postabj">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_hid">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>  
+   <category xml:id="conv_freed">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_eatbreadbless">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>    
+   <category xml:id="conv_saw">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_assoc">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_listen">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_receive">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_accpeace">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_leftfam">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_wanthere">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_stay">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category> 
+   <category xml:id="conv_herind">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA">heretica induta</desc>
+   </category>
+   <category xml:id="conv_nontempgra">
+      <desc xml:lang="EN">not confessed in grace period</desc>
+      <desc xml:lang="LA">non dixit tempore gratie</desc>
+   </category>
+   <category xml:id="conv_rejpen">
+      <desc xml:lang="EN">refused to do assigned penance</desc>
+      <desc xml:lang="LA">noluerit facere iniunctam sibi a nobis penitentiam</desc>
+   </category>
+   <category xml:id="conv_scribe">
+      <desc xml:lang="EN">wrote (up documents) for heretics for money</desc>
+      <desc xml:lang="LA">scripsit hereticis pro precio</desc>
+   </category>
+   <category xml:id="conv_condher">
+      <desc xml:lang="EN">condemned as heretic</desc>
+         <desc xml:lang="LA">hereticos condempnamus</desc>
+   </category>
+   <category xml:id="conv_kiss">
+      <desc xml:lang="EN">received kiss</desc>
+      <desc xml:lang="LA">recepit osculum ab hereticabus</desc>
+   </category>
+   
+   <!-- SENTENCES -->
+   
+   <category xml:id="sent_prison">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_prisonperp">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_housearr">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_pilgrim">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_crosses">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_excomm">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_exile">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_seizure">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_corppun">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+   <category xml:id="sent_fine">
+      <desc xml:lang="EN"/>
+      <desc xml:lang="LA"/>
+   </category>
+</taxonomy>

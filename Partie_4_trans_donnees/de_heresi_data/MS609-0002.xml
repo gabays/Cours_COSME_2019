@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xml:id="MS609-0002.xml">
+
+   <teiHeader xml:id="MS609-0002-HD" corresp="MS609-0000.xml">
+      <fileDesc>
+         <titleStmt corresp="#Rehr_MS609">
+                <title/>
+            </titleStmt>
+         <publicationStmt corresp="#copyright-cc-by-nc-sa-4.0">
+            <p corresp="#http://creativecommons.org/licenses/by-nc-sa/4.0/">The author of this document is Jean-Paul Rehr who makes this work 
+                available as of 2018-11-10 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+         </publicationStmt>
+         <!--sourceDesc-->
+         <xi:include href="includes_sourcedesc.xml"/>
+      </fileDesc>
+      <!--encodingDesc-->
+      <xi:include href="includes_encodingdesc.xml"/>
+   </teiHeader>
+
+   <text xml:id="MS609-0002">
+      <front>
+         <!-- registry entry metadata -->
+         <div type="source" subtype="manuscript" corresp="#MS-TOULOUSE-MS609" n="MS609"/>
+         <div type="registry_ordinal" n="0002"/>
+         <div type="folio" n="1r"/>
+         <div type="doc_type" subtype="Deposition"/>
+         <div type="ms_subgroup" corresp="#De_Manso_Sanctarum_Puellarum" n="1"/>
+         <div type="intro">
+            <p/>
+         </div>
+         <div type="image">
+            <list xml:base="#codes_folio_images.xml">
+               <item facs="#img_609_0009"/>
+            </list>
+         </div>
+      </front>
+
+      <body>
+         <!-- Latin text -->
+         <p xml:id="MS609-0002-LA" xml:lang="LA">
+            <!-- event 1 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0002-1">
+               <date type="deposition_date" sameAs="MS609-0001.xml" cert="medium">
+                        <lb break="y" n="19" type="continue"/>Item. 
+                  Anno et die quo supra</date>. 
+               <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" role="dep">W<supplied reason="expname">illelmus</supplied> de Rozeugue</persName> 
+               testis iuratus dixit quod ad instanciam<lb break="y" n="20"/>
+               <persName nymRef="#Arnald_Godalh_MSP-AU" ana="#pAskDux" role="par">Arnaldi Godalh</persName> 
+               <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pDux  #nAdo" role="par"/>ipse testis et 
+               <persName nymRef="#Raimund_Garnier_MSP-AU" ana="#pDux #nAdo" role="par">R<supplied reason="expname">aimundus</supplied> Guarnier</persName> duxerunt 
+               <persName nymRef="#Guilhem_Vidal_H_LBC-AU" role="her">W<supplied reason="expname">illelmum</supplied> Vitalis</persName> et socium eius, hereticos, de 
+               <placeName type="event_loc" nymRef="#journey">
+                  <placeName nymRef="#Mal_Cosseil_gates">Porta de Mal Cosseil</placeName> usque ad<lb break="y" n="21"/>
+                  <placeName nymRef="#Pechbusque_Haute-Garonne">Puybusqua</placeName>               
+               </placeName> et tradiderunt dictos hereticos 
+               <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" ana="#pRec #nAdo" role="par">Petro Cap de Porc</persName>. 
+               Sed ipse testis non adoravit dictos hereticos nec vidit alios adorare.
+               <date type="event_date" when="1239">Et sunt<lb break="y" n="22"/>VI anni vel circa.</date>
+            </seg>
+            <!-- event 2 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0002-2">Item. <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pGath" role="par"/>Vidit 
+               <persName nymRef="#Guilhem_Vidal_H_LBC-AU" role="her">W<supplied reason="expname">illelmum</supplied> Vitalis</persName> 
+               et socium eis hereticos in loco qui dicitur 
+               <placeName type="event_loc" nymRef="#Lo_Radel_MSP">Lo Radel</placeName>, et vidit ibi cum eis 
+               <persName nymRef="#Jordan_de_Quiders_MSP-AU" ana="#pGath" role="par">Jordanum de<lb break="y" n="23"/>Quiders</persName>;  
+               <persName nymRef="#Pons_Barrau_MSP-AU" ana="#pGath" role="par">P<supplied reason="expname">oncium</supplied> Barrau</persName>;  et 
+               <persName nymRef="#Arnald_Garnier_MSP-AU" ana="#pGath" role="par">Arnaldum Garnier</persName>; et 
+               <persName nymRef="#Pons_Garnier_MSP-AU" ana="#pGath" role="par">Poncium, fratrem dicti Arnaldi</persName>; et 
+               <persName nymRef="#Pons_Gauta_MSP-AU" ana="#pGath" role="par">Poncium Gauta</persName>;  
+               <persName nymRef="#Galhard_Amelh_MSP-AU" ana="#pGath" role="par">Guallardum Amelh</persName>; et<lb break="y" n="24"/>
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pGath" role="par">Poncium Rainart</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pGath" role="par">plures alios de quibus non recolat</persName>. 
+               <date type="event_date" when="1239">Et sunt VI anni vel circa.</date>
+            </seg>
+            <!-- event 3 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0002-3">Item. <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pAdo" role="par"/> Vidit 
+               <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc">in domo 
+                  <persName nymRef="#Peire_Cap-de-Porc_MSP-AU" role="own">P<supplied reason="expname">etri</supplied> 
+                     <lb break="y" n="25"/>Cap de Porc</persName>
+               </placeName> pluries 
+               <persName nymRef="#B_Johan_H" role="her">B. Johannis</persName>, 
+               <persName nymRef="#Peire_Faure_MSP-AU" role="her">P<supplied reason="expname">etrum</supplied> Fabri</persName>, hereticos. Et vidit ibi cum eis 
+               <persName nymRef="#Raimund_Amelh_MSP-AU" ana="#pAdo" role="par">R<supplied reason="expname">aimundum</supplied> den Amiel</persName>;  
+               <persName nymRef="#Pons_Rainart_MSP-AU" ana="#pAdo" role="par">Poncium Rainardi</persName>;  
+               <persName nymRef="#Guilhem_Amelh_MSP-AU" ana="#pAdo" role="par">W<supplied reason="expname">illelmum</supplied>
+                  <lb break="y" n="26"/>Amelh de Solha</persName>;  
+               <persName nymRef="#Galhard_Amelh_MSP-AU" ana="#pAdo" role="par">Guaillardum Amelh</persName>; et 
+               <persName nymRef="#others_unrecalled" ana="#pAdo" role="par">
+                  <sic style="sic">
+                     <orig>pluries</orig>
+                     <corr>plures</corr>
+                  </sic> alios de quibus non recolit</persName>. 
+               Et omnes et ipse testis adoravit pluries<lb break="y" n="27"/>dictos hereticos.
+                  <date type="event_date" when="1238">Et sunt VII anni vel circa.</date>
+            </seg>
+            <!-- event 4 -->
+            <seg type="dep_event" subtype="sighting" xml:id="MS609-0002-4">Item. Dixit quod <date type="event_date" when-custom="as_a_child">quando erat puer</date>
+               <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pVidPub" role="npar"/> vidit
+               hereticos publice stantes apud<lb break="y" n="28"/>
+               <placeName type="event_loc" nymRef="#Mirepoix_Ariege">Mirapeis</placeName>. 
+               Alibi non vidit hereticos quod recolat. </seg>
+            <!-- event 5 -->
+            <seg type="dep_event" subtype="belief" xml:id="MS609-0002-5">Item. Dixit quod <seg type="conf" subtype="belief" ana="#pos_bonos_homines #pos_bonam_fidem #pos_veraces #pos_amicos_dei"> credidit
+               hereticos esse bonos et habere bonam fidem et esse<lb break="y" n="29"/>veraces et amicos
+                  Dei</seg>. Et <seg type="conf" subtype="heard_error" ana="#pos_err_visibilia #pos_err_matrimonio #neg_err_hostia #neg_err_baptismo #neg_err_resurrectione">audivit hereticos dicentes quod deus non fecerat visibilia et quod in matrimonio
+                     non est salus,<lb break="y" n="30"/>
+                     et ipse testis credidit sicit ipsi dicebant. De hostia
+                  sacrata, de baptismo, de resurrecione carnis, non audivit hereticos
+                  loquentes</seg>.<lb break="y" n="31"/>
+               <seg type="hist_bel">Et <date type="prev_bel_start" when="1233">sunt XII
+                     anni</date> quod primo credidit hereticos esse bonos et <date type="prev_bel_end" when="1241">sunt IIIIor anni</date> ultimo dimsit illam
+                  credulitatem.</seg>
+               <lb break="y" n="32"/>
+               <seg type="prev_conf" ana="#neg_penance">Et sunt confessus <persName nymRef="#Guilhem_Arnald_OP" role="pinq">fratri Willelmo Arnaldi</persName> et 
+                  <persName nymRef="#Ferrier_OP" role="pinq">fratri Ferrario</persName> 
+                  inquisitorem. Sed non habuit penitentiam</seg>, et postea 
+               non vidit hereticos. 
+            </seg>
+            <!-- event 6 -->
+            <seg type="dep_event" subtype="event" xml:id="MS609-0002-6">
+               <lb break="y" n="33"/>
+               <seg type="inq_int" subtype="specific_question">Item. <del type="notary" rend="expunctus">dix</del>
+                  <persName nymRef="#Guilhem_de_Rosengue_MSP-AU" ana="#pAdo #pAud" role="par"/>Vidit
+                  <persName nymRef="#B_de_Planis_MSP-AU" role="her">B. de Planis</persName> et
+               socium eius, hereticos, <placeName type="event_loc" nymRef="#home_of_Cap-de-Porc" role="own">in domo de Cap de Porc</placeName>, 
+                  et vidit ibi <persName nymRef="#Arnald_de_Rosengue_MSP-AU" ana="#pAdo #pAud" role="par">Arnaldum de Rozengue</persName>, 
+                  patrem eius<lb break="y" n="34"/>testis, et ambo audierunt predicationem hereticorum et adoraverunt eos. Et <date type="event_date" when="1241">sunt IIIIor anni</date>.
+               </seg> Et abiuravit heresim et iuravit, et cetera. 
+               <lb break="y" n="35"/>
+               <seg type="witnesses" sameAs="#MS609-0001.xml"/>Testes: 
+               predicti.</seg>
+         </p>
+      </body>
+      <back>
+         <!-- English translation in corresponding segments -->
+         <p xml:id="MS609-0001-EN" xml:lang="EN" exclude="n">
+            <!-- event 1 -->
+            <seg type="trans" corresp="#MS609-0001-1">Item. Year and day as above. The sworn witness Guilhem de
+               Rosengue said that at the request of Arnald Godalh the witness himself and Bernard
+               Garnier lead Guilhem Vidal and his companion, heretics, from the gates of Mal Cosseil
+               to Puybusque, and delivered said heretics to Peire Cap-de-Porc. But the witness did
+               not adore said heretics nor did he see others adore. This was about 6 years
+               ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-2">Item. The witness saw Guilhem Vidal and his companions,
+               heretics, in a place called Lo Radel and he saw there with them Jordan de Quiders,
+               Pons Barrau, Arnald Garnier and Pons the brother of said Arnald, Pons Gauta,
+               Guallard Amelh, Pons Rainart, and many others whom he cannot recall. This was about 6
+               years ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-3">Item. The witness saw B. Johan and Peire Faure, heretics, many
+               times in the home of Peire Cap-de-Porc, and saw with them Bernard Amelh, Pons
+               Rainart, W. Amelh de Solha, Guallard Amelh and many others whom he cannot recall. The witness 
+               and all adored the said heretics many times. This was about 7 years
+               ago.</seg>
+            <seg type="trans" corresp="#MS609-0001-4">Item. The witness said that when he was a boy he saw
+               heretics standing in public near Mirepoix. He did not remember seeing heretics otherwise.</seg>
+            <seg type="trans" corresp="#MS609-0001-5">Item. The witness said that he believed the heretics to be
+               good, and have good faith, and were true, and were friends of God. He heard heretics
+               say that God did not make visible things and that there is no salvation in marriage,
+               and the witness himself believed as they said. He did not hear the heretics speak of
+               the holy host, of baptism, or of resurrection. it was about 12 years ago that he
+               first believed the heretics to be good and about 4 years ago that he left those
+               beliefs behind. And this was confessed to brother Guilhem Arnald and brother
+               Ferrier, inquisitors, but no penance was given, and thereafter the witness did
+               not see heretics.</seg>
+            <seg type="trans" corresp="#MS609-0001-6">Item. The witness saw B. de Planis and his companions,
+               heretics, in the home of the Cap-de-Porcs, and saw with them the witness' father
+               Arnald de Rosengue, and both listened to the said heretics' preaching and adored
+               them. This was 4 years ago. He abjured heresy and swore, etc. Witnesses:  as
+               stated above.</seg>
+         </p>
+      </back>
+   </text>
+</TEI>
