@@ -18,3 +18,5 @@ Corpus/XSLT
 *.out
 *.toc
 *.gz
+Partie_4_trans_donnees/de_heresi_data/test.txt
+Partie_4_trans_donnees/de_heresi_data/test_transform.xsl
