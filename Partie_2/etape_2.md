@@ -1,13 +1,7 @@
----
-author: Simon Gabay
-title: XSLT: publication
-lang:fr
-header-includes:
-    - \usepackage{setspace}\doublespacing
----
-
+Cours Cosme2
 # La Publication avec XSLT
-Simon Gabay, Cours Cosme2
+Simon Gabay
+Lyon, 23 avril 2019
 
 ---
 
@@ -24,9 +18,11 @@ Les fonctions XPath:
     - Un nombre
     - Une chaîne de caractères
     - Des nœuds
-3. peuvent contenir des *arguments* (qui sont placés entre les parenthèses).
+3. peuvent contenir des *arguments* (qui sont placés entre parenthèses).
 
-Passons en revue quelques fonctions qui peuvent être utiles
+Passons en revue quelques fonctions qui peuvent être utiles.
+
+---
 
 ### Les fonctions sans argument
 
@@ -40,12 +36,18 @@ Quelques exemples:
 
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-position)
 
+---
+
 Lorsqu'on utilise une fonction:
 1. on retire le préfixe ```fn:```
 2. on la place souvent comme prédicat (pour mémoire: ```axe:nœud[predicat]```), ainsi ```//l[last()]```renvoie le dernier ```l``` de chaque nœud qui en contiendrait un (et ```(//l)[last()]``` renvoie le dernier élément ```l``` de toute la pièce).
 3. on peut ajouter des opérateurs booléens, ainsi ```//l[position()=1]``` renvoie le premier ```l``` d'une série, et ```//l[last()-1]``` l'avant-dernier.
 
+---
+
 ### Les fonctions à un argument
+
+---
 
 Un exemple:
 
@@ -58,6 +60,8 @@ Pour pouvoir compter, il faut savoir ce que l'on compte: cette information est p
 >fn:count($arg)
 
 Ainsi, ```count(//l)``` compte tous les ```l``` du document.
+
+---
 
 ### Les fonctions à deux arguments
 
@@ -76,6 +80,8 @@ Ainsi, ```count(//l)``` compte tous les ```l``` du document.
 >fn:substring-after()
 
 [W3C](https://www.w3.org/TR/xpath-functions-31/#func-substring-after)
+
+---
 
 Prenons l'exemple de ```contains()```: il permet de contrôler que
 1. une chaîne de caractères…
@@ -115,6 +121,8 @@ Que renvoient:
 
 >//a[position()=2]
 
+---
+
 Quel est le résultat obtenu avec ces expressions XPath?
 
 >contains('test', 's')
@@ -123,7 +131,11 @@ Quel est le résultat obtenu avec ces expressions XPath?
 
 >substring-after('test', 's')
 
+Pour l'arbre précédemment présenté, que renvoie cette requête?
+
 >//a[contains(., '4')]
+
+---
 
 Et maintenant dans notre fichier ```andromaque_c.xml```:
 
@@ -131,7 +143,6 @@ Et maintenant dans notre fichier ```andromaque_c.xml```:
 
 >//speaker[starts-with(., 'H')]
 
----
 ---
 
 ## II. Les conditionnelles en XSLT
@@ -151,6 +162,8 @@ L'élément ```xsl:if``` permet de réaliser un test conditionnel pour le conten
 ```
 [W3C](https://www.w3schools.com/xml/xsl_if.asp)
 
+---
+
 ```xsl:if``` contient un attribut obligatoire ```@test``` qui contient une expression XPath. Cette expression XPath doit renvoyer une valeur booléenne : *true* ou *false*. Cette valeur est obtenue à partir de trois grands types de données:
 
 1. Un nombre (est-il pair ou impair?)
@@ -163,7 +176,7 @@ Ce test est notamment fait à partir de fonctions XPath comme celles que nous av
 
 ### Exercice II.a
 
-Les vers de notre document sont numérotées à l'aide d'un ```@n```
+Les vers de notre document sont numérotés à l'aide d'un ```@n```
 
 ```XML
 <l n="13" xml:id="v13">Combien dans cét exil ay-je <c ana="ſ_s">ſ</c>ouffert d'allarmes?</l>
@@ -196,6 +209,8 @@ L'élément ```xsl:choose``` ressemble énormément à ```xsl:if```. Il permet d
 
 [W3C](https://www.w3schools.com/xml/xsl_choose.asp)
 
+---
+
 Contrairement à ```xsl:if```, il est possible de proposer une liste de conditions alternatives:
 
 ```XML
@@ -211,6 +226,8 @@ Contrairement à ```xsl:if```, il est possible de proposer une liste de conditio
   </xsl:when>
 </xsl:choose>
 ```
+
+---
 
 Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, permettant de prévoir le cas où aucune des conditions prélablement définies n'est remplie – très utile pour éviter des oublis.
 
@@ -229,14 +246,13 @@ Il est aussi possible d'ajouter un élément ```xsl:otherwise```, optionnel, per
     ... Dans tous les autres cas, alors…
   </xsl:otherwise>
 </xsl:choose>
-
 ```
 
 ---
 
 ### Exercice II.b
 
-En regardant notre fichier XML de pus près, on remarque que les antilabes (morcellement du vers sur plusieurs répliques) ont été identifiées avec l'attribut ```@part```:
+En regardant notre fichier XML de plus près, on remarque que les antilabes (morcellement du vers sur plusieurs répliques) ont été identifiées avec l'attribut ```@part```:
 
 ```XML
     <l n="1176" xml:id="v1176" part="I">Courez au Temple. Il faut immoler....</l>
@@ -256,9 +272,13 @@ En regardant notre fichier XML de pus près, on remarque que les antilabes (morc
 </sp>
 ````
 
+---
+
 Noter les antilabes est important pour l'analyse stylistique de l'œuvre, mais aussi pour sa mise en page:
 
 ![*Andromaque* de Racine, wikisource](img/exemple_racine.jpg)
+
+---
 
 Notre css a prévu cette situation
 
@@ -281,12 +301,10 @@ Il s'agit donc d'attribuer la bonne classe (```verse```, ```verseM``` ou ```vers
 *Corrigé: ```xsl_etape_2-2.xsl```.*
 
 ---
----
 
 ## III. L'art de se compliquer la vie – ou ajouter une note
 
 ---
-
 
 L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément – un élément HTML si l'on transforme notre document XML en page web, ou un élément XML si l'on modifie notre fichier . Il obéit à la syntaxe suivante:
 
@@ -299,12 +317,16 @@ L'élément ```xsl:attribute``` permet d'ajouter un attribut à un élément –
 ```
 [W3C](https://www.w3schools.com/xml/ref_xsl_el_attribute.asp)
 
+---
+
 L'élément ```xsl:text``` fonctionne de la même manière. Il obéit à la syntaxe suivante:
 
 ```XML
 <xsl:text>Ici je mets ce que je veux</xsl:text>
 ```
 [W3C](https://www.w3schools.com/xml/ref_xsl_el_text.asp)
+
+---
 
 Ainsi, le code suivant
 
@@ -328,6 +350,8 @@ est équivalent à
 </xsl:template>
 ```
 
+---
+
 qui est équivalent à
 
 ```XML
@@ -339,6 +363,7 @@ qui est équivalent à
   Mon contenu
 </xsl:template>
 ```
+---
 
 Alors pourquoi les utiliser? Ils offrent une plus grande marge de manœuvre quant à leur contenu. Ainsi:
 1. ```xsl:text``` permet de mieux controler les espaces et les retours à la ligne du texte ajouté.
